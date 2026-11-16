@@ -1,0 +1,12 @@
+{
+  "status": "installed_and_sha256_verified",
+  "repository": "Comfy-Org/Qwen-Image-2.1",
+  "revision": "aacf31a6d48e707f352ecba714cee0680da3479b",
+  "file": "model_patches/qwen_image_2.1_fun_controlnet_union_int8_convrot.safetensors",
+  "destination": "C:\\Users\\Administrator\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\models\\model_patches\\qwen_image_2.1_fun_controlnet_union_int8_convrot.safetensors",
+  "bytes": 3779298944,
+  "sha256": "07aa961570ac0e03d4ca936aecd76854d077a33cde69b5092399afba01b3715d",
+  "reused_existing": false,
+  "verified_utc": "2026-11-14T02:54:19.7025066Z",
+  "changes": "One model file; no ComfyUI source, dependencies, configuration or runtime changes"
+}

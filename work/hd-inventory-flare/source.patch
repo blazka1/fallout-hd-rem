@@ -1,0 +1,137 @@
+--- before/hd_hud.cc
++++ after/hd_hud.cc
+@@ -19,13 +19,15 @@
+     SDL_Texture* cursor = nullptr;
+     bool enabled = true;
+ };
+-std::array<Asset,6> assets {{
++std::array<Asset,8> assets {{
+     {0x07000060,88,33,4,"data/art/hd/inventory/knife/knife.rgba"},
+     {0x07000004,70,63,8,"data/art/hd/inventory/10mm-pistol/pistol.rgba"},
+     {0x0700008C,81,65,21,"data/art/hd/inventory/brass-knuckles/knuckles.rgba"},
+     {0x0700001F,83,58,29,"data/art/hd/inventory/10mm-jhp/ammo.rgba"},
+     {0x0700001E,83,61,30,"data/art/hd/inventory/10mm-ap/ammo.rgba"},
+-    {0x07000073,89,61,40,"data/art/hd/inventory/stimpak/stimpak.rgba"}
++    {0x07000073,89,61,40,"data/art/hd/inventory/stimpak/stimpak.rgba"},
++    {0x0700003B,92,58,79,"data/art/hd/inventory/flare-unlit/flare.rgba"},
++    {0x0700007B,80,59,205,"data/art/hd/inventory/flare-lit/flare.rgba"}
+ }};
+ struct Fit { int asset, width, height; unsigned int base; };
+ std::vector<Fit> fits;
+--- before/hd_hud_test.cc
++++ after/hd_hud_test.cc
+@@ -16,6 +16,8 @@
+ #include "game/cycle.h"
+ #include "game/gmouse.h"
+ #include "game/item.h"
++#include "game/protinst.h"
++#include "game/queue.h"
+ #include "game/map.h"
+ #include "game/object.h"
+ #include "game/scripts.h"
+@@ -28,7 +30,7 @@
+ namespace fallout { namespace {
+ int kItemFid = 0x07000060;
+ int kItemPid = 4;
+-int itemWorldFid() { return kItemPid==40 ? 15 : (kItemPid==29 || kItemPid==30 ? 1 : (kItemPid==21?47:(kItemPid==8?34:28))); }
++int itemWorldFid() { return kItemPid==79 || kItemPid==205 ? 46 : kItemPid==40 ? 15 : (kItemPid==29 || kItemPid==30 ? 1 : (kItemPid==21?47:(kItemPid==8?34:28))); }
+ struct Report {
+     std::ofstream log; int passed=0,failed=0;
+     explicit Report(const std::filesystem::path& p):log(p/"checks.txt"){}
+@@ -120,11 +122,11 @@
+         if(a.pixels[size_t(y)*a.width+x]!=b.pixels[size_t(y)*a.width+x])return false;
+     return true;
+ }
+-int hudOwners()
++int hudOwners(int fid=kItemFid)
+ {
+     int n=0;auto* screen=static_cast<unsigned char*>(gSdlSurface->pixels);
+     for(int y=0;y<gSdlSurface->h;++y)for(int x=0;x<gSdlSurface->w;++x)
+-        { auto owner=hdWorldOwnerAt(screen+y*gSdlSurface->pitch+x); n+=(owner>>24)==251 && hdHudTexelMatches(owner&0xFFFFFF,kItemFid); }
++        { auto owner=hdWorldOwnerAt(screen+y*gSdlSurface->pitch+x); n+=(owner>>24)==251 && hdHudTexelMatches(owner&0xFFFFFF,fid); }
+     return n;
+ }
+ void redraw(bool enabled,int fid=kItemFid,bool disabled=false,bool pressed=false)
+@@ -180,7 +182,7 @@
+     } else {
+     report.check(selectedCorrectly && intface_get_attack(&hitMode, &aiming) == 0 && !aiming
+             && hitMode == (hand == HAND_RIGHT ? HIT_MODE_RIGHT_WEAPON_PRIMARY : HIT_MODE_LEFT_WEAPON_PRIMARY)
+-            && item_hit_with(obj_dude, hitMode) == item && item_w_anim(obj_dude, hitMode) == (kItemPid==21?ANIM_THROW_PUNCH:(kItemPid==8?ANIM_FIRE_SINGLE:ANIM_SWING_ANIM))
++            && item_hit_with(obj_dude, hitMode) == item && item_w_anim(obj_dude, hitMode) == (kItemPid==79 || kItemPid==205?ANIM_THROW_ANIM:kItemPid==21?ANIM_THROW_PUNCH:(kItemPid==8?ANIM_FIRE_SINGLE:ANIM_SWING_ANIM))
+             && item_w_mp_cost(obj_dude, hitMode, false) > 0,
+         "real equipped item resolves inventory art, weapon animation and AP through intface_update_items");
+     }
+@@ -296,13 +298,52 @@
+     report.check(inven_pid_quantity_carried(obj_dude,kItemPid)==quantity&&obj_dude->data.critter.hp==hp&&obj_dude->data.critter.combat.ap==ap,"inventory rendering and transfers preserve item quantity HP and AP");
+     intface_show();
+ }
++void captureFlareIgnition(Report& report,const std::filesystem::path& out)
++{
++    const Inventory original=obj_dude->data.inventory;
++    const int hp=obj_dude->data.critter.hp,ap=obj_dude->data.critter.combat.ap;
++    const int hand=intface_is_item_right_hand();
++    std::vector<InventoryItem> items;
++    std::vector<std::pair<Object*,int>> flags;
++    for(int i=0;i<original.length;++i) {
++        items.push_back(original.items[i]);
++        flags.emplace_back(original.items[i].item,original.items[i].item->flags);
++    }
++    Object* flare=nullptr;
++    report.check(obj_new(&flare,46,79)==0 && flare,"create isolated unlit flare for actual ignition");
++    if(!flare)return;
++    flare->flags|=OBJECT_HIDDEN|OBJECT_NO_SAVE;flare->owner=obj_dude;
++    items.push_back({flare,1});
++    obj_dude->data.inventory={static_cast<int>(items.size()),static_cast<int>(items.size()),items.data()};
++    for(const auto& entry:flags)entry.first->flags&=~OBJECT_IN_ANY_HAND;
++    intface_update_items(false);
++    flare->flags|=hand==HAND_RIGHT?OBJECT_IN_RIGHT_HAND:OBJECT_IN_LEFT_HAND;
++    intface_update_items(false);win_draw(intfaceHdHudTestWindow());
++    auto before=capture(out/"ignition-unlit-3840x2160.bmp",3840,2160);
++    report.check(item_inv_fid(flare)==0x0700003B && !queue_find(flare,EVENT_TYPE_FLARE)
++        && before.valid && (hudOwners(0x0700003B)>0)==hdHudAvailable(0x0700003B),"unlit flare uses unlit art without a burn timer");
++    const int used=protinst_use_item(obj_dude,flare);
++    report.check(used==0 && flare->pid==205 && item_inv_fid(flare)==0x0700007B
++        && flare->lightDistance==8 && flare->lightIntensity==0x10000 && queue_find(flare,EVENT_TYPE_FLARE),
++        "actual use changes the same object to lit PID/FID, light and burn timer");
++    intface_update_items(false);win_draw(intfaceHdHudTestWindow());
++    auto after=capture(out/"ignition-lit-3840x2160.bmp",3840,2160);
++    report.check(after.valid && after.restored && before.pixels!=after.pixels && hudOwners(0x0700003B)==0
++        && (hudOwners(0x0700007B)>0)==hdHudAvailable(0x0700007B),"same equipped object switches icon and clears unlit HD metadata");
++    queue_remove(flare);
++    for(const auto& entry:flags)entry.first->flags=entry.second;
++    obj_dude->data.inventory=original;intface_update_items(false);
++    flare->owner=nullptr;
++    report.check(obj_erase_object(flare,nullptr)==0 && obj_dude->data.critter.hp==hp && obj_dude->data.critter.combat.ap==ap
++        && obj_dude->data.inventory.items==original.items,"ignition fixture and timer removed without changing player inventory HP or AP");
++}
+ } // namespace
+ int hdHudPreview(const char* directory)
+ {
+     const char* pidText=SDL_getenv("FALLOUT_HD_HUD_ITEM_PID");
+     kItemPid=pidText?std::atoi(pidText):4;
+-    if(kItemPid!=4 && kItemPid!=8 && kItemPid!=21 && kItemPid!=29 && kItemPid!=30 && kItemPid!=40) return 53;
+-    kItemFid=kItemPid==40?0x07000073:kItemPid==29?0x0700001F:(kItemPid==30?0x0700001E:(kItemPid==21?0x0700008C:(kItemPid==8?0x07000004:0x07000060)));
++    if(kItemPid!=4 && kItemPid!=8 && kItemPid!=21 && kItemPid!=29 && kItemPid!=30 && kItemPid!=40 && kItemPid!=79 && kItemPid!=205) return 53;
++    kItemFid=kItemPid==79?0x0700003B:kItemPid==205?0x0700007B:kItemPid==40?0x07000073:kItemPid==29?0x0700001F:(kItemPid==30?0x0700001E:(kItemPid==21?0x0700008C:(kItemPid==8?0x07000004:0x07000060)));
+     hdHudSetEnabled(true);
+     std::filesystem::path out(directory);std::filesystem::create_directories(out);Report report(out);
+     map_disable_bk_processes();scr_disable();cycle_disable();gmouse_disable_scrolling();mouse_hide();
+@@ -401,6 +442,7 @@
+         report.check(removed && inven_pid_quantity_carried(obj_dude,kItemPid)==priorQuantity,
+             "temporary inventory item removed without changing original quantity");
+     }
++    if(kItemPid==79 && expected)captureFlareIgnition(report,out);
+     std::ofstream result(out/"result.json");result<<"{\n  \"passed\": "<<report.passed<<",\n  \"failed\": "<<report.failed<<",\n  \"expected_loaded\": "<<(expected?"true":"false")<<"\n}\n";
+     report.log<<"TOTAL "<<report.passed<<" PASS "<<report.failed<<" FAIL"<<std::endl;
+     return report.failed?52:0;
+--- before/inventry.cc
++++ after/inventry.cc
+@@ -1535,7 +1535,7 @@
+ int inventoryHdTest(int action, int pid)
+ {
+     if (!SDL_getenv("FALLOUT_HD_HUD_PREVIEW")) return -1;
+-    const int fid=pid==40?0x07000073:pid==29?0x0700001F:(pid==30?0x0700001E:(pid==21?0x0700008C:(pid==8?0x07000004:0x07000060)));
++    const int fid=pid==79?0x0700003B:pid==205?0x0700007B:pid==40?0x07000073:pid==29?0x0700001F:(pid==30?0x0700001E:(pid==21?0x0700008C:(pid==8?0x07000004:0x07000060)));
+     static bool restoreIso=false;
+     static CacheEntry* cursorKey=nullptr;
+     if(action==7) {

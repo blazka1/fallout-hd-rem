@@ -1,0 +1,54 @@
+{
+  "pid": 8,
+  "name": "10mm Pistol",
+  "message_id": 800,
+  "prototype": {
+    "pid": 8,
+    "path": "proto/items/00000004.pro",
+    "fid": 34,
+    "subtype": 3,
+    "sha256": "205746d843a1b37fe03e3155887d2575dd5b6a4af1f2f3b46d1eaab5c5dc02c2"
+  },
+  "inventory_fid": 117440516,
+  "source_art": "art/inven/pistol.frm",
+  "frm_sha256": "5b429346d20453b0fd057929e25b23287dd27e4f09ad4145b8ac5dea64525e34",
+  "source_png_sha256": "d777825e64ef1e80c0d3473ac8b4560727c90b4ae3f2d690a9aa29461ba1d1f7",
+  "native_size": [
+    70,
+    63
+  ],
+  "metadata": {
+    "version": 4,
+    "fps": 10,
+    "stored_fps": 10,
+    "action_frame": 0,
+    "frame_count": 1,
+    "direction_x": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "direction_y": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "direction_offsets": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "unique_directions": 1,
+    "data_size": 4422
+  },
+  "preserved": "Original DAT, runtime and game resources are unchanged."
+}

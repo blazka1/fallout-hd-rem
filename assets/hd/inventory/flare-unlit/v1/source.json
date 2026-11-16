@@ -1,0 +1,53 @@
+{
+  "pid": 79,
+  "name": "Flare",
+  "message_id": 7900,
+  "prototype": {
+    "pid": 79,
+    "path": "proto/items/00000079.pro",
+    "fid": 46,
+    "subtype": 3,
+    "sha256": "9e0ac612872d12d3b05bce929363a7435ff8d3b3b0bfc935429c109cfdb5c6fd"
+  },
+  "inventory_fid": 117440571,
+  "source_art": "art/inven/flare.frm",
+  "native_size": [
+    92,
+    58
+  ],
+  "metadata": {
+    "version": 4,
+    "fps": 10,
+    "stored_fps": 0,
+    "action_frame": 0,
+    "frame_count": 1,
+    "direction_x": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "direction_y": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "direction_offsets": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "unique_directions": 1,
+    "data_size": 5348
+  },
+  "frm_sha256": "5b19016eadc2f00eb5508b3193d90f1b5d2e691fbe2df7f3751bc7c47657155e",
+  "source_sha256": "c5103f2ce37b0673cb1d30f2a0d0d3a51cb0013cf795442eced335e18245c0af"
+}

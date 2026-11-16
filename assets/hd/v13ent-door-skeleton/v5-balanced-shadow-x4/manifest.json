@@ -1,0 +1,54 @@
+{
+  "component": "v13ent-door-skeleton",
+  "operation": "ComfyUI soft black underlay from body alpha; original sprite composited above unchanged",
+  "source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\v13ent-door-skeleton\\v2-shadow-x4\\v13bones.png",
+  "source_sha256": "d78a58a1432680ffc9a288727c247ff64a729765e03c64c5b512ac193b02e2c9",
+  "png_sha256": "cd7256a94d6dd77d7fb9e527c6a5529b04ccfcfe2a4d13cdd711f5bac537dbc6",
+  "rgba_sha256": "1b5480dba46c85d1d18bc81cce42535953d1460c8144fc04938362eb80d98980",
+  "native_dimensions": [
+    67,
+    41
+  ],
+  "hd_dimensions": [
+    268,
+    164
+  ],
+  "scale": 4,
+  "fid": 113,
+  "pid": 211,
+  "frame": 0,
+  "tile": 17488,
+  "elevation": 0,
+  "direction_offset": [
+    20,
+    30
+  ],
+  "frame_shift": [
+    0,
+    0
+  ],
+  "anchor_native": [
+    13,
+    10
+  ],
+  "alpha": "native soft alpha retained; no original-mask clipping",
+  "geometry": "Same native67x41 registration and full canvas; no scale or shift of body",
+  "aspect_mapping": "1312x800 generated canvas mapped to268x164 (less than0.5percent aspect correction)",
+  "comfy_prompt_id": "4d4e924e-1145-47bc-a585-5a38ad73825d",
+  "installed": true,
+  "shadow_parameters": {
+    "alpha_threshold": 0.75,
+    "grow_hd_px": 3,
+    "blur_radius_hd_px": 6,
+    "sigma": 1.95,
+    "offset_y_hd_px": 5,
+    "max_underlay_alpha": 0.6,
+    "canvas_edge_feather_hd_px": 6
+  },
+  "checks": {
+    "opaque_body_rgb_max_error": 0,
+    "unchanged_dimensions": true,
+    "new_game_objects": 0
+  },
+  "integration_receipt": "build/hd-door-skeleton/integration-v22-shadow.json"
+}

@@ -1,0 +1,53 @@
+{
+  "pid": 40,
+  "name": "Stimpak",
+  "message_id": 4000,
+  "prototype": {
+    "pid": 40,
+    "path": "proto/items/00000040.pro",
+    "fid": 15,
+    "subtype": 2,
+    "sha256": "169b520d414aecf7d409efbe77e95318030646dbafa4d54ce252d10fc91c74ea"
+  },
+  "inventory_fid": 117440627,
+  "source_art": "art/inven/stimx.frm",
+  "native_size": [
+    89,
+    61
+  ],
+  "metadata": {
+    "version": 4,
+    "fps": 10,
+    "stored_fps": 0,
+    "action_frame": 0,
+    "frame_count": 1,
+    "direction_x": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "direction_y": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "direction_offsets": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "unique_directions": 1,
+    "data_size": 5441
+  },
+  "frm_sha256": "dc37307f667fc5a5bef507e9e367155542e8fdcb3f4545ed35467b4d6d3054cd",
+  "source_sha256": "2b66410aad7c60b175cb492b4707ba2fa27db507ffeb7bc1f6aee7abc1992f60"
+}

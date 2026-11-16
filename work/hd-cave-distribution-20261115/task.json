@@ -1,0 +1,92 @@
+{
+  "status": "installed-and-verified-test-distribution",
+  "completed_utc": "2026-11-15T01:27:58.817248+00:00",
+  "executable_sha256": "ec435cc1d30f0240f14828ca9992286abbcc0702c01f2eb2cb3fbeb82dd9e3f6",
+  "old_executable_sha256": "29f3eed3c831323ef12ebc2877254e9f2e0e51d4fda67f93d6b40f4cf104eb93",
+  "runtime": "runtime/hd-world-pilot",
+  "assignment_counts": {
+    "total": 116,
+    "old": 40,
+    "new": 76,
+    "new_types": 15,
+    "loaded_new_types": 16,
+    "visible_new_placements_in_scan": 70
+  },
+  "checks": {
+    "enabled-v3": {
+      "passed": 463,
+      "failed": 0,
+      "manifest": "build\\hd-cave-distribution-20261115\\enabled-v3\\manifest.json"
+    },
+    "disabled": {
+      "passed": 319,
+      "failed": 0,
+      "manifest": "build\\hd-cave-distribution-20261115\\disabled\\manifest.json"
+    },
+    "fallback-missing": {
+      "passed": 10,
+      "failed": 0,
+      "manifest": "build\\hd-cave-distribution-20261115\\fallback-missing\\manifest.json"
+    },
+    "fallback-corrupt": {
+      "passed": 10,
+      "failed": 0,
+      "manifest": "build\\hd-cave-distribution-20261115\\fallback-corrupt\\manifest.json"
+    },
+    "terminal": {
+      "passed": 27,
+      "failed": 0,
+      "manifest": "build\\hd-cave-distribution-20261115\\terminal\\manifest.json"
+    },
+    "benchmark-off": {
+      "passed": 23,
+      "failed": 0,
+      "manifest": "build\\hd-cave-distribution-20261115\\benchmark-off\\manifest.json"
+    },
+    "benchmark-on": {
+      "passed": 23,
+      "failed": 0,
+      "manifest": "build\\hd-cave-distribution-20261115\\benchmark-on\\manifest.json"
+    },
+    "menu": {
+      "passed": 139,
+      "failed": 0,
+      "manifest": "build\\hd-cave-distribution-20261115\\menu\\manifest.json"
+    }
+  },
+  "exact_previous_hd_frames_with_component_disabled": 114,
+  "protected_runtime_files_unchanged": 509,
+  "changed_existing_runtime_files": [
+    "runtime/hd-world-pilot/fallout-ce.exe",
+    "runtime/hd-world-pilot/data/art/hd/world-pilot/manifest.json"
+  ],
+  "added_component_files": {
+    "runtime\\hd-world-pilot\\data\\art\\hd\\world-pilot\\geo-rock-01.rgba": "741ddabfc3b437446376fdb432271f0c7167417f44c82cc3a3274b82cdd42b45",
+    "runtime\\hd-world-pilot\\data\\art\\hd\\world-pilot\\geo-rock-02.rgba": "3be6841f5bdeace02456e23022085ff2c330ac84e1fbe406bc9492bd6aadcefd",
+    "runtime\\hd-world-pilot\\data\\art\\hd\\world-pilot\\geo-rock-03.rgba": "64ccc3a23be8ff8e9f162e487247f41238ad6d1e454e279e9f85b9ab66600199",
+    "runtime\\hd-world-pilot\\data\\art\\hd\\world-pilot\\geo-rock-04.rgba": "6be24256fa77397ff6a7139b49b0133e77eb7834c5d40a4315f66528a5c4cd72",
+    "runtime\\hd-world-pilot\\data\\art\\hd\\world-pilot\\geo-rock-05.rgba": "71ecca495bb684ce36d02ed20923e81691ea8e75495ba2f3a82e4780bd6db55e",
+    "runtime\\hd-world-pilot\\data\\art\\hd\\world-pilot\\geo-rock-06.rgba": "f08ff7cf023d7d46b42e7d8ef4a1f22fc40ff81142f13e0ed00da0aef03f8108",
+    "runtime\\hd-world-pilot\\data\\art\\hd\\world-pilot\\geo-rock-07.rgba": "65bf2356447dfc7885f6023699cf25938d39932541fbf57089d5eaa1cfa590fb",
+    "runtime\\hd-world-pilot\\data\\art\\hd\\world-pilot\\geo-rock-08.rgba": "94c04d269a6330c2399732f159f54f4f39600da7225e5cc6368758b0617f42f9",
+    "runtime\\hd-world-pilot\\data\\art\\hd\\world-pilot\\geo-rock-09.rgba": "57025e06617466d7de8a09c9f145505a31d27b333ac62c019513e183ca49cf44",
+    "runtime\\hd-world-pilot\\data\\art\\hd\\world-pilot\\geo-rock-10.rgba": "b137042a3eb0563fc98dafdb1acb0785effedf8a71ac01cab5e9d78ed0170cdd",
+    "runtime\\hd-world-pilot\\data\\art\\hd\\world-pilot\\geo-rock-11.rgba": "a7a495ad8b715acd911ded50a2695001328c7a9469d44e49662a6270b1bfab66",
+    "runtime\\hd-world-pilot\\data\\art\\hd\\world-pilot\\geo-rock-12.rgba": "fefa231ed526652a10d7b0420999d1f4b53aa3d2288d98e04e142f63bf247295",
+    "runtime\\hd-world-pilot\\data\\art\\hd\\world-pilot\\geo-formation-01.rgba": "73fd745010cafa50542b6304a19ece2ae431bfedd0a13fdf7a0bd26d19e8e17c",
+    "runtime\\hd-world-pilot\\data\\art\\hd\\world-pilot\\geo-formation-02.rgba": "ac7da2e44aadd3440247fb112d9d33968d82dbaa6cc5f3480fa2e9e5e7ff2b65",
+    "runtime\\hd-world-pilot\\data\\art\\hd\\world-pilot\\geo-formation-03.rgba": "d2086db0dcabc3f830b565572d718fd1d0c1d5a07a2c6fe10a83a3e871ecb499",
+    "runtime\\hd-world-pilot\\data\\art\\hd\\world-pilot\\geo-formation-04.rgba": "dce2c360eed6e48696a0a7039448ad69c9de72e85bd1316d17cad367afc9334e"
+  },
+  "runtime_manifest_sha256": "1a1f1ddeb5bcb516948598b0173d1d6a1bbedb1f9420bbb78b1ab9c5852fdbb7",
+  "config_preserved": true,
+  "AGENTS_modified": false,
+  "backup": "build\\backups\\before-cave-distribution-20261115",
+  "review": "build\\hd-cave-distribution-20261115\\review\\index.html",
+  "limits": [
+    "Automated renderer tests, not full playthrough or real save/load cycle",
+    "Six assigned places are occluded in the camera scan; all 15 used types are visible",
+    "Benchmark is hidden SDL CPU wall time, not gameplay FPS",
+    "New shapes retain their candidate surface material; this step tests distribution"
+  ]
+}

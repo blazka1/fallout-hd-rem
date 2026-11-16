@@ -1,0 +1,24 @@
+--- current/src\game\hd_world_pilot.h
+
++++ rat/src\game\hd_world_pilot.h
+
+@@ -62,9 +62,6 @@
+
+ // Appearance is selected only from original wall FID/frame and map coordinates.
+ int hdWorldResolveAsset(int fid, int frame = 0, int tile = -1, int elevation = 0);
+ int hdWorldWallVariantCount();
+-int hdWorldWallGeometryCount();
+-void hdWorldSetWallGeometryEnabled(bool enabled);
+-bool hdWorldWallGeometryEnabled();
+ bool hdWorldWallVariantsEnabled();
+ void hdWorldSetWallVariantsEnabled(bool enabled);
+ // Render-only square-tile pages. Stable map-cell selection; missing pages keep
+@@ -74,6 +71,7 @@
+
+ bool hdWorldTileVariantsEnabled();
+ void hdWorldSetTileVariantsEnabled(bool enabled);
+ void hdWorldEndArt();
++void hdWorldBeginRat(const Object* object, const unsigned char* source, int width, int height);
+ // The classic draw still executes unchanged between Begin/End. Only render
+ // metadata records the soft-alpha actor over the original underlying pixels.
+ bool hdWorldBeginPlayer(int frameIndex, unsigned char* buffer, int pitch,

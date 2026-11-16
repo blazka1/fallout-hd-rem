@@ -1,0 +1,28 @@
+{
+  "pid": 56548,
+  "python": "C:\\Users\\Administrator\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Installs\\local\\ComfyUI\\.venv\\Scripts\\python.exe",
+  "started_utc": "2026-11-16T17:41:35.9700001Z",
+  "arguments": [
+    "main.py",
+    "--listen",
+    "127.0.0.1",
+    "--port",
+    "8188",
+    "--disable-auto-launch",
+    "--disable-all-custom-nodes",
+    "--reserve-vram",
+    "1.5",
+    "--preview-method",
+    "none",
+    "--extra-model-paths-config",
+    "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\work\\hd-player-three-pipelines-20261116\\models.yaml",
+    "--input-directory",
+    "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\work\\hd-player-three-pipelines-20261116\\comfy\\input",
+    "--output-directory",
+    "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\work\\hd-player-three-pipelines-20261116\\comfy\\output",
+    "--user-directory",
+    "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\work\\hd-player-three-pipelines-20261116\\comfy\\user",
+    "--temp-directory",
+    "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\work\\hd-player-three-pipelines-20261116\\comfy\\temp"
+  ]
+}

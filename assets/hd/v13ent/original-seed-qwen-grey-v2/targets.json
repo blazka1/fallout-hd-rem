@@ -1,0 +1,2568 @@
+{
+  "asset-090.rgba": {
+    "source": "art/walls/ca002.frm",
+    "kind": "base"
+  },
+  "asset-091.rgba": {
+    "source": "art/walls/ca003.frm",
+    "kind": "base"
+  },
+  "asset-092.rgba": {
+    "source": "art/walls/ca004.frm",
+    "kind": "base"
+  },
+  "asset-093.rgba": {
+    "source": "art/walls/ca005.frm",
+    "kind": "base"
+  },
+  "asset-094.rgba": {
+    "source": "art/walls/ca006.frm",
+    "kind": "base"
+  },
+  "asset-095.rgba": {
+    "source": "art/walls/ca007.frm",
+    "kind": "base"
+  },
+  "asset-096.rgba": {
+    "source": "art/walls/ca008.frm",
+    "kind": "base"
+  },
+  "asset-097.rgba": {
+    "source": "art/walls/ca009.frm",
+    "kind": "base"
+  },
+  "asset-098.rgba": {
+    "source": "art/walls/ca010.frm",
+    "kind": "base"
+  },
+  "asset-099.rgba": {
+    "source": "art/walls/ca011.frm",
+    "kind": "base"
+  },
+  "asset-100.rgba": {
+    "source": "art/walls/ca012.frm",
+    "kind": "base"
+  },
+  "asset-101.rgba": {
+    "source": "art/walls/ca013.frm",
+    "kind": "base"
+  },
+  "asset-102.rgba": {
+    "source": "art/walls/ca014.frm",
+    "kind": "base"
+  },
+  "asset-103.rgba": {
+    "source": "art/walls/ca015.frm",
+    "kind": "base"
+  },
+  "asset-104.rgba": {
+    "source": "art/walls/ca016.frm",
+    "kind": "base"
+  },
+  "asset-105.rgba": {
+    "source": "art/walls/ca017.frm",
+    "kind": "base"
+  },
+  "asset-106.rgba": {
+    "source": "art/walls/ca018.frm",
+    "kind": "base"
+  },
+  "asset-107.rgba": {
+    "source": "art/walls/ca019.frm",
+    "kind": "base"
+  },
+  "asset-108.rgba": {
+    "source": "art/walls/ca020.frm",
+    "kind": "base"
+  },
+  "asset-109.rgba": {
+    "source": "art/walls/ca021.frm",
+    "kind": "base"
+  },
+  "asset-110.rgba": {
+    "source": "art/walls/ca022.frm",
+    "kind": "base"
+  },
+  "asset-111.rgba": {
+    "source": "art/walls/ca023.frm",
+    "kind": "base"
+  },
+  "asset-112.rgba": {
+    "source": "art/walls/ca024.frm",
+    "kind": "base"
+  },
+  "asset-113.rgba": {
+    "source": "art/walls/ca025.frm",
+    "kind": "base"
+  },
+  "asset-114.rgba": {
+    "source": "art/walls/ca026.frm",
+    "kind": "base"
+  },
+  "asset-115.rgba": {
+    "source": "art/walls/ca027.frm",
+    "kind": "base"
+  },
+  "asset-116.rgba": {
+    "source": "art/walls/ca028.frm",
+    "kind": "base"
+  },
+  "asset-117.rgba": {
+    "source": "art/walls/ca032.frm",
+    "kind": "base"
+  },
+  "asset-118.rgba": {
+    "source": "art/walls/ca036.frm",
+    "kind": "base"
+  },
+  "asset-119.rgba": {
+    "source": "art/walls/ca037.frm",
+    "kind": "base"
+  },
+  "asset-120.rgba": {
+    "source": "art/walls/ca038.frm",
+    "kind": "base"
+  },
+  "asset-121.rgba": {
+    "source": "art/walls/ca039.frm",
+    "kind": "base"
+  },
+  "asset-122.rgba": {
+    "source": "art/walls/ca040.frm",
+    "kind": "base"
+  },
+  "asset-123.rgba": {
+    "source": "art/walls/ca041.frm",
+    "kind": "base"
+  },
+  "asset-124.rgba": {
+    "source": "art/walls/ca042.frm",
+    "kind": "base"
+  },
+  "asset-125.rgba": {
+    "source": "art/walls/ca043.frm",
+    "kind": "base"
+  },
+  "asset-126.rgba": {
+    "source": "art/walls/ca044.frm",
+    "kind": "base"
+  },
+  "asset-127.rgba": {
+    "source": "art/walls/ca045.frm",
+    "kind": "base"
+  },
+  "asset-128.rgba": {
+    "source": "art/walls/ca046.frm",
+    "kind": "base"
+  },
+  "asset-129.rgba": {
+    "source": "art/walls/ca047.frm",
+    "kind": "base"
+  },
+  "asset-130.rgba": {
+    "source": "art/walls/ca048.frm",
+    "kind": "base"
+  },
+  "asset-131.rgba": {
+    "source": "art/walls/ca050.frm",
+    "kind": "base"
+  },
+  "asset-132.rgba": {
+    "source": "art/walls/ca053.frm",
+    "kind": "base"
+  },
+  "asset-133.rgba": {
+    "source": "art/walls/ca054.frm",
+    "kind": "base"
+  },
+  "asset-134.rgba": {
+    "source": "art/walls/ca055.frm",
+    "kind": "base"
+  },
+  "asset-135.rgba": {
+    "source": "art/walls/ca056.frm",
+    "kind": "base"
+  },
+  "asset-136.rgba": {
+    "source": "art/walls/ca057.frm",
+    "kind": "base"
+  },
+  "asset-137.rgba": {
+    "source": "art/walls/ca058.frm",
+    "kind": "base"
+  },
+  "asset-138.rgba": {
+    "source": "art/walls/ca059.frm",
+    "kind": "base"
+  },
+  "asset-139.rgba": {
+    "source": "art/walls/ca060.frm",
+    "kind": "base"
+  },
+  "asset-140.rgba": {
+    "source": "art/walls/ca061.frm",
+    "kind": "base"
+  },
+  "asset-141.rgba": {
+    "source": "art/walls/ca062.frm",
+    "kind": "base"
+  },
+  "asset-142.rgba": {
+    "source": "art/walls/ca063.frm",
+    "kind": "base"
+  },
+  "asset-143.rgba": {
+    "source": "art/walls/ca064.frm",
+    "kind": "base"
+  },
+  "asset-144.rgba": {
+    "source": "art/walls/ca065.frm",
+    "kind": "base"
+  },
+  "asset-145.rgba": {
+    "source": "art/walls/ca066.frm",
+    "kind": "base"
+  },
+  "asset-146.rgba": {
+    "source": "art/walls/ca067.frm",
+    "kind": "base"
+  },
+  "asset-147.rgba": {
+    "source": "art/walls/ca068.frm",
+    "kind": "base"
+  },
+  "asset-148.rgba": {
+    "source": "art/walls/ca069.frm",
+    "kind": "base"
+  },
+  "asset-149.rgba": {
+    "source": "art/walls/ca070.frm",
+    "kind": "base"
+  },
+  "asset-150.rgba": {
+    "source": "art/walls/ca071.frm",
+    "kind": "base"
+  },
+  "asset-151.rgba": {
+    "source": "art/walls/ca072.frm",
+    "kind": "base"
+  },
+  "asset-061.rgba": {
+    "source": "art/tiles/cav4008.frm",
+    "kind": "base"
+  },
+  "asset-062.rgba": {
+    "source": "art/tiles/cav4009.frm",
+    "kind": "base"
+  },
+  "asset-063.rgba": {
+    "source": "art/tiles/cav4010.frm",
+    "kind": "base"
+  },
+  "asset-200.rgba": {
+    "source": "art/walls/ca003.frm",
+    "kind": "variant"
+  },
+  "asset-202.rgba": {
+    "source": "art/walls/ca004.frm",
+    "kind": "variant"
+  },
+  "asset-204.rgba": {
+    "source": "art/walls/ca005.frm",
+    "kind": "variant"
+  },
+  "asset-206.rgba": {
+    "source": "art/walls/ca006.frm",
+    "kind": "variant"
+  },
+  "asset-208.rgba": {
+    "source": "art/walls/ca007.frm",
+    "kind": "variant"
+  },
+  "asset-210.rgba": {
+    "source": "art/walls/ca008.frm",
+    "kind": "variant"
+  },
+  "asset-212.rgba": {
+    "source": "art/walls/ca009.frm",
+    "kind": "variant"
+  },
+  "asset-214.rgba": {
+    "source": "art/walls/ca019.frm",
+    "kind": "variant"
+  },
+  "asset-216.rgba": {
+    "source": "art/walls/ca020.frm",
+    "kind": "variant"
+  },
+  "asset-218.rgba": {
+    "source": "art/walls/ca021.frm",
+    "kind": "variant"
+  },
+  "asset-220.rgba": {
+    "source": "art/walls/ca022.frm",
+    "kind": "variant"
+  },
+  "asset-222.rgba": {
+    "source": "art/walls/ca023.frm",
+    "kind": "variant"
+  },
+  "asset-201.rgba": {
+    "source": "art/walls/ca003.frm",
+    "kind": "variant"
+  },
+  "asset-203.rgba": {
+    "source": "art/walls/ca004.frm",
+    "kind": "variant"
+  },
+  "asset-205.rgba": {
+    "source": "art/walls/ca005.frm",
+    "kind": "variant"
+  },
+  "asset-207.rgba": {
+    "source": "art/walls/ca006.frm",
+    "kind": "variant"
+  },
+  "asset-209.rgba": {
+    "source": "art/walls/ca007.frm",
+    "kind": "variant"
+  },
+  "asset-211.rgba": {
+    "source": "art/walls/ca008.frm",
+    "kind": "variant"
+  },
+  "asset-213.rgba": {
+    "source": "art/walls/ca009.frm",
+    "kind": "variant"
+  },
+  "asset-215.rgba": {
+    "source": "art/walls/ca019.frm",
+    "kind": "variant"
+  },
+  "asset-217.rgba": {
+    "source": "art/walls/ca020.frm",
+    "kind": "variant"
+  },
+  "asset-219.rgba": {
+    "source": "art/walls/ca021.frm",
+    "kind": "variant"
+  },
+  "asset-221.rgba": {
+    "source": "art/walls/ca022.frm",
+    "kind": "variant"
+  },
+  "asset-223.rgba": {
+    "source": "art/walls/ca023.frm",
+    "kind": "variant"
+  },
+  "wall-accent-175.rgba": {
+    "source": "art/walls/ca011.frm",
+    "kind": "variant"
+  },
+  "wall-accent-176.rgba": {
+    "source": "art/walls/ca011.frm",
+    "kind": "variant"
+  },
+  "wall-accent-177.rgba": {
+    "source": "art/walls/ca013.frm",
+    "kind": "variant"
+  },
+  "wall-accent-178.rgba": {
+    "source": "art/walls/ca025.frm",
+    "kind": "variant"
+  },
+  "wall-accent-179.rgba": {
+    "source": "art/walls/ca025.frm",
+    "kind": "variant"
+  },
+  "wall-accent-180.rgba": {
+    "source": "art/walls/ca027.frm",
+    "kind": "variant"
+  },
+  "wall-accent-181.rgba": {
+    "source": "art/walls/ca032.frm",
+    "kind": "variant"
+  },
+  "wall-accent-182.rgba": {
+    "source": "art/walls/ca032.frm",
+    "kind": "variant"
+  },
+  "wall-accent-183.rgba": {
+    "source": "art/walls/ca036.frm",
+    "kind": "variant"
+  },
+  "wall-accent-184.rgba": {
+    "source": "art/walls/ca036.frm",
+    "kind": "variant"
+  },
+  "wall-accent-185.rgba": {
+    "source": "art/walls/ca037.frm",
+    "kind": "variant"
+  },
+  "wall-accent-186.rgba": {
+    "source": "art/walls/ca038.frm",
+    "kind": "variant"
+  },
+  "wall-accent-187.rgba": {
+    "source": "art/walls/ca038.frm",
+    "kind": "variant"
+  },
+  "wall-accent-188.rgba": {
+    "source": "art/walls/ca039.frm",
+    "kind": "variant"
+  },
+  "wall-accent-189.rgba": {
+    "source": "art/walls/ca039.frm",
+    "kind": "variant"
+  },
+  "wall-accent-190.rgba": {
+    "source": "art/walls/ca040.frm",
+    "kind": "variant"
+  },
+  "wall-accent-191.rgba": {
+    "source": "art/walls/ca041.frm",
+    "kind": "variant"
+  },
+  "wall-accent-192.rgba": {
+    "source": "art/walls/ca042.frm",
+    "kind": "variant"
+  },
+  "wall-accent-193.rgba": {
+    "source": "art/walls/ca043.frm",
+    "kind": "variant"
+  },
+  "wall-accent-194.rgba": {
+    "source": "art/walls/ca044.frm",
+    "kind": "variant"
+  },
+  "wall-accent-195.rgba": {
+    "source": "art/walls/ca045.frm",
+    "kind": "variant"
+  },
+  "wall-accent-196.rgba": {
+    "source": "art/walls/ca046.frm",
+    "kind": "variant"
+  },
+  "wall-accent-197.rgba": {
+    "source": "art/walls/ca048.frm",
+    "kind": "variant"
+  },
+  "wall-accent-198.rgba": {
+    "source": "art/walls/ca048.frm",
+    "kind": "variant"
+  },
+  "wall-geometry-0046.rgba": {
+    "source": "art/walls/ca059.frm",
+    "kind": "placement",
+    "object": 46
+  },
+  "wall-geometry-0049.rgba": {
+    "source": "art/walls/ca060.frm",
+    "kind": "placement",
+    "object": 49
+  },
+  "wall-geometry-0052.rgba": {
+    "source": "art/walls/ca059.frm",
+    "kind": "placement",
+    "object": 52
+  },
+  "wall-geometry-0055.rgba": {
+    "source": "art/walls/ca060.frm",
+    "kind": "placement",
+    "object": 55
+  },
+  "wall-geometry-0058.rgba": {
+    "source": "art/walls/ca061.frm",
+    "kind": "placement",
+    "object": 58
+  },
+  "wall-geometry-0065.rgba": {
+    "source": "art/walls/ca062.frm",
+    "kind": "placement",
+    "object": 65
+  },
+  "wall-geometry-0073.rgba": {
+    "source": "art/walls/ca059.frm",
+    "kind": "placement",
+    "object": 73
+  },
+  "wall-geometry-0083.rgba": {
+    "source": "art/walls/ca060.frm",
+    "kind": "placement",
+    "object": 83
+  },
+  "wall-geometry-0092.rgba": {
+    "source": "art/walls/ca061.frm",
+    "kind": "placement",
+    "object": 92
+  },
+  "wall-geometry-0100.rgba": {
+    "source": "art/walls/ca062.frm",
+    "kind": "placement",
+    "object": 100
+  },
+  "wall-geometry-0108.rgba": {
+    "source": "art/walls/ca059.frm",
+    "kind": "placement",
+    "object": 108
+  },
+  "wall-geometry-0118.rgba": {
+    "source": "art/walls/ca060.frm",
+    "kind": "placement",
+    "object": 118
+  },
+  "wall-geometry-0128.rgba": {
+    "source": "art/walls/ca061.frm",
+    "kind": "placement",
+    "object": 128
+  },
+  "wall-geometry-0210.rgba": {
+    "source": "art/walls/ca056.frm",
+    "kind": "placement",
+    "object": 210
+  },
+  "wall-geometry-0232.rgba": {
+    "source": "art/walls/ca057.frm",
+    "kind": "placement",
+    "object": 232
+  },
+  "wall-geometry-0142.rgba": {
+    "source": "art/walls/ca065.frm",
+    "kind": "placement",
+    "object": 142
+  },
+  "wall-geometry-0174.rgba": {
+    "source": "art/walls/ca059.frm",
+    "kind": "placement",
+    "object": 174
+  },
+  "wall-geometry-0269.rgba": {
+    "source": "art/walls/ca021.frm",
+    "kind": "placement",
+    "object": 269
+  },
+  "wall-geometry-0193.rgba": {
+    "source": "art/walls/ca060.frm",
+    "kind": "placement",
+    "object": 193
+  },
+  "wall-geometry-0288.rgba": {
+    "source": "art/walls/ca022.frm",
+    "kind": "placement",
+    "object": 288
+  },
+  "wall-geometry-0222.rgba": {
+    "source": "art/walls/ca061.frm",
+    "kind": "placement",
+    "object": 222
+  },
+  "wall-geometry-0307.rgba": {
+    "source": "art/walls/ca027.frm",
+    "kind": "placement",
+    "object": 307
+  },
+  "wall-geometry-0241.rgba": {
+    "source": "art/walls/ca071.frm",
+    "kind": "placement",
+    "object": 241
+  },
+  "wall-geometry-0328.rgba": {
+    "source": "art/walls/ca028.frm",
+    "kind": "placement",
+    "object": 328
+  },
+  "wall-geometry-0327.rgba": {
+    "source": "art/walls/ca038.frm",
+    "kind": "placement",
+    "object": 327
+  },
+  "wall-geometry-0350.rgba": {
+    "source": "art/walls/ca039.frm",
+    "kind": "placement",
+    "object": 350
+  },
+  "wall-geometry-0349.rgba": {
+    "source": "art/walls/ca040.frm",
+    "kind": "placement",
+    "object": 349
+  },
+  "wall-geometry-0366.rgba": {
+    "source": "art/walls/ca041.frm",
+    "kind": "placement",
+    "object": 366
+  },
+  "wall-geometry-0365.rgba": {
+    "source": "art/walls/ca048.frm",
+    "kind": "placement",
+    "object": 365
+  },
+  "wall-geometry-0351.rgba": {
+    "source": "art/walls/ca026.frm",
+    "kind": "placement",
+    "object": 351
+  },
+  "wall-geometry-0257.rgba": {
+    "source": "art/walls/ca064.frm",
+    "kind": "placement",
+    "object": 257
+  },
+  "wall-geometry-0415.rgba": {
+    "source": "art/walls/ca018.frm",
+    "kind": "placement",
+    "object": 415
+  },
+  "wall-geometry-0434.rgba": {
+    "source": "art/walls/ca019.frm",
+    "kind": "placement",
+    "object": 434
+  },
+  "wall-geometry-0452.rgba": {
+    "source": "art/walls/ca020.frm",
+    "kind": "placement",
+    "object": 452
+  },
+  "wall-geometry-0162.rgba": {
+    "source": "art/walls/ca010.frm",
+    "kind": "placement",
+    "object": 162
+  },
+  "wall-geometry-0161.rgba": {
+    "source": "art/walls/ca011.frm",
+    "kind": "placement",
+    "object": 161
+  },
+  "wall-geometry-0197.rgba": {
+    "source": "art/walls/ca015.frm",
+    "kind": "placement",
+    "object": 197
+  },
+  "wall-geometry-0291.rgba": {
+    "source": "art/walls/ca059.frm",
+    "kind": "placement",
+    "object": 291
+  },
+  "wall-geometry-0463.rgba": {
+    "source": "art/walls/ca021.frm",
+    "kind": "placement",
+    "object": 463
+  },
+  "wall-geometry-0164.rgba": {
+    "source": "art/walls/ca008.frm",
+    "kind": "placement",
+    "object": 164
+  },
+  "wall-geometry-0163.rgba": {
+    "source": "art/walls/ca009.frm",
+    "kind": "placement",
+    "object": 163
+  },
+  "wall-geometry-0176.rgba": {
+    "source": "art/walls/ca012.frm",
+    "kind": "placement",
+    "object": 176
+  },
+  "wall-geometry-0199.rgba": {
+    "source": "art/walls/ca013.frm",
+    "kind": "placement",
+    "object": 199
+  },
+  "wall-geometry-0198.rgba": {
+    "source": "art/walls/ca014.frm",
+    "kind": "placement",
+    "object": 198
+  },
+  "wall-geometry-0293.rgba": {
+    "source": "art/walls/ca047.frm",
+    "kind": "placement",
+    "object": 293
+  },
+  "wall-geometry-0292.rgba": {
+    "source": "art/walls/ca048.frm",
+    "kind": "placement",
+    "object": 292
+  },
+  "wall-geometry-0310.rgba": {
+    "source": "art/walls/ca065.frm",
+    "kind": "placement",
+    "object": 310
+  },
+  "wall-geometry-0331.rgba": {
+    "source": "art/walls/ca068.frm",
+    "kind": "placement",
+    "object": 331
+  },
+  "wall-geometry-0330.rgba": {
+    "source": "art/walls/ca067.frm",
+    "kind": "placement",
+    "object": 330
+  },
+  "wall-geometry-0165.rgba": {
+    "source": "art/walls/ca005.frm",
+    "kind": "placement",
+    "object": 165
+  },
+  "wall-geometry-0243.rgba": {
+    "source": "art/walls/ca016.frm",
+    "kind": "placement",
+    "object": 243
+  },
+  "wall-geometry-0277.rgba": {
+    "source": "art/walls/ca008.frm",
+    "kind": "placement",
+    "object": 277
+  },
+  "wall-geometry-0295.rgba": {
+    "source": "art/walls/ca009.frm",
+    "kind": "placement",
+    "object": 295
+  },
+  "wall-geometry-0294.rgba": {
+    "source": "art/walls/ca046.frm",
+    "kind": "placement",
+    "object": 294
+  },
+  "wall-geometry-0259.rgba": {
+    "source": "art/walls/ca024.frm",
+    "kind": "placement",
+    "object": 259
+  },
+  "wall-geometry-0278.rgba": {
+    "source": "art/walls/ca006.frm",
+    "kind": "placement",
+    "object": 278
+  },
+  "wall-geometry-0296.rgba": {
+    "source": "art/walls/ca007.frm",
+    "kind": "placement",
+    "object": 296
+  },
+  "wall-geometry-0333.rgba": {
+    "source": "art/walls/ca022.frm",
+    "kind": "placement",
+    "object": 333
+  },
+  "wall-geometry-0374.rgba": {
+    "source": "art/walls/ca059.frm",
+    "kind": "placement",
+    "object": 374
+  },
+  "wall-geometry-0182.rgba": {
+    "source": "art/walls/ca064.frm",
+    "kind": "placement",
+    "object": 182
+  },
+  "wall-geometry-0280.rgba": {
+    "source": "art/walls/ca027.frm",
+    "kind": "placement",
+    "object": 280
+  },
+  "wall-geometry-0279.rgba": {
+    "source": "art/walls/ca004.frm",
+    "kind": "placement",
+    "object": 279
+  },
+  "wall-geometry-0297.rgba": {
+    "source": "art/walls/ca005.frm",
+    "kind": "placement",
+    "object": 297
+  },
+  "wall-geometry-0354.rgba": {
+    "source": "art/walls/ca023.frm",
+    "kind": "placement",
+    "object": 354
+  },
+  "wall-geometry-0397.rgba": {
+    "source": "art/walls/ca004.frm",
+    "kind": "placement",
+    "object": 397
+  },
+  "wall-geometry-0396.rgba": {
+    "source": "art/walls/ca032.frm",
+    "kind": "placement",
+    "object": 396
+  },
+  "wall-geometry-0299.rgba": {
+    "source": "art/walls/ca028.frm",
+    "kind": "placement",
+    "object": 299
+  },
+  "wall-geometry-0375.rgba": {
+    "source": "art/walls/ca027.frm",
+    "kind": "placement",
+    "object": 375
+  },
+  "wall-geometry-0399.rgba": {
+    "source": "art/walls/ca002.frm",
+    "kind": "placement",
+    "object": 399
+  },
+  "wall-geometry-0398.rgba": {
+    "source": "art/walls/ca003.frm",
+    "kind": "placement",
+    "object": 398
+  },
+  "wall-geometry-0504.rgba": {
+    "source": "art/walls/ca056.frm",
+    "kind": "placement",
+    "object": 504
+  },
+  "wall-geometry-0522.rgba": {
+    "source": "art/walls/ca057.frm",
+    "kind": "placement",
+    "object": 522
+  },
+  "wall-geometry-0521.rgba": {
+    "source": "art/walls/ca063.frm",
+    "kind": "placement",
+    "object": 521
+  },
+  "wall-geometry-0672.rgba": {
+    "source": "art/walls/ca004.frm",
+    "kind": "placement",
+    "object": 672
+  },
+  "wall-geometry-0697.rgba": {
+    "source": "art/walls/ca005.frm",
+    "kind": "placement",
+    "object": 697
+  },
+  "wall-geometry-0400.rgba": {
+    "source": "art/walls/ca028.frm",
+    "kind": "placement",
+    "object": 400
+  },
+  "wall-geometry-0505.rgba": {
+    "source": "art/walls/ca056.frm",
+    "kind": "placement",
+    "object": 505
+  },
+  "wall-geometry-0523.rgba": {
+    "source": "art/walls/ca055.frm",
+    "kind": "placement",
+    "object": 523
+  },
+  "wall-geometry-0698.rgba": {
+    "source": "art/walls/ca003.frm",
+    "kind": "placement",
+    "object": 698
+  },
+  "wall-geometry-0720.rgba": {
+    "source": "art/walls/ca037.frm",
+    "kind": "placement",
+    "object": 720
+  },
+  "wall-geometry-0719.rgba": {
+    "source": "art/walls/ca038.frm",
+    "kind": "placement",
+    "object": 719
+  },
+  "wall-geometry-0739.rgba": {
+    "source": "art/walls/ca039.frm",
+    "kind": "placement",
+    "object": 739
+  },
+  "wall-geometry-0738.rgba": {
+    "source": "art/walls/ca042.frm",
+    "kind": "placement",
+    "object": 738
+  },
+  "wall-geometry-0756.rgba": {
+    "source": "art/walls/ca043.frm",
+    "kind": "placement",
+    "object": 756
+  },
+  "wall-geometry-0755.rgba": {
+    "source": "art/walls/ca044.frm",
+    "kind": "placement",
+    "object": 755
+  },
+  "wall-geometry-0772.rgba": {
+    "source": "art/walls/ca047.frm",
+    "kind": "placement",
+    "object": 772
+  },
+  "wall-geometry-0771.rgba": {
+    "source": "art/walls/ca048.frm",
+    "kind": "placement",
+    "object": 771
+  },
+  "wall-geometry-0773.rgba": {
+    "source": "art/walls/ca046.frm",
+    "kind": "placement",
+    "object": 773
+  },
+  "wall-geometry-0262.rgba": {
+    "source": "art/walls/ca059.frm",
+    "kind": "placement",
+    "object": 262
+  },
+  "wall-geometry-0551.rgba": {
+    "source": "art/walls/ca072.frm",
+    "kind": "placement",
+    "object": 551
+  },
+  "wall-geometry-0724.rgba": {
+    "source": "art/walls/ca064.frm",
+    "kind": "placement",
+    "object": 724
+  },
+  "wall-geometry-0815.rgba": {
+    "source": "art/walls/ca016.frm",
+    "kind": "placement",
+    "object": 815
+  },
+  "wall-geometry-0282.rgba": {
+    "source": "art/walls/ca061.frm",
+    "kind": "placement",
+    "object": 282
+  },
+  "wall-geometry-0569.rgba": {
+    "source": "art/walls/ca019.frm",
+    "kind": "placement",
+    "object": 569
+  },
+  "wall-geometry-0834.rgba": {
+    "source": "art/walls/ca017.frm",
+    "kind": "placement",
+    "object": 834
+  },
+  "wall-geometry-0301.rgba": {
+    "source": "art/walls/ca059.frm",
+    "kind": "placement",
+    "object": 301
+  },
+  "wall-geometry-0586.rgba": {
+    "source": "art/walls/ca020.frm",
+    "kind": "placement",
+    "object": 586
+  },
+  "wall-geometry-0851.rgba": {
+    "source": "art/walls/ca018.frm",
+    "kind": "placement",
+    "object": 851
+  },
+  "wall-geometry-0320.rgba": {
+    "source": "art/walls/ca060.frm",
+    "kind": "placement",
+    "object": 320
+  },
+  "wall-geometry-0600.rgba": {
+    "source": "art/walls/ca021.frm",
+    "kind": "placement",
+    "object": 600
+  },
+  "wall-geometry-0657.rgba": {
+    "source": "art/walls/ca010.frm",
+    "kind": "placement",
+    "object": 657
+  },
+  "wall-geometry-0673.rgba": {
+    "source": "art/walls/ca011.frm",
+    "kind": "placement",
+    "object": 673
+  },
+  "wall-geometry-0699.rgba": {
+    "source": "art/walls/ca015.frm",
+    "kind": "placement",
+    "object": 699
+  },
+  "wall-geometry-0874.rgba": {
+    "source": "art/walls/ca019.frm",
+    "kind": "placement",
+    "object": 874
+  },
+  "wall-geometry-0343.rgba": {
+    "source": "art/walls/ca061.frm",
+    "kind": "placement",
+    "object": 343
+  },
+  "wall-geometry-0618.rgba": {
+    "source": "art/walls/ca022.frm",
+    "kind": "placement",
+    "object": 618
+  },
+  "wall-geometry-0658.rgba": {
+    "source": "art/walls/ca008.frm",
+    "kind": "placement",
+    "object": 658
+  },
+  "wall-geometry-0674.rgba": {
+    "source": "art/walls/ca009.frm",
+    "kind": "placement",
+    "object": 674
+  },
+  "wall-geometry-0701.rgba": {
+    "source": "art/walls/ca012.frm",
+    "kind": "placement",
+    "object": 701
+  },
+  "wall-geometry-0700.rgba": {
+    "source": "art/walls/ca013.frm",
+    "kind": "placement",
+    "object": 700
+  },
+  "wall-geometry-0725.rgba": {
+    "source": "art/walls/ca014.frm",
+    "kind": "placement",
+    "object": 725
+  },
+  "wall-geometry-0779.rgba": {
+    "source": "art/walls/ca008.frm",
+    "kind": "placement",
+    "object": 779
+  },
+  "wall-geometry-0778.rgba": {
+    "source": "art/walls/ca032.frm",
+    "kind": "placement",
+    "object": 778
+  },
+  "wall-geometry-0893.rgba": {
+    "source": "art/walls/ca020.frm",
+    "kind": "placement",
+    "object": 893
+  },
+  "wall-geometry-0357.rgba": {
+    "source": "art/walls/ca061.frm",
+    "kind": "placement",
+    "object": 357
+  },
+  "wall-geometry-0633.rgba": {
+    "source": "art/walls/ca023.frm",
+    "kind": "placement",
+    "object": 633
+  },
+  "wall-geometry-0659.rgba": {
+    "source": "art/walls/ca006.frm",
+    "kind": "placement",
+    "object": 659
+  },
+  "wall-geometry-0676.rgba": {
+    "source": "art/walls/ca007.frm",
+    "kind": "placement",
+    "object": 676
+  },
+  "wall-geometry-0746.rgba": {
+    "source": "art/walls/ca037.frm",
+    "kind": "placement",
+    "object": 746
+  },
+  "wall-geometry-0762.rgba": {
+    "source": "art/walls/ca038.frm",
+    "kind": "placement",
+    "object": 762
+  },
+  "wall-geometry-0761.rgba": {
+    "source": "art/walls/ca039.frm",
+    "kind": "placement",
+    "object": 761
+  },
+  "wall-geometry-0781.rgba": {
+    "source": "art/walls/ca040.frm",
+    "kind": "placement",
+    "object": 781
+  },
+  "wall-geometry-0780.rgba": {
+    "source": "art/walls/ca005.frm",
+    "kind": "placement",
+    "object": 780
+  },
+  "wall-geometry-0919.rgba": {
+    "source": "art/walls/ca021.frm",
+    "kind": "placement",
+    "object": 919
+  },
+  "wall-geometry-0358.rgba": {
+    "source": "art/walls/ca006.frm",
+    "kind": "placement",
+    "object": 358
+  },
+  "wall-geometry-0380.rgba": {
+    "source": "art/walls/ca071.frm",
+    "kind": "placement",
+    "object": 380
+  },
+  "wall-geometry-0530.rgba": {
+    "source": "art/walls/ca056.frm",
+    "kind": "placement",
+    "object": 530
+  },
+  "wall-geometry-0529.rgba": {
+    "source": "art/walls/ca066.frm",
+    "kind": "placement",
+    "object": 529
+  },
+  "wall-geometry-0556.rgba": {
+    "source": "art/walls/ca067.frm",
+    "kind": "placement",
+    "object": 556
+  },
+  "wall-geometry-0555.rgba": {
+    "source": "art/walls/ca068.frm",
+    "kind": "placement",
+    "object": 555
+  },
+  "wall-geometry-0648.rgba": {
+    "source": "art/walls/ca024.frm",
+    "kind": "placement",
+    "object": 648
+  },
+  "wall-geometry-0660.rgba": {
+    "source": "art/walls/ca004.frm",
+    "kind": "placement",
+    "object": 660
+  },
+  "wall-geometry-0678.rgba": {
+    "source": "art/walls/ca005.frm",
+    "kind": "placement",
+    "object": 678
+  },
+  "wall-geometry-0946.rgba": {
+    "source": "art/walls/ca022.frm",
+    "kind": "placement",
+    "object": 946
+  },
+  "wall-geometry-0381.rgba": {
+    "source": "art/walls/ca005.frm",
+    "kind": "placement",
+    "object": 381
+  },
+  "wall-geometry-0532.rgba": {
+    "source": "art/walls/ca054.frm",
+    "kind": "placement",
+    "object": 532
+  },
+  "wall-geometry-0531.rgba": {
+    "source": "art/walls/ca055.frm",
+    "kind": "placement",
+    "object": 531
+  },
+  "wall-geometry-0662.rgba": {
+    "source": "art/walls/ca025.frm",
+    "kind": "placement",
+    "object": 662
+  },
+  "wall-geometry-0661.rgba": {
+    "source": "art/walls/ca002.frm",
+    "kind": "placement",
+    "object": 661
+  },
+  "wall-geometry-0680.rgba": {
+    "source": "art/walls/ca003.frm",
+    "kind": "placement",
+    "object": 680
+  },
+  "wall-geometry-0975.rgba": {
+    "source": "art/walls/ca023.frm",
+    "kind": "placement",
+    "object": 975
+  },
+  "wall-geometry-0534.rgba": {
+    "source": "art/walls/ca058.frm",
+    "kind": "placement",
+    "object": 534
+  },
+  "wall-geometry-0533.rgba": {
+    "source": "art/walls/ca057.frm",
+    "kind": "placement",
+    "object": 533
+  },
+  "wall-geometry-0589.rgba": {
+    "source": "art/walls/ca060.frm",
+    "kind": "placement",
+    "object": 589
+  },
+  "wall-geometry-0682.rgba": {
+    "source": "art/walls/ca026.frm",
+    "kind": "placement",
+    "object": 682
+  },
+  "wall-geometry-0407.rgba": {
+    "source": "art/walls/ca064.frm",
+    "kind": "placement",
+    "object": 407
+  },
+  "wall-geometry-0605.rgba": {
+    "source": "art/walls/ca059.frm",
+    "kind": "placement",
+    "object": 605
+  },
+  "wall-geometry-0558.rgba": {
+    "source": "art/walls/ca072.frm",
+    "kind": "placement",
+    "object": 558
+  },
+  "wall-geometry-0621.rgba": {
+    "source": "art/walls/ca060.frm",
+    "kind": "placement",
+    "object": 621
+  },
+  "wall-geometry-0575.rgba": {
+    "source": "art/walls/ca019.frm",
+    "kind": "placement",
+    "object": 575
+  },
+  "wall-geometry-0636.rgba": {
+    "source": "art/walls/ca061.frm",
+    "kind": "placement",
+    "object": 636
+  },
+  "wall-geometry-0590.rgba": {
+    "source": "art/walls/ca020.frm",
+    "kind": "placement",
+    "object": 590
+  },
+  "wall-geometry-0651.rgba": {
+    "source": "art/walls/ca062.frm",
+    "kind": "placement",
+    "object": 651
+  },
+  "wall-geometry-1099.rgba": {
+    "source": "art/walls/ca058.frm",
+    "kind": "placement",
+    "object": 1099
+  },
+  "wall-geometry-1142.rgba": {
+    "source": "art/walls/ca057.frm",
+    "kind": "placement",
+    "object": 1142
+  },
+  "wall-geometry-1141.rgba": {
+    "source": "art/walls/ca063.frm",
+    "kind": "placement",
+    "object": 1141
+  },
+  "wall-geometry-0457.rgba": {
+    "source": "art/walls/ca059.frm",
+    "kind": "placement",
+    "object": 457
+  },
+  "wall-geometry-0606.rgba": {
+    "source": "art/walls/ca021.frm",
+    "kind": "placement",
+    "object": 606
+  },
+  "wall-geometry-0665.rgba": {
+    "source": "art/walls/ca059.frm",
+    "kind": "placement",
+    "object": 665
+  },
+  "wall-geometry-0684.rgba": {
+    "source": "art/walls/ca068.frm",
+    "kind": "placement",
+    "object": 684
+  },
+  "wall-geometry-1100.rgba": {
+    "source": "art/walls/ca054.frm",
+    "kind": "placement",
+    "object": 1100
+  },
+  "wall-geometry-1143.rgba": {
+    "source": "art/walls/ca053.frm",
+    "kind": "placement",
+    "object": 1143
+  },
+  "wall-geometry-0470.rgba": {
+    "source": "art/walls/ca060.frm",
+    "kind": "placement",
+    "object": 470
+  },
+  "wall-geometry-0622.rgba": {
+    "source": "art/walls/ca022.frm",
+    "kind": "placement",
+    "object": 622
+  },
+  "wall-geometry-0685.rgba": {
+    "source": "art/walls/ca060.frm",
+    "kind": "placement",
+    "object": 685
+  },
+  "wall-geometry-0479.rgba": {
+    "source": "art/walls/ca061.frm",
+    "kind": "placement",
+    "object": 479
+  },
+  "wall-geometry-0495.rgba": {
+    "source": "art/walls/ca070.frm",
+    "kind": "placement",
+    "object": 495
+  },
+  "wall-geometry-0494.rgba": {
+    "source": "art/walls/ca066.frm",
+    "kind": "placement",
+    "object": 494
+  },
+  "wall-geometry-0514.rgba": {
+    "source": "art/walls/ca067.frm",
+    "kind": "placement",
+    "object": 514
+  },
+  "wall-geometry-0637.rgba": {
+    "source": "art/walls/ca023.frm",
+    "kind": "placement",
+    "object": 637
+  },
+  "wall-geometry-0734.rgba": {
+    "source": "art/walls/ca059.frm",
+    "kind": "placement",
+    "object": 734
+  },
+  "wall-geometry-0801.rgba": {
+    "source": "art/walls/ca054.frm",
+    "kind": "placement",
+    "object": 801
+  },
+  "wall-geometry-0822.rgba": {
+    "source": "art/walls/ca067.frm",
+    "kind": "placement",
+    "object": 822
+  },
+  "wall-geometry-0821.rgba": {
+    "source": "art/walls/ca068.frm",
+    "kind": "placement",
+    "object": 821
+  },
+  "wall-geometry-1176.rgba": {
+    "source": "art/walls/ca036.frm",
+    "kind": "placement",
+    "object": 1176
+  },
+  "wall-geometry-0496.rgba": {
+    "source": "art/walls/ca062.frm",
+    "kind": "placement",
+    "object": 496
+  },
+  "wall-geometry-0751.rgba": {
+    "source": "art/walls/ca060.frm",
+    "kind": "placement",
+    "object": 751
+  },
+  "wall-geometry-0750.rgba": {
+    "source": "art/walls/ca069.frm",
+    "kind": "placement",
+    "object": 750
+  },
+  "wall-geometry-0803.rgba": {
+    "source": "art/walls/ca058.frm",
+    "kind": "placement",
+    "object": 803
+  },
+  "wall-geometry-0823.rgba": {
+    "source": "art/walls/ca053.frm",
+    "kind": "placement",
+    "object": 823
+  },
+  "wall-geometry-1189.rgba": {
+    "source": "art/walls/ca018.frm",
+    "kind": "placement",
+    "object": 1189
+  },
+  "wall-geometry-0563.rgba": {
+    "source": "art/walls/ca065.frm",
+    "kind": "placement",
+    "object": 563
+  },
+  "wall-geometry-0767.rgba": {
+    "source": "art/walls/ca062.frm",
+    "kind": "placement",
+    "object": 767
+  },
+  "wall-geometry-0856.rgba": {
+    "source": "art/walls/ca059.frm",
+    "kind": "placement",
+    "object": 856
+  },
+  "wall-geometry-1204.rgba": {
+    "source": "art/walls/ca019.frm",
+    "kind": "placement",
+    "object": 1204
+  },
+  "wall-geometry-0786.rgba": {
+    "source": "art/walls/ca062.frm",
+    "kind": "placement",
+    "object": 786
+  },
+  "wall-geometry-0839.rgba": {
+    "source": "art/walls/ca036.frm",
+    "kind": "placement",
+    "object": 839
+  },
+  "wall-geometry-0879.rgba": {
+    "source": "art/walls/ca065.frm",
+    "kind": "placement",
+    "object": 879
+  },
+  "wall-geometry-1229.rgba": {
+    "source": "art/walls/ca020.frm",
+    "kind": "placement",
+    "object": 1229
+  },
+  "wall-geometry-0593.rgba": {
+    "source": "art/walls/ca059.frm",
+    "kind": "placement",
+    "object": 593
+  },
+  "wall-geometry-0804.rgba": {
+    "source": "art/walls/ca059.frm",
+    "kind": "placement",
+    "object": 804
+  },
+  "wall-geometry-0857.rgba": {
+    "source": "art/walls/ca023.frm",
+    "kind": "placement",
+    "object": 857
+  },
+  "wall-geometry-1253.rgba": {
+    "source": "art/walls/ca025.frm",
+    "kind": "placement",
+    "object": 1253
+  },
+  "wall-geometry-1252.rgba": {
+    "source": "art/walls/ca044.frm",
+    "kind": "placement",
+    "object": 1252
+  },
+  "wall-geometry-1277.rgba": {
+    "source": "art/walls/ca047.frm",
+    "kind": "placement",
+    "object": 1277
+  },
+  "wall-geometry-1276.rgba": {
+    "source": "art/walls/ca048.frm",
+    "kind": "placement",
+    "object": 1276
+  },
+  "wall-geometry-0612.rgba": {
+    "source": "art/walls/ca060.frm",
+    "kind": "placement",
+    "object": 612
+  },
+  "wall-geometry-0687.rgba": {
+    "source": "art/walls/ca054.frm",
+    "kind": "placement",
+    "object": 687
+  },
+  "wall-geometry-0715.rgba": {
+    "source": "art/walls/ca055.frm",
+    "kind": "placement",
+    "object": 715
+  },
+  "wall-geometry-0714.rgba": {
+    "source": "art/walls/ca063.frm",
+    "kind": "placement",
+    "object": 714
+  },
+  "wall-geometry-0825.rgba": {
+    "source": "art/walls/ca060.frm",
+    "kind": "placement",
+    "object": 825
+  },
+  "wall-geometry-0880.rgba": {
+    "source": "art/walls/ca024.frm",
+    "kind": "placement",
+    "object": 880
+  },
+  "wall-geometry-0925.rgba": {
+    "source": "art/walls/ca008.frm",
+    "kind": "placement",
+    "object": 925
+  },
+  "wall-geometry-0924.rgba": {
+    "source": "art/walls/ca032.frm",
+    "kind": "placement",
+    "object": 924
+  },
+  "wall-geometry-1278.rgba": {
+    "source": "art/walls/ca046.frm",
+    "kind": "placement",
+    "object": 1278
+  },
+  "wall-geometry-0627.rgba": {
+    "source": "art/walls/ca061.frm",
+    "kind": "placement",
+    "object": 627
+  },
+  "wall-geometry-0626.rgba": {
+    "source": "art/walls/ca066.frm",
+    "kind": "placement",
+    "object": 626
+  },
+  "wall-geometry-0640.rgba": {
+    "source": "art/walls/ca067.frm",
+    "kind": "placement",
+    "object": 640
+  },
+  "wall-geometry-0689.rgba": {
+    "source": "art/walls/ca050.frm",
+    "kind": "placement",
+    "object": 689
+  },
+  "wall-geometry-0688.rgba": {
+    "source": "art/walls/ca069.frm",
+    "kind": "placement",
+    "object": 688
+  },
+  "wall-geometry-0716.rgba": {
+    "source": "art/walls/ca053.frm",
+    "kind": "placement",
+    "object": 716
+  },
+  "wall-geometry-0840.rgba": {
+    "source": "art/walls/ca061.frm",
+    "kind": "placement",
+    "object": 840
+  },
+  "wall-geometry-0901.rgba": {
+    "source": "art/walls/ca037.frm",
+    "kind": "placement",
+    "object": 901
+  },
+  "wall-geometry-0900.rgba": {
+    "source": "art/walls/ca038.frm",
+    "kind": "placement",
+    "object": 900
+  },
+  "wall-geometry-0927.rgba": {
+    "source": "art/walls/ca045.frm",
+    "kind": "placement",
+    "object": 927
+  },
+  "wall-geometry-0926.rgba": {
+    "source": "art/walls/ca009.frm",
+    "kind": "placement",
+    "object": 926
+  },
+  "wall-geometry-1354.rgba": {
+    "source": "art/walls/ca022.frm",
+    "kind": "placement",
+    "object": 1354
+  },
+  "wall-geometry-0641.rgba": {
+    "source": "art/walls/ca062.frm",
+    "kind": "placement",
+    "object": 641
+  },
+  "wall-geometry-0691.rgba": {
+    "source": "art/walls/ca056.frm",
+    "kind": "placement",
+    "object": 691
+  },
+  "wall-geometry-0690.rgba": {
+    "source": "art/walls/ca057.frm",
+    "kind": "placement",
+    "object": 690
+  },
+  "wall-geometry-0860.rgba": {
+    "source": "art/walls/ca010.frm",
+    "kind": "placement",
+    "object": 860
+  },
+  "wall-geometry-0859.rgba": {
+    "source": "art/walls/ca071.frm",
+    "kind": "placement",
+    "object": 859
+  },
+  "wall-geometry-1014.rgba": {
+    "source": "art/walls/ca050.frm",
+    "kind": "placement",
+    "object": 1014
+  },
+  "wall-geometry-1062.rgba": {
+    "source": "art/walls/ca067.frm",
+    "kind": "placement",
+    "object": 1062
+  },
+  "wall-geometry-1061.rgba": {
+    "source": "art/walls/ca068.frm",
+    "kind": "placement",
+    "object": 1061
+  },
+  "wall-geometry-1103.rgba": {
+    "source": "art/walls/ca069.frm",
+    "kind": "placement",
+    "object": 1103
+  },
+  "wall-geometry-1380.rgba": {
+    "source": "art/walls/ca020.frm",
+    "kind": "placement",
+    "object": 1380
+  },
+  "wall-geometry-0668.rgba": {
+    "source": "art/walls/ca065.frm",
+    "kind": "placement",
+    "object": 668
+  },
+  "wall-geometry-0667.rgba": {
+    "source": "art/walls/ca066.frm",
+    "kind": "placement",
+    "object": 667
+  },
+  "wall-geometry-0693.rgba": {
+    "source": "art/walls/ca067.frm",
+    "kind": "placement",
+    "object": 693
+  },
+  "wall-geometry-0692.rgba": {
+    "source": "art/walls/ca055.frm",
+    "kind": "placement",
+    "object": 692
+  },
+  "wall-geometry-0862.rgba": {
+    "source": "art/walls/ca008.frm",
+    "kind": "placement",
+    "object": 862
+  },
+  "wall-geometry-0861.rgba": {
+    "source": "art/walls/ca009.frm",
+    "kind": "placement",
+    "object": 861
+  },
+  "wall-geometry-1404.rgba": {
+    "source": "art/walls/ca021.frm",
+    "kind": "placement",
+    "object": 1404
+  },
+  "wall-geometry-0863.rgba": {
+    "source": "art/walls/ca007.frm",
+    "kind": "placement",
+    "object": 863
+  },
+  "wall-geometry-1104.rgba": {
+    "source": "art/walls/ca072.frm",
+    "kind": "placement",
+    "object": 1104
+  },
+  "wall-geometry-1178.rgba": {
+    "source": "art/walls/ca060.frm",
+    "kind": "placement",
+    "object": 1178
+  },
+  "wall-geometry-1418.rgba": {
+    "source": "art/walls/ca022.frm",
+    "kind": "placement",
+    "object": 1418
+  },
+  "wall-geometry-1148.rgba": {
+    "source": "art/walls/ca019.frm",
+    "kind": "placement",
+    "object": 1148
+  },
+  "wall-geometry-1194.rgba": {
+    "source": "art/walls/ca061.frm",
+    "kind": "placement",
+    "object": 1194
+  },
+  "wall-geometry-1193.rgba": {
+    "source": "art/walls/ca067.frm",
+    "kind": "placement",
+    "object": 1193
+  },
+  "wall-geometry-1209.rgba": {
+    "source": "art/walls/ca068.frm",
+    "kind": "placement",
+    "object": 1209
+  },
+  "wall-geometry-0886.rgba": {
+    "source": "art/walls/ca064.frm",
+    "kind": "placement",
+    "object": 886
+  },
+  "wall-geometry-1179.rgba": {
+    "source": "art/walls/ca020.frm",
+    "kind": "placement",
+    "object": 1179
+  },
+  "wall-geometry-1211.rgba": {
+    "source": "art/walls/ca062.frm",
+    "kind": "placement",
+    "object": 1211
+  },
+  "wall-geometry-1195.rgba": {
+    "source": "art/walls/ca021.frm",
+    "kind": "placement",
+    "object": 1195
+  },
+  "wall-geometry-1258.rgba": {
+    "source": "art/walls/ca059.frm",
+    "kind": "placement",
+    "object": 1258
+  },
+  "wall-geometry-1257.rgba": {
+    "source": "art/walls/ca066.frm",
+    "kind": "placement",
+    "object": 1257
+  },
+  "wall-geometry-1212.rgba": {
+    "source": "art/walls/ca022.frm",
+    "kind": "placement",
+    "object": 1212
+  },
+  "wall-geometry-1284.rgba": {
+    "source": "art/walls/ca060.frm",
+    "kind": "placement",
+    "object": 1284
+  },
+  "wall-geometry-1237.rgba": {
+    "source": "art/walls/ca023.frm",
+    "kind": "placement",
+    "object": 1237
+  },
+  "wall-geometry-1322.rgba": {
+    "source": "art/walls/ca061.frm",
+    "kind": "placement",
+    "object": 1322
+  },
+  "wall-geometry-1450.rgba": {
+    "source": "art/walls/ca056.frm",
+    "kind": "placement",
+    "object": 1450
+  },
+  "wall-geometry-1459.rgba": {
+    "source": "art/walls/ca057.frm",
+    "kind": "placement",
+    "object": 1459
+  },
+  "wall-geometry-1458.rgba": {
+    "source": "art/walls/ca063.frm",
+    "kind": "placement",
+    "object": 1458
+  },
+  "wall-geometry-0983.rgba": {
+    "source": "art/walls/ca059.frm",
+    "kind": "placement",
+    "object": 983
+  },
+  "wall-geometry-1259.rgba": {
+    "source": "art/walls/ca019.frm",
+    "kind": "placement",
+    "object": 1259
+  },
+  "wall-geometry-1359.rgba": {
+    "source": "art/walls/ca062.frm",
+    "kind": "placement",
+    "object": 1359
+  },
+  "wall-geometry-1451.rgba": {
+    "source": "art/walls/ca054.frm",
+    "kind": "placement",
+    "object": 1451
+  },
+  "wall-geometry-1460.rgba": {
+    "source": "art/walls/ca055.frm",
+    "kind": "placement",
+    "object": 1460
+  },
+  "wall-geometry-1019.rgba": {
+    "source": "art/walls/ca060.frm",
+    "kind": "placement",
+    "object": 1019
+  },
+  "wall-geometry-1285.rgba": {
+    "source": "art/walls/ca020.frm",
+    "kind": "placement",
+    "object": 1285
+  },
+  "wall-geometry-1385.rgba": {
+    "source": "art/walls/ca059.frm",
+    "kind": "placement",
+    "object": 1385
+  },
+  "wall-geometry-1407.rgba": {
+    "source": "art/walls/ca069.frm",
+    "kind": "placement",
+    "object": 1407
+  },
+  "wall-geometry-1406.rgba": {
+    "source": "art/walls/ca070.frm",
+    "kind": "placement",
+    "object": 1406
+  },
+  "wall-geometry-1423.rgba": {
+    "source": "art/walls/ca066.frm",
+    "kind": "placement",
+    "object": 1423
+  },
+  "wall-geometry-1422.rgba": {
+    "source": "art/walls/ca067.frm",
+    "kind": "placement",
+    "object": 1422
+  },
+  "wall-geometry-1435.rgba": {
+    "source": "art/walls/ca069.frm",
+    "kind": "placement",
+    "object": 1435
+  },
+  "wall-geometry-1434.rgba": {
+    "source": "art/walls/ca067.frm",
+    "kind": "placement",
+    "object": 1434
+  },
+  "wall-geometry-1446.rgba": {
+    "source": "art/walls/ca066.frm",
+    "kind": "placement",
+    "object": 1446
+  },
+  "wall-geometry-1445.rgba": {
+    "source": "art/walls/ca067.frm",
+    "kind": "placement",
+    "object": 1445
+  },
+  "wall-geometry-1453.rgba": {
+    "source": "art/walls/ca068.frm",
+    "kind": "placement",
+    "object": 1453
+  },
+  "wall-geometry-1452.rgba": {
+    "source": "art/walls/ca069.frm",
+    "kind": "placement",
+    "object": 1452
+  },
+  "wall-geometry-1461.rgba": {
+    "source": "art/walls/ca053.frm",
+    "kind": "placement",
+    "object": 1461
+  },
+  "wall-geometry-1065.rgba": {
+    "source": "art/walls/ca061.frm",
+    "kind": "placement",
+    "object": 1065
+  },
+  "wall-geometry-1408.rgba": {
+    "source": "art/walls/ca060.frm",
+    "kind": "placement",
+    "object": 1408
+  },
+  "wall-geometry-1021.rgba": {
+    "source": "art/walls/ca008.frm",
+    "kind": "placement",
+    "object": 1021
+  },
+  "wall-geometry-1020.rgba": {
+    "source": "art/walls/ca042.frm",
+    "kind": "placement",
+    "object": 1020
+  },
+  "wall-geometry-1067.rgba": {
+    "source": "art/walls/ca043.frm",
+    "kind": "placement",
+    "object": 1067
+  },
+  "wall-geometry-1066.rgba": {
+    "source": "art/walls/ca045.frm",
+    "kind": "placement",
+    "object": 1066
+  },
+  "wall-geometry-1107.rgba": {
+    "source": "art/walls/ca032.frm",
+    "kind": "placement",
+    "object": 1107
+  },
+  "wall-geometry-1023.rgba": {
+    "source": "art/walls/ca008.frm",
+    "kind": "placement",
+    "object": 1023
+  },
+  "wall-geometry-1022.rgba": {
+    "source": "art/walls/ca007.frm",
+    "kind": "placement",
+    "object": 1022
+  },
+  "wall-geometry-1025.rgba": {
+    "source": "art/walls/ca006.frm",
+    "kind": "placement",
+    "object": 1025
+  },
+  "wall-geometry-1024.rgba": {
+    "source": "art/walls/ca007.frm",
+    "kind": "placement",
+    "object": 1024
+  },
+  "wall-geometry-1027.rgba": {
+    "source": "art/walls/ca004.frm",
+    "kind": "placement",
+    "object": 1027
+  },
+  "wall-geometry-1026.rgba": {
+    "source": "art/walls/ca005.frm",
+    "kind": "placement",
+    "object": 1026
+  },
+  "wall-geometry-1388.rgba": {
+    "source": "art/walls/ca056.frm",
+    "kind": "placement",
+    "object": 1388
+  },
+  "wall-geometry-1387.rgba": {
+    "source": "art/walls/ca053.frm",
+    "kind": "placement",
+    "object": 1387
+  },
+  "wall-geometry-1409.rgba": {
+    "source": "art/walls/ca063.frm",
+    "kind": "placement",
+    "object": 1409
+  },
+  "wall-geometry-1029.rgba": {
+    "source": "art/walls/ca002.frm",
+    "kind": "placement",
+    "object": 1029
+  },
+  "wall-geometry-1028.rgba": {
+    "source": "art/walls/ca003.frm",
+    "kind": "placement",
+    "object": 1028
+  },
+  "wall-geometry-1390.rgba": {
+    "source": "art/walls/ca058.frm",
+    "kind": "placement",
+    "object": 1390
+  },
+  "wall-geometry-1389.rgba": {
+    "source": "art/walls/ca057.frm",
+    "kind": "placement",
+    "object": 1389
+  },
+  "wall-geometry-0957.rgba": {
+    "source": "art/walls/ca008.frm",
+    "kind": "placement",
+    "object": 957
+  },
+  "wall-geometry-0985.rgba": {
+    "source": "art/walls/ca039.frm",
+    "kind": "placement",
+    "object": 985
+  },
+  "wall-geometry-0984.rgba": {
+    "source": "art/walls/ca040.frm",
+    "kind": "placement",
+    "object": 984
+  },
+  "wall-geometry-1031.rgba": {
+    "source": "art/walls/ca041.frm",
+    "kind": "placement",
+    "object": 1031
+  },
+  "wall-geometry-1030.rgba": {
+    "source": "art/walls/ca005.frm",
+    "kind": "placement",
+    "object": 1030
+  },
+  "wall-geometry-1363.rgba": {
+    "source": "art/walls/ca058.frm",
+    "kind": "placement",
+    "object": 1363
+  },
+  "wall-geometry-1392.rgba": {
+    "source": "art/walls/ca069.frm",
+    "kind": "placement",
+    "object": 1392
+  },
+  "wall-geometry-1391.rgba": {
+    "source": "art/walls/ca057.frm",
+    "kind": "placement",
+    "object": 1391
+  },
+  "wall-geometry-0958.rgba": {
+    "source": "art/walls/ca006.frm",
+    "kind": "placement",
+    "object": 958
+  },
+  "wall-geometry-0987.rgba": {
+    "source": "art/walls/ca007.frm",
+    "kind": "placement",
+    "object": 987
+  },
+  "wall-geometry-1364.rgba": {
+    "source": "art/walls/ca056.frm",
+    "kind": "placement",
+    "object": 1364
+  },
+  "wall-geometry-1393.rgba": {
+    "source": "art/walls/ca057.frm",
+    "kind": "placement",
+    "object": 1393
+  },
+  "wall-geometry-0959.rgba": {
+    "source": "art/walls/ca006.frm",
+    "kind": "placement",
+    "object": 959
+  },
+  "wall-geometry-0989.rgba": {
+    "source": "art/walls/ca005.frm",
+    "kind": "placement",
+    "object": 989
+  },
+  "wall-geometry-1365.rgba": {
+    "source": "art/walls/ca054.frm",
+    "kind": "placement",
+    "object": 1365
+  },
+  "wall-geometry-1394.rgba": {
+    "source": "art/walls/ca055.frm",
+    "kind": "placement",
+    "object": 1394
+  },
+  "wall-geometry-0960.rgba": {
+    "source": "art/walls/ca004.frm",
+    "kind": "placement",
+    "object": 960
+  },
+  "wall-geometry-0991.rgba": {
+    "source": "art/walls/ca005.frm",
+    "kind": "placement",
+    "object": 991
+  },
+  "wall-geometry-1366.rgba": {
+    "source": "art/walls/ca056.frm",
+    "kind": "placement",
+    "object": 1366
+  },
+  "wall-geometry-1395.rgba": {
+    "source": "art/walls/ca057.frm",
+    "kind": "placement",
+    "object": 1395
+  },
+  "wall-geometry-0934.rgba": {
+    "source": "art/walls/ca008.frm",
+    "kind": "placement",
+    "object": 934
+  },
+  "wall-geometry-0962.rgba": {
+    "source": "art/walls/ca038.frm",
+    "kind": "placement",
+    "object": 962
+  },
+  "wall-geometry-0961.rgba": {
+    "source": "art/walls/ca039.frm",
+    "kind": "placement",
+    "object": 961
+  },
+  "wall-geometry-0993.rgba": {
+    "source": "art/walls/ca003.frm",
+    "kind": "placement",
+    "object": 993
+  },
+  "wall-geometry-1327.rgba": {
+    "source": "art/walls/ca058.frm",
+    "kind": "placement",
+    "object": 1327
+  },
+  "wall-geometry-1368.rgba": {
+    "source": "art/walls/ca067.frm",
+    "kind": "placement",
+    "object": 1368
+  },
+  "wall-geometry-1367.rgba": {
+    "source": "art/walls/ca068.frm",
+    "kind": "placement",
+    "object": 1367
+  },
+  "wall-geometry-1396.rgba": {
+    "source": "art/walls/ca055.frm",
+    "kind": "placement",
+    "object": 1396
+  },
+  "wall-geometry-0935.rgba": {
+    "source": "art/walls/ca006.frm",
+    "kind": "placement",
+    "object": 935
+  },
+  "wall-geometry-0963.rgba": {
+    "source": "art/walls/ca007.frm",
+    "kind": "placement",
+    "object": 963
+  },
+  "wall-geometry-1328.rgba": {
+    "source": "art/walls/ca056.frm",
+    "kind": "placement",
+    "object": 1328
+  },
+  "wall-geometry-1369.rgba": {
+    "source": "art/walls/ca057.frm",
+    "kind": "placement",
+    "object": 1369
+  },
+  "wall-geometry-0964.rgba": {
+    "source": "art/walls/ca005.frm",
+    "kind": "placement",
+    "object": 964
+  },
+  "wall-geometry-1329.rgba": {
+    "source": "art/walls/ca054.frm",
+    "kind": "placement",
+    "object": 1329
+  },
+  "wall-geometry-1370.rgba": {
+    "source": "art/walls/ca055.frm",
+    "kind": "placement",
+    "object": 1370
+  },
+  "wall-geometry-1331.rgba": {
+    "source": "art/walls/ca056.frm",
+    "kind": "placement",
+    "object": 1331
+  },
+  "wall-geometry-1330.rgba": {
+    "source": "art/walls/ca066.frm",
+    "kind": "placement",
+    "object": 1330
+  },
+  "wall-geometry-1371.rgba": {
+    "source": "art/walls/ca053.frm",
+    "kind": "placement",
+    "object": 1371
+  },
+  "wall-geometry-0998.rgba": {
+    "source": "art/walls/ca064.frm",
+    "kind": "placement",
+    "object": 998
+  },
+  "wall-geometry-1333.rgba": {
+    "source": "art/walls/ca054.frm",
+    "kind": "placement",
+    "object": 1333
+  },
+  "wall-geometry-1332.rgba": {
+    "source": "art/walls/ca055.frm",
+    "kind": "placement",
+    "object": 1332
+  },
+  "wall-geometry-0789.rgba": {
+    "source": "art/walls/ca025.frm",
+    "kind": "placement",
+    "object": 789
+  },
+  "wall-geometry-0809.rgba": {
+    "source": "art/walls/ca047.frm",
+    "kind": "placement",
+    "object": 809
+  },
+  "wall-geometry-0808.rgba": {
+    "source": "art/walls/ca048.frm",
+    "kind": "placement",
+    "object": 808
+  },
+  "wall-geometry-1290.rgba": {
+    "source": "art/walls/ca056.frm",
+    "kind": "placement",
+    "object": 1290
+  },
+  "wall-geometry-1335.rgba": {
+    "source": "art/walls/ca068.frm",
+    "kind": "placement",
+    "object": 1335
+  },
+  "wall-geometry-1334.rgba": {
+    "source": "art/walls/ca053.frm",
+    "kind": "placement",
+    "object": 1334
+  },
+  "wall-geometry-0811.rgba": {
+    "source": "art/walls/ca026.frm",
+    "kind": "placement",
+    "object": 811
+  },
+  "wall-geometry-0810.rgba": {
+    "source": "art/walls/ca046.frm",
+    "kind": "placement",
+    "object": 810
+  },
+  "wall-geometry-1291.rgba": {
+    "source": "art/walls/ca054.frm",
+    "kind": "placement",
+    "object": 1291
+  },
+  "wall-geometry-1336.rgba": {
+    "source": "art/walls/ca055.frm",
+    "kind": "placement",
+    "object": 1336
+  },
+  "wall-geometry-0843.rgba": {
+    "source": "art/walls/ca019.frm",
+    "kind": "placement",
+    "object": 843
+  },
+  "wall-geometry-1292.rgba": {
+    "source": "art/walls/ca056.frm",
+    "kind": "placement",
+    "object": 1292
+  },
+  "wall-geometry-1337.rgba": {
+    "source": "art/walls/ca057.frm",
+    "kind": "placement",
+    "object": 1337
+  },
+  "wall-geometry-0866.rgba": {
+    "source": "art/walls/ca020.frm",
+    "kind": "placement",
+    "object": 866
+  },
+  "wall-geometry-1116.rgba": {
+    "source": "art/walls/ca010.frm",
+    "kind": "placement",
+    "object": 1116
+  },
+  "wall-geometry-1115.rgba": {
+    "source": "art/walls/ca071.frm",
+    "kind": "placement",
+    "object": 1115
+  },
+  "wall-geometry-1294.rgba": {
+    "source": "art/walls/ca068.frm",
+    "kind": "placement",
+    "object": 1294
+  },
+  "wall-geometry-1293.rgba": {
+    "source": "art/walls/ca069.frm",
+    "kind": "placement",
+    "object": 1293
+  },
+  "wall-geometry-1338.rgba": {
+    "source": "art/walls/ca055.frm",
+    "kind": "placement",
+    "object": 1338
+  },
+  "wall-geometry-0888.rgba": {
+    "source": "art/walls/ca021.frm",
+    "kind": "placement",
+    "object": 888
+  },
+  "wall-geometry-1118.rgba": {
+    "source": "art/walls/ca008.frm",
+    "kind": "placement",
+    "object": 1118
+  },
+  "wall-geometry-1117.rgba": {
+    "source": "art/walls/ca009.frm",
+    "kind": "placement",
+    "object": 1117
+  },
+  "wall-geometry-0911.rgba": {
+    "source": "art/walls/ca022.frm",
+    "kind": "placement",
+    "object": 911
+  },
+  "wall-geometry-1044.rgba": {
+    "source": "art/walls/ca008.frm",
+    "kind": "placement",
+    "object": 1044
+  },
+  "wall-geometry-1043.rgba": {
+    "source": "art/walls/ca041.frm",
+    "kind": "placement",
+    "object": 1043
+  },
+  "wall-geometry-1082.rgba": {
+    "source": "art/walls/ca042.frm",
+    "kind": "placement",
+    "object": 1082
+  },
+  "wall-geometry-1081.rgba": {
+    "source": "art/walls/ca043.frm",
+    "kind": "placement",
+    "object": 1081
+  },
+  "wall-geometry-1120.rgba": {
+    "source": "art/walls/ca044.frm",
+    "kind": "placement",
+    "object": 1120
+  },
+  "wall-geometry-1119.rgba": {
+    "source": "art/walls/ca007.frm",
+    "kind": "placement",
+    "object": 1119
+  },
+  "wall-geometry-1296.rgba": {
+    "source": "art/walls/ca056.frm",
+    "kind": "placement",
+    "object": 1296
+  },
+  "wall-geometry-1339.rgba": {
+    "source": "art/walls/ca057.frm",
+    "kind": "placement",
+    "object": 1339
+  },
+  "wall-geometry-0939.rgba": {
+    "source": "art/walls/ca023.frm",
+    "kind": "placement",
+    "object": 939
+  },
+  "wall-geometry-1047.rgba": {
+    "source": "art/walls/ca006.frm",
+    "kind": "placement",
+    "object": 1047
+  },
+  "wall-geometry-1045.rgba": {
+    "source": "art/walls/ca007.frm",
+    "kind": "placement",
+    "object": 1045
+  },
+  "wall-geometry-1297.rgba": {
+    "source": "art/walls/ca054.frm",
+    "kind": "placement",
+    "object": 1297
+  },
+  "wall-geometry-1340.rgba": {
+    "source": "art/walls/ca055.frm",
+    "kind": "placement",
+    "object": 1340
+  },
+  "wall-geometry-0967.rgba": {
+    "source": "art/walls/ca024.frm",
+    "kind": "placement",
+    "object": 967
+  },
+  "wall-geometry-1050.rgba": {
+    "source": "art/walls/ca004.frm",
+    "kind": "placement",
+    "object": 1050
+  },
+  "wall-geometry-1049.rgba": {
+    "source": "art/walls/ca005.frm",
+    "kind": "placement",
+    "object": 1049
+  },
+  "wall-geometry-1299.rgba": {
+    "source": "art/walls/ca054.frm",
+    "kind": "placement",
+    "object": 1299
+  },
+  "wall-geometry-1298.rgba": {
+    "source": "art/walls/ca066.frm",
+    "kind": "placement",
+    "object": 1298
+  },
+  "wall-geometry-1341.rgba": {
+    "source": "art/walls/ca053.frm",
+    "kind": "placement",
+    "object": 1341
+  },
+  "wall-geometry-1001.rgba": {
+    "source": "art/walls/ca025.frm",
+    "kind": "placement",
+    "object": 1001
+  },
+  "wall-geometry-1052.rgba": {
+    "source": "art/walls/ca002.frm",
+    "kind": "placement",
+    "object": 1052
+  },
+  "wall-geometry-1051.rgba": {
+    "source": "art/walls/ca003.frm",
+    "kind": "placement",
+    "object": 1051
+  },
+  "wall-geometry-1301.rgba": {
+    "source": "art/walls/ca056.frm",
+    "kind": "placement",
+    "object": 1301
+  },
+  "wall-geometry-1300.rgba": {
+    "source": "art/walls/ca053.frm",
+    "kind": "placement",
+    "object": 1300
+  },
+  "wall-geometry-1053.rgba": {
+    "source": "art/walls/ca026.frm",
+    "kind": "placement",
+    "object": 1053
+  },
+  "wall-geometry-1303.rgba": {
+    "source": "art/walls/ca054.frm",
+    "kind": "placement",
+    "object": 1303
+  },
+  "wall-geometry-1302.rgba": {
+    "source": "art/walls/ca055.frm",
+    "kind": "placement",
+    "object": 1302
+  },
+  "wall-geometry-1305.rgba": {
+    "source": "art/walls/ca058.frm",
+    "kind": "placement",
+    "object": 1305
+  },
+  "wall-geometry-1304.rgba": {
+    "source": "art/walls/ca053.frm",
+    "kind": "placement",
+    "object": 1304
+  },
+  "wall-geometry-1343.rgba": {
+    "source": "art/walls/ca036.frm",
+    "kind": "placement",
+    "object": 1343
+  },
+  "wall-geometry-1372.rgba": {
+    "source": "art/walls/ca021.frm",
+    "kind": "placement",
+    "object": 1372
+  },
+  "wall-geometry-1426.rgba": {
+    "source": "art/walls/ca056.frm",
+    "kind": "placement",
+    "object": 1426
+  },
+  "wall-geometry-1438.rgba": {
+    "source": "art/walls/ca053.frm",
+    "kind": "placement",
+    "object": 1438
+  },
+  "wall-geometry-1437.rgba": {
+    "source": "art/walls/ca063.frm",
+    "kind": "placement",
+    "object": 1437
+  },
+  "wall-geometry-1398.rgba": {
+    "source": "art/walls/ca056.frm",
+    "kind": "placement",
+    "object": 1398
+  },
+  "wall-geometry-1414.rgba": {
+    "source": "art/walls/ca068.frm",
+    "kind": "placement",
+    "object": 1414
+  },
+  "wall-geometry-1413.rgba": {
+    "source": "art/walls/ca069.frm",
+    "kind": "placement",
+    "object": 1413
+  },
+  "wall-geometry-1428.rgba": {
+    "source": "art/walls/ca070.frm",
+    "kind": "placement",
+    "object": 1428
+  },
+  "wall-geometry-1427.rgba": {
+    "source": "art/walls/ca066.frm",
+    "kind": "placement",
+    "object": 1427
+  },
+  "wall-geometry-1439.rgba": {
+    "source": "art/walls/ca055.frm",
+    "kind": "placement",
+    "object": 1439
+  },
+  "wall-geometry-1374.rgba": {
+    "source": "art/walls/ca056.frm",
+    "kind": "placement",
+    "object": 1374
+  },
+  "wall-geometry-1373.rgba": {
+    "source": "art/walls/ca069.frm",
+    "kind": "placement",
+    "object": 1373
+  },
+  "wall-geometry-1400.rgba": {
+    "source": "art/walls/ca066.frm",
+    "kind": "placement",
+    "object": 1400
+  },
+  "wall-geometry-1399.rgba": {
+    "source": "art/walls/ca067.frm",
+    "kind": "placement",
+    "object": 1399
+  },
+  "wall-geometry-1415.rgba": {
+    "source": "art/walls/ca055.frm",
+    "kind": "placement",
+    "object": 1415
+  },
+  "wall-geometry-1309.rgba": {
+    "source": "art/walls/ca056.frm",
+    "kind": "placement",
+    "object": 1309
+  },
+  "wall-geometry-1346.rgba": {
+    "source": "art/walls/ca068.frm",
+    "kind": "placement",
+    "object": 1346
+  },
+  "wall-geometry-1345.rgba": {
+    "source": "art/walls/ca069.frm",
+    "kind": "placement",
+    "object": 1345
+  },
+  "wall-geometry-1377.rgba": {
+    "source": "art/walls/ca068.frm",
+    "kind": "placement",
+    "object": 1377
+  },
+  "wall-geometry-1375.rgba": {
+    "source": "art/walls/ca055.frm",
+    "kind": "placement",
+    "object": 1375
+  },
+  "wall-geometry-1310.rgba": {
+    "source": "art/walls/ca054.frm",
+    "kind": "placement",
+    "object": 1310
+  },
+  "wall-geometry-1347.rgba": {
+    "source": "art/walls/ca055.frm",
+    "kind": "placement",
+    "object": 1347
+  },
+  "wall-geometry-1311.rgba": {
+    "source": "art/walls/ca058.frm",
+    "kind": "placement",
+    "object": 1311
+  },
+  "wall-geometry-1348.rgba": {
+    "source": "art/walls/ca053.frm",
+    "kind": "placement",
+    "object": 1348
+  },
+  "wall-geometry-1312.rgba": {
+    "source": "art/walls/ca056.frm",
+    "kind": "placement",
+    "object": 1312
+  },
+  "wall-geometry-1349.rgba": {
+    "source": "art/walls/ca057.frm",
+    "kind": "placement",
+    "object": 1349
+  },
+  "wall-geometry-1313.rgba": {
+    "source": "art/walls/ca056.frm",
+    "kind": "placement",
+    "object": 1313
+  },
+  "wall-geometry-1350.rgba": {
+    "source": "art/walls/ca057.frm",
+    "kind": "placement",
+    "object": 1350
+  },
+  "wall-geometry-1351.rgba": {
+    "source": "art/walls/ca055.frm",
+    "kind": "placement",
+    "object": 1351
+  },
+  "vault-rock-a.rgba": {
+    "source": "art/walls/ca036.frm",
+    "kind": "door",
+    "object": 252
+  },
+  "tile-062-v1.rgba": {
+    "source": "art/tiles/cav4009.frm",
+    "kind": "cap_variant"
+  },
+  "tile-062-v2.rgba": {
+    "source": "art/tiles/cav4009.frm",
+    "kind": "cap_variant"
+  },
+  "tile-062-v3.rgba": {
+    "source": "art/tiles/cav4009.frm",
+    "kind": "cap_variant"
+  },
+  "tile-063-v1.rgba": {
+    "source": "art/tiles/cav4010.frm",
+    "kind": "cap_variant"
+  },
+  "tile-063-v2.rgba": {
+    "source": "art/tiles/cav4010.frm",
+    "kind": "cap_variant"
+  },
+  "tile-063-v3.rgba": {
+    "source": "art/tiles/cav4010.frm",
+    "kind": "cap_variant"
+  }
+}

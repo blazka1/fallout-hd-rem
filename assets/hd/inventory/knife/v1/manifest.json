@@ -1,0 +1,76 @@
+{
+  "status": "user_approved_selected_asset",
+  "source_generation": "assets\\generated\\inventory-knife\\qwen21-handle-fill-v6-20261113",
+  "original_art": "art/inven/oknife.frm",
+  "pid": 4,
+  "inventory_fid": 117440608,
+  "native_size": [
+    88,
+    33
+  ],
+  "hd_size": [
+    352,
+    132
+  ],
+  "master_size": [
+    1152,
+    576
+  ],
+  "runtime_file": "data/art/inven/oknife.frm",
+  "render_mode": "HD RGBA Knife in HUD, inventory list/hand slots, and drag cursor; classic FRM fallback",
+  "conversion": "Lanczos 352x132 to 88x33; alpha threshold 128; nearest static Fallout palette entries 1..228; no dithering",
+  "source_frm_sha256": "cb83d29ba45ac19b00baa123eaed2c2397248cab8c5326d7bf225c582dfccb6f",
+  "files": {
+    "generation-result.json": "2f862ccb34cbc0ecdfa5de81c54115afe21dfcc1d8059b24302b7eec4156943f",
+    "knife-hd-x4.png": "aadca7c5909955ac922251a3690a2ba8abcf35daa442dbb4e4ce1125293a3c42",
+    "knife-master.png": "7d7fd9a3c98f8295f4d98d0f0dbb7aff68c91da7cc6eca48dbae5f77185648ce",
+    "knife-runtime-native.png": "b2596d83fe3efa6853860205d34445b7f1427f5df22b149994ab813ac4ab0e72",
+    "oknife.frm": "ec541d1a3ea6107ab452af8da4a909e8fb014ff634569e13e022a35af9cf3a0c",
+    "prompt-api.json": "5e22c15cfbefc18ab258ecc819c31fd834d19a0849c4281caa2a1497424d65f1",
+    "prompt.txt": "8a59587484868c70b4a5f44e0f9648fd25a34dcb16ed0f5f8a6794e2522fa5b5",
+    "source.json": "4914bf2cf5bf2750c47f8dd9723cab866064c27dbb3d09a9b587319958690ff3",
+    "workflow.json": "4624b0b7268d6d6a07cb0f6eccb8944095a85d05f8bcab83a0b36122ae202ae8",
+    "knife.rgba": "80d28ec1ba45f31d9ca9d929c6872b611be68eaf22ce9a92b084d1642634c5c4",
+    "README.txt": "cb445d493db319bf3fadefb6cb74ce46330072f6581d58b6f2947c11117aca6d"
+  },
+  "hud": {
+    "runtime_file": "data/art/hd/inventory/knife/knife.rgba",
+    "format": "F1HD version 1; 352x132 RGBA8; 20-byte header followed by original PNG pixels",
+    "conversion": "Lossless; all 46464 RGBA pixels compared equal to approved knife-hd-x4.png",
+    "scope": "Knife PID4 in HUD, inventory and drag cursor; other artwork remains classic",
+    "configuration": "[remaster] hd_hud_icons=1 (default); restart required",
+    "loaded_test": "build/hd-inventory-knife/preview/hd-v3-loaded/manifest.json",
+    "missing_test": "build/hd-inventory-knife/preview/hd-v3-missing/manifest.json",
+    "corrupt_test": "build/hd-inventory-knife/preview/hd-v3-corrupt/manifest.json",
+    "installation": "build/hd-inventory-knife/installations/20261113-130257-144.json"
+  },
+  "inventory": {
+    "report": "build/hd-inventory-knife/inventory-integration.json",
+    "installation": "build/hd-inventory-knife/installations/20261113-133623-368.json",
+    "list_logical_size": [
+      56,
+      21
+    ],
+    "hand_logical_size": [
+      88,
+      33
+    ]
+  },
+  "cursor": {
+    "report": "build/hd-inventory-knife/cursor-integration.json",
+    "installation": "build/hd-inventory-knife/installations/20261113-134623-877.json",
+    "logical_size": [
+      88,
+      33
+    ],
+    "rgba_size": [
+      352,
+      132
+    ],
+    "hotspot": [
+      44,
+      16
+    ],
+    "compositing": "SDL RGBA final cursor layer with alpha blending"
+  }
+}

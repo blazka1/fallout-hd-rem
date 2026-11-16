@@ -1,0 +1,35 @@
+{
+  "resource": "art/scenery/v13secr3.frm",
+  "asset_id": 16,
+  "native": [
+    342,
+    224
+  ],
+  "hd": [
+    1368,
+    896
+  ],
+  "rgb_patch": [
+    276,
+    608,
+    160,
+    244
+  ],
+  "alpha_addition": [
+    292,
+    628,
+    132,
+    212
+  ],
+  "alpha_policy": "Original 4x native binary alpha plus the old terminal recess only; requires the bounded HD-only frame fill hook.",
+  "rgb_changed_pixels": 38894,
+  "added_native_cells": 1453,
+  "source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\v13ent-terminal\\recess-v4-20261114",
+  "png_sha256": "2a018eb86d828f9066711001a4ed8af5c8ccd1fca80089782c5a48f36eea3b05",
+  "rgba_sha256": "c34017253b88f769013f72ef8df3a60d99df8a6ab71e26f9dd74d597e9677423",
+  "decoded_rgba_sha256": "32bb9a36b2e19264da9d1914ef4c0d402884bb3d75e43f05e6b268d02b5751c7",
+  "qwen_prompt_id": "f00f51ec-9f63-4e41-8d88-eb22bdc7f161",
+  "comfy_preparation_prompt_id": "35a90a78-904f-4a59-be2c-e322607e29dd",
+  "approved_terminal_package": "assets/hd/v13ent/terminal-user-contour-v3",
+  "terminal_files_unchanged": true
+}

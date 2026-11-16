@@ -1,0 +1,31 @@
+{
+  "key": "stalagmites",
+  "asset_id": 243,
+  "source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\v13ent-floor-decor\\v1-20261112\\stalagmites.png",
+  "source_sha256": "600bbffc9877d89882695ae070cd158752ba8c6d14f7dd17700286235bbc16cf",
+  "crop": [
+    172,
+    193,
+    839,
+    861
+  ],
+  "native_dimensions": [
+    30,
+    31
+  ],
+  "dimensions": [
+    120,
+    124
+  ],
+  "gain": 0.69,
+  "desaturation": 1.0,
+  "save_node": "80",
+  "file": "stalagmites.png",
+  "sha256": "69390df45fe3199526c7db526b633e12e49c8465f057110ea5a377891e542384",
+  "opaque_native_pixels": 379,
+  "render_only": true,
+  "game_object": false,
+  "collision": false,
+  "registration": "native pixel dimensions; tile center/bottom anchor plus placement offset",
+  "workflow": "assets\\generated\\v13ent-floor-decor\\integration-v1-20261112\\workflow.json"
+}

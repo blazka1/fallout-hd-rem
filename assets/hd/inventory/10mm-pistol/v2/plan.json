@@ -1,0 +1,16 @@
+{
+  "status": "preview",
+  "source": "assets\\generated\\inventory-10mm-pistol\\qwen21-current-hd-details-v6-20261114\\pistol-current-plus-details.png",
+  "source_sha256": "ee982eef69f6ed219831270e559a5ef7e376ffde648535ce2b947affa0cb59e7",
+  "requested": "Very slight extra rust; preserve approved detail variant",
+  "working": [
+    768,
+    768
+  ],
+  "seed": 14112028,
+  "steps": 25,
+  "cfg": 1,
+  "denoise": 1,
+  "model": "qwen_image_2.1_int8_convrot.safetensors",
+  "runtime_sha256": "177192156e61ceb6daf7762da06070216a2e0e69614dbbfa732a352da171a9e0"
+}

@@ -1,0 +1,29 @@
+{
+  "box": [
+    2892,
+    84,
+    5622,
+    1449
+  ],
+  "scale": 4,
+  "origin": [
+    4240,
+    400
+  ],
+  "ground_axes": [
+    [
+      48,
+      -12
+    ],
+    [
+      32,
+      24
+    ]
+  ],
+  "camera_elevation": 25.65890627325528,
+  "vertices": 97909,
+  "polygons": 169862,
+  "seed": 15112503,
+  "material_source": "assets\\generated\\v13ent-wall-blender\\natural-v2-20261115\\fallout-wall-corner.blend",
+  "sharp_edge_threshold_degrees": 55
+}

@@ -1,0 +1,3541 @@
+{
+  "status": "installed and verified",
+  "component": "wall-edges-v3",
+  "render_images": 418,
+  "registered_wall_placements": 417,
+  "approved_door_wall": 1,
+  "source_types": 62,
+  "assets": [
+    {
+      "runtime_file": "wall-geometry-0046.rgba",
+      "runtime_sha256": "504b1d8c8a3866d6b2b6ae75dc8cd67efd14aa232ea60a3524e046c75f557116",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0046.png",
+      "png_sha256": "e24d39d1ba0758cb9c2955eda86eaf5db75aa7b58cd72848dadb7d2c2515e94b",
+      "alpha_preserved": true,
+      "object_id": 46
+    },
+    {
+      "runtime_file": "wall-geometry-0049.rgba",
+      "runtime_sha256": "402fb4d7720bc33b654d4b77aa38d618175cb70bacaf86d7bb91d642b8ad5191",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0049.png",
+      "png_sha256": "e34f32652e184de04249f3f413d1fa16c647b289837f18778ffa4f8ec754cb7a",
+      "alpha_preserved": true,
+      "object_id": 49
+    },
+    {
+      "runtime_file": "wall-geometry-0052.rgba",
+      "runtime_sha256": "d6f8d641766cfea5469818674814e8d3759fa1f8c6bb1b4a9fe26628bbe5de1e",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0052.png",
+      "png_sha256": "fe82fba3bb83e075df317651b0a42a9814e37f19061bf3492a94ee95020d5f76",
+      "alpha_preserved": true,
+      "object_id": 52
+    },
+    {
+      "runtime_file": "wall-geometry-0055.rgba",
+      "runtime_sha256": "8988bbfeec65c9bc8c54a627b739444dd949d104ee4978432474e2308bc655ac",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0055.png",
+      "png_sha256": "154a934ce4a8f323e985c904bd139663fdd870cd7440f772e320a033d928fa0c",
+      "alpha_preserved": true,
+      "object_id": 55
+    },
+    {
+      "runtime_file": "wall-geometry-0058.rgba",
+      "runtime_sha256": "f0035330775994aa701fdbd2288f1e276c2d776f1f5ff470031391d2968111df",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0058.png",
+      "png_sha256": "e67871e6021ed18775f36bba5d838ebf177d1bacbebb910288aa1c1c47a53f81",
+      "alpha_preserved": true,
+      "object_id": 58
+    },
+    {
+      "runtime_file": "wall-geometry-0065.rgba",
+      "runtime_sha256": "75708b6cef550561e8f543b95c1d63b5c2451c652a521e0fbeec7f4fb81ee677",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0065.png",
+      "png_sha256": "af24eb48517e4dfbeae3a476d393ad202b2864ed3da577f5095b98ff98fbfd49",
+      "alpha_preserved": true,
+      "object_id": 65
+    },
+    {
+      "runtime_file": "wall-geometry-0073.rgba",
+      "runtime_sha256": "ffa607d905d1f12996844742744d0a10d47b04fd67c948bc7b0949b02c334558",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0073.png",
+      "png_sha256": "04a9d4be1447b46dbda978e2e0586c338ee425b307038561d2246b4439d11ecc",
+      "alpha_preserved": true,
+      "object_id": 73
+    },
+    {
+      "runtime_file": "wall-geometry-0083.rgba",
+      "runtime_sha256": "eff2d4522adc0e17f7d89f65ac5ac28fb95eb4fdbface590f665d3307dca3d3e",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0083.png",
+      "png_sha256": "91b66fe4f499c40348fe4f91bb544c7c0240c0c6f499969a73955b64780893f7",
+      "alpha_preserved": true,
+      "object_id": 83
+    },
+    {
+      "runtime_file": "wall-geometry-0092.rgba",
+      "runtime_sha256": "6a99348cec414a368d78028c8c98c6816f653e56ad5da8194f90edd3112ad290",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0092.png",
+      "png_sha256": "1e9bca0f9fb0809d4a0516e71c4aa6d5750a4603416071c4a7f8c4d124324cd1",
+      "alpha_preserved": true,
+      "object_id": 92
+    },
+    {
+      "runtime_file": "wall-geometry-0100.rgba",
+      "runtime_sha256": "af147098482ff86063ec1b94c210d120037816bd283025cde7abd83b5a1ecb31",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0100.png",
+      "png_sha256": "f10f9e3b17c35552465f3109c0d302c27309ed23e35de184acee8b3d41e46071",
+      "alpha_preserved": true,
+      "object_id": 100
+    },
+    {
+      "runtime_file": "wall-geometry-0108.rgba",
+      "runtime_sha256": "3338a94246f188fa694b7a12fdc5b94ecd453b4a9e8dc5720d3a22196f0647e1",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0108.png",
+      "png_sha256": "e33d195e78c7dce5164680fc0b6bd9ac0ff5f2f5da45c148512d4d8cbcf0347a",
+      "alpha_preserved": true,
+      "object_id": 108
+    },
+    {
+      "runtime_file": "wall-geometry-0118.rgba",
+      "runtime_sha256": "c65558f3320c47067ac731b5e6d4617ea3a569cb5fa5900961b610b3d2ac6819",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0118.png",
+      "png_sha256": "0f49f74b7ccb862c84a37a2874a0ad155d10a1515b48e17c567007c16d6f41bd",
+      "alpha_preserved": true,
+      "object_id": 118
+    },
+    {
+      "runtime_file": "wall-geometry-0128.rgba",
+      "runtime_sha256": "45226fa6de96518c63b45a6d79aeadeb6aaac9c073c0a94437096f7bf6fe1d03",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0128.png",
+      "png_sha256": "6b9a8cc7081abf088f99051fa40a4a54510353528733ccfee0e693bcdd2c002a",
+      "alpha_preserved": true,
+      "object_id": 128
+    },
+    {
+      "runtime_file": "wall-geometry-0210.rgba",
+      "runtime_sha256": "e92a4241ff041101f773860a05f9a6e307ce6fd5e07027001d1afb2c047f0e07",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0210.png",
+      "png_sha256": "2eede5d8eb14acc4449c6cf834405fd957e1103142c2cb928947e53abc6a6c62",
+      "alpha_preserved": true,
+      "object_id": 210
+    },
+    {
+      "runtime_file": "wall-geometry-0232.rgba",
+      "runtime_sha256": "7ece9e67409920dec052fdc6ffb54c1a1c6eed6bd34f5b26fb1e24b1e30471e6",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0232.png",
+      "png_sha256": "83d1e04ede836e26c2ba3ae9a72b5b5186a73b35935314b03cd0cb7888c39857",
+      "alpha_preserved": true,
+      "object_id": 232
+    },
+    {
+      "runtime_file": "wall-geometry-0142.rgba",
+      "runtime_sha256": "1a7a79dfe8ea50b350181cb9fbe5d0d9def4a81a6411647ffe83d75c8cab757c",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0142.png",
+      "png_sha256": "55ad946d88d244627c1026c2c0809dfcac9e477eac0d05014d0d3a9451a3b86c",
+      "alpha_preserved": true,
+      "object_id": 142
+    },
+    {
+      "runtime_file": "vault-rock-a.rgba",
+      "runtime_sha256": "3554c300021947d0a917e431a24da189b572457e46a30cc341f5f4df32106ede",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\vault-rock-a.png",
+      "png_sha256": "98ded451bf634878f2fc21f4c92fde93192dc9a00f44918638efe9732b039e17",
+      "alpha_preserved": true,
+      "object_id": 252
+    },
+    {
+      "runtime_file": "wall-geometry-0174.rgba",
+      "runtime_sha256": "e770c2b7521279a63def2fb9114cb1d99a57a2e4b3851c30554d409d7c3653a2",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0174.png",
+      "png_sha256": "584a2fab4671f1f86538b26fa1a4ad4431d37e80226c5225200fcb6a55ade8d0",
+      "alpha_preserved": true,
+      "object_id": 174
+    },
+    {
+      "runtime_file": "wall-geometry-0269.rgba",
+      "runtime_sha256": "aa039e7bb54def003cdb5dea42e8da130c43b2a988d0afdc281ed9b2eba5861c",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0269.png",
+      "png_sha256": "23cc2f64dfa86ebad82148daf89f9fa4b5c5d5922226a02ae50a5678de21d672",
+      "alpha_preserved": true,
+      "object_id": 269
+    },
+    {
+      "runtime_file": "wall-geometry-0193.rgba",
+      "runtime_sha256": "acac09e0b715b33a2a1cc2cbc44fb87910f19c049415b0805cfb216c934e678e",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0193.png",
+      "png_sha256": "665a203b981f8e984dbc8657ca813b956a7e0bb794876641ddfb4d0a3c77e7e6",
+      "alpha_preserved": true,
+      "object_id": 193
+    },
+    {
+      "runtime_file": "wall-geometry-0288.rgba",
+      "runtime_sha256": "6962bb5662ffa02e90830b657723bd192f4221f459a6bb3e7c92fae4952f0f7a",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0288.png",
+      "png_sha256": "02ff5bf3aeb7b4a39a465a012cdc4036ceae2458d3eea944fee8d56d6bc947ca",
+      "alpha_preserved": true,
+      "object_id": 288
+    },
+    {
+      "runtime_file": "wall-geometry-0222.rgba",
+      "runtime_sha256": "dc6100b7082b83181d5427d1a66fd5604f659e277fbd1d211f73c0a3ced89e36",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0222.png",
+      "png_sha256": "af4a0de6f25e29020d4cc73a99cc979d6650b7655b0c123550ac5fe1fdd655d6",
+      "alpha_preserved": true,
+      "object_id": 222
+    },
+    {
+      "runtime_file": "wall-geometry-0307.rgba",
+      "runtime_sha256": "5c6b2a8d6f53d5dd6668c14f436ce8ec7a46a183425d351312d5737f6cdee4ea",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0307.png",
+      "png_sha256": "73ab0b9e56f3e6e10ec3fc18131a01baa834128402f6a6c116d787a3adbb94a0",
+      "alpha_preserved": true,
+      "object_id": 307
+    },
+    {
+      "runtime_file": "wall-geometry-0241.rgba",
+      "runtime_sha256": "6d2855f98eee807526086e903e88b7a7a5096a886ad0b6c58d4e4b9f4bbc6c17",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0241.png",
+      "png_sha256": "afe19031b31593751b0c5c6db5ed9a03f72c5e67bab3ed6f97193bc1559b5127",
+      "alpha_preserved": true,
+      "object_id": 241
+    },
+    {
+      "runtime_file": "wall-geometry-0328.rgba",
+      "runtime_sha256": "8d746161fd985d2e9dcbb37071eaab5eab1c88aa4b110c3428a3d99c233366fb",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0328.png",
+      "png_sha256": "1860dd42810cce27c4bd2288268ffc4bee87f7329c6d87fb4872ffd31eec6134",
+      "alpha_preserved": true,
+      "object_id": 328
+    },
+    {
+      "runtime_file": "wall-geometry-0327.rgba",
+      "runtime_sha256": "2f7039f9a77ccc5e76b3cba14b50907941bce8de2f7519ea8db0acd41606daf1",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0327.png",
+      "png_sha256": "bc0ff5e5267732854374731d00c359ed67e75fc102bfd981bcd484a9b2876b82",
+      "alpha_preserved": true,
+      "object_id": 327
+    },
+    {
+      "runtime_file": "wall-geometry-0350.rgba",
+      "runtime_sha256": "f84897ab952fc7666b656272083e9d0100bb45ffca5d7b44548f1ff7a8905cf7",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0350.png",
+      "png_sha256": "babb7fb8c8beebaf45a3f5e62745420de9a49dd9d447bfc861db9a4f9c824f91",
+      "alpha_preserved": true,
+      "object_id": 350
+    },
+    {
+      "runtime_file": "wall-geometry-0349.rgba",
+      "runtime_sha256": "65dc904c6daa206baa49ddeb2d18ade1afe28afcb5a4c567e859e03bc9871737",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0349.png",
+      "png_sha256": "10e33d983386c0197da3b5b99483a640ccff8b0c79b5694a669ffe066d563c23",
+      "alpha_preserved": true,
+      "object_id": 349
+    },
+    {
+      "runtime_file": "wall-geometry-0366.rgba",
+      "runtime_sha256": "daeadbdeb29b1bbeb1fe1b1e103a580d58940674b0b48a08293005a8a5aada90",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0366.png",
+      "png_sha256": "2e6f3cd5484e147a520864497a562425c03117da706e64ca36d700b1000f90b2",
+      "alpha_preserved": true,
+      "object_id": 366
+    },
+    {
+      "runtime_file": "wall-geometry-0365.rgba",
+      "runtime_sha256": "ad5f8a78f4e369e229b129f3f89faefe828791859b29d9dff3858ab5e7ce8ff0",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0365.png",
+      "png_sha256": "db8abe2bb988cfa68c0eada3998fff377ccc8478a0909744322312c9d090e13e",
+      "alpha_preserved": true,
+      "object_id": 365
+    },
+    {
+      "runtime_file": "wall-geometry-0351.rgba",
+      "runtime_sha256": "27b8affe37daf227956392c43a7795caeee582958c212600d04053257ac150d4",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0351.png",
+      "png_sha256": "f0c3aae9377ddef09a8d1a28b387e664458f80a34f577772019dff29bac9f6d0",
+      "alpha_preserved": true,
+      "object_id": 351
+    },
+    {
+      "runtime_file": "wall-geometry-0257.rgba",
+      "runtime_sha256": "f3c613c1cb81ebaa014a363fcd3e1bad841e2dd9ba0b8839ce1f02d4bb797691",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0257.png",
+      "png_sha256": "808846a7f1abf08dcbd267542a9c7921d073db4f0c068021478d83550bdbc4b2",
+      "alpha_preserved": true,
+      "object_id": 257
+    },
+    {
+      "runtime_file": "wall-geometry-0415.rgba",
+      "runtime_sha256": "a962796286c2701969ccf3488cd88a95d89a3ddf2a9646a20acfe87f0b4cfe15",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0415.png",
+      "png_sha256": "6d8be16600a2ea3e63b491379e03bb130ab657d5e3dc4e17645563c7fc2bd01d",
+      "alpha_preserved": true,
+      "object_id": 415
+    },
+    {
+      "runtime_file": "wall-geometry-0434.rgba",
+      "runtime_sha256": "3ba22fb64ab37d9d17a33d428baef1dd66ed83c0be6ab9e7cc31dcc0771df7ff",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0434.png",
+      "png_sha256": "1a0205825709949265eeb606e13a55b0c66de65581c1299886ce3a9f7167c767",
+      "alpha_preserved": true,
+      "object_id": 434
+    },
+    {
+      "runtime_file": "wall-geometry-0452.rgba",
+      "runtime_sha256": "c4cd946a75207442f65c29a377990927cc75a9607edeb72234e4190ccf4c14ab",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0452.png",
+      "png_sha256": "33ac4a341dfd4448e08d40c7fdf824ce2ac78d8e047d7bc783d0f6abc5870a91",
+      "alpha_preserved": true,
+      "object_id": 452
+    },
+    {
+      "runtime_file": "wall-geometry-0162.rgba",
+      "runtime_sha256": "cb8f9f3f15c7beb02ffa6060c5efbcee8237ef8436af56798a1bf95a81fa7874",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0162.png",
+      "png_sha256": "0f1801dac0dfe179e30879c918a7aeb12b37dd5a5167423ce325aa09dbc89847",
+      "alpha_preserved": true,
+      "object_id": 162
+    },
+    {
+      "runtime_file": "wall-geometry-0161.rgba",
+      "runtime_sha256": "c7b2c182897e53f61e4b097d83a0fdd20fa4fa554dbed9800715c04e91a5c91e",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0161.png",
+      "png_sha256": "7a506df3e023d0ad73ade344ed56e8b52af77f3f360ddb4559be4785ab3b1db1",
+      "alpha_preserved": true,
+      "object_id": 161
+    },
+    {
+      "runtime_file": "wall-geometry-0197.rgba",
+      "runtime_sha256": "0f5404115ed3e513f04c07757150e7a3029c28697e6e10d77670adf673d4fbf2",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0197.png",
+      "png_sha256": "a46f2333a1a7be6916ad45cec25c2faada71b109c9312342a562122e29de1a8b",
+      "alpha_preserved": true,
+      "object_id": 197
+    },
+    {
+      "runtime_file": "wall-geometry-0291.rgba",
+      "runtime_sha256": "4ba20c4528d41eed690854d21468bae48d84e5d360e68e2784e4a2c6047a7f9b",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0291.png",
+      "png_sha256": "0484dcb4d6a77825278ec2326b7655ddf55fdcd62f0c93c1bebd78f79699005e",
+      "alpha_preserved": true,
+      "object_id": 291
+    },
+    {
+      "runtime_file": "wall-geometry-0463.rgba",
+      "runtime_sha256": "28401f50871e0e26ade6182d14a074f2039ed5c8cf723460bba25c484ee03b5f",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0463.png",
+      "png_sha256": "3503ad79c2c83ceafcebb2cf03b723ecf47d72f38847c12ac560b3cd65457529",
+      "alpha_preserved": true,
+      "object_id": 463
+    },
+    {
+      "runtime_file": "wall-geometry-0164.rgba",
+      "runtime_sha256": "87205538a7154c9b220ad42db74eebeb44857d279a0579496293fd2118674e67",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0164.png",
+      "png_sha256": "c864004b9965369f55848ad3f4e09ffd69cf63832547d3a00f9cc3d32d105aca",
+      "alpha_preserved": true,
+      "object_id": 164
+    },
+    {
+      "runtime_file": "wall-geometry-0163.rgba",
+      "runtime_sha256": "57b0f713db20f82c5608c2173881228415ddf3a7dfcd35e429e3408504abb0c4",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0163.png",
+      "png_sha256": "3bdbe0df2ea920ccae2e0006b75ff2aa4b4e995a2bf538c275d73dbde25cfcd4",
+      "alpha_preserved": true,
+      "object_id": 163
+    },
+    {
+      "runtime_file": "wall-geometry-0176.rgba",
+      "runtime_sha256": "58e8d5efc4c7f4281615f8f155e346cb61fd29ca84bd63bc04fed94d2a3c07b0",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0176.png",
+      "png_sha256": "29cd093f51740b1b0fa8b41fb6dfdf3d3580f7ab03b73101f122a98875b0aa37",
+      "alpha_preserved": true,
+      "object_id": 176
+    },
+    {
+      "runtime_file": "wall-geometry-0199.rgba",
+      "runtime_sha256": "f8c4747abadd80925b37210dc3481fe73b370e7d4cd367e8c1bfd7a735b5d4cd",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0199.png",
+      "png_sha256": "b00ebdac216931ab0cfc0038c2facddc6e0e5d3a1e9b8df7964d4e5b2500a4a9",
+      "alpha_preserved": true,
+      "object_id": 199
+    },
+    {
+      "runtime_file": "wall-geometry-0198.rgba",
+      "runtime_sha256": "ecceadfea6900046aa87e47ab59cd6e7c779486c6affc30f76929933e4fa7790",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0198.png",
+      "png_sha256": "1110c00401504631a71988ba43b31ee46cedad08f0a20fdd1620cc37e3657a23",
+      "alpha_preserved": true,
+      "object_id": 198
+    },
+    {
+      "runtime_file": "wall-geometry-0293.rgba",
+      "runtime_sha256": "e0cf1a90965659c06139c5308ac3e5c6c623d8195b567384d0105e1cc8952da2",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0293.png",
+      "png_sha256": "002f7d1f033f3c8eaa46d2f9892deb70418f28f6528fc0f7b656fd19ad5a9caf",
+      "alpha_preserved": true,
+      "object_id": 293
+    },
+    {
+      "runtime_file": "wall-geometry-0292.rgba",
+      "runtime_sha256": "77fd12a75b0af7190b51fb0b7eb9706806ff9b6f86581ee8113abf5dfc447c4d",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0292.png",
+      "png_sha256": "8314df1642f3087c2f0444a0d6298401c745ba2e0b833eb4649a8cda936a4cb9",
+      "alpha_preserved": true,
+      "object_id": 292
+    },
+    {
+      "runtime_file": "wall-geometry-0310.rgba",
+      "runtime_sha256": "06f101d832fcb2014474bcb64114d22891b401906864f9353b24d1952ad9e4ad",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0310.png",
+      "png_sha256": "ffcd4cf1c7f18963ca2ffb01dc99bbdad6eba409fd857878d8ba4acd421a6914",
+      "alpha_preserved": true,
+      "object_id": 310
+    },
+    {
+      "runtime_file": "wall-geometry-0331.rgba",
+      "runtime_sha256": "66371a4c233a49d7f6efcb7d9d22841163a55d2959a4e3da44df8fbdbf0c9d18",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0331.png",
+      "png_sha256": "ddfd7e61b5d5cea9c471312068f83db90658b6125275d7ecbb94647057c5021a",
+      "alpha_preserved": true,
+      "object_id": 331
+    },
+    {
+      "runtime_file": "wall-geometry-0330.rgba",
+      "runtime_sha256": "1b6681621cc57464a1366cec186d449f6b50924da95f5ee3fad7f278959fefb7",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0330.png",
+      "png_sha256": "823b4f9fb82182c83b44881ac57804d6560383b3d6d83f9406f8172f1c663c25",
+      "alpha_preserved": true,
+      "object_id": 330
+    },
+    {
+      "runtime_file": "wall-geometry-0165.rgba",
+      "runtime_sha256": "f0285d07a5363df05b5fbd3af3f9375b3d214ea812f3a3a776219b9f1fe18f89",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0165.png",
+      "png_sha256": "4a5adf013f9059ce9264e729e46f7198b1f6a52b86965c7489ca397789e76585",
+      "alpha_preserved": true,
+      "object_id": 165
+    },
+    {
+      "runtime_file": "wall-geometry-0243.rgba",
+      "runtime_sha256": "64e58f5b3ce688ac87e3846aef1c4c03a11244a59b11faf7f8723625fa419888",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0243.png",
+      "png_sha256": "ab11c2144ef92d61604d3dcdbc4e7bb44e72bdfd066f56d7d4c9c525aee61885",
+      "alpha_preserved": true,
+      "object_id": 243
+    },
+    {
+      "runtime_file": "wall-geometry-0277.rgba",
+      "runtime_sha256": "5e40add4836e1e7b0c5d26e87514c1f34591342a1b67fd79f55406721d6961a9",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0277.png",
+      "png_sha256": "b526cb7e48d3bc697de27daf0c5432834bd3fceb26412091ba48835c23735f32",
+      "alpha_preserved": true,
+      "object_id": 277
+    },
+    {
+      "runtime_file": "wall-geometry-0295.rgba",
+      "runtime_sha256": "9e876834333156f7bf281c8349773cd5c1378c49d66de358b275432ef2084519",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0295.png",
+      "png_sha256": "114b16597481dd603ce8b5185d79b6c210255f54a368b2e55fe87248b27ac2f8",
+      "alpha_preserved": true,
+      "object_id": 295
+    },
+    {
+      "runtime_file": "wall-geometry-0294.rgba",
+      "runtime_sha256": "277e19bc6f9f5be56b2d440c175b3833405cba27e08ac5995d276bcdd4e21177",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0294.png",
+      "png_sha256": "db11a6da3dec8b06c309239267e42315a26e27f59b8e58219b19a2508dda292d",
+      "alpha_preserved": true,
+      "object_id": 294
+    },
+    {
+      "runtime_file": "wall-geometry-0259.rgba",
+      "runtime_sha256": "ce054f924f4458a238197e6825bdb320e953d71d40238576d7de2648ddae9da8",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0259.png",
+      "png_sha256": "e1a8a70841529e15c3af715a5888442afefda99376f1ff00bf074d302eca3f9c",
+      "alpha_preserved": true,
+      "object_id": 259
+    },
+    {
+      "runtime_file": "wall-geometry-0278.rgba",
+      "runtime_sha256": "de4afd67107306f6f924d497901f8d17c025191d973f6f815d208edbce6b6228",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0278.png",
+      "png_sha256": "0ba2295ede8895d56f9b1578418646fb41c36f13319b986df453db2bcb57a90b",
+      "alpha_preserved": true,
+      "object_id": 278
+    },
+    {
+      "runtime_file": "wall-geometry-0296.rgba",
+      "runtime_sha256": "57b4ad1fe55c7fda2bdc700c853d7c14ba210dccd59f68234409a840fe7f64f0",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0296.png",
+      "png_sha256": "4832484cc75dca11068f044d6460bf15700ed2db26dbd21ccd533881f694fcb6",
+      "alpha_preserved": true,
+      "object_id": 296
+    },
+    {
+      "runtime_file": "wall-geometry-0333.rgba",
+      "runtime_sha256": "999e87d6d668473ce6f3fb6518d7b56dfbfc16ff39fbd917471690420463e4f9",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0333.png",
+      "png_sha256": "d11e700249ccf05d526a5426fc56170f48cd5d9e133455c2dccafbf5a490ce6e",
+      "alpha_preserved": true,
+      "object_id": 333
+    },
+    {
+      "runtime_file": "wall-geometry-0374.rgba",
+      "runtime_sha256": "80de65562b7b4bf2fb8d999ba41146a8b01a80c3846f51b19d4c97e7d748450b",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0374.png",
+      "png_sha256": "7d890dbdbad16a7ebcc151097ddc20eb89d4dca6104848dfd2e541d07f2ce2e2",
+      "alpha_preserved": true,
+      "object_id": 374
+    },
+    {
+      "runtime_file": "wall-geometry-0182.rgba",
+      "runtime_sha256": "c16359efd34303a76b8b94cd2a31e50670ac84757e7f4c8fb3afc1472962fb60",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0182.png",
+      "png_sha256": "c9a87be73daf4ba31fc4158ace572d1239f7d1da62d43e76a0c0a87828987c50",
+      "alpha_preserved": true,
+      "object_id": 182
+    },
+    {
+      "runtime_file": "wall-geometry-0280.rgba",
+      "runtime_sha256": "7724ec59a35ab28a2c050ed0c6898f86a3c74b3102956f5c7edb5b70a612e619",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0280.png",
+      "png_sha256": "4371b8542c936eef0d9c37a8d961ca37366c5d9acdcdead1021a868edbdc1517",
+      "alpha_preserved": true,
+      "object_id": 280
+    },
+    {
+      "runtime_file": "wall-geometry-0279.rgba",
+      "runtime_sha256": "a34779ff301548cce94be6a01f45f90532a145b5600a0b2eb3e2ffe9fb4ed203",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0279.png",
+      "png_sha256": "4c88c7bdbee3d9203934733a12eb70f191dcb53d3cffce7cc2694786343db497",
+      "alpha_preserved": true,
+      "object_id": 279
+    },
+    {
+      "runtime_file": "wall-geometry-0297.rgba",
+      "runtime_sha256": "c934a25d7e6edbb6912629fb538c6b0a4969f5dcd4263fff728ccc8cfd61a3cb",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0297.png",
+      "png_sha256": "eebf88c3dc079a6026aa9a282c1ceb42a8fe65170b07f3a350e8081fc888b852",
+      "alpha_preserved": true,
+      "object_id": 297
+    },
+    {
+      "runtime_file": "wall-geometry-0354.rgba",
+      "runtime_sha256": "3a16fbfc27c82ea11598d734151ebac64346b9c1bf8890681ed25bac4b66b31c",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0354.png",
+      "png_sha256": "dc24f863198cd535c82f941bdcce021cfd6c24b8bfee6bcc4869884d8a3a85c5",
+      "alpha_preserved": true,
+      "object_id": 354
+    },
+    {
+      "runtime_file": "wall-geometry-0397.rgba",
+      "runtime_sha256": "172e05634016e4b806bc98ea7366dbcbe602eb6bad6ccbd1e478cdf82e7151c1",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0397.png",
+      "png_sha256": "aa5ab383f2a5a252c7c79dd5c38d475cccf6a1c449e40b1f4e63e875ea104222",
+      "alpha_preserved": true,
+      "object_id": 397
+    },
+    {
+      "runtime_file": "wall-geometry-0396.rgba",
+      "runtime_sha256": "2e836ec5ec7180b5e677ff4db35db75b5ca04ebeb35a1a5915f0d7e513708931",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0396.png",
+      "png_sha256": "512e1e1b8544ec1dfd8cff649c5559114dc84fc8ea67f66d4dd1370716ea0554",
+      "alpha_preserved": true,
+      "object_id": 396
+    },
+    {
+      "runtime_file": "wall-geometry-0299.rgba",
+      "runtime_sha256": "10f18f84f3a92af69b7d8225e9b767be5f67d6693032db5fc15cac0d2b525337",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0299.png",
+      "png_sha256": "280e3d9084f4abc668621703b974fc02e3431adbbb68ff45fc25d95658b12a74",
+      "alpha_preserved": true,
+      "object_id": 299
+    },
+    {
+      "runtime_file": "wall-geometry-0375.rgba",
+      "runtime_sha256": "05e64ed126b154ea9108bf6e055eb82dfc44c927adfc75c36ecb352f733ad366",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0375.png",
+      "png_sha256": "154f0704254a9430b00269cfdd81c7653b9b40fce9bf0b0d2bb1d9d54afb4ff5",
+      "alpha_preserved": true,
+      "object_id": 375
+    },
+    {
+      "runtime_file": "wall-geometry-0399.rgba",
+      "runtime_sha256": "b5a1865f7e8312fe3cafb7c292eddc710db5f46bcf8ac6b6f5238a17437e884c",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0399.png",
+      "png_sha256": "5e00dcf55cfe147574052cbed31b629a0552d4b2e439fc3386c1901c76ad0d3f",
+      "alpha_preserved": true,
+      "object_id": 399
+    },
+    {
+      "runtime_file": "wall-geometry-0398.rgba",
+      "runtime_sha256": "64ee33aa3f4755e902efd3e8b6ffd5fb42b5da50e226b962623780f5e14f5ba6",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0398.png",
+      "png_sha256": "cae9bb0b3f69b73396f62686ce2e002652d7fd7652991d8e2c3c4538bf06f0e8",
+      "alpha_preserved": true,
+      "object_id": 398
+    },
+    {
+      "runtime_file": "wall-geometry-0504.rgba",
+      "runtime_sha256": "026c43a13bdfd7fd58d8583ac850d4e0a73cf3fad443d4a0e93e882d2a671b39",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0504.png",
+      "png_sha256": "cc02ec879157d337a497843a0b00f57d3fbed2092cb635dfc79e9da7cc284755",
+      "alpha_preserved": true,
+      "object_id": 504
+    },
+    {
+      "runtime_file": "wall-geometry-0522.rgba",
+      "runtime_sha256": "c9984a5344fd2d28d9953d8c126d1ced2a61338db779fe9890feb382eae7ae13",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0522.png",
+      "png_sha256": "b7c79745a03b13a9cae1852e7a21153edb6f4fe82f9fc872780d62f44ba489e6",
+      "alpha_preserved": true,
+      "object_id": 522
+    },
+    {
+      "runtime_file": "wall-geometry-0521.rgba",
+      "runtime_sha256": "b8c6cc0305f7fa45c8c18e9a3562e2f7b50e8bab8fdccdb250ec4332192d8143",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0521.png",
+      "png_sha256": "038d19737870df3081b8da2e4444006944e4f87eaa76f0dcf7b3c3137da68b8d",
+      "alpha_preserved": true,
+      "object_id": 521
+    },
+    {
+      "runtime_file": "wall-geometry-0672.rgba",
+      "runtime_sha256": "bbfbc2ad9c0bf94604ea7db9547080fd19c02513cb1cc7e55cc84caeeeeb894a",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0672.png",
+      "png_sha256": "ccdf422999823eac540173bd96c2d513be5b659895ab8b233dda07180587e166",
+      "alpha_preserved": true,
+      "object_id": 672
+    },
+    {
+      "runtime_file": "wall-geometry-0697.rgba",
+      "runtime_sha256": "f418e34d6246735d48142e6c371a2c69bc8d314eb30326ae0b9a9f707c0140ca",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0697.png",
+      "png_sha256": "ab2fc24644a50bf57548eb35fd002081159630e196686bd3b9dfffa3fd92db59",
+      "alpha_preserved": true,
+      "object_id": 697
+    },
+    {
+      "runtime_file": "wall-geometry-0400.rgba",
+      "runtime_sha256": "1220f8317f00232194ae9cc1abab9659e2d261a7a243077f24bb4881d97de753",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0400.png",
+      "png_sha256": "491b2fe12a623cddad5dedc29fcf4c51b008a4de2766d7b9e62381998371b50c",
+      "alpha_preserved": true,
+      "object_id": 400
+    },
+    {
+      "runtime_file": "wall-geometry-0505.rgba",
+      "runtime_sha256": "2477212b872cd093358c2f61f00760457b8e54424f96b8b31ae88f1d9a5a28ff",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0505.png",
+      "png_sha256": "cc30460354e3d97e2f94554b38c8584eb63ce736ab29458b583ef6f07ddc6fd2",
+      "alpha_preserved": true,
+      "object_id": 505
+    },
+    {
+      "runtime_file": "wall-geometry-0523.rgba",
+      "runtime_sha256": "259d57a1c81ed17c9e38280fb865fd8ee224487431117c0a89290581082fdca7",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0523.png",
+      "png_sha256": "0f7afb298359af2f4216ee2a26d0d99bfb38946df9b0fe9295a8e03f92975c0f",
+      "alpha_preserved": true,
+      "object_id": 523
+    },
+    {
+      "runtime_file": "wall-geometry-0698.rgba",
+      "runtime_sha256": "0cf0192fe9980af725dc0183fc0087c25376dcee8cedff9da9d150c314561127",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0698.png",
+      "png_sha256": "a1acc5d5ff86864b4696ed4de42785309c3e7a0639c4f422e9067f2a1bd6f557",
+      "alpha_preserved": true,
+      "object_id": 698
+    },
+    {
+      "runtime_file": "wall-geometry-0720.rgba",
+      "runtime_sha256": "bc87ccb12948cf7af63987d7adb096f0c798cf7f1eb0bbf4545bfbf9200f32f8",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0720.png",
+      "png_sha256": "657aa7a8e4bff7b304c03d83ac56a14d7d9864aa56a1667c74cf197ac3a08a3f",
+      "alpha_preserved": true,
+      "object_id": 720
+    },
+    {
+      "runtime_file": "wall-geometry-0719.rgba",
+      "runtime_sha256": "65a24148f66000e24fbe93ca8c4181f7357f686022f2fcb7e7c3f3290d502771",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0719.png",
+      "png_sha256": "aceae23326182d3cea0b27ebaf9384306270377480c61df7126379c1a765dfb9",
+      "alpha_preserved": true,
+      "object_id": 719
+    },
+    {
+      "runtime_file": "wall-geometry-0739.rgba",
+      "runtime_sha256": "47dea976d630be7e2d7fa5b1f2714a4e0b2070e2b1c4b938e1dace26f046e661",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0739.png",
+      "png_sha256": "317535f43aa3501a14c25176d92eb8e9ba7001cc97a2c8a881bb3d47bd65084f",
+      "alpha_preserved": true,
+      "object_id": 739
+    },
+    {
+      "runtime_file": "wall-geometry-0738.rgba",
+      "runtime_sha256": "d62826f8e5b5f54778e5792f6abffd47484cc922c7599c807b82dfcc8db297fc",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0738.png",
+      "png_sha256": "04541238c461c587696c7865bf59b4b365d8fdb48951dec7fbba335a85bf0c04",
+      "alpha_preserved": true,
+      "object_id": 738
+    },
+    {
+      "runtime_file": "wall-geometry-0756.rgba",
+      "runtime_sha256": "0345488e9ac6c7bc134312ac36c75a8b94d648516dc5a44c5a35ea268ee3aa0b",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0756.png",
+      "png_sha256": "217d8d9f757183281b7e84315d7932184efac70113dbe9f203ae99f210ff8a93",
+      "alpha_preserved": true,
+      "object_id": 756
+    },
+    {
+      "runtime_file": "wall-geometry-0755.rgba",
+      "runtime_sha256": "ce0b7cd18acf360352102fe75cd0978bcf6c4e02f78a70ce71057472944971da",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0755.png",
+      "png_sha256": "c2d8cc603612801ebb25c408aab23d49de95c2dbc85aff1d38d58bc4d56804cb",
+      "alpha_preserved": true,
+      "object_id": 755
+    },
+    {
+      "runtime_file": "wall-geometry-0772.rgba",
+      "runtime_sha256": "dede7a322459ebffc1e32b4b3d30d7e0d508d487c94ce6e868c06fbe5438b241",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0772.png",
+      "png_sha256": "979a27ee790204cba8a50088df16e5a32fe2452edceae20692190c295af91fa3",
+      "alpha_preserved": true,
+      "object_id": 772
+    },
+    {
+      "runtime_file": "wall-geometry-0771.rgba",
+      "runtime_sha256": "a8619645ec05084b471abb17db9c4aa7a61ec9b943b2df2a81688d9759f1a436",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0771.png",
+      "png_sha256": "259a70447c04ddb838b742d2c450e49f1e35631f70dcc2571a7829e6972c7e76",
+      "alpha_preserved": true,
+      "object_id": 771
+    },
+    {
+      "runtime_file": "wall-geometry-0773.rgba",
+      "runtime_sha256": "3b68be65e025f1a2b49256eff1906a8122c61489e17d86da34681202a13de4ab",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0773.png",
+      "png_sha256": "2d6fc0e13a5b47a160d377da3f90762d106342fc00d7efbb33d00521c8922ad8",
+      "alpha_preserved": true,
+      "object_id": 773
+    },
+    {
+      "runtime_file": "wall-geometry-0262.rgba",
+      "runtime_sha256": "29a6c9b819ded51d8c870dba0fe64e3f1e6d7001f50df415571e30ff074a5921",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0262.png",
+      "png_sha256": "1487c37937a67bbe41e2aea83447d6d51a11b76a301c468317c34e2d23d4086a",
+      "alpha_preserved": true,
+      "object_id": 262
+    },
+    {
+      "runtime_file": "wall-geometry-0551.rgba",
+      "runtime_sha256": "ad0906f1c8f023bd493ada2c4ab84cb90e0e263b0a174c74ab4e53687f8442cd",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0551.png",
+      "png_sha256": "a11060709666f5cf25a2b2a8025139a914b254c3f2e56f7c208da1cce4fe6b8f",
+      "alpha_preserved": true,
+      "object_id": 551
+    },
+    {
+      "runtime_file": "wall-geometry-0724.rgba",
+      "runtime_sha256": "3d9bc2baebf0c82bdcf469b616d05d449e7ae78ae57b46913d87f9c4b032ac96",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0724.png",
+      "png_sha256": "bfccb34667030bc4bd14d584bf8a9b1aea6740e87758efa6efa1793cc2aac68c",
+      "alpha_preserved": true,
+      "object_id": 724
+    },
+    {
+      "runtime_file": "wall-geometry-0815.rgba",
+      "runtime_sha256": "8c082dfc4b2228a0fc737b4d56cbcd70a2f9db7cf21dffe359bfc5573d431e8c",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0815.png",
+      "png_sha256": "5540bc6cc4adb7feeeefcccd5c55fc4f7c4bebe845556fe6fda64f35c131a995",
+      "alpha_preserved": true,
+      "object_id": 815
+    },
+    {
+      "runtime_file": "wall-geometry-0282.rgba",
+      "runtime_sha256": "fa3482721d4f7b4414aa7337b43c1d70f82884e2b55a225042918d0a567ec0cf",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0282.png",
+      "png_sha256": "3e5c0aac21ec2740e6ebf35d1b221a5379e5248fbcd373f80e77fe6e1e3ade94",
+      "alpha_preserved": true,
+      "object_id": 282
+    },
+    {
+      "runtime_file": "wall-geometry-0569.rgba",
+      "runtime_sha256": "79349f99757378e6db53bb004a0b01d25bb89c3facd4cd074bcc74db1cd1c28f",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0569.png",
+      "png_sha256": "1aa1d06600591404007be178c36f51cbf1ad48689bb38ba2c18cc72d7ad2044f",
+      "alpha_preserved": true,
+      "object_id": 569
+    },
+    {
+      "runtime_file": "wall-geometry-0834.rgba",
+      "runtime_sha256": "2da2ee54243f1d5f1a839be4b31b8c7ac829839110bda62e9256e5f338afb356",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0834.png",
+      "png_sha256": "c9467ba9345da221ec3813c7601098e0faeeedc6af2457db782128d2e0fce2f0",
+      "alpha_preserved": true,
+      "object_id": 834
+    },
+    {
+      "runtime_file": "wall-geometry-0301.rgba",
+      "runtime_sha256": "83d371004f8ca55915b9166cad988a7c6120f70087d2d5bb8388123fa650795e",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0301.png",
+      "png_sha256": "92941b0dbeccea33a7e429bc58bf7952a84c56d6c8041288d504d5954c452408",
+      "alpha_preserved": true,
+      "object_id": 301
+    },
+    {
+      "runtime_file": "wall-geometry-0586.rgba",
+      "runtime_sha256": "c98bfc03eebb9ffcfb8701e639140d79bdf02d5acb2c68d903df8ad6be3c2953",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0586.png",
+      "png_sha256": "62c65fa987b050af38e10da88671a3d4ba1dbb18a4d627a51b75c39aa5b86981",
+      "alpha_preserved": true,
+      "object_id": 586
+    },
+    {
+      "runtime_file": "wall-geometry-0851.rgba",
+      "runtime_sha256": "890c4c2f306044cbed2fcd8db58cb9139d8e2c7b98ddf8782d89ecbc4da7b176",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0851.png",
+      "png_sha256": "bf4efbcfa91edcb9b217e4ad7a1d1cf886ac9aa6fd067d0dfae6b25276afc34e",
+      "alpha_preserved": true,
+      "object_id": 851
+    },
+    {
+      "runtime_file": "wall-geometry-0320.rgba",
+      "runtime_sha256": "9d235642e8039c897c368d2806db2cbb0292412e55cf6c339d2fcfdc26c5c16f",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0320.png",
+      "png_sha256": "ddbe8a8619eb5c306a4c5bf4ba75d2ee0275d0df1734718f772941f3c93df31f",
+      "alpha_preserved": true,
+      "object_id": 320
+    },
+    {
+      "runtime_file": "wall-geometry-0600.rgba",
+      "runtime_sha256": "9d4e6b15da549e43ba497e0cb726f54f84b51b94f3ff92eaadbcc4ac438f41c6",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0600.png",
+      "png_sha256": "f8014c3910c98ebee7ca585fdc3a2db69c6c4f252c50747c0f40aae1624fbc08",
+      "alpha_preserved": true,
+      "object_id": 600
+    },
+    {
+      "runtime_file": "wall-geometry-0657.rgba",
+      "runtime_sha256": "3c0d8f90330461056d739ad9216c61e8f7ee596e8b9c423c364d7e45f90818b7",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0657.png",
+      "png_sha256": "9606c51d56dd81f15cf6b7a0a3ca4ffa15c1c8b292d0c3c215852e5ceb189cad",
+      "alpha_preserved": true,
+      "object_id": 657
+    },
+    {
+      "runtime_file": "wall-geometry-0673.rgba",
+      "runtime_sha256": "6cbdfb76238803c299bdc447b1a39e272cda808cce1f05efcc3bcd6b1f59cbb8",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0673.png",
+      "png_sha256": "8f451ab30780d8ba9fc2b5c8fdfd7d43c7ae6723ff89495ee28f36aaf19f4739",
+      "alpha_preserved": true,
+      "object_id": 673
+    },
+    {
+      "runtime_file": "wall-geometry-0699.rgba",
+      "runtime_sha256": "1dbde83e45eb972ecd27103340969ee71ef45dc7083419590d19ae781bfe96bb",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0699.png",
+      "png_sha256": "de8792b819d215e371416519d8381500f4bc3edac81e6975601581a88f388b52",
+      "alpha_preserved": true,
+      "object_id": 699
+    },
+    {
+      "runtime_file": "wall-geometry-0874.rgba",
+      "runtime_sha256": "0aa4ff0ba8968053736e16000f4bfb9349b86d9efd831df000a32c84be82ee02",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0874.png",
+      "png_sha256": "bfcbf074173dd13931112c1af080f5455cd56dd9f2da04347fa7792ee630ff36",
+      "alpha_preserved": true,
+      "object_id": 874
+    },
+    {
+      "runtime_file": "wall-geometry-0343.rgba",
+      "runtime_sha256": "373a9fb786e4ed809fda92ef2691bc13e1437aabc4bf863698228f2425426be8",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0343.png",
+      "png_sha256": "1434256121de78d0382c37008f747cec5f6d4c7b86b1658fd5bd598b4b686b70",
+      "alpha_preserved": true,
+      "object_id": 343
+    },
+    {
+      "runtime_file": "wall-geometry-0618.rgba",
+      "runtime_sha256": "7300c8f9a68fd4cdf96e7648c9362641134c32a6f8515fa4b553ecba6f72088f",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0618.png",
+      "png_sha256": "e5f9a83190d97f9017563dd6cb52bb225501d4f31ac2763416861877a1dea1bd",
+      "alpha_preserved": true,
+      "object_id": 618
+    },
+    {
+      "runtime_file": "wall-geometry-0658.rgba",
+      "runtime_sha256": "4bac6d24658302b0f8793355884b6f56f7eda0cb909ff2ff07413c4a9e2fde6b",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0658.png",
+      "png_sha256": "a32c23d291b4a20a9497624bb405cf6dbbf8f7100c9d956275707a72f64f8a61",
+      "alpha_preserved": true,
+      "object_id": 658
+    },
+    {
+      "runtime_file": "wall-geometry-0674.rgba",
+      "runtime_sha256": "6118f15f0124dc11bac278d124a35d50496285476252911ee88505f1c13c2ee9",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0674.png",
+      "png_sha256": "374a5b3844a1f60e259b8b5e5765d97b05b70513f6cba43468c6e3f8e39f0b6b",
+      "alpha_preserved": true,
+      "object_id": 674
+    },
+    {
+      "runtime_file": "wall-geometry-0701.rgba",
+      "runtime_sha256": "d3053194ea180228054dcb14d77397b6ab8c58cf1824f7a592f68f0e8e4881f2",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0701.png",
+      "png_sha256": "49f0a033eb7458e4b7bfff86d8fedad4d871c9ffafc114ea4929462023559ae1",
+      "alpha_preserved": true,
+      "object_id": 701
+    },
+    {
+      "runtime_file": "wall-geometry-0700.rgba",
+      "runtime_sha256": "0be87e656cdb3e45027d0aaf32f1a6bd36bea848045f6be776d6a0adf4d1745b",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0700.png",
+      "png_sha256": "815856d6d09c2a87f482d0c572fa0aaf0b186c57f5242ff54ed3aba55249be87",
+      "alpha_preserved": true,
+      "object_id": 700
+    },
+    {
+      "runtime_file": "wall-geometry-0725.rgba",
+      "runtime_sha256": "24fdd1f95122afe8bcbf44ce4259e8d981c0c18443e0d73a9b2460822c5da197",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0725.png",
+      "png_sha256": "c2279e46d3a033fec6e06771a85e62f97a44ed56867f23bc05598614e639a546",
+      "alpha_preserved": true,
+      "object_id": 725
+    },
+    {
+      "runtime_file": "wall-geometry-0779.rgba",
+      "runtime_sha256": "7ade381e34d6e8285e6073957b84c54bfe18617a4da47c37fbcc1e573d5eb8a8",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0779.png",
+      "png_sha256": "e89823a504820951ca6c400b36cca4222849eef77f93efa795fcdb895f10572b",
+      "alpha_preserved": true,
+      "object_id": 779
+    },
+    {
+      "runtime_file": "wall-geometry-0778.rgba",
+      "runtime_sha256": "dc5f1cc53bd65a2e29564ef1f99fc3459cbdf4dbbaca6bcdb54ec872308dce74",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0778.png",
+      "png_sha256": "ea2a800412a8b994892c36e3aa20546b6adbe444da7095435e98aeb7abab3079",
+      "alpha_preserved": true,
+      "object_id": 778
+    },
+    {
+      "runtime_file": "wall-geometry-0893.rgba",
+      "runtime_sha256": "2c4691bb6ce62c97d39a83595e088e22dfcdd4ef45005aa83ce3b6fb7741bfd8",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0893.png",
+      "png_sha256": "3bd6f5c2c7ca0dbbf6c6388331a48599c4d6990ac00ac9f3569e92d3802a4b9e",
+      "alpha_preserved": true,
+      "object_id": 893
+    },
+    {
+      "runtime_file": "wall-geometry-0357.rgba",
+      "runtime_sha256": "93b9f80c0348b451ca39fd999c1a051680e972b6900b01f666468cdfc98c0dab",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0357.png",
+      "png_sha256": "fb62eb4779fcc5d6f1ac0ad77b7d4bcd8c35ad0dc1d4fcb7b392e939b0d34824",
+      "alpha_preserved": true,
+      "object_id": 357
+    },
+    {
+      "runtime_file": "wall-geometry-0633.rgba",
+      "runtime_sha256": "f4c1411591f94c555a71eb644b6f9aebc884f4e18a91ffaf4473a5d82895c22f",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0633.png",
+      "png_sha256": "fecd7833cca6b7cc19687142d9efd83761b40a2d6924583b39826a7b0c74ffdd",
+      "alpha_preserved": true,
+      "object_id": 633
+    },
+    {
+      "runtime_file": "wall-geometry-0659.rgba",
+      "runtime_sha256": "ef42cc26c36b83be6c1a9ea66e4db32b4f5f3d77c3eefc9e689e5a3fe11e547d",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0659.png",
+      "png_sha256": "8a4db2e4769204d9375f7e39314356b37ed7de520b1178ef9b43026af68a91a7",
+      "alpha_preserved": true,
+      "object_id": 659
+    },
+    {
+      "runtime_file": "wall-geometry-0676.rgba",
+      "runtime_sha256": "4356e5b92dae3179c0ffe629fc2b5357dacab94832f0742825ae1e13085cbc3d",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0676.png",
+      "png_sha256": "1dfdcead2bfdf6cea91c80625aeb05b96068c2ccf9c8e90632cc9a09469ac00c",
+      "alpha_preserved": true,
+      "object_id": 676
+    },
+    {
+      "runtime_file": "wall-geometry-0746.rgba",
+      "runtime_sha256": "6b121d2db3edf735d1cbeee2c7535c54eb763369629d8f9d8cd4dd00348eece7",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0746.png",
+      "png_sha256": "81bdb72697e40319dfa9e84cd99b9bdc83d6b1a8f38c94478faf95c619b24fed",
+      "alpha_preserved": true,
+      "object_id": 746
+    },
+    {
+      "runtime_file": "wall-geometry-0762.rgba",
+      "runtime_sha256": "121913c98136b5cbf9b8edecc6d9abe4d27622f51cb36ca6b9ea0be70046709e",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0762.png",
+      "png_sha256": "c89637c8a2564fd645e6fa0e0e6da613eae4f53afabcd3e9f10dc17f0b0a00c7",
+      "alpha_preserved": true,
+      "object_id": 762
+    },
+    {
+      "runtime_file": "wall-geometry-0761.rgba",
+      "runtime_sha256": "abc825667c123d22017072765ebf289d35d509e13a21bddec775f250ffec074b",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0761.png",
+      "png_sha256": "0e4f5e5a52344383b96e68366f16f844787d554df710d4fa5245e9da5dc635c4",
+      "alpha_preserved": true,
+      "object_id": 761
+    },
+    {
+      "runtime_file": "wall-geometry-0781.rgba",
+      "runtime_sha256": "ff665d34fe589fcf53677179b68a1eefb4c3985fa51f790db24db17abe696544",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0781.png",
+      "png_sha256": "3f3a9c7967265747a6758e615f4a88ce49b5947cffec1c60c68b1926d35c91d7",
+      "alpha_preserved": true,
+      "object_id": 781
+    },
+    {
+      "runtime_file": "wall-geometry-0780.rgba",
+      "runtime_sha256": "71ba90b7bf98aa6e0bddd05822559bfbbd3272c48d74412af95f30331a178dfe",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0780.png",
+      "png_sha256": "cd3e7f363b0b495be19ade8b11e3bf110eb88411257eda365fcf506d968d5b37",
+      "alpha_preserved": true,
+      "object_id": 780
+    },
+    {
+      "runtime_file": "wall-geometry-0919.rgba",
+      "runtime_sha256": "c5c9ab85dbe7bba51263de505cad60294f5f6ccc7f8e3f1f5d068fccd1fe57a1",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0919.png",
+      "png_sha256": "4e16a2596f269ed26b466094e31b927cb24f44b6d79e2b80283b76904ca5f147",
+      "alpha_preserved": true,
+      "object_id": 919
+    },
+    {
+      "runtime_file": "wall-geometry-0358.rgba",
+      "runtime_sha256": "9d37f41e20337693d790c040e802e9dd5ef46a9dc0ca5d7ff88422ae1e3120e3",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0358.png",
+      "png_sha256": "e6d1cbac11ba14cb1699abbce791a7dc6a60b6f7a9f461097ca9fb25054fa372",
+      "alpha_preserved": true,
+      "object_id": 358
+    },
+    {
+      "runtime_file": "wall-geometry-0380.rgba",
+      "runtime_sha256": "f7a3218362e5befe9e8ee54abe2d38840d556e467818a5fb4d234444daafc407",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0380.png",
+      "png_sha256": "943939d1d080d1adce8996fbc59cc2499c64b572a3e4e03dc846e19fedca9156",
+      "alpha_preserved": true,
+      "object_id": 380
+    },
+    {
+      "runtime_file": "wall-geometry-0530.rgba",
+      "runtime_sha256": "4463f10b45a40a6964e7ea4e7839ee6cbdf3d0a2f369605c0b2a63c7893b694c",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0530.png",
+      "png_sha256": "66e4d060731cabb38f1bb224022b0828b917935458888406c08dce079f7df44e",
+      "alpha_preserved": true,
+      "object_id": 530
+    },
+    {
+      "runtime_file": "wall-geometry-0529.rgba",
+      "runtime_sha256": "8b9a547cd1be4c9180dbe86428f0713dcb53060e56920663ebffd560c9f3006b",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0529.png",
+      "png_sha256": "e7e8528a47c7fb0a9bea2c5cbeb69c625731915013eb9fb21dcc9dcc1e62e6ca",
+      "alpha_preserved": true,
+      "object_id": 529
+    },
+    {
+      "runtime_file": "wall-geometry-0556.rgba",
+      "runtime_sha256": "7c0fafa7ee968fa42352d19e827140ef115fa23a688784dd779fb72c7149146e",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0556.png",
+      "png_sha256": "5ddc5fecf080a49dd6b88f5373f4d4521616f3a5ff9f97d875512ede2fac57de",
+      "alpha_preserved": true,
+      "object_id": 556
+    },
+    {
+      "runtime_file": "wall-geometry-0555.rgba",
+      "runtime_sha256": "9606b3a826cc67b6485a5bb78b3232c02fe4501b3d772addede79d8ee98bd829",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0555.png",
+      "png_sha256": "2286872091ac7196d608fc308abf84d8c2750243dcbfc98942e31947cfbdc612",
+      "alpha_preserved": true,
+      "object_id": 555
+    },
+    {
+      "runtime_file": "wall-geometry-0648.rgba",
+      "runtime_sha256": "a8bb52382e8aa78b32ce1a9c47e4a169a5e484b05c860e9a006c3c28b50b4cae",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0648.png",
+      "png_sha256": "32b25719010de5e60b4ceae31a42705d422de749f4b8e420d5b3dc77322fd740",
+      "alpha_preserved": true,
+      "object_id": 648
+    },
+    {
+      "runtime_file": "wall-geometry-0660.rgba",
+      "runtime_sha256": "89332f6834465b400d250e0767cf6a1cc738a1031165d176bc2b3d0af6a64d0b",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0660.png",
+      "png_sha256": "f73f3e24030ae49fd383aed6b3a795e9f32146c346f520dc905bb40d1032c645",
+      "alpha_preserved": true,
+      "object_id": 660
+    },
+    {
+      "runtime_file": "wall-geometry-0678.rgba",
+      "runtime_sha256": "2ba35fbf18557737e26fa2dc38e1ed670aae0d5d6a1b7f5c585e0cf95576ad44",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0678.png",
+      "png_sha256": "6bb2de522ac98cc7f78f957b487c21e64e6224b4e94b0e0a584ce95f65d1a838",
+      "alpha_preserved": true,
+      "object_id": 678
+    },
+    {
+      "runtime_file": "wall-geometry-0946.rgba",
+      "runtime_sha256": "735249a09e514c4eab372a500a5514719cd4194a0b2eaa7597ac188cbfe12c8f",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0946.png",
+      "png_sha256": "5216c77d0126ea51b424dd788c2f1a7f36877da503a8cef3de7517f94f838798",
+      "alpha_preserved": true,
+      "object_id": 946
+    },
+    {
+      "runtime_file": "wall-geometry-0381.rgba",
+      "runtime_sha256": "205a3d5013e10975924f5a1c1b520b2bc309706bce8f703980f0fa4cf0d91eeb",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0381.png",
+      "png_sha256": "08e06435bf86fc7db5e283d79586afacb9bed1af12e7ce5db960bd79ab61e8d4",
+      "alpha_preserved": true,
+      "object_id": 381
+    },
+    {
+      "runtime_file": "wall-geometry-0532.rgba",
+      "runtime_sha256": "2ada7c1f260b32944bbc9cdc1a1ea1ddc47e4c3b283b0cef84906793806e8fb3",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0532.png",
+      "png_sha256": "f5eecae718b350f9bc36f007befb7a3d33c17e9d3b2a71a6551045941fe81582",
+      "alpha_preserved": true,
+      "object_id": 532
+    },
+    {
+      "runtime_file": "wall-geometry-0531.rgba",
+      "runtime_sha256": "8e7bb4e29a6d433107998accd8b59ad944f8fe61c0e9ab6d4be4cd3909763d87",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0531.png",
+      "png_sha256": "94fe9414722433c1a1ac2a680987013c14894e7ef940dba942c4f9e3369b80d4",
+      "alpha_preserved": true,
+      "object_id": 531
+    },
+    {
+      "runtime_file": "wall-geometry-0662.rgba",
+      "runtime_sha256": "ef27a58a5b4ba2f3b1d1427ea2ca3effe00e3a90cd2120d958ab2efb260786b4",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0662.png",
+      "png_sha256": "2dfa49dba427f1b9cce4f4f95d939f0be374afcb0b229131ed678672a69a4cad",
+      "alpha_preserved": true,
+      "object_id": 662
+    },
+    {
+      "runtime_file": "wall-geometry-0661.rgba",
+      "runtime_sha256": "afd9e569a56ea800f9d7b61d21e6ba06bf15b5dd975994e880ee86ffa05dc54f",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0661.png",
+      "png_sha256": "5e54218110b913aecb4028a8f654d91e7d6522c69307f2cb0e2cea279927d1ef",
+      "alpha_preserved": true,
+      "object_id": 661
+    },
+    {
+      "runtime_file": "wall-geometry-0680.rgba",
+      "runtime_sha256": "319e5ca6dfd7829367e1d79e3866d7b1a669df9267ecd2c84a9198fe3b6b3bce",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0680.png",
+      "png_sha256": "1fb17eabdaaf4a28747c57e4b6cf948115327223df46e4762d3badc499be067d",
+      "alpha_preserved": true,
+      "object_id": 680
+    },
+    {
+      "runtime_file": "wall-geometry-0975.rgba",
+      "runtime_sha256": "62fe18c90fb4367975defdd118388b9a8c8749147cf14fb40148e5d4431a5133",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0975.png",
+      "png_sha256": "93149a7a5854ca70b39df946ff21ef45347a4488578de65c239afd0a386d111a",
+      "alpha_preserved": true,
+      "object_id": 975
+    },
+    {
+      "runtime_file": "wall-geometry-0534.rgba",
+      "runtime_sha256": "3cdf6f1007f0a46e24e701e494c86796dd136831427874ac68f8c4ad0ad0a347",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0534.png",
+      "png_sha256": "3bb11f2df55339b7b3be3e8d01912c9741a5c04b1b02d489d260fb528ab5c404",
+      "alpha_preserved": true,
+      "object_id": 534
+    },
+    {
+      "runtime_file": "wall-geometry-0533.rgba",
+      "runtime_sha256": "5acb337b54868321257354edfde574bd0edf919dbb9b7d96c3588a3f5e65276a",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0533.png",
+      "png_sha256": "f84f408b14b72e3b97d77f96836ecbba183882b823f12fdd5dbbe8bf8e92609c",
+      "alpha_preserved": true,
+      "object_id": 533
+    },
+    {
+      "runtime_file": "wall-geometry-0589.rgba",
+      "runtime_sha256": "49fc70e1f80ce8ec0734ef73e142bc549432c874e4a2d9fe7df2a6a4bda1c224",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0589.png",
+      "png_sha256": "9c02cf3971c886c73e0e3bbfc21b28ec347712ab5df5f53efbb1e361fef6fe04",
+      "alpha_preserved": true,
+      "object_id": 589
+    },
+    {
+      "runtime_file": "wall-geometry-0682.rgba",
+      "runtime_sha256": "c9502f79b2c927f8b34f111f301e87582546be4c95bb1205743a0eb5f5663f3b",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0682.png",
+      "png_sha256": "d0b45f9c84e9d68df831faecdd84413863826e374621efba2647ca94398bed5f",
+      "alpha_preserved": true,
+      "object_id": 682
+    },
+    {
+      "runtime_file": "wall-geometry-0407.rgba",
+      "runtime_sha256": "0e52c45cf319d7e7a165187d94bd77f959ec290f191210a05930d294684fc0e4",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0407.png",
+      "png_sha256": "8b96f97b35d8400a51f3203a37080d667932d7082f101df9de105ebc86e63516",
+      "alpha_preserved": true,
+      "object_id": 407
+    },
+    {
+      "runtime_file": "wall-geometry-0605.rgba",
+      "runtime_sha256": "99344c8c8d2196dc2e7004e559f0f036b6a70a71a29d426574a3ae87e9d51d97",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0605.png",
+      "png_sha256": "9af3d834c54294648aa79f2fb6e3819c1575c567dd0738bd977c64574873b467",
+      "alpha_preserved": true,
+      "object_id": 605
+    },
+    {
+      "runtime_file": "wall-geometry-0558.rgba",
+      "runtime_sha256": "eb9f533c9d2a92018d0ea56a4b52d98137831a5a58aa039afdd8be2500391eff",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0558.png",
+      "png_sha256": "e3bc9ce2463377118098fa4005b848e052bab88b6d35f58dfd3f551f09cdc4cb",
+      "alpha_preserved": true,
+      "object_id": 558
+    },
+    {
+      "runtime_file": "wall-geometry-0621.rgba",
+      "runtime_sha256": "aa4524f288cd3a4560d75773c51725073b28723d372cbb1cd166eb82edbf77ac",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0621.png",
+      "png_sha256": "bcd55a5fa28671d59993cfe4cf6fde3421391696779ca6116c697aaf0ca0edf1",
+      "alpha_preserved": true,
+      "object_id": 621
+    },
+    {
+      "runtime_file": "wall-geometry-0575.rgba",
+      "runtime_sha256": "55b1828be6e4a0661692bdff424a93f93af2d134ad8dd6b75a6f7ff54b818a28",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0575.png",
+      "png_sha256": "85a71f7dfa9d531231f8adfcd4e295fc241bd856eab3a8f1a27b037e48692f3f",
+      "alpha_preserved": true,
+      "object_id": 575
+    },
+    {
+      "runtime_file": "wall-geometry-0636.rgba",
+      "runtime_sha256": "b14cfd919a7d5d07e2dbf2e59ff00eabafe9c9b5d80f0cab3bfd13012a28487d",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0636.png",
+      "png_sha256": "2ea70d99e6a933cdd218aa8ed1fe1cd44bd11977f09d3ba9264fbc68440b5666",
+      "alpha_preserved": true,
+      "object_id": 636
+    },
+    {
+      "runtime_file": "wall-geometry-0590.rgba",
+      "runtime_sha256": "7cf1b71e9901dde03b43291c44e49b174950d6059823bdddc394cf91145a6a8f",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0590.png",
+      "png_sha256": "5e709a9114592104462417d501ebc028833ac5a8ccc0f047ce4faf642512d939",
+      "alpha_preserved": true,
+      "object_id": 590
+    },
+    {
+      "runtime_file": "wall-geometry-0651.rgba",
+      "runtime_sha256": "6e82d37cf49c111573ac337ffff54e6086079b2c18afad65318b90304b4017f3",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0651.png",
+      "png_sha256": "4a256b7b2684f636572aa7d45571023da95061eb5b0a0782e57f9b8c6d1b3ac4",
+      "alpha_preserved": true,
+      "object_id": 651
+    },
+    {
+      "runtime_file": "wall-geometry-1099.rgba",
+      "runtime_sha256": "b6f1d2aad26ccf55f3c4aaaeb6422afa1c08935f1934a0d8d7a2b6c7d08158f3",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1099.png",
+      "png_sha256": "8855c74a0444c779d69735648b8d804506802c8d1abba8916bb8b6105b6fddd7",
+      "alpha_preserved": true,
+      "object_id": 1099
+    },
+    {
+      "runtime_file": "wall-geometry-1142.rgba",
+      "runtime_sha256": "11f75feeaaab9c4c7850683fcd3cf883167b38563b2b51c51d6ee516ea7a3784",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1142.png",
+      "png_sha256": "8301b5e6b185415be4b88101adb7487f32e7e4a416e62fe100c26aeb56df020b",
+      "alpha_preserved": true,
+      "object_id": 1142
+    },
+    {
+      "runtime_file": "wall-geometry-1141.rgba",
+      "runtime_sha256": "de605829b6abdea91eb9bfe5963bfbf03c4b881f254ba76dda5a237ec15ff2a9",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1141.png",
+      "png_sha256": "1d702ca09c6f20b7b0961ba56282a22c4703af67cdce7d551f6437f0b13c8d72",
+      "alpha_preserved": true,
+      "object_id": 1141
+    },
+    {
+      "runtime_file": "wall-geometry-0457.rgba",
+      "runtime_sha256": "5ce8177ce1df4a04a3bd16a0d6ad26ad9751a23414bd7753e4909f6f999dc83c",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0457.png",
+      "png_sha256": "2944afbcc7dd921932956d28289c155a17a754dd40e74c472efbc38c67733c03",
+      "alpha_preserved": true,
+      "object_id": 457
+    },
+    {
+      "runtime_file": "wall-geometry-0606.rgba",
+      "runtime_sha256": "683fb2a63131bbfe3b4fa1c90cb4125e72e761c2887157371e6fd40ba333857e",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0606.png",
+      "png_sha256": "6fc851905a1392995855eff1b56e3e0bee5ddae2f602f18d29a528f8280506e2",
+      "alpha_preserved": true,
+      "object_id": 606
+    },
+    {
+      "runtime_file": "wall-geometry-0665.rgba",
+      "runtime_sha256": "66f90fdf7318f347ef1ce55a346288179b0d688eab708e15b71012b05c49f905",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0665.png",
+      "png_sha256": "aed755981bf55bb6406b2724d5f5eb8047e820cb96d95c03ffbcb7dc238bd549",
+      "alpha_preserved": true,
+      "object_id": 665
+    },
+    {
+      "runtime_file": "wall-geometry-0684.rgba",
+      "runtime_sha256": "5f8293a0da75b7da7290146a42b135031d0df75e9e564309d04107be677016fe",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0684.png",
+      "png_sha256": "6c767383896997019ab1f2baacfbb0b1ec7c8a8a2844cf6e579cb530f9e0957b",
+      "alpha_preserved": true,
+      "object_id": 684
+    },
+    {
+      "runtime_file": "wall-geometry-1100.rgba",
+      "runtime_sha256": "a28671df82fd5c141584ef7cf78dc97a55cda3c9a9dfe7384e92781f3c1dea11",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1100.png",
+      "png_sha256": "8a7fe412f516c11cd8c9b548bb6023d183dbf66adf6449936e6696e8a65af63e",
+      "alpha_preserved": true,
+      "object_id": 1100
+    },
+    {
+      "runtime_file": "wall-geometry-1143.rgba",
+      "runtime_sha256": "b6fd1744134129866bbbb857a35c90f067c9e11cc4d5b541cb0e0c3364a7ab19",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1143.png",
+      "png_sha256": "d05caac3ad3f5c95730786014213c24799796c2bca991a4ea24ed002ebf4c373",
+      "alpha_preserved": true,
+      "object_id": 1143
+    },
+    {
+      "runtime_file": "wall-geometry-0470.rgba",
+      "runtime_sha256": "973d33db258361247816d3a62dd639190418f3aebc583e47e8a9477a4c5b78c2",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0470.png",
+      "png_sha256": "18928ce62f0065f2f5e2e39e9d7ea16aec43a9329a67e4dc60e0562580865be3",
+      "alpha_preserved": true,
+      "object_id": 470
+    },
+    {
+      "runtime_file": "wall-geometry-0622.rgba",
+      "runtime_sha256": "c253b0a1f718ec8fc3735d441ba711b3284bdfc6a4fc1064f0e16bc977ada79d",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0622.png",
+      "png_sha256": "70175fa66ac0dff1aa3e9918468ebb2d9e01aed5571f32f881bacd1edcef46aa",
+      "alpha_preserved": true,
+      "object_id": 622
+    },
+    {
+      "runtime_file": "wall-geometry-0685.rgba",
+      "runtime_sha256": "7b6a31781cca0059cdbb61009cabff3a96152287a92a20c1fc62a9291fc1a0bc",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0685.png",
+      "png_sha256": "2f357cf24fd759e87bfa38d58d23251e4d9f78c5e8aa72917d34b6d282aeb2dc",
+      "alpha_preserved": true,
+      "object_id": 685
+    },
+    {
+      "runtime_file": "wall-geometry-0479.rgba",
+      "runtime_sha256": "5edccbdce3eef0084404c53769e3e1c508b9b06f92418dcfbec63d9b90300113",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0479.png",
+      "png_sha256": "278c5cf14641a69f0de4c631a00823627bb8a28efd0deabbf2b93c5c36f9b64d",
+      "alpha_preserved": true,
+      "object_id": 479
+    },
+    {
+      "runtime_file": "wall-geometry-0495.rgba",
+      "runtime_sha256": "e863980d850a61e6a4e088795d30f8f9ff336dab5e3879d22c152bff341ee6e9",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0495.png",
+      "png_sha256": "652f80efa6c7459eea0488a49daf56f899fd1baf8130075ad9a6c09658c1d3b0",
+      "alpha_preserved": true,
+      "object_id": 495
+    },
+    {
+      "runtime_file": "wall-geometry-0494.rgba",
+      "runtime_sha256": "a291565dea72d0d77eb66ba9a0063a6d607fe170571af3db8e32f2db6d02df23",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0494.png",
+      "png_sha256": "be0364845b58037a9d66642f7d8ea8876baa5334e197126d92bfd6c2050f6430",
+      "alpha_preserved": true,
+      "object_id": 494
+    },
+    {
+      "runtime_file": "wall-geometry-0514.rgba",
+      "runtime_sha256": "cd7b8b0942aa5d2ef980a7b6868cf9646e33789a81927b3b0b6464602266626b",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0514.png",
+      "png_sha256": "4811aabb63dcf0a9842fd4dc51e6d85bcf9bf5b9fc39d658fb5363cd6343b571",
+      "alpha_preserved": true,
+      "object_id": 514
+    },
+    {
+      "runtime_file": "wall-geometry-0637.rgba",
+      "runtime_sha256": "ec2776d562d872dd360c589e760cb17800a6b7a36d83fc81672520754bf389ae",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0637.png",
+      "png_sha256": "44f730c95aff33271878e1e6bc12efed72eccae79b21413fd65489105fa4520e",
+      "alpha_preserved": true,
+      "object_id": 637
+    },
+    {
+      "runtime_file": "wall-geometry-0734.rgba",
+      "runtime_sha256": "a83227aaeb3e7790488ae4e3e374778290307954e72a8fea2028d801a726b041",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0734.png",
+      "png_sha256": "88b749377b86802d7e2302381866a4cc69c00178b63250063a73e6e73f05b4ed",
+      "alpha_preserved": true,
+      "object_id": 734
+    },
+    {
+      "runtime_file": "wall-geometry-0801.rgba",
+      "runtime_sha256": "2c71458bae65de93893ebcb40319b0eaf44969fb43a7468c17f01614bc359680",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0801.png",
+      "png_sha256": "23822de9abcc2a3d24b06c755071960357f5dac0f3a3637831b41994eed07d57",
+      "alpha_preserved": true,
+      "object_id": 801
+    },
+    {
+      "runtime_file": "wall-geometry-0822.rgba",
+      "runtime_sha256": "9b3f31de92050afedf3c7394a75e3c0a03b74335f311224fd8b7e3b13763a308",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0822.png",
+      "png_sha256": "8573f5a65b5c8ed49f52494a5208a7e9c3da7733f614b99a95f4685f5f20de1f",
+      "alpha_preserved": true,
+      "object_id": 822
+    },
+    {
+      "runtime_file": "wall-geometry-0821.rgba",
+      "runtime_sha256": "86e31775d918e7447a154d32887b16152df045a733a0fd4bbc8b953a5120c4e3",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0821.png",
+      "png_sha256": "66101cf6eaca5caf6788b614d013d5d6a058983526b534cf40325e6d45ee1a64",
+      "alpha_preserved": true,
+      "object_id": 821
+    },
+    {
+      "runtime_file": "wall-geometry-1176.rgba",
+      "runtime_sha256": "cf2168888858fbc5e2276914c12b747a724fc220e016d4cb0496cb516b73d69d",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1176.png",
+      "png_sha256": "0783a32eb0b4a8c1696332827a6cde87adcaeb040744da78b1cade21b57d1c2e",
+      "alpha_preserved": true,
+      "object_id": 1176
+    },
+    {
+      "runtime_file": "wall-geometry-0496.rgba",
+      "runtime_sha256": "0d342d62d6cb0fbddf3821feb0f57028130a12157ffe566f11b3ffa67314babb",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0496.png",
+      "png_sha256": "7bb687e39b1bb9bbdb9574f784182da99e406facc28f3a9a6921b7a000bbe68f",
+      "alpha_preserved": true,
+      "object_id": 496
+    },
+    {
+      "runtime_file": "wall-geometry-0751.rgba",
+      "runtime_sha256": "a982568b43512ce9cdca5dd193eb53e8366b8e7cbff865538165f05c3462dcef",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0751.png",
+      "png_sha256": "50fc5b9603021bde1a47039b6a5ba8b22a5e92eb6e7b6b8daa79fe9d39f4e43b",
+      "alpha_preserved": true,
+      "object_id": 751
+    },
+    {
+      "runtime_file": "wall-geometry-0750.rgba",
+      "runtime_sha256": "af333f63720db18214df7fb1b9853f1c38dd720c86af910780a48b3b67c962cc",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0750.png",
+      "png_sha256": "3954344e747fca0637ee1b2bc8b3107d2f4d3fe289215fe8269aa76982e6f212",
+      "alpha_preserved": true,
+      "object_id": 750
+    },
+    {
+      "runtime_file": "wall-geometry-0803.rgba",
+      "runtime_sha256": "e4a0ee612502b2fa67fe808123811a65bd03283e8a2eaa67827827e90c7da1f9",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0803.png",
+      "png_sha256": "6d0f9e4d94006a1fec995682513c66876114bae474c4d28e6c7856f58c19ceda",
+      "alpha_preserved": true,
+      "object_id": 803
+    },
+    {
+      "runtime_file": "wall-geometry-0823.rgba",
+      "runtime_sha256": "6fc565a421051d8532fb4df96014c7c227ee0892fd068c650157212e1dbe428a",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0823.png",
+      "png_sha256": "7579702ba2b26e231e58803ffb8f17374826c6b4b24ddbd23f44e819f9a41efb",
+      "alpha_preserved": true,
+      "object_id": 823
+    },
+    {
+      "runtime_file": "wall-geometry-1189.rgba",
+      "runtime_sha256": "110e1612df03637f8b000d868a72199d8160397f1ad25bef6cd1461b82960f4a",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1189.png",
+      "png_sha256": "3f970c8ca84c134b0919c4bfc7fa6f64230930af25a21320f2bae50839ba4dfa",
+      "alpha_preserved": true,
+      "object_id": 1189
+    },
+    {
+      "runtime_file": "wall-geometry-0563.rgba",
+      "runtime_sha256": "db2afb8a8de903264e9f19e71953ba109e45433d467d6753440629c426267b79",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0563.png",
+      "png_sha256": "b1ab4bc06ce806d4dc4b0f57485ceedeb361e9dfa1b22ce87a6e447f8ef9857e",
+      "alpha_preserved": true,
+      "object_id": 563
+    },
+    {
+      "runtime_file": "wall-geometry-0767.rgba",
+      "runtime_sha256": "eee40170863c18b955235e0919977a225cfcf419d523b5a24844bc9745fd7fd5",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0767.png",
+      "png_sha256": "bc4defcba2cec8afc5419cfbfed8b79749f276533e1959c8fec05e8cc60cd08f",
+      "alpha_preserved": true,
+      "object_id": 767
+    },
+    {
+      "runtime_file": "wall-geometry-0856.rgba",
+      "runtime_sha256": "33109507dd3a536f0ae4ed3926a6c649d94d10a794e78e4741a7c5ec2f754a47",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0856.png",
+      "png_sha256": "6039adb93a85f5829000d5df9aba5333ddc46929dfe3fb638fc07d9393531a6a",
+      "alpha_preserved": true,
+      "object_id": 856
+    },
+    {
+      "runtime_file": "wall-geometry-1204.rgba",
+      "runtime_sha256": "64270d5e7ac9d59d44a856b2d8be3d4c4016e161e7552dd09a7755374643bad4",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1204.png",
+      "png_sha256": "c0442d3b461edd9620c7ab9cbf63046f81807151a9c81ceb64722f6989755580",
+      "alpha_preserved": true,
+      "object_id": 1204
+    },
+    {
+      "runtime_file": "wall-geometry-0786.rgba",
+      "runtime_sha256": "91f0f182fa6f34a8f3e6f08f81d34f974a4ce678596c8462324973f7697841c5",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0786.png",
+      "png_sha256": "ad80b991170409ab30a88c31ac53bf389c77dca9a80fbe025f1646eb87d4384c",
+      "alpha_preserved": true,
+      "object_id": 786
+    },
+    {
+      "runtime_file": "wall-geometry-0839.rgba",
+      "runtime_sha256": "331cdc3f5ee2ad465812ff0d4a36dfb28950210bb8546abab801049f5cb204a8",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0839.png",
+      "png_sha256": "b82cb28b42b4dd87ae8d5e7ba39346440b432901d8f04b12bfada419d27032aa",
+      "alpha_preserved": true,
+      "object_id": 839
+    },
+    {
+      "runtime_file": "wall-geometry-0879.rgba",
+      "runtime_sha256": "60d5379310fef32316926fcdcfba2dde27ceecda10082c91f159c3dd514e114d",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0879.png",
+      "png_sha256": "326a8cc23e66266e11861c46af443e4f1a7ab940a4c94cd77ff85b98259b019f",
+      "alpha_preserved": true,
+      "object_id": 879
+    },
+    {
+      "runtime_file": "wall-geometry-1229.rgba",
+      "runtime_sha256": "caa2e18e5debe254425cd4763417ce8573ed9712a17b1d6b22639d21e586d317",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1229.png",
+      "png_sha256": "f628e237fde1ccff5cec3f85ff87a68622f41d51ed4e7a73a23e244a04901f7b",
+      "alpha_preserved": true,
+      "object_id": 1229
+    },
+    {
+      "runtime_file": "wall-geometry-0593.rgba",
+      "runtime_sha256": "e9249e38fbd343e9920ac952d6ccbb470c718c4e6e3b15d586e54a80a11ccb4b",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0593.png",
+      "png_sha256": "3a450ce700da10fd6eff1382f425a1d327e96a1fb240f014adbe7f8502595300",
+      "alpha_preserved": true,
+      "object_id": 593
+    },
+    {
+      "runtime_file": "wall-geometry-0804.rgba",
+      "runtime_sha256": "c1cf7edc166643a3e1516bb13f8ccdd925055f79ba880ca5732ee272d5fef744",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0804.png",
+      "png_sha256": "fe5cd449b1e187082be9b80209e7f385f2f65a14ba0107c411c51c416ce63874",
+      "alpha_preserved": true,
+      "object_id": 804
+    },
+    {
+      "runtime_file": "wall-geometry-0857.rgba",
+      "runtime_sha256": "9ece97b01f6018c75ad03e7cd099a02ea3c3dd914aa95c20fa8c710d126cc8ca",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0857.png",
+      "png_sha256": "5cb9d5a1c0a0658085bc50b955375e9230cd09d4583dbcaed5fb0d9f4490a820",
+      "alpha_preserved": true,
+      "object_id": 857
+    },
+    {
+      "runtime_file": "wall-geometry-1253.rgba",
+      "runtime_sha256": "c32dded664de71de1b0829369a15fb42cca8d01aabd55f826bc24fdf25176033",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1253.png",
+      "png_sha256": "eeb5f93c81ae31fa601a2b5d7ae6575e6fe2d13021210fc4aa750d5f37cc56b6",
+      "alpha_preserved": true,
+      "object_id": 1253
+    },
+    {
+      "runtime_file": "wall-geometry-1252.rgba",
+      "runtime_sha256": "ca6372a49f24fd80a9cfce9fe1aabfdf9fd4f2f308cb9e0b857828ec014084c0",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1252.png",
+      "png_sha256": "6c4b7b54a1114c5df43a83427b7aeeb8e395fd718fd9875ae5ed83560447c2e2",
+      "alpha_preserved": true,
+      "object_id": 1252
+    },
+    {
+      "runtime_file": "wall-geometry-1277.rgba",
+      "runtime_sha256": "2210c6ebe64cc10ea5741c79d7a7a1953f147ddcb3f2d1a4db172802c267c34d",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1277.png",
+      "png_sha256": "138c1d95c281bffdfb7e95ce377183226cbfea778efc3d3e08f9fb885d8ec04a",
+      "alpha_preserved": true,
+      "object_id": 1277
+    },
+    {
+      "runtime_file": "wall-geometry-1276.rgba",
+      "runtime_sha256": "dc22bfed9bbe74a805849182a057a5aa0fb434bd0b2ee9b5d1aa9419430f3c19",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1276.png",
+      "png_sha256": "458d0a7b83a870f0ca7777e07966bfd65e2d474c2fbaae13627e11b98b66be48",
+      "alpha_preserved": true,
+      "object_id": 1276
+    },
+    {
+      "runtime_file": "wall-geometry-0612.rgba",
+      "runtime_sha256": "14a0859789839779612ef73f2c8ce6668bc3ab298914b28dd276339252b21158",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0612.png",
+      "png_sha256": "4ac181d10b48213510d3baafb4b4dbf5c75cec31f3ad6396087b942bf4d84d8a",
+      "alpha_preserved": true,
+      "object_id": 612
+    },
+    {
+      "runtime_file": "wall-geometry-0687.rgba",
+      "runtime_sha256": "29ab4958043f6dcb017f419bbfac40239dd7726cbc0e6fa46b5f3679002daf87",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0687.png",
+      "png_sha256": "bf1e6a08002c305836d76b12dde8b63c5c182c3138e66d48c5d0e706c5cbc202",
+      "alpha_preserved": true,
+      "object_id": 687
+    },
+    {
+      "runtime_file": "wall-geometry-0715.rgba",
+      "runtime_sha256": "cdb1133feefbf26e3ab6caa861618bd0c2c62ff692eccbb4a32fa31d36e2a26e",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0715.png",
+      "png_sha256": "04d59f1656fec35205a6a3f1ed88c81f9b3b6b990127866df485c8ad1daed709",
+      "alpha_preserved": true,
+      "object_id": 715
+    },
+    {
+      "runtime_file": "wall-geometry-0714.rgba",
+      "runtime_sha256": "4d887cfb5d95b9a5a4177f50bb45985265d21368c9873451f74964dfe3aa388d",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0714.png",
+      "png_sha256": "97d64263c2864b890eb0b202f09cedfe12a43d64c16ffea44556a41b38091960",
+      "alpha_preserved": true,
+      "object_id": 714
+    },
+    {
+      "runtime_file": "wall-geometry-0825.rgba",
+      "runtime_sha256": "677c0d9b0896716b70d4b53ae84dc9d910337894b7809cefc7ee534a4ba5bf97",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0825.png",
+      "png_sha256": "c364435470af41e5859016ccb671f2889c8a2d5bcb394692782e1a008ac6e9d6",
+      "alpha_preserved": true,
+      "object_id": 825
+    },
+    {
+      "runtime_file": "wall-geometry-0880.rgba",
+      "runtime_sha256": "02203afc51a17d5b680ce048e25091c338d8e761c790d3f15bbfe8abd97f9fa1",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0880.png",
+      "png_sha256": "77d12ca014b69d0fef483fa6324b50afcac32225cca05f397caff368689f5f54",
+      "alpha_preserved": true,
+      "object_id": 880
+    },
+    {
+      "runtime_file": "wall-geometry-0925.rgba",
+      "runtime_sha256": "c38159ecc2e21851c28638df108a6629049a737a5f5ea6c732f8bf064871dc6f",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0925.png",
+      "png_sha256": "29ed64dafab476d3859f03a5079f7314329271e280187f010f281594f9fa42e5",
+      "alpha_preserved": true,
+      "object_id": 925
+    },
+    {
+      "runtime_file": "wall-geometry-0924.rgba",
+      "runtime_sha256": "6d5d1f1a863c55fc1aa051c67c842277067bfb6ddbf26962d38e1fdd12996c9f",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0924.png",
+      "png_sha256": "250727b45c7a530498e5d6633aa68cc0f2a17c990a20148d213cf7194f48f05a",
+      "alpha_preserved": true,
+      "object_id": 924
+    },
+    {
+      "runtime_file": "wall-geometry-1278.rgba",
+      "runtime_sha256": "a0ea2de5fdf5b33e3320e37dadda977a128395802fef7b2a8fc6f82bdf30d9ab",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1278.png",
+      "png_sha256": "e603b3c661f5653a1f5c3e07379ffff36a00b0072535b8e3e16b08005fac9738",
+      "alpha_preserved": true,
+      "object_id": 1278
+    },
+    {
+      "runtime_file": "wall-geometry-0627.rgba",
+      "runtime_sha256": "1bcf582857365c1c539250fcceb6e679c9568411e5aa325f8f3a42bbbf5a4704",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0627.png",
+      "png_sha256": "ff5b9704c8fb0d74702c49c0e753b63273d94014701ade3b4647d4f6bd234d33",
+      "alpha_preserved": true,
+      "object_id": 627
+    },
+    {
+      "runtime_file": "wall-geometry-0626.rgba",
+      "runtime_sha256": "fb6ebc58b969dc34d9a959f5b1d1ef0ac8c32e96097436532a987e263e21a05e",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0626.png",
+      "png_sha256": "488e905131c2ea6e2dc7d4958ba9c0a8fcee4bc2827caec90cda1db141280efa",
+      "alpha_preserved": true,
+      "object_id": 626
+    },
+    {
+      "runtime_file": "wall-geometry-0640.rgba",
+      "runtime_sha256": "2be4809945acdd872728e138bd696f8bb0db714233c1d8176a3ccc0f28b9dff8",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0640.png",
+      "png_sha256": "7f73fe8c683552d8378eabb3c75901fe445b0a856c0fd97a4b07589acc4628cf",
+      "alpha_preserved": true,
+      "object_id": 640
+    },
+    {
+      "runtime_file": "wall-geometry-0689.rgba",
+      "runtime_sha256": "6b185c25976dcb1fa4b1e6aa45a46d784b4313d6c19557dfb092887865e7c46f",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0689.png",
+      "png_sha256": "e1c33a714a1f30af2224d10e15c18340c7e0582223e80f1d040482bd1d64ce46",
+      "alpha_preserved": true,
+      "object_id": 689
+    },
+    {
+      "runtime_file": "wall-geometry-0688.rgba",
+      "runtime_sha256": "76bff8decd943db6e051bfa3c2223ad1d88aeebdb3bd7d3aa4e4231098946bf3",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0688.png",
+      "png_sha256": "689d2b84202cfac671885b3a391e365c0eeb05514aa67fc482a67a65840898fe",
+      "alpha_preserved": true,
+      "object_id": 688
+    },
+    {
+      "runtime_file": "wall-geometry-0716.rgba",
+      "runtime_sha256": "fb446d934b13a41584b45541b8a0ff5ec1bc45cdf4d47498024448e791b00069",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0716.png",
+      "png_sha256": "e062976695226c789f21dc148d5552487b773bcd2bfd6ae7db44bf4273752f48",
+      "alpha_preserved": true,
+      "object_id": 716
+    },
+    {
+      "runtime_file": "wall-geometry-0840.rgba",
+      "runtime_sha256": "515944f9d97f4d1cd5c3729772558e7ef05c116a8ecc0930067d74719497990a",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0840.png",
+      "png_sha256": "ac4b9b141504e392ad3d9614b5c7db582fc7c70bc7fdcf89b7aaa8b63bd20e6c",
+      "alpha_preserved": true,
+      "object_id": 840
+    },
+    {
+      "runtime_file": "wall-geometry-0901.rgba",
+      "runtime_sha256": "4076518700cf88eb59d1b65aeed19407ce6fec85de3701ac8398b164c5094c1a",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0901.png",
+      "png_sha256": "3d4bb7e334c5a0aabcbdf9e33e72bb3aeb3e128d1d827d378f55e90106b7091f",
+      "alpha_preserved": true,
+      "object_id": 901
+    },
+    {
+      "runtime_file": "wall-geometry-0900.rgba",
+      "runtime_sha256": "4053aa2c718da0e922e6cceb81b346ba22664dc4b556ddeffc0ba3e3d7952a51",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0900.png",
+      "png_sha256": "b669d55f37ea9f4e1c660c88d5f458f21384f1baf697f4d09089578a2681ce3a",
+      "alpha_preserved": true,
+      "object_id": 900
+    },
+    {
+      "runtime_file": "wall-geometry-0927.rgba",
+      "runtime_sha256": "04de6a9d9d496c112dae15a97cfb227cc490f127810d8324592f2b3f9c0fdb9e",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0927.png",
+      "png_sha256": "fe56e0de4cd95b8aae7f6f5cf4fcaf1dc72b9e305a1a942f85d7cffb8a8cef94",
+      "alpha_preserved": true,
+      "object_id": 927
+    },
+    {
+      "runtime_file": "wall-geometry-0926.rgba",
+      "runtime_sha256": "fc9deb70e7b9c4ed12bcffce36be4aa210f5434f36b796da90d295f5c3e9c875",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0926.png",
+      "png_sha256": "2adba58e50ad490ab5eb65cbafc8087cb0741f977f9ae1f5300fa7bbee39e70e",
+      "alpha_preserved": true,
+      "object_id": 926
+    },
+    {
+      "runtime_file": "wall-geometry-1354.rgba",
+      "runtime_sha256": "f84ae754381ba8d5d835cedb970b56a42677ef0fc7cd1b98c8f60ecfd85471df",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1354.png",
+      "png_sha256": "61a36874b872f26ebdf4f31eae55cc64c16499b85abff2a7576d01fd97c6be5a",
+      "alpha_preserved": true,
+      "object_id": 1354
+    },
+    {
+      "runtime_file": "wall-geometry-0641.rgba",
+      "runtime_sha256": "70cb524b08cb31d2a22c65cd4a907498b7810250d63c0cc7b1d6616b6b8d1ce7",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0641.png",
+      "png_sha256": "b3641734b1abf691e03147d8c93e9f0fd51500b0f430de90bf14182ad557be8b",
+      "alpha_preserved": true,
+      "object_id": 641
+    },
+    {
+      "runtime_file": "wall-geometry-0691.rgba",
+      "runtime_sha256": "bb0249960d344ba68da901fdbe5be03afa726d773488429c2ecc1256c1f4ea40",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0691.png",
+      "png_sha256": "3d61a829f54d693a8648ee2a88d96c4d942734baad7d5b9c855fb7baaa7e4d4f",
+      "alpha_preserved": true,
+      "object_id": 691
+    },
+    {
+      "runtime_file": "wall-geometry-0690.rgba",
+      "runtime_sha256": "32e8893c309df1067d3216153b50c24610936a7a249c1297462f5cfd6314fc07",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0690.png",
+      "png_sha256": "583bda3c52996a828bdde791b8a054421efd2637386d72cf7c7206a414cdd329",
+      "alpha_preserved": true,
+      "object_id": 690
+    },
+    {
+      "runtime_file": "wall-geometry-0860.rgba",
+      "runtime_sha256": "676d8a77fd1dbd124ebbf9047eceeea5c1067e8c91ce620327a0aa00fe733048",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0860.png",
+      "png_sha256": "2685f51b3c6823350b2d17c18fa6d82b405b8fdb134b8554966b9fc534c4fff1",
+      "alpha_preserved": true,
+      "object_id": 860
+    },
+    {
+      "runtime_file": "wall-geometry-0859.rgba",
+      "runtime_sha256": "4c7b1fe5b2bef9ed7cadc6b8355f2afab622ee5cc6a87517a94415d1b041b6df",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0859.png",
+      "png_sha256": "bbdefec0ebd44b8f63a86791deb8ae4949327db7d5185b4bacfe84162d767518",
+      "alpha_preserved": true,
+      "object_id": 859
+    },
+    {
+      "runtime_file": "wall-geometry-1014.rgba",
+      "runtime_sha256": "b094a13d3b7bb259e32e7b3e97891d1471d7f1b23eab56abddce69e74e941449",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1014.png",
+      "png_sha256": "1d761d394d08e074c1ed301e5d368647919be20fce2ccd78aa728a24652e4705",
+      "alpha_preserved": true,
+      "object_id": 1014
+    },
+    {
+      "runtime_file": "wall-geometry-1062.rgba",
+      "runtime_sha256": "5e7cefb15d78e1d2d7038597914f5d33685a7901a8ffdc564798ae4a29d5300b",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1062.png",
+      "png_sha256": "0676e3ab27231ca7cd475f6710a96a8cd2e314c2addd3d042f4bf9a0330847a5",
+      "alpha_preserved": true,
+      "object_id": 1062
+    },
+    {
+      "runtime_file": "wall-geometry-1061.rgba",
+      "runtime_sha256": "2c471bab4bfbceaaf13c828447401f8c6962c28f64e0774ebdd9b4334141d74b",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1061.png",
+      "png_sha256": "bc15b02ceecff043a35f73fffcee11bf5f6c3db652b35be0afa2e6b1098261c4",
+      "alpha_preserved": true,
+      "object_id": 1061
+    },
+    {
+      "runtime_file": "wall-geometry-1103.rgba",
+      "runtime_sha256": "4abc34b8d27e0374d2411ec4a8162e4628d681b20f5685cf414ae48fbbdc3543",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1103.png",
+      "png_sha256": "67351fddb409857e51e32a64bb213b82759be3cce1552319a150fd4582698eda",
+      "alpha_preserved": true,
+      "object_id": 1103
+    },
+    {
+      "runtime_file": "wall-geometry-1380.rgba",
+      "runtime_sha256": "894c6d93b3c389bff72fef4525b6c4108703b92dccc82b93c40fcf9c3d914efd",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1380.png",
+      "png_sha256": "fe5c3343456bf5ff84ce62bb1d4343a063ee8f5c9dbb66343bc00425fd931d20",
+      "alpha_preserved": true,
+      "object_id": 1380
+    },
+    {
+      "runtime_file": "wall-geometry-0668.rgba",
+      "runtime_sha256": "d2557dd5b6a29e7d7eac954aab99a753f2d5030db164c6acfe610cf3b0962463",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0668.png",
+      "png_sha256": "a5e6ba21923f372aa9d9a5f6825cea69e615eb5850f065131684671a077bc030",
+      "alpha_preserved": true,
+      "object_id": 668
+    },
+    {
+      "runtime_file": "wall-geometry-0667.rgba",
+      "runtime_sha256": "3ce889a7a2e128ec2a77400474e4421b9c7af1210e3d8b853dac3ede427d33de",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0667.png",
+      "png_sha256": "23697d25df421a9fa9f03d90921d115087d095dc279b414b2893d5cd65eb3a00",
+      "alpha_preserved": true,
+      "object_id": 667
+    },
+    {
+      "runtime_file": "wall-geometry-0693.rgba",
+      "runtime_sha256": "aa1a632e595ee412c35a9583de7d1179a640565c1483ef5696193bd2f376183b",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0693.png",
+      "png_sha256": "21574966e397a76968011f4358d369de767e1bc359c1964e6739bc3e0bfa43d0",
+      "alpha_preserved": true,
+      "object_id": 693
+    },
+    {
+      "runtime_file": "wall-geometry-0692.rgba",
+      "runtime_sha256": "71f323da4e2dc5579f3911aec62c3d76fa6706fa51c7b27f807415d2e1356043",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0692.png",
+      "png_sha256": "c3537852d73fbfd9446caaac80b0762d522f16779e8f34653f1c5f833e388ec1",
+      "alpha_preserved": true,
+      "object_id": 692
+    },
+    {
+      "runtime_file": "wall-geometry-0862.rgba",
+      "runtime_sha256": "adeb3455821c964dcfd62aacb4e4eb7c51af8a42b80db45efaf5885587ad34ec",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0862.png",
+      "png_sha256": "78b22c517e4a1dbf3d868cf801f9b286f51443abceefb12e79fc8222ddd26948",
+      "alpha_preserved": true,
+      "object_id": 862
+    },
+    {
+      "runtime_file": "wall-geometry-0861.rgba",
+      "runtime_sha256": "d0bebf0cc3a675c13a9c8aca00e080b86095df5ad03bf7575abcbbc2cdd5b286",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0861.png",
+      "png_sha256": "938686e45e9ce2b5f7c8ecce76d52314e0cb0efaaa06b5bca1001fb84eff51d7",
+      "alpha_preserved": true,
+      "object_id": 861
+    },
+    {
+      "runtime_file": "wall-geometry-1404.rgba",
+      "runtime_sha256": "89c69fa33dd9a985b803446c03de9f20e815f47e76bfb99217d3b07f9091ff91",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1404.png",
+      "png_sha256": "ad191e43053dd2d89370096baf010cb57d5478dbcabad2c6bb5f8a9ea0f049e2",
+      "alpha_preserved": true,
+      "object_id": 1404
+    },
+    {
+      "runtime_file": "wall-geometry-0863.rgba",
+      "runtime_sha256": "f4a2cf80eb7d2040f9b078dd98374e2941f3cf49aac5bb49eabed83adb411c2d",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0863.png",
+      "png_sha256": "98c190cadca27b483f98143e203445d72bd29e5190a17bb27da2e739351a421b",
+      "alpha_preserved": true,
+      "object_id": 863
+    },
+    {
+      "runtime_file": "wall-geometry-1104.rgba",
+      "runtime_sha256": "2037712f22dfb821615fcf99fec82546c9e479c349ffa6910558ffb1092b3824",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1104.png",
+      "png_sha256": "c3e77eb52b994f69e7d607c3bdc02c3cde4ed60b0bd1c904c814832998da7a3c",
+      "alpha_preserved": true,
+      "object_id": 1104
+    },
+    {
+      "runtime_file": "wall-geometry-1178.rgba",
+      "runtime_sha256": "2ce84abf1bc9c6de02a963d0ed5a155a788ae30919f0487ac24c7a0eb52e0c1c",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1178.png",
+      "png_sha256": "64847ee49888fc736cdb3aaba98331e4428eb7c5682b94f1415611aeb3417e82",
+      "alpha_preserved": true,
+      "object_id": 1178
+    },
+    {
+      "runtime_file": "wall-geometry-1418.rgba",
+      "runtime_sha256": "e2a6ec8767cffb784ed4ec71663d0cf6ab9ecd3cc97a0aaf06fa2d6100b79507",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1418.png",
+      "png_sha256": "e4af338da95c14732b87f2d548646bfe09783017db72b57bfe279a1fce4f6e00",
+      "alpha_preserved": true,
+      "object_id": 1418
+    },
+    {
+      "runtime_file": "wall-geometry-1148.rgba",
+      "runtime_sha256": "f64381ea182c6ba294b53a1d58ad0904ef818e35a34c0c9b2604b7578aa9568c",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1148.png",
+      "png_sha256": "384f119a8bfc646a8a867b4f10ae441d51b82ae3caebb8833ef68421febc4fe7",
+      "alpha_preserved": true,
+      "object_id": 1148
+    },
+    {
+      "runtime_file": "wall-geometry-1194.rgba",
+      "runtime_sha256": "a273cd2bdbe5efbc21ac778c75ab857832624e4dc05b62a30bb208f42972ee5f",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1194.png",
+      "png_sha256": "1cd232e5a63a89939042a33c79c852358cf6f54dd8f81686aace4cedf79b1aea",
+      "alpha_preserved": true,
+      "object_id": 1194
+    },
+    {
+      "runtime_file": "wall-geometry-1193.rgba",
+      "runtime_sha256": "8f450cd700ec9474dae53b306e5ec2e5aa4cab5d5ef49592ab2a451b153f2443",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1193.png",
+      "png_sha256": "55ceb53579e529350ce1bc35a5d53a597e44a057eac724e2fa3473ade84afb1f",
+      "alpha_preserved": true,
+      "object_id": 1193
+    },
+    {
+      "runtime_file": "wall-geometry-1209.rgba",
+      "runtime_sha256": "35da5548204da3a7f4c0c658a90dc8a4ee782a3a65332c4ca6a3a0f8874d633e",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1209.png",
+      "png_sha256": "08bc720ea67a7df9c171ccb82973af355fe59584fb71554757779d1c14a19f29",
+      "alpha_preserved": true,
+      "object_id": 1209
+    },
+    {
+      "runtime_file": "wall-geometry-0886.rgba",
+      "runtime_sha256": "2034a5f423a2b44b829bb750305386eecb86a784952e9e07042c8c151de304d1",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0886.png",
+      "png_sha256": "23210af4c0236f7b60c03bb2a4672285be56656486d5002859aa2e1829e1c89b",
+      "alpha_preserved": true,
+      "object_id": 886
+    },
+    {
+      "runtime_file": "wall-geometry-1179.rgba",
+      "runtime_sha256": "36d1547da0169714d423deb5abc0807e490f97b178dc7f04cfe3cb12d0feab2e",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1179.png",
+      "png_sha256": "10c9eaea5c96ba0aa429bd23256007d4acc559f12d9cf08578e6ef427b4a41d3",
+      "alpha_preserved": true,
+      "object_id": 1179
+    },
+    {
+      "runtime_file": "wall-geometry-1211.rgba",
+      "runtime_sha256": "43e866e2bd8557193a41729080992f12e9b03bf014794e665c4f0c1e15b3f915",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1211.png",
+      "png_sha256": "728d003b90aafa58a3fe44d4e730f22c0169f92ea683de98f90ee34f902ecd1c",
+      "alpha_preserved": true,
+      "object_id": 1211
+    },
+    {
+      "runtime_file": "wall-geometry-1195.rgba",
+      "runtime_sha256": "0103f4e194553b13393b524b081d195681f5dd358674b6208706a2b65a860702",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1195.png",
+      "png_sha256": "1612f4881be44b7b4b45945d428292ff7294c2267f77c6fa0191ddbb3c85efa4",
+      "alpha_preserved": true,
+      "object_id": 1195
+    },
+    {
+      "runtime_file": "wall-geometry-1258.rgba",
+      "runtime_sha256": "3399ced7848e2f79831bdac3a8f0a7d697d603d89f9cf997c569514b9c1c7214",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1258.png",
+      "png_sha256": "d565670d9f4c9e59b5c32714c8110bf2d95fdf93a161db1f10df356ff58b268d",
+      "alpha_preserved": true,
+      "object_id": 1258
+    },
+    {
+      "runtime_file": "wall-geometry-1257.rgba",
+      "runtime_sha256": "f2de933965f39ed76046b1a641427043c7c12d1c1639e7b12ae13c7f6d52996f",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1257.png",
+      "png_sha256": "2f5856920a0d6494d7e31949e9137d1d0a50529f4733bc5e1295858207c9d882",
+      "alpha_preserved": true,
+      "object_id": 1257
+    },
+    {
+      "runtime_file": "wall-geometry-1212.rgba",
+      "runtime_sha256": "8defc58ba708cef9dfb3536dca1d5e6b830ebc80c878f0855c6381e06d09d861",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1212.png",
+      "png_sha256": "782c8e0d493c9951468934f7326557d344b791c9c2ada1110b3dbd85a327f6c9",
+      "alpha_preserved": true,
+      "object_id": 1212
+    },
+    {
+      "runtime_file": "wall-geometry-1284.rgba",
+      "runtime_sha256": "5873323d470863041aa2b08c46d888afdf553215bc98ed1b222f7286ce290ada",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1284.png",
+      "png_sha256": "d6bc04fa20487903561f615cf8e1d7eb051a6c341d0504232852847df180328f",
+      "alpha_preserved": true,
+      "object_id": 1284
+    },
+    {
+      "runtime_file": "wall-geometry-1237.rgba",
+      "runtime_sha256": "f0972ad85204e3b8838ec0270fff3d2b1fd0a219d0919528e03de4be96e2883f",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1237.png",
+      "png_sha256": "a85d691c812dfcda0b493fdb9ca4fe51c3524b5e87ceae13d30ac25e357364f3",
+      "alpha_preserved": true,
+      "object_id": 1237
+    },
+    {
+      "runtime_file": "wall-geometry-1322.rgba",
+      "runtime_sha256": "d715e8861ae44397137afcb1342eb77c6f3cac9cf1aa0794f6abc2ed19b7e89d",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1322.png",
+      "png_sha256": "571f5045563d4e309aa370c2da6792760721ea53af782c98b32ca4f53749fc64",
+      "alpha_preserved": true,
+      "object_id": 1322
+    },
+    {
+      "runtime_file": "wall-geometry-1450.rgba",
+      "runtime_sha256": "7b99ced2b02aa375c2617394913dc9cb12c7514952dc5828c4a99b2e38e9381c",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1450.png",
+      "png_sha256": "675aece07240ceba7413aa91060b2e933e92471c0681452acbddd19d7b2066da",
+      "alpha_preserved": true,
+      "object_id": 1450
+    },
+    {
+      "runtime_file": "wall-geometry-1459.rgba",
+      "runtime_sha256": "082533ba7eec1e1c6e52b7bc7dac30468360a0445675355cb29e640676919ba8",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1459.png",
+      "png_sha256": "3096755f035ca5b2788d1fb8df5a2691768fd4b5e597f2a65fb6988c7e220bdb",
+      "alpha_preserved": true,
+      "object_id": 1459
+    },
+    {
+      "runtime_file": "wall-geometry-1458.rgba",
+      "runtime_sha256": "5aa3fe0d6f48b9b2fc4cf043241c79a9567a6af9ac042b1849b6daecced759c7",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1458.png",
+      "png_sha256": "347d8768c22855d6c91ad7385104857a12e1c34c89af9fb127181311c1257125",
+      "alpha_preserved": true,
+      "object_id": 1458
+    },
+    {
+      "runtime_file": "wall-geometry-0983.rgba",
+      "runtime_sha256": "6056c82337199a6df29bc04483a77914ea7c0351060192522eb39f0fe053a844",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0983.png",
+      "png_sha256": "2fb3d6ec63e00549e64ee6c35ee8d27347a06cf3f6e73ca6eb3e6b50b572a95f",
+      "alpha_preserved": true,
+      "object_id": 983
+    },
+    {
+      "runtime_file": "wall-geometry-1259.rgba",
+      "runtime_sha256": "d1f0cec682f6dcd29c3396353e9590b84acf056872f4bdfc04f16eeffe7e6e32",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1259.png",
+      "png_sha256": "21a34e0c0af82def2142c6a58e352c192d9b3858acd1d7ef329ce6900a94e4b8",
+      "alpha_preserved": true,
+      "object_id": 1259
+    },
+    {
+      "runtime_file": "wall-geometry-1359.rgba",
+      "runtime_sha256": "52e40624b806f50668bd3bf1dc0f27ec45d98a7020022e954080fba6234a5a6f",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1359.png",
+      "png_sha256": "fea005d1143b0e3be8714dbb2463b75a605b2c5c99856fe338fc1d18ac52decd",
+      "alpha_preserved": true,
+      "object_id": 1359
+    },
+    {
+      "runtime_file": "wall-geometry-1451.rgba",
+      "runtime_sha256": "122432128e725f054619eefaf6469159525f731f3ebf70f18ffe738dac3fff47",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1451.png",
+      "png_sha256": "173e1292ebb7890e2008c06ec432a10cb7f7ce02203880c752062648587916bd",
+      "alpha_preserved": true,
+      "object_id": 1451
+    },
+    {
+      "runtime_file": "wall-geometry-1460.rgba",
+      "runtime_sha256": "5a68cec739e0381a319b94e359168ffd7b52d7202b8efa195659390f5864edf5",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1460.png",
+      "png_sha256": "ee3a1d6b3c724ffa72e5e9e4312422b4b6cfdb46dcd18aec2bf2a50949529338",
+      "alpha_preserved": true,
+      "object_id": 1460
+    },
+    {
+      "runtime_file": "wall-geometry-1019.rgba",
+      "runtime_sha256": "9a77ce1a72476dc6b552733a9f37888dbdbcf8a4941d7006d1f47d77f2bcc31f",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1019.png",
+      "png_sha256": "2a07b9a8fd257fcc1eb09f5ec8942515686b2331bc98a04e23992dbf83cbc765",
+      "alpha_preserved": true,
+      "object_id": 1019
+    },
+    {
+      "runtime_file": "wall-geometry-1285.rgba",
+      "runtime_sha256": "6c91939c5c59741004e790b4ec3ca7b9d343913a89deb9c91b4458bc8c16c6ab",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1285.png",
+      "png_sha256": "43dad1dfd4563536aa67319534afb81ffe732c80e63e53316c292b63856a1926",
+      "alpha_preserved": true,
+      "object_id": 1285
+    },
+    {
+      "runtime_file": "wall-geometry-1385.rgba",
+      "runtime_sha256": "b938713ba2572b1bb49130a8db24161ed75846123080519a30fc42652275e85b",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1385.png",
+      "png_sha256": "7d60a00631d9069eec1109a8963b1278edbc88e3dac467c2edea23fe07826668",
+      "alpha_preserved": true,
+      "object_id": 1385
+    },
+    {
+      "runtime_file": "wall-geometry-1407.rgba",
+      "runtime_sha256": "73b6d7cfadc5bd889f01f22944ffcdacd047dc033fdb3597b137c4539f2f3126",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1407.png",
+      "png_sha256": "9cdda313f19dcab0d4dcbf07dab4bda82318dafb95f6b8105f0373d54888a12c",
+      "alpha_preserved": true,
+      "object_id": 1407
+    },
+    {
+      "runtime_file": "wall-geometry-1406.rgba",
+      "runtime_sha256": "e026568240033e24552443e20f8c758645e253eeb1743adac02bab780a5fa617",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1406.png",
+      "png_sha256": "28a9610d8fa5d17ad781c4627faa94605ebf4faff03766838204f2d5336d67d8",
+      "alpha_preserved": true,
+      "object_id": 1406
+    },
+    {
+      "runtime_file": "wall-geometry-1423.rgba",
+      "runtime_sha256": "cbd38cd068ab0b5b6d6620e25323769e05caf4f610835cad9e916f3f8f39d17b",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1423.png",
+      "png_sha256": "e1080215dc0d0371afd6310dc3f38b8f330b4fd33223f61443e731a44f3a4a7b",
+      "alpha_preserved": true,
+      "object_id": 1423
+    },
+    {
+      "runtime_file": "wall-geometry-1422.rgba",
+      "runtime_sha256": "8abb2bf7d6b61bd5295e26150944ae3b68ce7051111fdde57aa255e71dbf8797",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1422.png",
+      "png_sha256": "57a4e7407c77ec1904f0bdd28add9aee87f4fcc79b69c15287e4cdb7801ba336",
+      "alpha_preserved": true,
+      "object_id": 1422
+    },
+    {
+      "runtime_file": "wall-geometry-1435.rgba",
+      "runtime_sha256": "6be91b561d884b3e0bdc58055989f3d66600d51d059c0c5d61d2a34a7da39f17",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1435.png",
+      "png_sha256": "d0dc2320cf1622cc745e92625bde5c34fd012aed28243bc4be8026a85029714e",
+      "alpha_preserved": true,
+      "object_id": 1435
+    },
+    {
+      "runtime_file": "wall-geometry-1434.rgba",
+      "runtime_sha256": "47df8cf702aa824fe0ade34f250db24bae6bae89e5000ecf7d5b0ddd3ea23077",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1434.png",
+      "png_sha256": "151b244dfe0db914c7e9afb9200538af7f948acf7854b8a791ed4b09d3b396bc",
+      "alpha_preserved": true,
+      "object_id": 1434
+    },
+    {
+      "runtime_file": "wall-geometry-1446.rgba",
+      "runtime_sha256": "374277a24ef4f658c655a9a499ce7d67c204e155f5655600864368ce1748ddc9",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1446.png",
+      "png_sha256": "9f78d1b4d12a98a8f25c388d9db8d4384b324cf9a276358027bc90b90481d4d6",
+      "alpha_preserved": true,
+      "object_id": 1446
+    },
+    {
+      "runtime_file": "wall-geometry-1445.rgba",
+      "runtime_sha256": "f55aacf1e91f343ab03c24507f16b5b45460aadb698a9aa5cbe8d01cb81754f6",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1445.png",
+      "png_sha256": "f7eb514c993f21dbb12ea4ec1d636d08f9294c3116bb4abd314a1e98c6288ea4",
+      "alpha_preserved": true,
+      "object_id": 1445
+    },
+    {
+      "runtime_file": "wall-geometry-1453.rgba",
+      "runtime_sha256": "a36027c44abe7fedbe53b79bfb89c76f0c8b9daed77b19fe1fa0d8bf277f5669",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1453.png",
+      "png_sha256": "e8e535e15a886075a6e41fbe8d6ad5ed1a43762ab8242bf2215bbad360f27094",
+      "alpha_preserved": true,
+      "object_id": 1453
+    },
+    {
+      "runtime_file": "wall-geometry-1452.rgba",
+      "runtime_sha256": "7b1655dde45b4d2924c3aa211c999d93e14c37f3f75cd042bbb45bd79f9245b9",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1452.png",
+      "png_sha256": "eef40192e164bb1e46d53519672610924beafcd12b3af18d0ef7756ee799905d",
+      "alpha_preserved": true,
+      "object_id": 1452
+    },
+    {
+      "runtime_file": "wall-geometry-1461.rgba",
+      "runtime_sha256": "2b11d36d42cd43cb6ffda41c873cd21228b43047888d3969d2f78369eca7c09b",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1461.png",
+      "png_sha256": "93ccdfbd6802e35035a4406e37ffcb1962bad1661519e7e363da394a91a89d8e",
+      "alpha_preserved": true,
+      "object_id": 1461
+    },
+    {
+      "runtime_file": "wall-geometry-1065.rgba",
+      "runtime_sha256": "8e8f5b896301561889c908430c0d886ed32384b3da666944feec865233ae617f",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1065.png",
+      "png_sha256": "e73d9b09c01c4c037cdb1e468cb0125c9f400ee6df21d352d19c96e92c2cd81f",
+      "alpha_preserved": true,
+      "object_id": 1065
+    },
+    {
+      "runtime_file": "wall-geometry-1408.rgba",
+      "runtime_sha256": "6322545a0c84ba4d796afafce972b03289624d20630812aadd815cae89f0a743",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1408.png",
+      "png_sha256": "9a05c1532e7ae1b9d855e550d265bef2eb18c9aebc9e8060148ddfa693c59d40",
+      "alpha_preserved": true,
+      "object_id": 1408
+    },
+    {
+      "runtime_file": "wall-geometry-1021.rgba",
+      "runtime_sha256": "6212c60e996fc45ca79f67273d550ac1c87b471d23958477c45e0fb4958819f3",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1021.png",
+      "png_sha256": "2d1c0e596ce73ab857ae3169f4289b6b60bef9b02430e61f5a3c216bf047824d",
+      "alpha_preserved": true,
+      "object_id": 1021
+    },
+    {
+      "runtime_file": "wall-geometry-1020.rgba",
+      "runtime_sha256": "94f0633de51107cd6dab95cbac5adac08a81efdd300df0eb4c7136e5376619e3",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1020.png",
+      "png_sha256": "c8bc5f4730b1dacd68ca3b591302e111ee46e1083afc3f273a498d0b2237482b",
+      "alpha_preserved": true,
+      "object_id": 1020
+    },
+    {
+      "runtime_file": "wall-geometry-1067.rgba",
+      "runtime_sha256": "776bba272a74ebf19421777428c5b3e3f61d6bb4d2a7ba15ab7906bfa3eb2b67",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1067.png",
+      "png_sha256": "058477b86770236e32a61d9dd9bedc1506378df8188a1c56220a6b2eaab232c6",
+      "alpha_preserved": true,
+      "object_id": 1067
+    },
+    {
+      "runtime_file": "wall-geometry-1066.rgba",
+      "runtime_sha256": "1073cec1de51be5420d45fd646978c9845f3b9051888039477ac23e00e0ce485",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1066.png",
+      "png_sha256": "168a90a2424a12d4560a181c3479bd10fb4e1375e4683dd32352596469dba244",
+      "alpha_preserved": true,
+      "object_id": 1066
+    },
+    {
+      "runtime_file": "wall-geometry-1107.rgba",
+      "runtime_sha256": "73114dd1ca0f2850a4af801a84cd878a155440b4fbd95ad0ce92c756a10d95d3",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1107.png",
+      "png_sha256": "cbee912a00b1976ae1feb8631882d3573412d054c89cb026b5d4ae349eafdace",
+      "alpha_preserved": true,
+      "object_id": 1107
+    },
+    {
+      "runtime_file": "wall-geometry-1023.rgba",
+      "runtime_sha256": "8da51d820de627a308dc39f5bd441afbf20979b2937c6d6a7ed34e06cfa81530",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1023.png",
+      "png_sha256": "dfbb206a5dda90bdd566dd46bed115cf6cdc95550b778253cad269da77efae61",
+      "alpha_preserved": true,
+      "object_id": 1023
+    },
+    {
+      "runtime_file": "wall-geometry-1022.rgba",
+      "runtime_sha256": "b880d0b586d6d6dcb0d4843fe25f4782faebe319a768077d0e8b6d87882fcc6d",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1022.png",
+      "png_sha256": "1f775c00b18a700981931fc312e2c98189cdd46a179a32377f811bb3dfd57c72",
+      "alpha_preserved": true,
+      "object_id": 1022
+    },
+    {
+      "runtime_file": "wall-geometry-1025.rgba",
+      "runtime_sha256": "ebed0cb6e288a0385c9409ff7c626d97fdfa980f6c4c0d44cf629b3b3475dc81",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1025.png",
+      "png_sha256": "ef888567898baea6d1810766084051986df1ead79abfee4df3adf650de744a12",
+      "alpha_preserved": true,
+      "object_id": 1025
+    },
+    {
+      "runtime_file": "wall-geometry-1024.rgba",
+      "runtime_sha256": "d6ec00719e4b4c6e9fd168216bfc7789d51e6e1caf88992db5875737b3e0600e",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1024.png",
+      "png_sha256": "8dfb5e170f6d64b70b5ffe257a2c770a9721355e30a021ad43a16ea0b8c7ef2d",
+      "alpha_preserved": true,
+      "object_id": 1024
+    },
+    {
+      "runtime_file": "wall-geometry-1027.rgba",
+      "runtime_sha256": "ae8da274711053369f2ca5518b6be4aaca16938451e611c078455e8b47a66a13",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1027.png",
+      "png_sha256": "56f85bc85f63b0abd65429c7d238146888ccdfdcf4af7d26202b831d936a3f7a",
+      "alpha_preserved": true,
+      "object_id": 1027
+    },
+    {
+      "runtime_file": "wall-geometry-1026.rgba",
+      "runtime_sha256": "aa095966b24a15d1563904ad895ff5a40591dc98e75690033d679283be99addc",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1026.png",
+      "png_sha256": "5e3130ca9bdec4535003b15a9109f724698e3d2b52dfa09dbf3c1fde3314622a",
+      "alpha_preserved": true,
+      "object_id": 1026
+    },
+    {
+      "runtime_file": "wall-geometry-1388.rgba",
+      "runtime_sha256": "e8723a1647b1cd36f0fadf4d9fee0749d954422baa36b20d617ba65bede35e59",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1388.png",
+      "png_sha256": "1b97c2d704c3f2a615e4fcf2f388554ae6b72e09a773de3297e2fa969427b720",
+      "alpha_preserved": true,
+      "object_id": 1388
+    },
+    {
+      "runtime_file": "wall-geometry-1387.rgba",
+      "runtime_sha256": "ef30c56b34a6fe71404d1532e10a0678f04f7cd19002f8e384e66dd79cd9d30a",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1387.png",
+      "png_sha256": "4051e3f90499de08b49379e00058933eaa2f6d1de00afd8b220a3d22052185a1",
+      "alpha_preserved": true,
+      "object_id": 1387
+    },
+    {
+      "runtime_file": "wall-geometry-1409.rgba",
+      "runtime_sha256": "22e004c4a706fa33b089d5069ad9bdde0e2885bdbe475fd26ed854d9066393ad",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1409.png",
+      "png_sha256": "88a87914789a05cee1813e7ffd456dc1940fba34d7366faae651e112e7e154f4",
+      "alpha_preserved": true,
+      "object_id": 1409
+    },
+    {
+      "runtime_file": "wall-geometry-1029.rgba",
+      "runtime_sha256": "970bc43b8a74157b1e41170e2c439a1f0beb5921651ce58d13a5dcba1293a268",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1029.png",
+      "png_sha256": "c0acfd401e5f9c63563f2f630247cc95c2307432877e73b6f8bc8c0ef4970795",
+      "alpha_preserved": true,
+      "object_id": 1029
+    },
+    {
+      "runtime_file": "wall-geometry-1028.rgba",
+      "runtime_sha256": "d191f2951c5b309c8023defb73cd58912e16684ce73c073c982c02ddac04560b",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1028.png",
+      "png_sha256": "7687bad0d65441aa1a9db9f93b4571f4ae652d4b6964806dbccd90ca8a37a5ce",
+      "alpha_preserved": true,
+      "object_id": 1028
+    },
+    {
+      "runtime_file": "wall-geometry-1390.rgba",
+      "runtime_sha256": "552c36c4d1014b712f22048215963c9b44333952167244e663da5b39a638c4e1",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1390.png",
+      "png_sha256": "b066b5086227ef0f75a3e28f96a62137e64b85691e3cce125529e4243890fdcd",
+      "alpha_preserved": true,
+      "object_id": 1390
+    },
+    {
+      "runtime_file": "wall-geometry-1389.rgba",
+      "runtime_sha256": "02dbaf0f036ec74414059ab0c6cd306960fb44d2c186d79781d9821599f188ae",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1389.png",
+      "png_sha256": "d57ff5350e1986136aafeb3dc6e7d72475fbfaeb05b79931e16fbeabca07630e",
+      "alpha_preserved": true,
+      "object_id": 1389
+    },
+    {
+      "runtime_file": "wall-geometry-0957.rgba",
+      "runtime_sha256": "6394fec2996276b226baf8eb33d2c2ecdeb849da8cd5c4618246bc56169a7e0f",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0957.png",
+      "png_sha256": "73d80e650b92e3df3f6fd45f84f6b1c8e2d8c47bee5f401cff3a00d0f9d27f02",
+      "alpha_preserved": true,
+      "object_id": 957
+    },
+    {
+      "runtime_file": "wall-geometry-0985.rgba",
+      "runtime_sha256": "4569a374960cd778401f12bfd6092fa7cff1a10be726c87f60540769940adc38",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0985.png",
+      "png_sha256": "48bf6fae52489f78841605dbf1a031ceabe26657ecbae8fd962e6752ee7c4029",
+      "alpha_preserved": true,
+      "object_id": 985
+    },
+    {
+      "runtime_file": "wall-geometry-0984.rgba",
+      "runtime_sha256": "5537c9425653b741c87a99e898bf7ca58eb5d8d4653d5d8ca654cadbc0ed8a27",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0984.png",
+      "png_sha256": "426ce3684a227f3ed2401b0d8bf21fb3efd042050296dd6156999377d349de8f",
+      "alpha_preserved": true,
+      "object_id": 984
+    },
+    {
+      "runtime_file": "wall-geometry-1031.rgba",
+      "runtime_sha256": "14972451d4174e2f5e31c11b0074ae3351e2f9198c59dea77cb9a1204cd0137f",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1031.png",
+      "png_sha256": "bcf0193156266422b420cf77c0d6331f57e0cee2f2356ff41489488c7c319360",
+      "alpha_preserved": true,
+      "object_id": 1031
+    },
+    {
+      "runtime_file": "wall-geometry-1030.rgba",
+      "runtime_sha256": "bebb487bb9c763c2ccbdddf7b99332f2067339eacbb9e9b7717cffd3cfa4ff5b",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1030.png",
+      "png_sha256": "d119747858c7e563ed2856812b003e44de9c2c0d878b9ffdc723661e6ab0df17",
+      "alpha_preserved": true,
+      "object_id": 1030
+    },
+    {
+      "runtime_file": "wall-geometry-1363.rgba",
+      "runtime_sha256": "d8ba8cf96f39ecf537839a147b1055a6bf9018b09aaa9c432f3b589601116de2",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1363.png",
+      "png_sha256": "f483f083db46a6394554107ddbb66ce68d461b05fff7afd5ae142db4d636b01c",
+      "alpha_preserved": true,
+      "object_id": 1363
+    },
+    {
+      "runtime_file": "wall-geometry-1392.rgba",
+      "runtime_sha256": "edb3fd7420a3602266a34f313c7b7437e996be80d139f52207fc7bdfce1c37a8",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1392.png",
+      "png_sha256": "5c2301ed123931a41c248e68bddabbb5a6c99fb3049904468cdcc18ea937415e",
+      "alpha_preserved": true,
+      "object_id": 1392
+    },
+    {
+      "runtime_file": "wall-geometry-1391.rgba",
+      "runtime_sha256": "3be905c7c6d0b4155a5786d4cd62b9e22997b9404fbe8d22fad1f3dc3bc964a5",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1391.png",
+      "png_sha256": "cbf527c647fbc7afce1a52d5b52916be7861cd1fe18e8ef18edd24e9ab3d79ba",
+      "alpha_preserved": true,
+      "object_id": 1391
+    },
+    {
+      "runtime_file": "wall-geometry-0958.rgba",
+      "runtime_sha256": "3d6284abf92ccd105b43c2f68169b5dac384afffaef29841afa4a9f46ffdb872",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0958.png",
+      "png_sha256": "f6013119c118ccf6c718f1b54fe87e6f267066dfd5a1fe17eaed9eae33c1161e",
+      "alpha_preserved": true,
+      "object_id": 958
+    },
+    {
+      "runtime_file": "wall-geometry-0987.rgba",
+      "runtime_sha256": "9efe1f2facf338934cade69d508622cdccf28414e0227b485496e0f1a46e0d73",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0987.png",
+      "png_sha256": "c0f5712f708de1ca755def6c6eacdc562d50a1f089ecc5fd9cc4608ab43c2a3f",
+      "alpha_preserved": true,
+      "object_id": 987
+    },
+    {
+      "runtime_file": "wall-geometry-1364.rgba",
+      "runtime_sha256": "33fa011d166eedf16002e931fb667c295940df902581610d6ba88aa5787f160d",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1364.png",
+      "png_sha256": "fdcad5795d1f77264d48761a914c4b446c664fb1f50bc560ca6cf569487d9eeb",
+      "alpha_preserved": true,
+      "object_id": 1364
+    },
+    {
+      "runtime_file": "wall-geometry-1393.rgba",
+      "runtime_sha256": "fa5f1ba6ba2960048eed86e6a7edbf5dd8b53b2a7ba46db113b9e97eaf748d3f",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1393.png",
+      "png_sha256": "7a8da14e70ab3125961afcb80aecfa68868c9fa7e495c11751a5de24087fe4eb",
+      "alpha_preserved": true,
+      "object_id": 1393
+    },
+    {
+      "runtime_file": "wall-geometry-0959.rgba",
+      "runtime_sha256": "edd88e4184b3c6acee7205331e0a9314cfec8ec83c0656c6306ca3b380101ea0",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0959.png",
+      "png_sha256": "e5f916536b58b6121245009d4634b9f503eb0736647f162b3f9d6814fab856d9",
+      "alpha_preserved": true,
+      "object_id": 959
+    },
+    {
+      "runtime_file": "wall-geometry-0989.rgba",
+      "runtime_sha256": "81d7cfbaa16bc6d1c683a3678331802c8270f750105b1e74f9b6a37aea398951",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0989.png",
+      "png_sha256": "15cc51ba19ba238630063bdb253ac9e38cf90e061cf4ff447a6e2a2b435835e1",
+      "alpha_preserved": true,
+      "object_id": 989
+    },
+    {
+      "runtime_file": "wall-geometry-1365.rgba",
+      "runtime_sha256": "a2959c4816ef1c53716f5b80a6d759be8e86d456bb0acc8e096c4fecc873014c",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1365.png",
+      "png_sha256": "7807531b79d09f2d701a7dc5005b0742be88d539c04f7a9a42e05dfc7f330918",
+      "alpha_preserved": true,
+      "object_id": 1365
+    },
+    {
+      "runtime_file": "wall-geometry-1394.rgba",
+      "runtime_sha256": "387dbb4b8151a99819528b36193dffd10a813cb40380f2d1c26899b645544f63",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1394.png",
+      "png_sha256": "2c4ad949fbd0fb861f44b8e4d8aa3c2f632cadbc7256ce3d923f2ed9b6e0b31d",
+      "alpha_preserved": true,
+      "object_id": 1394
+    },
+    {
+      "runtime_file": "wall-geometry-0960.rgba",
+      "runtime_sha256": "109614f2b23d4b5a1cdb3c38f777201c58e73ac61924c1e19ed0988090cf20af",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0960.png",
+      "png_sha256": "741dfc5cfe9355ba73971553d9f39210819ba14a3cfad11720a1e30071879e3b",
+      "alpha_preserved": true,
+      "object_id": 960
+    },
+    {
+      "runtime_file": "wall-geometry-0991.rgba",
+      "runtime_sha256": "a3b70823924477f307e0906494a66958beffdbbd82b47254166aa5b69c168103",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0991.png",
+      "png_sha256": "38cc78c2f582a92d0a99b0b7013b51f7387de63d33709ef64a141fb16900abbd",
+      "alpha_preserved": true,
+      "object_id": 991
+    },
+    {
+      "runtime_file": "wall-geometry-1366.rgba",
+      "runtime_sha256": "c75f48f8ba20dc10eb5b3bb751a6103dde03cf5cf661cc01029fc296c41e15c8",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1366.png",
+      "png_sha256": "1b97241a97cbd407d5442838c7f5c7932a8b80496b24ef944603588beeb341fe",
+      "alpha_preserved": true,
+      "object_id": 1366
+    },
+    {
+      "runtime_file": "wall-geometry-1395.rgba",
+      "runtime_sha256": "2ab86c3c29394fb03bb5fcdaf28f9ee83427121aba6e41007f47c4a0985e6ce3",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1395.png",
+      "png_sha256": "16a1fdc3f7368e883a726b6dd3f39bff011574e2efb10d7844e4414726b72f4e",
+      "alpha_preserved": true,
+      "object_id": 1395
+    },
+    {
+      "runtime_file": "wall-geometry-0934.rgba",
+      "runtime_sha256": "0432b9a4519cfc395de26ee8d0a81ad4bcf3c5cd62bed81e171e15458a59f178",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0934.png",
+      "png_sha256": "86556fa8380231ab521aca369a64caafcef64edacc3e9d247e9c60042252748c",
+      "alpha_preserved": true,
+      "object_id": 934
+    },
+    {
+      "runtime_file": "wall-geometry-0962.rgba",
+      "runtime_sha256": "0b38317705863d017948b99c7731dae6b28fce387c2d946ddd851cbbbfe7d549",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0962.png",
+      "png_sha256": "69454f7a6f9f4756ab5f137eb9eb49c4b7436cca158503dacfff7e5f0195d570",
+      "alpha_preserved": true,
+      "object_id": 962
+    },
+    {
+      "runtime_file": "wall-geometry-0961.rgba",
+      "runtime_sha256": "eea0f5f6ea159877ac95bb1372d0f7ba0111ce662d432439a0f3fc2df6e61fbd",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0961.png",
+      "png_sha256": "18d3f9d04085738c112ce8753896d82ece7905e918f8206e87f2479774c38a93",
+      "alpha_preserved": true,
+      "object_id": 961
+    },
+    {
+      "runtime_file": "wall-geometry-0993.rgba",
+      "runtime_sha256": "fc8f42bc910e6f4a5412b85e4acda27c89ee55ef6678ea84af451ddb4ec89ec3",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0993.png",
+      "png_sha256": "fe09d0c217c61f405617c86584f9a2995a81785b77c565b6a1b752bf83da05ba",
+      "alpha_preserved": true,
+      "object_id": 993
+    },
+    {
+      "runtime_file": "wall-geometry-1327.rgba",
+      "runtime_sha256": "5ced687fdabd52c6f92288c2d064c464fdda73e609c32fc45cc7491438a577af",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1327.png",
+      "png_sha256": "f56141df1035d94f1141ec75e8935e7bf26f27ba38accad65de69a91971a480c",
+      "alpha_preserved": true,
+      "object_id": 1327
+    },
+    {
+      "runtime_file": "wall-geometry-1368.rgba",
+      "runtime_sha256": "489c148aef735a169f563dd7cab248f8808c2a010cb8f9937e8e7c17054ca1fe",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1368.png",
+      "png_sha256": "d34b80c273617f18d9837e8624aff3521efcd45381431774f385926e2821a00a",
+      "alpha_preserved": true,
+      "object_id": 1368
+    },
+    {
+      "runtime_file": "wall-geometry-1367.rgba",
+      "runtime_sha256": "6d141d738eb8352f2e11ccb2d6c4dcd83e33d93773efa674966352c6d2daa878",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1367.png",
+      "png_sha256": "1547ef45051a6198fd00885cc45c4c82d38ecfdc03a7a92d35c2f76371fec3d6",
+      "alpha_preserved": true,
+      "object_id": 1367
+    },
+    {
+      "runtime_file": "wall-geometry-1396.rgba",
+      "runtime_sha256": "2317a9249880d7e1d1c1f46c5ae5430ff131a3b99f85c9976b7793b1377119c3",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1396.png",
+      "png_sha256": "e4c52371ad9a1d06250be471b9b4a635487db35edd9f858598ec2e0ee2b156b2",
+      "alpha_preserved": true,
+      "object_id": 1396
+    },
+    {
+      "runtime_file": "wall-geometry-0935.rgba",
+      "runtime_sha256": "1113b1d069d4622ce45e0bf7c09eb32a21e248c9c1a8d6596f78ae229f6904af",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0935.png",
+      "png_sha256": "1f8a06985cac9275637e8b8655507796334f47548b4be46f9b06b07aaf392b38",
+      "alpha_preserved": true,
+      "object_id": 935
+    },
+    {
+      "runtime_file": "wall-geometry-0963.rgba",
+      "runtime_sha256": "4eb0c8adbc4a8a7440869ada624ad508cc1f62f7964b277f3f470d01ffc903c5",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0963.png",
+      "png_sha256": "d8deb797d0c4a8391837e6a3a298d0858fbefa451cf6eb910dbf3e3c43d5d7a3",
+      "alpha_preserved": true,
+      "object_id": 963
+    },
+    {
+      "runtime_file": "wall-geometry-1328.rgba",
+      "runtime_sha256": "34aa5afe619cdd3c052aca7749ea01fecf24498ce9052eb9016b1c97dc0678db",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1328.png",
+      "png_sha256": "5d71a25799c88e079eb260566b01b46d72186ca974625793d42598956b7d20ff",
+      "alpha_preserved": true,
+      "object_id": 1328
+    },
+    {
+      "runtime_file": "wall-geometry-1369.rgba",
+      "runtime_sha256": "f01139cb7b23c2241ca46e894b21bdc80ca4880205e7e08d5a568367a96bbe7f",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1369.png",
+      "png_sha256": "2ef33a4e05d61c6dcee5d04381e01866d851f38c5ad8d479fe2dd1fd0d927ad1",
+      "alpha_preserved": true,
+      "object_id": 1369
+    },
+    {
+      "runtime_file": "wall-geometry-0964.rgba",
+      "runtime_sha256": "3da1cdcc1295acb33f4a60492e0ec2a9042bd0d76c320715dac27bc6211c90b4",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0964.png",
+      "png_sha256": "314f107ce6c30c809c6728d63449bd5d25eaf60724547104c8f49abafe87b1ca",
+      "alpha_preserved": true,
+      "object_id": 964
+    },
+    {
+      "runtime_file": "wall-geometry-1329.rgba",
+      "runtime_sha256": "318df087df82b2830e3f5c621ed29129cd998f474249dc8dcef4350c7c1f962a",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1329.png",
+      "png_sha256": "182b45dd7abbede1ace458c25931cf956defe3103466005d350ffa1d18a2fb68",
+      "alpha_preserved": true,
+      "object_id": 1329
+    },
+    {
+      "runtime_file": "wall-geometry-1370.rgba",
+      "runtime_sha256": "4c48a7ae01a433ec564765c4988d26cc8ad1a22282959b1df3af5f93fdfbb41a",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1370.png",
+      "png_sha256": "4e913f4443f4f05f547d0e959ba069cc9c7d10596e0fd853384eadbe586c46ca",
+      "alpha_preserved": true,
+      "object_id": 1370
+    },
+    {
+      "runtime_file": "wall-geometry-1331.rgba",
+      "runtime_sha256": "35524e84c8879d748c7fa0548241cc2b7f4fc660fd508acb09d5e6a117cdd7a8",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1331.png",
+      "png_sha256": "fc557a0d2bec0640b4a841e37398eb202e6f5cbab63537f1a8010c6855b27c0c",
+      "alpha_preserved": true,
+      "object_id": 1331
+    },
+    {
+      "runtime_file": "wall-geometry-1330.rgba",
+      "runtime_sha256": "24b0b0fb5460435e0a00703d13223625707a76927daf9128e192d4782300869c",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1330.png",
+      "png_sha256": "a6a35b182be0d272113fa77af37cf687ed7662b4445a9658a2fc194d22531840",
+      "alpha_preserved": true,
+      "object_id": 1330
+    },
+    {
+      "runtime_file": "wall-geometry-1371.rgba",
+      "runtime_sha256": "8649f21cc7bd606fbd652d8a2ddcc3418b7cac5f2f2349bf6b0228f3a29e71cb",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1371.png",
+      "png_sha256": "1f13977fa775d3cbeec1755dfa89588a75622160d5b49ad41eb4582bf7b2bef1",
+      "alpha_preserved": true,
+      "object_id": 1371
+    },
+    {
+      "runtime_file": "wall-geometry-0998.rgba",
+      "runtime_sha256": "f8c15739fa66684a9daaa7aec67c450ca63916fd699f856c0b3e8e45b4f95280",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0998.png",
+      "png_sha256": "87965d5e780ef13a08b3b8e71c0e5bd0c4c755e592521a2bc29f0df2ab3b256d",
+      "alpha_preserved": true,
+      "object_id": 998
+    },
+    {
+      "runtime_file": "wall-geometry-1333.rgba",
+      "runtime_sha256": "4419514630515765a6b7c258a172dcb4f5e9af6945aabb4267d447b98a8991e7",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1333.png",
+      "png_sha256": "dfb43eaa7451a89094ee4d666197f7e8d08cd04d7750af3ea57df3a45a025d60",
+      "alpha_preserved": true,
+      "object_id": 1333
+    },
+    {
+      "runtime_file": "wall-geometry-1332.rgba",
+      "runtime_sha256": "ce6983ca234333282b186e6aaa08a5641ee5de796f53cb53ec0b840e6e901680",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1332.png",
+      "png_sha256": "f5e046c6f2fa87d8aecd786c00e7c31e30409a7db053c53e7f80c5593cbf3f46",
+      "alpha_preserved": true,
+      "object_id": 1332
+    },
+    {
+      "runtime_file": "wall-geometry-0789.rgba",
+      "runtime_sha256": "76463a792bf0e2fb8f8a1845c95e6c03bc95e8100e6b704839c4c5212745a4ca",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0789.png",
+      "png_sha256": "067de84d97c2b0fd25718206f44ff3e4ea12b64b4601837abae9ef841ce7226c",
+      "alpha_preserved": true,
+      "object_id": 789
+    },
+    {
+      "runtime_file": "wall-geometry-0809.rgba",
+      "runtime_sha256": "e9c4861a497f969a4b8eab0c769d89a9b707eeedfa5456af044663754259dc3e",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0809.png",
+      "png_sha256": "937df16e7ed135e69447b463576dadd2e3cf118e348d574d4ea4c5086786062f",
+      "alpha_preserved": true,
+      "object_id": 809
+    },
+    {
+      "runtime_file": "wall-geometry-0808.rgba",
+      "runtime_sha256": "bbf2182fd47e6b795147fd2e8cebc92396e059838a9e0b9bdeb8c17601b30e40",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0808.png",
+      "png_sha256": "f2222655079110e3762a9756c004ef0ee2043f15ca9bc5d257e10413ebea6d31",
+      "alpha_preserved": true,
+      "object_id": 808
+    },
+    {
+      "runtime_file": "wall-geometry-1290.rgba",
+      "runtime_sha256": "61cb16fa33a759a79a840c2782dfa771054c27a7dfbaa485195ad1f63d487324",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1290.png",
+      "png_sha256": "b544f0eeaadc087ac48bcf80a94e0051e2a56ced8c1ee17cde798c866d72951e",
+      "alpha_preserved": true,
+      "object_id": 1290
+    },
+    {
+      "runtime_file": "wall-geometry-1335.rgba",
+      "runtime_sha256": "f6ba431795ef2751a51073bd966ee17f389f85076395ffa0361a25eb019dbf79",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1335.png",
+      "png_sha256": "54e4a12b25af324092092ce372f4a6f0c8deaa8675fc915e49cbb2051edbc49d",
+      "alpha_preserved": true,
+      "object_id": 1335
+    },
+    {
+      "runtime_file": "wall-geometry-1334.rgba",
+      "runtime_sha256": "2cb7293a19ae733dcb3e66ac94f9d6f208110530e8424e8e45c517aff9b90de0",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1334.png",
+      "png_sha256": "7dca1f87d63b9784f3ab51122ea6b569394dbbb8b2a5e7d2fb7c6b8db22ce298",
+      "alpha_preserved": true,
+      "object_id": 1334
+    },
+    {
+      "runtime_file": "wall-geometry-0811.rgba",
+      "runtime_sha256": "2c36ab3b19966f2fd40a465862bb1eaa79588759901fe2228dead8aa12951a7d",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0811.png",
+      "png_sha256": "7b8c1a03ad9f8344f8c152a73f168c1348a856f7fcf09376a396f38a1328f298",
+      "alpha_preserved": true,
+      "object_id": 811
+    },
+    {
+      "runtime_file": "wall-geometry-0810.rgba",
+      "runtime_sha256": "fb0ff9d8acc2296a0607c7f068c07271858b9af92401a28d278b6b7c013b1d5e",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0810.png",
+      "png_sha256": "4c182d9242c268f820c07e363c0a14398f6fa408e0b4663ce41d5d4cba5257a8",
+      "alpha_preserved": true,
+      "object_id": 810
+    },
+    {
+      "runtime_file": "wall-geometry-1291.rgba",
+      "runtime_sha256": "f6251fedd09547e8eb86934e97844d9e69e9ddbc5ba81421614b53b4a50c026e",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1291.png",
+      "png_sha256": "a1e6457cd59a552a666ec91ba5eb599090be25f4ea6e4e5789c01a165d3d25cd",
+      "alpha_preserved": true,
+      "object_id": 1291
+    },
+    {
+      "runtime_file": "wall-geometry-1336.rgba",
+      "runtime_sha256": "56f2ef7d63b33223dcd383d1517474188c8d4d6c73422480b4bf05436f6aaf73",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1336.png",
+      "png_sha256": "c4d23a44d8fac0f5aaec9bfd9557438cf82c983ed812534ed2c72fb20a27afaf",
+      "alpha_preserved": true,
+      "object_id": 1336
+    },
+    {
+      "runtime_file": "wall-geometry-0843.rgba",
+      "runtime_sha256": "bf6a0d334f4a3d576ff10064920828b8d311e58b768a1045f03a1d80fb8c8260",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0843.png",
+      "png_sha256": "c24bf298564e743f64b8df359cdbb72230cd4679ac06d6f4f03b12adfbaf84dc",
+      "alpha_preserved": true,
+      "object_id": 843
+    },
+    {
+      "runtime_file": "wall-geometry-1292.rgba",
+      "runtime_sha256": "1e343d26a0bd90a76cbac117b948d9c79c4093909b3d10ff4bf847b5b5ac91f4",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1292.png",
+      "png_sha256": "2666f17a5d914385b134f48060d5012228040fed3b39d21c67681fec35fad623",
+      "alpha_preserved": true,
+      "object_id": 1292
+    },
+    {
+      "runtime_file": "wall-geometry-1337.rgba",
+      "runtime_sha256": "2e216f00d5ada60d7a6aae1b7ca070ea4313dad2c0e678cca58cdb0c37de15c4",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1337.png",
+      "png_sha256": "d17cc6ab8f2a54ca1dd0a75b44173eaa25b7ccd08dccf98b4b46cbda4d95000b",
+      "alpha_preserved": true,
+      "object_id": 1337
+    },
+    {
+      "runtime_file": "wall-geometry-0866.rgba",
+      "runtime_sha256": "377f2a7421bde76041248ccf45313f2958c0840707ae85cfa49317d69aec9d1b",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0866.png",
+      "png_sha256": "7db85002e0ffbddf027f6d80fc59fd164017f68d6c1824164bf0cb23b5b92823",
+      "alpha_preserved": true,
+      "object_id": 866
+    },
+    {
+      "runtime_file": "wall-geometry-1116.rgba",
+      "runtime_sha256": "21e7b31cc8142d13c400b319db68fa1485f671c21e5c7237da84b7bc238981c1",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1116.png",
+      "png_sha256": "98e9e3c5b5f7635af0acce60962b32d9d223ba8c0b131d311f8d714a880317fe",
+      "alpha_preserved": true,
+      "object_id": 1116
+    },
+    {
+      "runtime_file": "wall-geometry-1115.rgba",
+      "runtime_sha256": "d8d76f285bbe8dd2a3b225c78b574fd0c23a6b2beb084b8ceb4b5fc65a7393dc",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1115.png",
+      "png_sha256": "ee5d2f0b9a581df0c5b38a54422400e4def9e0f4138a8b959202509c96630abb",
+      "alpha_preserved": true,
+      "object_id": 1115
+    },
+    {
+      "runtime_file": "wall-geometry-1294.rgba",
+      "runtime_sha256": "a71025079aa9a3f90f9c5c5b28503da65975ab5b3f67801c103378c6624f5e69",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1294.png",
+      "png_sha256": "caf06d0b5241702cb90af2ed17e712ef30913f55dbb43e208a341b08507d6f85",
+      "alpha_preserved": true,
+      "object_id": 1294
+    },
+    {
+      "runtime_file": "wall-geometry-1293.rgba",
+      "runtime_sha256": "a5c3fc718574fbe45f145dba4415ebb94fd857b80ab0ffa50a0d29f1d0c82fc5",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1293.png",
+      "png_sha256": "aba4c023a19678d0ba39876057e264d2c71927b1d912d923c7cf33c6f5bcb3e6",
+      "alpha_preserved": true,
+      "object_id": 1293
+    },
+    {
+      "runtime_file": "wall-geometry-1338.rgba",
+      "runtime_sha256": "0472347e9c9a8927a99a68ca91cae69abb59807c7eb74a8af43f0bcd6fe0bb11",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1338.png",
+      "png_sha256": "ae377c51bc198f31228943d4eaddec0d21eeccd4c0a18124ca39489f63d0bad2",
+      "alpha_preserved": true,
+      "object_id": 1338
+    },
+    {
+      "runtime_file": "wall-geometry-0888.rgba",
+      "runtime_sha256": "a7008e2615bb12f4f20f6afb8f0682e283090499f9e7c3eb4dc7ba6b707bd270",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0888.png",
+      "png_sha256": "35e4306479b5bb848fc7b774fc632c0f0cca1a4bacf5c26a395017e8b06c5355",
+      "alpha_preserved": true,
+      "object_id": 888
+    },
+    {
+      "runtime_file": "wall-geometry-1118.rgba",
+      "runtime_sha256": "0b67318f5b8a8b9102237e70ac22c2786dc06f2d96cb2982f3cfc05fa94b49ab",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1118.png",
+      "png_sha256": "d913cda65dfa78ecb3add6dce7a8b9e63dba2a6ed929be0e9382c7ca2c09d7ad",
+      "alpha_preserved": true,
+      "object_id": 1118
+    },
+    {
+      "runtime_file": "wall-geometry-1117.rgba",
+      "runtime_sha256": "321134172ef1d46e81248de8b4df51f49dd2f470b9abf7ae29a5406a4f135936",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1117.png",
+      "png_sha256": "c1f280d3503f3d37548896df909feb12defb85fb14c4c2447bf93e61af54a908",
+      "alpha_preserved": true,
+      "object_id": 1117
+    },
+    {
+      "runtime_file": "wall-geometry-0911.rgba",
+      "runtime_sha256": "b47a27ffa8c27dfd27c80d9f7ba350ddfb2430498ce6890accb8adb219c1342d",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0911.png",
+      "png_sha256": "7ac8257027c0205c4500623f52eb0664a64e73f926af7394212c957261a98ceb",
+      "alpha_preserved": true,
+      "object_id": 911
+    },
+    {
+      "runtime_file": "wall-geometry-1044.rgba",
+      "runtime_sha256": "43c37ad0edc3f792d0712b1604eef382dac82be8dd88cb1561f6c2cd341bd52e",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1044.png",
+      "png_sha256": "49e6ab8caa4dd064d81d49a953740b7fe1524fe7c394a6446033007f0f1bb2de",
+      "alpha_preserved": true,
+      "object_id": 1044
+    },
+    {
+      "runtime_file": "wall-geometry-1043.rgba",
+      "runtime_sha256": "33f1489929977d1f0a266e1d3b26003407e73787797bed1130124893b79a5d7a",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1043.png",
+      "png_sha256": "73ce71eb1f6310e815bab98fc1dad9c8c9203b4ac3c2088a991d20394365b100",
+      "alpha_preserved": true,
+      "object_id": 1043
+    },
+    {
+      "runtime_file": "wall-geometry-1082.rgba",
+      "runtime_sha256": "3a3cddc4360106b80ba3fe457d050904e1c95c62c5bbd28632255122be010cb8",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1082.png",
+      "png_sha256": "13d5a07a96637a3e7f2b89eb204c35224234461c28984b6d5456fb2c8082db30",
+      "alpha_preserved": true,
+      "object_id": 1082
+    },
+    {
+      "runtime_file": "wall-geometry-1081.rgba",
+      "runtime_sha256": "fbb8522f3493075b78b4146019b37e635e6e0982c2807d720c033805aa896a71",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1081.png",
+      "png_sha256": "068e9deee73f9569000a7a398f8e909503d093fa1e492e2ae2d729049ccb756f",
+      "alpha_preserved": true,
+      "object_id": 1081
+    },
+    {
+      "runtime_file": "wall-geometry-1120.rgba",
+      "runtime_sha256": "22a156cb3c97bab872f64a7edd74c7e796b04663c607f1e88ef63e0cebeb701d",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1120.png",
+      "png_sha256": "802e18f36516e70a9b8b058ef76af1d28c812ac2c3d0ed50b9b12372ff8944a4",
+      "alpha_preserved": true,
+      "object_id": 1120
+    },
+    {
+      "runtime_file": "wall-geometry-1119.rgba",
+      "runtime_sha256": "d8ca7f19fe2e2bbe5439690fee1b0f89de38857e7c17d20fd5f392e510458af6",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1119.png",
+      "png_sha256": "2c1c42576d6b33df1ad1ea13db3676e1a19b537c7a8b02f3aa9d0cbe43ff79a7",
+      "alpha_preserved": true,
+      "object_id": 1119
+    },
+    {
+      "runtime_file": "wall-geometry-1296.rgba",
+      "runtime_sha256": "bdce34c52d37ea826deb25009f2c3f10e49b46b6709a25d37de1a64526c835d7",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1296.png",
+      "png_sha256": "e95b1edbcf65050c8160489e6fe2c14509c5ce1c8254328f098e67cb7d1c9679",
+      "alpha_preserved": true,
+      "object_id": 1296
+    },
+    {
+      "runtime_file": "wall-geometry-1339.rgba",
+      "runtime_sha256": "1cbb13202783ded06d475a1e7a2af869aed210f855c9bf8c336700071d6dadba",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1339.png",
+      "png_sha256": "1cd515e7e9d474620efe7a331fa58534936d107f183fd7ac58070af24200bf0c",
+      "alpha_preserved": true,
+      "object_id": 1339
+    },
+    {
+      "runtime_file": "wall-geometry-0939.rgba",
+      "runtime_sha256": "8e0665910717f98a04750890984408819fe7e5dfca4ecab84a1a28b1023f4f0e",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0939.png",
+      "png_sha256": "c44af11b26da8a7ffcb6c46e195d6527c7862090ba855f9a85f8e12c36e14d66",
+      "alpha_preserved": true,
+      "object_id": 939
+    },
+    {
+      "runtime_file": "wall-geometry-1047.rgba",
+      "runtime_sha256": "71d817d913ce21e37a42c20e24c9ca7804303c30ccc56c57fabd932150b056ae",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1047.png",
+      "png_sha256": "5de9236e2f70eb0bf432b071f9bcb525391338fec20c92ad8e6a91d634044ff8",
+      "alpha_preserved": true,
+      "object_id": 1047
+    },
+    {
+      "runtime_file": "wall-geometry-1045.rgba",
+      "runtime_sha256": "485d34dcc9d2e70eda2633707f15003789ea9245ad17676cde04792cc4398c14",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1045.png",
+      "png_sha256": "09d25facfb014e73a779a2acef997d5bcee6ab2950256f74286f3d5f43688b8a",
+      "alpha_preserved": true,
+      "object_id": 1045
+    },
+    {
+      "runtime_file": "wall-geometry-1297.rgba",
+      "runtime_sha256": "cc47495651d6208c772da6163902f44c74ce7be2890b26e27322f276d8eaa0a7",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1297.png",
+      "png_sha256": "28e1b43335abd731745bbef71cb24e261c882c452cb68a874d2589f8b9af86ac",
+      "alpha_preserved": true,
+      "object_id": 1297
+    },
+    {
+      "runtime_file": "wall-geometry-1340.rgba",
+      "runtime_sha256": "1b8a661b18982cba1600cd37e6cd424030f1e80092bf4241b9d3e7e2bd3e2b88",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1340.png",
+      "png_sha256": "5a82e113443b2e04ed7182e7cb131a87fdfc1121059d6bf22fd9f646cf830a6f",
+      "alpha_preserved": true,
+      "object_id": 1340
+    },
+    {
+      "runtime_file": "wall-geometry-0967.rgba",
+      "runtime_sha256": "21f5d42ca198059c9d54383647cbc4eab910ac09071ce057514e8f5797208607",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-0967.png",
+      "png_sha256": "955ab330aa8bdba93559b0e8956e714b4abeb39f549f9e3c16a6f302a1aa4414",
+      "alpha_preserved": true,
+      "object_id": 967
+    },
+    {
+      "runtime_file": "wall-geometry-1050.rgba",
+      "runtime_sha256": "444009fc12168bc0aa39b84e9c0aab00608b962eb68545c557b5b9cb10075ee1",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1050.png",
+      "png_sha256": "fb16c5db34c2ec326a04f77b8a46b85afbeaf40ee9908d59e6ea051f950eacef",
+      "alpha_preserved": true,
+      "object_id": 1050
+    },
+    {
+      "runtime_file": "wall-geometry-1049.rgba",
+      "runtime_sha256": "8420a1dd2d193927041c20c486e601314d3ec80f3f303bfe76c76b70c5015f1c",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1049.png",
+      "png_sha256": "db721f9fce8ee8f81a4914c3e496baed8e7e30aee6d7c84093064f4784a8f672",
+      "alpha_preserved": true,
+      "object_id": 1049
+    },
+    {
+      "runtime_file": "wall-geometry-1299.rgba",
+      "runtime_sha256": "b34b7849943a47e685ccdd932f89fdae779eeaaa1b7c44634fac6cf68d25dc89",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1299.png",
+      "png_sha256": "07d76e2a1da17a7703eef1737e5b6fbade1cc26687273ff7bed9757180fc0744",
+      "alpha_preserved": true,
+      "object_id": 1299
+    },
+    {
+      "runtime_file": "wall-geometry-1298.rgba",
+      "runtime_sha256": "f31a4fb50c2a21eec4ff639f5d50873a6414ae271d740d6de777066b64161e21",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1298.png",
+      "png_sha256": "d79d09a608392a2c6b95f66477cb263285238fdfd1fd442899bcee5f66b9aec0",
+      "alpha_preserved": true,
+      "object_id": 1298
+    },
+    {
+      "runtime_file": "wall-geometry-1341.rgba",
+      "runtime_sha256": "1387721e1f9c3ca3b118851515222fee5d91642dbdc9cbdf4db1c5efef80b594",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1341.png",
+      "png_sha256": "61781aa31e4044aa074118ade116c3eab95f4bfa21b5ad333da988ad3b961051",
+      "alpha_preserved": true,
+      "object_id": 1341
+    },
+    {
+      "runtime_file": "wall-geometry-1001.rgba",
+      "runtime_sha256": "b40153d13613f4d9d8f551706a1f7bf9e743d77a77f57710cda86854d3ed8a72",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1001.png",
+      "png_sha256": "bf7430c6e9fb1572fcba3032c46684db83ceb7c8679baf7c1fa9688e38ff3839",
+      "alpha_preserved": true,
+      "object_id": 1001
+    },
+    {
+      "runtime_file": "wall-geometry-1052.rgba",
+      "runtime_sha256": "442f1c8c9fc64dee0c94f5505e393a7c5a249f6a9536a12549ecc3b9f4d22b95",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1052.png",
+      "png_sha256": "39b529c315ac8cde66e9c9816e5e192b26468f374b8d7990b0efd23531b45125",
+      "alpha_preserved": true,
+      "object_id": 1052
+    },
+    {
+      "runtime_file": "wall-geometry-1051.rgba",
+      "runtime_sha256": "b63aaffa72399663f3f366467a856fb45ebdd108f705e8c270671decba244409",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1051.png",
+      "png_sha256": "bc432171242e1e9ee83462cd8fcf9d9105bf0396fb65564ae495f36fbbf2d0e9",
+      "alpha_preserved": true,
+      "object_id": 1051
+    },
+    {
+      "runtime_file": "wall-geometry-1301.rgba",
+      "runtime_sha256": "747f1581998060bf0c741ca974e679993742e644c4fef12ccc0fe7bcfb9e0672",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1301.png",
+      "png_sha256": "b4c54730109bb304d9b830a1e804fde00e0db128569bb438281f860fee2d293a",
+      "alpha_preserved": true,
+      "object_id": 1301
+    },
+    {
+      "runtime_file": "wall-geometry-1300.rgba",
+      "runtime_sha256": "a74aaf51c43149f33e62e959cdb348497213c0790464a51609a93b5170b1be5e",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1300.png",
+      "png_sha256": "7168e75f3c8db664cf3e3b8cdd2ab6859e65fd702f8c459a802acd56ece9f9ca",
+      "alpha_preserved": true,
+      "object_id": 1300
+    },
+    {
+      "runtime_file": "wall-geometry-1053.rgba",
+      "runtime_sha256": "691d9e0a1b2e1cee2413447dddfd40cdbeba29b5721258bee71ba68100d48079",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1053.png",
+      "png_sha256": "d0d2754c5f7a36fbb3a0311531e21cdb452795600090fa0504c107f7bc9d9e4f",
+      "alpha_preserved": true,
+      "object_id": 1053
+    },
+    {
+      "runtime_file": "wall-geometry-1303.rgba",
+      "runtime_sha256": "e57d25f2c63d25c4936fd8a605bccdefe5b409af35e6c2cdc52f09fe7a7bc46f",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1303.png",
+      "png_sha256": "09c050d140a3c474129fd0e2937382524fb2aaabdfb1769a4269f4bea7e28c33",
+      "alpha_preserved": true,
+      "object_id": 1303
+    },
+    {
+      "runtime_file": "wall-geometry-1302.rgba",
+      "runtime_sha256": "b5d5c5947cfa8e425c5728f0114e82803aba6e8a7b21d1f617b8dd13296e4d7f",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1302.png",
+      "png_sha256": "9e651ffa22442f9f30ed5681cee935c8f29163a17991ce27d0a731d7049c8d7f",
+      "alpha_preserved": true,
+      "object_id": 1302
+    },
+    {
+      "runtime_file": "wall-geometry-1305.rgba",
+      "runtime_sha256": "ba29b5e821cf5ffd485503b8392b23f209109e629546666419afcbfe20215e59",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1305.png",
+      "png_sha256": "6cd98d4d23479e49bd255a94b55fbc978c4cee746db5372f70f7978942e5d991",
+      "alpha_preserved": true,
+      "object_id": 1305
+    },
+    {
+      "runtime_file": "wall-geometry-1304.rgba",
+      "runtime_sha256": "7542ac5a9197f0b759889971e0e65aa7e5204165583fc3c40e93f00f6fd79753",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1304.png",
+      "png_sha256": "482355313f1249bc453d90273bce76e2bcb3ab9f382aff698aff6a22185bfdf2",
+      "alpha_preserved": true,
+      "object_id": 1304
+    },
+    {
+      "runtime_file": "wall-geometry-1343.rgba",
+      "runtime_sha256": "8fbd989d5dbbf6b627fd5ada7d29b0b0c1aa010b4ddfa0bfd0005ec92f53495e",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1343.png",
+      "png_sha256": "d887778924732e9a6b8fb02ce0f50d041fc5d5ed8fa27dc2e356404d76e3f1fc",
+      "alpha_preserved": true,
+      "object_id": 1343
+    },
+    {
+      "runtime_file": "wall-geometry-1372.rgba",
+      "runtime_sha256": "6e9f9354a1246668c07f584f283580649329ef7861c4176a5406c8ae34daf575",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1372.png",
+      "png_sha256": "22936d7198ce072784f9a448b94cf11f0c172c1e81b833faeb7f9d7af4d58dee",
+      "alpha_preserved": true,
+      "object_id": 1372
+    },
+    {
+      "runtime_file": "wall-geometry-1426.rgba",
+      "runtime_sha256": "6bdb5019b00ad9db77ece5df4cbaabbd31cfd379872e9101a676ed4d89824917",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1426.png",
+      "png_sha256": "e74821b55800e433f057d03ef6bd03f37ec93ff745c49d514a02c83a82416dc5",
+      "alpha_preserved": true,
+      "object_id": 1426
+    },
+    {
+      "runtime_file": "wall-geometry-1438.rgba",
+      "runtime_sha256": "0b33d8a071e387cad2ce80632f99256a7be41dcbc9a5edcf9da5047fb3703d33",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1438.png",
+      "png_sha256": "8952568e3d6c053b626cefebf575557255df3d8652c3db4948572a9c71e43ca3",
+      "alpha_preserved": true,
+      "object_id": 1438
+    },
+    {
+      "runtime_file": "wall-geometry-1437.rgba",
+      "runtime_sha256": "9a61713a7e2e18cf68043f1df503f8ae02c0151e849c6e509b639503e3de27c2",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1437.png",
+      "png_sha256": "d9ff79aa51f1b64d8b3349c8d695bc0ccb4c935225cfd1974a3b84bd30f7a22d",
+      "alpha_preserved": true,
+      "object_id": 1437
+    },
+    {
+      "runtime_file": "wall-geometry-1398.rgba",
+      "runtime_sha256": "ff78ee3a8f504e74d1b913ac15c210944a4e02e5fc18abf6dd99f9e0b23752a1",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1398.png",
+      "png_sha256": "04017f8645378ed6aa2c10337e42e908b534cfdc4dab62bc6b40d83b6074c580",
+      "alpha_preserved": true,
+      "object_id": 1398
+    },
+    {
+      "runtime_file": "wall-geometry-1414.rgba",
+      "runtime_sha256": "ea06360d7d6d85c12ffb89cd0ad0e84e70c8a40e40f5710e60ef9941a937a5bc",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1414.png",
+      "png_sha256": "b8b05265acb4feb6c3a4e05a4a57a2b397bdeecca1cd62f7e115227deb55bdc2",
+      "alpha_preserved": true,
+      "object_id": 1414
+    },
+    {
+      "runtime_file": "wall-geometry-1413.rgba",
+      "runtime_sha256": "fdc725cfb7791bc57d7fcb7595a60a16970443ae7acb365f5be32aca7d65eee9",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1413.png",
+      "png_sha256": "028c7fca2856ca8b426214c8ec3a84b8f5c20f4998ca36ae631698ee30470228",
+      "alpha_preserved": true,
+      "object_id": 1413
+    },
+    {
+      "runtime_file": "wall-geometry-1428.rgba",
+      "runtime_sha256": "6fbb33862a5ff5afb96040abbedf5aed1bd61c91698292b7db5e46f3569e4d22",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1428.png",
+      "png_sha256": "3bb7add1ca813288e5ea6a4fcd2a060da19671934c33f518abe1502770e46349",
+      "alpha_preserved": true,
+      "object_id": 1428
+    },
+    {
+      "runtime_file": "wall-geometry-1427.rgba",
+      "runtime_sha256": "fbdf1ffdad8db856274a68bde66604a4d561c3845ae766d6526d90e689ebd56e",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1427.png",
+      "png_sha256": "4986665c9d58e7d9599faaf92f39e336c222cb679e4ffe4bf56625ad0e4eee87",
+      "alpha_preserved": true,
+      "object_id": 1427
+    },
+    {
+      "runtime_file": "wall-geometry-1439.rgba",
+      "runtime_sha256": "3b3bda6b2d57930f01bb5d89d53fb546d4c1bc95d6500cf396424ed0930717ea",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1439.png",
+      "png_sha256": "35983ed30d4017caffb5c28ef3efcf8b55a597fb20240832f8fcbbf51bf9a8a3",
+      "alpha_preserved": true,
+      "object_id": 1439
+    },
+    {
+      "runtime_file": "wall-geometry-1374.rgba",
+      "runtime_sha256": "1759ff61d451249b1518fe3a3a5bd3084b4480364b3e1c0e7c484ac6e5728800",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1374.png",
+      "png_sha256": "57c5ac4edab9e6f4ab28cc8bcde93446119b8978149bc6a2ce1b281ca535e621",
+      "alpha_preserved": true,
+      "object_id": 1374
+    },
+    {
+      "runtime_file": "wall-geometry-1373.rgba",
+      "runtime_sha256": "73123ecfd62f6f5cd3bbe4e8d1b35f5ec2e5f810af6ea1aee1bca530f2df113a",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1373.png",
+      "png_sha256": "de322e27f95f5f17a84d663996395ce4abfa5f52ce7d87a6aed664fdcfc7711f",
+      "alpha_preserved": true,
+      "object_id": 1373
+    },
+    {
+      "runtime_file": "wall-geometry-1400.rgba",
+      "runtime_sha256": "21b9c78239844fe33a05e9480fe1c494c73068096c7a80958d7a47eddf30ee71",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1400.png",
+      "png_sha256": "5100e0f0f382bcdc60feed5aa1b6528a6d0c2736cd46be965fcb64f3482d1b23",
+      "alpha_preserved": true,
+      "object_id": 1400
+    },
+    {
+      "runtime_file": "wall-geometry-1399.rgba",
+      "runtime_sha256": "d00800e019bee4b01ca0c3a5deda80c9e6b9ebb5a52955e44c886e780e279efe",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1399.png",
+      "png_sha256": "6ac800e75adafdf550c7ec3c6085ad15c554b12c2060a4da91b1c64e57b105cc",
+      "alpha_preserved": true,
+      "object_id": 1399
+    },
+    {
+      "runtime_file": "wall-geometry-1415.rgba",
+      "runtime_sha256": "6b8bc0b91b0ad9144f8031b191e2d31bc46528659715d6c4d49302595ffe223c",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1415.png",
+      "png_sha256": "1025b35ad8ab8f85881feca82a11e4d91b5ff3b45dfdc59b7a537db87ee9e6f7",
+      "alpha_preserved": true,
+      "object_id": 1415
+    },
+    {
+      "runtime_file": "wall-geometry-1309.rgba",
+      "runtime_sha256": "0b34ec6e03759e975e5bd90bd8b5e68533928584980ec245db7ab8086e6b68fd",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1309.png",
+      "png_sha256": "b3b85b95f10e167f357aae6b121628f223cad08a7bf381c80aaab6a7bdf538b7",
+      "alpha_preserved": true,
+      "object_id": 1309
+    },
+    {
+      "runtime_file": "wall-geometry-1346.rgba",
+      "runtime_sha256": "b7db05670dcc77ccd9d327b0bf99ecdc54c73d455a4120015858e535becb0ed0",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1346.png",
+      "png_sha256": "472a048ae8ce32060cb67a1b83bb9d25c75a8f7829616e40c7449c731df6d63a",
+      "alpha_preserved": true,
+      "object_id": 1346
+    },
+    {
+      "runtime_file": "wall-geometry-1345.rgba",
+      "runtime_sha256": "7d0446ee3000a696708bb7391592df33df3b06ac0eccdf396d52941778b5bd4f",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1345.png",
+      "png_sha256": "a84dc30cdd2ae160d758143158ec9dabb26f7e862139c9248ab801d9f24e30a9",
+      "alpha_preserved": true,
+      "object_id": 1345
+    },
+    {
+      "runtime_file": "wall-geometry-1377.rgba",
+      "runtime_sha256": "57066cd31ceb7d9a2d1f85925927672efaabcd1c05e925c33ee5f6b95b5e468c",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1377.png",
+      "png_sha256": "aa55c5f1717a8d2638f28d524922d98cac369f9ca7f62b6b42c592499070dc17",
+      "alpha_preserved": true,
+      "object_id": 1377
+    },
+    {
+      "runtime_file": "wall-geometry-1375.rgba",
+      "runtime_sha256": "577f5933b86a868dba7315e4b184312e97dc650201bcd9f572ecd457c5225df9",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1375.png",
+      "png_sha256": "83632f707e60a7122d93d118cadbd5c9c8e9339071857c56b3076070cf1cfdc9",
+      "alpha_preserved": true,
+      "object_id": 1375
+    },
+    {
+      "runtime_file": "wall-geometry-1310.rgba",
+      "runtime_sha256": "cdced255dc1c8469759e05bc6ac1336be3fe27126688b57bca5576666230b308",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1310.png",
+      "png_sha256": "0d955b274d3afbbb71ebd0f6f6275f1e1ee0d95d58692d5311ef081ff280873d",
+      "alpha_preserved": true,
+      "object_id": 1310
+    },
+    {
+      "runtime_file": "wall-geometry-1347.rgba",
+      "runtime_sha256": "83174c3bd0da81e0541c72f659dceb180bb81617a606fcb642a345c879e01705",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1347.png",
+      "png_sha256": "047b850d3e029b017ee46bde686691ae286ed70565564d3484ef3e5e29abbfc6",
+      "alpha_preserved": true,
+      "object_id": 1347
+    },
+    {
+      "runtime_file": "wall-geometry-1311.rgba",
+      "runtime_sha256": "ef12e925102c11839438a39937e431139fa55a5879441a75efa06e7109ff61fe",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1311.png",
+      "png_sha256": "d7a091020684be1a3f8632247a40bf0563999e063108c7433ccb1e50531abcab",
+      "alpha_preserved": true,
+      "object_id": 1311
+    },
+    {
+      "runtime_file": "wall-geometry-1348.rgba",
+      "runtime_sha256": "02a9caa6cf40fe3e89953e46580d58860fc89d93e0c0d9a0d46ffda6fa01c49a",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1348.png",
+      "png_sha256": "e34749c5531b495b284c9f9e4be1488eeec254b964f58e07d7e32afaf4823072",
+      "alpha_preserved": true,
+      "object_id": 1348
+    },
+    {
+      "runtime_file": "wall-geometry-1312.rgba",
+      "runtime_sha256": "4d6cf757c32206ea2f677ee6104677b11c4e4de6ee1666c4ba9003d1ac624986",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1312.png",
+      "png_sha256": "d79a98d6b791327107a0026791dd86d804ca275c810137347c6a83fb7870d11f",
+      "alpha_preserved": true,
+      "object_id": 1312
+    },
+    {
+      "runtime_file": "wall-geometry-1349.rgba",
+      "runtime_sha256": "ab4ecd85f36e5433e370e9484f435506fa71c6c8d74bc647db16d421e5e4c53d",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1349.png",
+      "png_sha256": "b1f49d06aed7fc03881daf4e7adfb52ea64981ea21ecaab37edcbb5bb2bc9d13",
+      "alpha_preserved": true,
+      "object_id": 1349
+    },
+    {
+      "runtime_file": "wall-geometry-1313.rgba",
+      "runtime_sha256": "059e3f5c110c2fbc8201ea156da4ccbdc31f8ff750fc7953df4bc536ec126c68",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1313.png",
+      "png_sha256": "a22074ec915918a1d8622730f8230fb3994f8a82f7e5862edbda6a67bc833fde",
+      "alpha_preserved": true,
+      "object_id": 1313
+    },
+    {
+      "runtime_file": "wall-geometry-1350.rgba",
+      "runtime_sha256": "06d4d29e618906f6c9e91d3b70bce0d3c38e2f75902d157f5a83585d7d60ffbf",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1350.png",
+      "png_sha256": "dafd01c5a8c5b9417e7c9897ade0064ddfad502e0ff8e37ae01652742a11b655",
+      "alpha_preserved": true,
+      "object_id": 1350
+    },
+    {
+      "runtime_file": "wall-geometry-1351.rgba",
+      "runtime_sha256": "f15cfe5628761efb52e03f3db4a021e5d843724c58b66d475a52eb700f146e12",
+      "png": "assets\\hd\\v13ent\\wall-edges-v3\\wall-geometry-1351.png",
+      "png_sha256": "8547c16bb33feda0e96f018536f34048975a097fc4ea3ba4f4d13912f3021e93",
+      "alpha_preserved": true,
+      "object_id": 1351
+    }
+  ],
+  "checks": {
+    "passed": 1119,
+    "failed": 0,
+    "map": "V13ENT.MAP",
+    "loaded_resources": 247,
+    "scene_resources_seen": 76,
+    "decoration_images": 8,
+    "decoration_placements": 19,
+    "largest_vault_texel_offset": 72925,
+    "floor_instances": 96,
+    "rock_instances": 13,
+    "collision_hexes_checked": 120000,
+    "blocked_hexes": 1069,
+    "collision_hash": "18093902727436680495",
+    "path_routes_checked": 12,
+    "floor_visible_pixels": 20342,
+    "rock_visible_pixels": 6796,
+    "front_actor_tile": 20106,
+    "rear_actor_tile": 22286,
+    "capture_width": 1920,
+    "capture_height": 1080
+  },
+  "comparison": {
+    "pairs": [
+      {
+        "file": "build\\hd-wall-edges-v3-20261115\\review\\entrance-hd-comparison.png",
+        "before": "build\\hd-wall-edges-v3-20261115\\before\\entrance-hd.png",
+        "after": "build\\hd-wall-edges-v3-20261115\\after-v2\\entrance-hd.png",
+        "crop": [
+          1060,
+          75,
+          1860,
+          475
+        ],
+        "scale": 1,
+        "color_adjustments": false
+      },
+      {
+        "file": "build\\hd-wall-edges-v3-20261115\\review\\cave-22662-hd-comparison.png",
+        "before": "build\\hd-wall-edges-v3-20261115\\before\\cave-22662-hd.png",
+        "after": "build\\hd-wall-edges-v3-20261115\\after-v2\\cave-22662-hd.png",
+        "crop": [
+          670,
+          100,
+          1670,
+          650
+        ],
+        "scale": 1,
+        "color_adjustments": false
+      }
+    ],
+    "classic_frames": [
+      {
+        "file": "actor-behind-classic.png",
+        "exact": true
+      },
+      {
+        "file": "actor-front-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-16290-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-18721-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-22662-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-24097-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-27075-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-27871-classic.png",
+        "exact": true
+      },
+      {
+        "file": "entrance-classic-4k.png",
+        "exact": true
+      },
+      {
+        "file": "entrance-classic.png",
+        "exact": true
+      },
+      {
+        "file": "fade-dark25-classic.png",
+        "exact": true
+      },
+      {
+        "file": "fade-dark50-classic.png",
+        "exact": true
+      },
+      {
+        "file": "fade-normal-classic.png",
+        "exact": true
+      },
+      {
+        "file": "fade-white-classic.png",
+        "exact": true
+      },
+      {
+        "file": "fade-white50-classic.png",
+        "exact": true
+      },
+      {
+        "file": "grey-buffer-classic.png",
+        "exact": true
+      },
+      {
+        "file": "overlay-classic.png",
+        "exact": true
+      }
+    ],
+    "classic_all_exact": true,
+    "before_checks": {
+      "passed": 1119,
+      "failed": 0,
+      "map": "V13ENT.MAP",
+      "loaded_resources": 247,
+      "scene_resources_seen": 76,
+      "decoration_images": 8,
+      "decoration_placements": 19,
+      "largest_vault_texel_offset": 72925,
+      "floor_instances": 96,
+      "rock_instances": 13,
+      "collision_hexes_checked": 120000,
+      "blocked_hexes": 1069,
+      "collision_hash": "18093902727436680495",
+      "path_routes_checked": 12,
+      "floor_visible_pixels": 20342,
+      "rock_visible_pixels": 6796,
+      "front_actor_tile": 20106,
+      "rear_actor_tile": 22286,
+      "capture_width": 1920,
+      "capture_height": 1080
+    },
+    "after_checks": {
+      "passed": 1119,
+      "failed": 0,
+      "map": "V13ENT.MAP",
+      "loaded_resources": 247,
+      "scene_resources_seen": 76,
+      "decoration_images": 8,
+      "decoration_placements": 19,
+      "largest_vault_texel_offset": 72925,
+      "floor_instances": 96,
+      "rock_instances": 13,
+      "collision_hexes_checked": 120000,
+      "blocked_hexes": 1069,
+      "collision_hash": "18093902727436680495",
+      "path_routes_checked": 12,
+      "floor_visible_pixels": 20342,
+      "rock_visible_pixels": 6796,
+      "front_actor_tile": 20106,
+      "rear_actor_tile": 22286,
+      "capture_width": 1920,
+      "capture_height": 1080
+    }
+  },
+  "audit": {
+    "images": 418,
+    "source_types": 62,
+    "alpha_exact": true,
+    "door_alpha_exact": true,
+    "registry_exact": true,
+    "cap_assets_unchanged": true,
+    "overlap_pairs": 134,
+    "overlap_pixels": 1493488,
+    "overlap_max_rgb_difference": 0,
+    "other_asset_files_unchanged": 494,
+    "edge_samples": 26471,
+    "unlit_boundary_error_before": 28.711734854494853,
+    "unlit_boundary_error_after": 0
+  },
+  "executable_changed": false,
+  "executable_sha256": "e5be09122b7041d430bd5941e61e6daa0141927f139081827973c54880b9c064",
+  "other_runtime_files_unchanged": 580,
+  "backup": "build\\backups\\before-wall-edges-v3-20261115",
+  "geometry_only": true
+}

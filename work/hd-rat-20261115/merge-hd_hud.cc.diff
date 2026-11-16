@@ -1,0 +1,41 @@
+--- current/src\game\hd_hud.cc
+
++++ rat/src\game\hd_hud.cc
+
+@@ -19,7 +19,7 @@
+
+     SDL_Texture* cursor = nullptr;
+     bool enabled = true;
+ };
+-std::array<Asset,8> assets {{
++std::array<Asset,9> assets {{
+     {0x07000060,88,33,4,"data/art/hd/inventory/knife/knife.rgba"},
+     {0x07000004,70,63,8,"data/art/hd/inventory/10mm-pistol/pistol.rgba"},
+     {0x0700008C,81,65,21,"data/art/hd/inventory/brass-knuckles/knuckles.rgba"},
+@@ -27,7 +27,8 @@
+
+     {0x0700001E,83,61,30,"data/art/hd/inventory/10mm-ap/ammo.rgba"},
+     {0x07000073,89,61,40,"data/art/hd/inventory/stimpak/stimpak.rgba"},
+     {0x0700003B,92,58,79,"data/art/hd/inventory/flare-unlit/flare.rgba"},
+-    {0x0700007B,80,59,205,"data/art/hd/inventory/flare-lit/flare.rgba"}
++    {0x0700007B,80,59,205,"data/art/hd/inventory/flare-lit/flare.rgba"},
++    {0x01400018,170,225,0x01000030,"data/art/hd/critter-rat/aimed.rgba"}
+ }};
+ struct Fit { int asset, width, height; unsigned int base; };
+ std::vector<Fit> fits;
+@@ -65,9 +66,11 @@
+
+         std::vector<unsigned char> candidate(w*h*4);
+         if(valid) valid=fread(candidate.data(),1,candidate.size(),file)==candidate.size() && fgetc(file)==EOF;
+         fclose(file);
+-        bool visible=false,transparent=false;
+-        if(valid) for(size_t at=3;at<candidate.size();at+=4) { visible|=candidate[at]>=240;transparent|=candidate[at]==0; }
+-        if(valid && visible && transparent) asset.pixels.swap(candidate);
++        bool visible=false,transparent=false,opaque=true;
++        if(valid) for(size_t at=3;at<candidate.size();at+=4) { visible|=candidate[at]>=240;transparent|=candidate[at]==0;opaque&=candidate[at]==255; }
++        // The original rat targeting schematic has an opaque black display.
++        const bool opaqueRatDiagram=asset.fid==0x01400018 && opaque;
++        if(valid && visible && (transparent || opaqueRatDiagram)) asset.pixels.swap(candidate);
+     }
+ }
+ const Fit* findFit(unsigned int texel)

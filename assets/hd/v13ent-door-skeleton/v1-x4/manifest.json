@@ -1,0 +1,40 @@
+{
+  "component": "v13ent-door-skeleton",
+  "operation": "ComfyUI Lanczos full-canvas mapping to native67x41 x4; lossless RGBA packaging",
+  "source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\v13ent-door-skeleton-qwen\\trial-v1-20261113\\matte-bones-v5\\qwen21-skeleton-raw.png",
+  "source_sha256": "7a1433ec2772bc7f9799a6e8c5e246614971b4349da5da6d15443236ad8de198",
+  "png_sha256": "9e0ae1ec885e010410b97949b16b9ac5872735c624d90e08ab4970cd117ca908",
+  "rgba_sha256": "2780bc0cb17191316e344cf3a680833e59d51915303e56e50061419ca62371f5",
+  "native_dimensions": [
+    67,
+    41
+  ],
+  "hd_dimensions": [
+    268,
+    164
+  ],
+  "scale": 4,
+  "fid": 113,
+  "pid": 211,
+  "frame": 0,
+  "tile": 17488,
+  "elevation": 0,
+  "direction_offset": [
+    20,
+    30
+  ],
+  "frame_shift": [
+    0,
+    0
+  ],
+  "anchor_native": [
+    13,
+    10
+  ],
+  "alpha": "native soft alpha retained; no original-mask clipping",
+  "geometry": "original full FRM canvas and object placement retained; no crop or added offsets",
+  "aspect_mapping": "1312x800 generated canvas mapped to268x164 (less than0.5percent aspect correction)",
+  "comfy_prompt_id": "014e9fb0-1561-439b-877f-f03f40b0cf80",
+  "installed": true,
+  "integration_receipt": "build/hd-door-skeleton/integration-v18.json"
+}

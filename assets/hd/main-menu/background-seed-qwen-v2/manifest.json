@@ -1,0 +1,34 @@
+{
+  "status": "installed-and-verified",
+  "completed_utc": "2026-11-14T14:03:51.8533489Z",
+  "runtime": "runtime/hd-world-pilot",
+  "executable_sha256": "5A3F211DF4FBB5636D13715296CC4F7D50B5EABD1231B9D91E2C55EE42CE24C7",
+  "background_sha256": "7028C03621C28A22A3715F7A58309BC4246C76640DCFFA4A4B7E438864E4A63C",
+  "selected_png": "assets/hd/main-menu/background-seed-qwen-v2/background-4k.png",
+  "png_sha256": "08C7F58002DFB0399CD3D2CFE5560AD40E44514913E19D3E4704B59BEEDD875A",
+  "generation": "assets/generated/main-menu/original-layout-20261114",
+  "source_portrait": "assets/generated/main-menu/seed-qwen-20261114-v1/portrait-seed-qwen-1800x2160.png",
+  "layout": "Intro, New Game, Load Game, Credits, Exit; upper-right compact block",
+  "removed": "Title, subtitle, key hints, instructions, footer, decorative lines, grain, tint and dark fades",
+  "retained": "Functional button names and current button artwork; all menu actions/hotkeys",
+  "checks": {
+    "status": "isolated-preview",
+    "passed": 139,
+    "failed": 0,
+    "live_runtime_modified": false,
+    "portrait": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\main-menu\\original-layout-20261114\\background-4k.png",
+    "portrait_sha256": "08C7F58002DFB0399CD3D2CFE5560AD40E44514913E19D3E4704B59BEEDD875A",
+    "executable_sha256": "5A3F211DF4FBB5636D13715296CC4F7D50B5EABD1231B9D91E2C55EE42CE24C7",
+    "output": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\build\\hd-menu-original-layout\\preview-v3"
+  },
+  "pixel_checks": {
+    "uncovered_pixels_tested": 7666560,
+    "changed_outside_buttons": 0,
+    "selected_portrait_unchanged_left_1700px": true,
+    "no_tint_or_darkening": true
+  },
+  "protected_runtime_files": 506,
+  "backup": "build/backups/before-original-layout-menu-20261114",
+  "AGENTS_modified": false,
+  "separate_classic_and_hd_menu_runtimes_modified": false
+}

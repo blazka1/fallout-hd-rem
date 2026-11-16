@@ -1,0 +1,13 @@
+--- current/src\game\object.cc
+
++++ rat/src\game\object.cc
+
+@@ -4688,6 +4688,7 @@
+
+         object->frame,
+         object->tile,
+         object->elevation);
++    hdWorldBeginRat(object, art_frame_data(art, object->frame, object->rotation), frameWidth, frameHeight);
+     struct HdArtScope {
+         ~HdArtScope() { hdWorldEndArt(); }
+     } hdArtScope;

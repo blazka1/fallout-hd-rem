@@ -1,0 +1,178 @@
+{
+  "status": "installed and verified prototype",
+  "component": "blender-corner-v2",
+  "updated_placement_sprites": 11,
+  "objects": [
+    327,
+    328,
+    349,
+    350,
+    351,
+    365,
+    366,
+    415,
+    434,
+    452,
+    463
+  ],
+  "scene": "assets\\hd\\v13ent\\blender-corner-v2\\fallout-wall-corner.blend",
+  "scene_sha256": "13429bae3531bdfa48fb873e890b6353fef639f2f0d6d3acd30e4ed557b21b75",
+  "render_sha256": "9879e6a93960e758bc8eab6fd7755eb12a0642e6610ce129d5593e3bc7fe3f64",
+  "authoring_script_sha256": "5ff879b0a374a7eaf2a73ce4d0ed7000c15094152ac0e5f497f39abafcbe9189",
+  "checks": {
+    "passed": 1119,
+    "failed": 0,
+    "map": "V13ENT.MAP",
+    "loaded_resources": 247,
+    "scene_resources_seen": 76,
+    "decoration_images": 8,
+    "decoration_placements": 19,
+    "largest_vault_texel_offset": 72925,
+    "floor_instances": 96,
+    "rock_instances": 13,
+    "collision_hexes_checked": 120000,
+    "blocked_hexes": 1069,
+    "collision_hash": "18093902727436680495",
+    "path_routes_checked": 12,
+    "floor_visible_pixels": 20342,
+    "rock_visible_pixels": 6796,
+    "front_actor_tile": 20106,
+    "rear_actor_tile": 22286,
+    "capture_width": 1920,
+    "capture_height": 1080
+  },
+  "audit": {
+    "updated_sprites": 11,
+    "unchanged_art_and_exe_files": 1350,
+    "alpha_native_binary": true,
+    "alpha_changed_pixels": 3808,
+    "crown_pixels_clipped_by_canvas": 0,
+    "shared_render_overlap": [
+      {
+        "objects": [
+          327,
+          351
+        ],
+        "opaque_pixels": 8272,
+        "max_rgb_difference": 0
+      },
+      {
+        "objects": [
+          366,
+          365
+        ],
+        "opaque_pixels": 1632,
+        "max_rgb_difference": 0
+      },
+      {
+        "objects": [
+          365,
+          415
+        ],
+        "opaque_pixels": 1600,
+        "max_rgb_difference": 0
+      },
+      {
+        "objects": [
+          415,
+          434
+        ],
+        "opaque_pixels": 1808,
+        "max_rgb_difference": 0
+      }
+    ],
+    "registry_unchanged": true,
+    "exe_unchanged": true
+  },
+  "comparison": {
+    "before": "build\\hd-wall-blender-natural-20261115\\before",
+    "after": "build\\hd-wall-blender-natural-20261115\\after-v1",
+    "crop": [
+      1210,
+      170,
+      1840,
+      670
+    ],
+    "scale": 1,
+    "color_correction": false,
+    "classic_frames": [
+      {
+        "file": "actor-behind-classic.png",
+        "exact": true
+      },
+      {
+        "file": "actor-front-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-16290-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-18721-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-22662-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-24097-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-27075-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-27871-classic.png",
+        "exact": true
+      },
+      {
+        "file": "entrance-classic-4k.png",
+        "exact": true
+      },
+      {
+        "file": "entrance-classic.png",
+        "exact": true
+      },
+      {
+        "file": "fade-dark25-classic.png",
+        "exact": true
+      },
+      {
+        "file": "fade-dark50-classic.png",
+        "exact": true
+      },
+      {
+        "file": "fade-normal-classic.png",
+        "exact": true
+      },
+      {
+        "file": "fade-white-classic.png",
+        "exact": true
+      },
+      {
+        "file": "fade-white50-classic.png",
+        "exact": true
+      },
+      {
+        "file": "grey-buffer-classic.png",
+        "exact": true
+      },
+      {
+        "file": "overlay-classic.png",
+        "exact": true
+      },
+      {
+        "file": "viewport-classic.png",
+        "exact": true
+      }
+    ],
+    "classic_all_exact": true
+  },
+  "exe_sha256": "dfc334a2ccedf1dfe91845c6e484dac456238c0fae1c5278f81c85934d87423f",
+  "exe_changed": false,
+  "other_runtime_files_unchanged": 1365,
+  "backup": "build\\backups\\before-blender-corner-v2-20261115"
+}

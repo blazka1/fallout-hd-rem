@@ -1,0 +1,195 @@
+{
+  "status": "installed and verified",
+  "component": "wall-edges-v3",
+  "render_images": 418,
+  "registered_wall_placements": 417,
+  "approved_door_wall": 1,
+  "source_types": 62,
+  "checks": {
+    "passed": 1119,
+    "failed": 0,
+    "map": "V13ENT.MAP",
+    "loaded_resources": 247,
+    "scene_resources_seen": 76,
+    "decoration_images": 8,
+    "decoration_placements": 19,
+    "largest_vault_texel_offset": 72925,
+    "floor_instances": 96,
+    "rock_instances": 13,
+    "collision_hexes_checked": 120000,
+    "blocked_hexes": 1069,
+    "collision_hash": "18093902727436680495",
+    "path_routes_checked": 12,
+    "floor_visible_pixels": 20342,
+    "rock_visible_pixels": 6796,
+    "front_actor_tile": 20106,
+    "rear_actor_tile": 22286,
+    "capture_width": 1920,
+    "capture_height": 1080
+  },
+  "comparison": {
+    "pairs": [
+      {
+        "file": "build\\hd-wall-edges-v3-20261115\\review\\entrance-hd-comparison.png",
+        "before": "build\\hd-wall-edges-v3-20261115\\before\\entrance-hd.png",
+        "after": "build\\hd-wall-edges-v3-20261115\\after-v2\\entrance-hd.png",
+        "crop": [
+          1060,
+          75,
+          1860,
+          475
+        ],
+        "scale": 1,
+        "color_adjustments": false
+      },
+      {
+        "file": "build\\hd-wall-edges-v3-20261115\\review\\cave-22662-hd-comparison.png",
+        "before": "build\\hd-wall-edges-v3-20261115\\before\\cave-22662-hd.png",
+        "after": "build\\hd-wall-edges-v3-20261115\\after-v2\\cave-22662-hd.png",
+        "crop": [
+          670,
+          100,
+          1670,
+          650
+        ],
+        "scale": 1,
+        "color_adjustments": false
+      }
+    ],
+    "classic_frames": [
+      {
+        "file": "actor-behind-classic.png",
+        "exact": true
+      },
+      {
+        "file": "actor-front-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-16290-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-18721-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-22662-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-24097-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-27075-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-27871-classic.png",
+        "exact": true
+      },
+      {
+        "file": "entrance-classic-4k.png",
+        "exact": true
+      },
+      {
+        "file": "entrance-classic.png",
+        "exact": true
+      },
+      {
+        "file": "fade-dark25-classic.png",
+        "exact": true
+      },
+      {
+        "file": "fade-dark50-classic.png",
+        "exact": true
+      },
+      {
+        "file": "fade-normal-classic.png",
+        "exact": true
+      },
+      {
+        "file": "fade-white-classic.png",
+        "exact": true
+      },
+      {
+        "file": "fade-white50-classic.png",
+        "exact": true
+      },
+      {
+        "file": "grey-buffer-classic.png",
+        "exact": true
+      },
+      {
+        "file": "overlay-classic.png",
+        "exact": true
+      }
+    ],
+    "classic_all_exact": true,
+    "before_checks": {
+      "passed": 1119,
+      "failed": 0,
+      "map": "V13ENT.MAP",
+      "loaded_resources": 247,
+      "scene_resources_seen": 76,
+      "decoration_images": 8,
+      "decoration_placements": 19,
+      "largest_vault_texel_offset": 72925,
+      "floor_instances": 96,
+      "rock_instances": 13,
+      "collision_hexes_checked": 120000,
+      "blocked_hexes": 1069,
+      "collision_hash": "18093902727436680495",
+      "path_routes_checked": 12,
+      "floor_visible_pixels": 20342,
+      "rock_visible_pixels": 6796,
+      "front_actor_tile": 20106,
+      "rear_actor_tile": 22286,
+      "capture_width": 1920,
+      "capture_height": 1080
+    },
+    "after_checks": {
+      "passed": 1119,
+      "failed": 0,
+      "map": "V13ENT.MAP",
+      "loaded_resources": 247,
+      "scene_resources_seen": 76,
+      "decoration_images": 8,
+      "decoration_placements": 19,
+      "largest_vault_texel_offset": 72925,
+      "floor_instances": 96,
+      "rock_instances": 13,
+      "collision_hexes_checked": 120000,
+      "blocked_hexes": 1069,
+      "collision_hash": "18093902727436680495",
+      "path_routes_checked": 12,
+      "floor_visible_pixels": 20342,
+      "rock_visible_pixels": 6796,
+      "front_actor_tile": 20106,
+      "rear_actor_tile": 22286,
+      "capture_width": 1920,
+      "capture_height": 1080
+    }
+  },
+  "audit": {
+    "images": 418,
+    "source_types": 62,
+    "alpha_exact": true,
+    "door_alpha_exact": true,
+    "registry_exact": true,
+    "cap_assets_unchanged": true,
+    "overlap_pairs": 134,
+    "overlap_pixels": 1493488,
+    "overlap_max_rgb_difference": 0,
+    "other_asset_files_unchanged": 494,
+    "edge_samples": 26471,
+    "unlit_boundary_error_before": 28.711734854494853,
+    "unlit_boundary_error_after": 0
+  },
+  "executable_changed": false,
+  "executable_sha256": "e5be09122b7041d430bd5941e61e6daa0141927f139081827973c54880b9c064",
+  "other_runtime_files_unchanged": 580,
+  "backup": "build\\backups\\before-wall-edges-v3-20261115",
+  "geometry_only": true
+}

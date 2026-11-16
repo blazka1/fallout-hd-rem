@@ -1,0 +1,50 @@
+{
+  "status": "installed_and_verified",
+  "item": {
+    "pid": 40,
+    "name": "Stimpak",
+    "fid": 117440627,
+    "size": [
+      89,
+      61
+    ]
+  },
+  "source_generation": "assets\\generated\\inventory-stimpak\\20261114\\stimpak\\qwen",
+  "final_processing": {
+    "threshold": 8,
+    "crop": [
+      30,
+      98,
+      1088,
+      746
+    ],
+    "opaque_pixels_clipped": 0,
+    "target": [
+      356,
+      244
+    ]
+  },
+  "format": "F1HD RGBA8; exact selected PNG bytes",
+  "original_fallback": "Original DAT FRM; no loose overrides",
+  "files": {
+    "alpha-review.png": "ED981593A2DEB39553BB99AF1B8EA978A448DB8B06A3C78BD0520398FEB802B2",
+    "comparison.png": "754A56DC2BB189A5108D96552B6F7A4A1925093504CA37A14FDF30695EA5AAB2",
+    "master.png": "41ED67F1CC69B179F12D9B6EA28D2E9EA161C5E3097A6A74FBEE090A66F2E3FB",
+    "plan.json": "1488226E4FAF371637508FE962C6CC680C173BB3E9DC2A397859E04DC4AD6EE4",
+    "postprocess-api.json": "CB61712EEDB65230419F44A67872629B8E28B19EF34CE84F8E117963227176B9",
+    "postprocess-plan.json": "C36DEF7B9A81E91B9CFEF15D11E40A722302706DF90B1D0A49B6294F0966B506",
+    "postprocess-run.json": "2E8554A2D5DFCACEFCFADCC2DC0B13D707BC8178DD5F9B6D77C1D132454C3985",
+    "postprocess-workflow.json": "EFDCDF85A0878666EE897714B5872AA50528F25963EFBC1C6F1DDF7BF6CEF48A",
+    "prompt-api.json": "3F8386C878DE40B5737883B2FD5349F1BECFF86773956A7F10B0E42C598DDCB6",
+    "prompt.txt": "AA430A68FFC6F95BEF074E6476AC4B7767C7918B94721AE24109F120CED74FDC",
+    "README.txt": "1BBE0866F725D3EA06778E18C11499ADB990F60E57F19BD9E1D6F3B889024B2B",
+    "result.json": "96C50E2BA905F2612ED25E702A5942C43DA38921ED7C31B2AB9617D6323AF114",
+    "run.json": "A4DB9B646E16FEC952FB4E702C16D96369A780F19068BF3F50F80B24A5C92359",
+    "source.json": "71698D03639AE1ADB7F5EC294D61D80C3494CF537A5FE0511482C66AA431A70B",
+    "stimpak-hd-x4.png": "9CFC9B2FC2D993549D4EADA42CE59D3C425C4B89695345BDF3C20CF05C1A15C8",
+    "stimpak.rgba": "CEB05AA22EC1ADA3EE41D5D1811C50299F3DAB980D2E200345DF59AFACB82FF8",
+    "workflow.json": "89EB8877D92446F1EEBB76AF3367A6DCA10BF724B8DEBDEF2AC2B5EDAA7B4977"
+  },
+  "integration_report": "build/hd-inventory-stimpak/integration.json",
+  "selection": "Qwen: coherent glass and metal, legible gauge, intact needle and hose. Seed rejected for overly smooth red barrel and hose."
+}

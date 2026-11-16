@@ -1,0 +1,16 @@
+{
+  "component": "full-height-world-beside-hud",
+  "status": "installed-and-verified",
+  "updated_utc": "2026-11-14T01:46:07.0125492Z",
+  "source": "work/hd-world-pilot/fallout1-ce-main",
+  "built_executable": "build/hd-world-pilot/msvc/RelWithDebInfo/fallout-ce.exe",
+  "built_sha256": "46B69E8EF6A2091997C0C7A63840C9801B705ACE0F8550FCAB2D2CE51E69DD6E",
+  "installed_sha256": "46B69E8EF6A2091997C0C7A63840C9801B705ACE0F8550FCAB2D2CE51E69DD6E",
+  "backup": "build/backups/before-full-height-world-20261114",
+  "test_runner": "work/hd-world-viewport/test.ps1",
+  "pending": [],
+  "settings": "[remaster] full_height_world=1 enabled by default; 0 restores old viewport after restart",
+  "runtime_updated": true,
+  "AGENTS_updated": false,
+  "report": "build/hd-world-viewport/integration.json"
+}

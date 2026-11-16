@@ -1,0 +1,36 @@
+{
+  "native": [
+    32,
+    53
+  ],
+  "hd": [
+    128,
+    212
+  ],
+  "alpha_values": [
+    0,
+    127,
+    255
+  ],
+  "alpha_policy": "Original support contracted by 2 HD pixels, next pixel antialiased; top cable protected. No silhouette expansion. Real background compositing required.",
+  "lamp_exact_previous": true,
+  "lamp_changed_pixels": 62,
+  "body_and_screen_unchanged_outside_five_pixel_edge": true,
+  "states": [
+    {
+      "state": "terminal-off",
+      "png_sha256": "2022fbe60d8308ff238b33d35f4dec7a4986c19fbfb126d0c4ae13ade993eb50",
+      "rgba_sha256": "edf96ce9f118eb41ca53b5a5ad81cca957caa4ab2f32882ba43a848fd76088eb",
+      "decoded_rgba_sha256": "3749d821cd8cf00fa672f181116a6a0485098cd4e9bd012c619be077e51d4287"
+    },
+    {
+      "state": "terminal-on",
+      "png_sha256": "7e08c0798b7078d01a69f2789e7d10986a2a0b15ac5f63b697ba56ea8e2aa5ff",
+      "rgba_sha256": "82ff32fa127c2b6556f45999a06e54eae7e4169ba78b5d4228bb7e538ae62beb",
+      "decoded_rgba_sha256": "674343368c604f809734b8489a77a6fd1d58f5bbcc82cc2a79121ab4309ccce1"
+    }
+  ],
+  "source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\v13ent-terminal\\natural-edge-v3-20261114",
+  "comfy_prompt_id": "61a5daff-b11c-4167-9140-079811347cd8",
+  "requires_soft_terminal_renderer": true
+}

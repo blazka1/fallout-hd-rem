@@ -1,0 +1,2917 @@
+{
+  "status": "prepared; runtime integration separate",
+  "image_count": 54,
+  "stand_directions": 6,
+  "walk_frames": 48,
+  "scale": 4,
+  "walk_fps": 10,
+  "format": "F1HD v1 RGBA8",
+  "shadow_format": "native binary mask; runtime sigma0.85 blur and max145/255 floor-only blend",
+  "registry_sha256": "33395b758779ebd2fb30a3a2e5939171b9be3dd17394d3c2175658609fff2e01",
+  "entries": [
+    {
+      "direction": 0,
+      "animation": 0,
+      "frame": -1,
+      "cell": 0,
+      "stem": "stand-d0",
+      "native_dimensions": [
+        28,
+        63
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\stand-d0.png",
+      "hd_sha256": "d3ad9baf58bae059a045314ecb2f926fa99a5c0c4788dfd4af277fc73b3ad7a0",
+      "target_bbox_x4": [
+        0,
+        0,
+        112,
+        252
+      ],
+      "shadow_pixels": 120,
+      "shadow_palette_indices": [
+        207
+      ],
+      "shadow_mask": "stand-d0.shadow-mask",
+      "source_shift": [
+        0,
+        0
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d0.png",
+      "atlas_sha256": "a54dc721b80c1b789564110656099b40a10414f46eaa0ba47edb6469a0b47e12",
+      "source_crop": [
+        123,
+        50,
+        148,
+        327
+      ],
+      "target_rect": [
+        0,
+        0,
+        112,
+        252
+      ],
+      "anisotropy": 1.018348623853211,
+      "alpha_threshold_for_crop": 32,
+      "filename": "stand-d0.rgba",
+      "png": "stand-d0.png",
+      "png_sha256": "5d29b06c856f0b2a1291d40035575da13f16abde572ee1cee01e5d041b941473",
+      "rgba_sha256": "c6aca79ef57fb62758c8c988e6e06d209a3c8d2c42ec5c91b26cce689b60e4af",
+      "shadow_mask_sha256": "246bed2e5998949b9a078c4874ac13a8e7f876d78e1232efea4b8501016d05ae",
+      "silhouette_iou_previous_hd": 0.91858347386172,
+      "solid_alpha_pixels": 14604,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 0,
+      "animation": 1,
+      "frame": 0,
+      "cell": 1,
+      "stem": "walk-d0-f000",
+      "native_dimensions": [
+        25,
+        63
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d0-f000.png",
+      "hd_sha256": "5026b77c205dbb3a6fee527329ca19e6f90da986f5965e875504dd2a67f21fea",
+      "target_bbox_x4": [
+        0,
+        0,
+        100,
+        252
+      ],
+      "shadow_pixels": 125,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d0-f000.shadow-mask",
+      "source_shift": [
+        3,
+        -4
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d0.png",
+      "atlas_sha256": "a54dc721b80c1b789564110656099b40a10414f46eaa0ba47edb6469a0b47e12",
+      "source_crop": [
+        550,
+        51,
+        135,
+        326
+      ],
+      "target_rect": [
+        0,
+        0,
+        100,
+        252
+      ],
+      "anisotropy": 1.043558282208589,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d0-f000.rgba",
+      "png": "walk-d0-f000.png",
+      "png_sha256": "561b9bf9c1bac9e07fe32418983cf78a929c391b4c6610c05838068eff44907d",
+      "rgba_sha256": "8b6d46dbb4382470698ae1f1553c31b1bc2e5e5384b6f3d6c1ff98cde4a90d7b",
+      "shadow_mask_sha256": "43d0ba03966448d708b883b0c31d40081d0e9313ee6cfe0b428c1c27cca816df",
+      "silhouette_iou_previous_hd": 0.9013171947312211,
+      "solid_alpha_pixels": 13705,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 0,
+      "animation": 1,
+      "frame": 1,
+      "cell": 2,
+      "stem": "walk-d0-f001",
+      "native_dimensions": [
+        22,
+        63
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d0-f001.png",
+      "hd_sha256": "c0e8866a20f9ddfdc2f3e0028f53257d65eaf1838b0e15f71d78cc788c98fc68",
+      "target_bbox_x4": [
+        0,
+        0,
+        88,
+        252
+      ],
+      "shadow_pixels": 130,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d0-f001.shadow-mask",
+      "source_shift": [
+        5,
+        -2
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d0.png",
+      "atlas_sha256": "a54dc721b80c1b789564110656099b40a10414f46eaa0ba47edb6469a0b47e12",
+      "source_crop": [
+        987,
+        51,
+        122,
+        327
+      ],
+      "target_rect": [
+        0,
+        0,
+        88,
+        252
+      ],
+      "anisotropy": 1.0683903252710591,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d0-f001.rgba",
+      "png": "walk-d0-f001.png",
+      "png_sha256": "974cc4b375d190c78d6d82c45beffa74a8c845077b3f5a2ef762d67ed5559b9a",
+      "rgba_sha256": "1ca3a8bd87514bcd5b72dc4eaf05d7d5ee29d1b984ce6d4ff5b6ab01cb6f7937",
+      "shadow_mask_sha256": "2788849ec29ac914fd7d0b5ee7ccce8a85f6d3f91b2cf342c3fdd256f1c02f9c",
+      "silhouette_iou_previous_hd": 0.9312480401379742,
+      "solid_alpha_pixels": 12448,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 0,
+      "animation": 1,
+      "frame": 2,
+      "cell": 3,
+      "stem": "walk-d0-f002",
+      "native_dimensions": [
+        29,
+        65
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d0-f002.png",
+      "hd_sha256": "3ab40d816890a26ea1f16a291a53bc5564ed8773940196df6d2f925d8023fc25",
+      "target_bbox_x4": [
+        0,
+        0,
+        116,
+        260
+      ],
+      "shadow_pixels": 212,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d0-f002.shadow-mask",
+      "source_shift": [
+        5,
+        0
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d0.png",
+      "atlas_sha256": "a54dc721b80c1b789564110656099b40a10414f46eaa0ba47edb6469a0b47e12",
+      "source_crop": [
+        117,
+        459,
+        160,
+        330
+      ],
+      "target_rect": [
+        0,
+        0,
+        116,
+        260
+      ],
+      "anisotropy": 1.0867293625914316,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d0-f002.rgba",
+      "png": "walk-d0-f002.png",
+      "png_sha256": "a03b49a987713bb1b9d73fa664d85b77c642416a47bc4ca7a4190253df7c419f",
+      "rgba_sha256": "2d86fc5a0709585e67dff217a9692788a26c52d4b985f84707e7fe7d30f89741",
+      "shadow_mask_sha256": "12d39563d3f6cb700603af23cdc3cefb7fb5852f6f1f72ffad32dbe155e26685",
+      "silhouette_iou_previous_hd": 0.9073314744956535,
+      "solid_alpha_pixels": 11923,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 0,
+      "animation": 1,
+      "frame": 3,
+      "cell": 4,
+      "stem": "walk-d0-f003",
+      "native_dimensions": [
+        23,
+        64
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d0-f003.png",
+      "hd_sha256": "9f35fbd3eee7c15619f2005ff105130d6e9875eb44468adeaa7d7e6f8f4e0aa5",
+      "target_bbox_x4": [
+        0,
+        0,
+        92,
+        256
+      ],
+      "shadow_pixels": 159,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d0-f003.shadow-mask",
+      "source_shift": [
+        3,
+        -7
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d0.png",
+      "atlas_sha256": "a54dc721b80c1b789564110656099b40a10414f46eaa0ba47edb6469a0b47e12",
+      "source_crop": [
+        558,
+        461,
+        123,
+        323
+      ],
+      "target_rect": [
+        0,
+        0,
+        92,
+        256
+      ],
+      "anisotropy": 1.0596311751245122,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d0-f003.rgba",
+      "png": "walk-d0-f003.png",
+      "png_sha256": "6b34e77255e017f981f74de2ac68f66ef29ca86fb84867904436729b38bdb5d1",
+      "rgba_sha256": "995c0dbf9cdc498e870c3fcc2d858a4b7e23e0852ac50dd55e6226689c375452",
+      "shadow_mask_sha256": "43e7b5857841368263eaab9d20e26caf257acb63b78332bf42941a5b8e38ed57",
+      "silhouette_iou_previous_hd": 0.9034398211581453,
+      "solid_alpha_pixels": 13680,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 0,
+      "animation": 1,
+      "frame": 4,
+      "cell": 5,
+      "stem": "walk-d0-f004",
+      "native_dimensions": [
+        23,
+        64
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d0-f004.png",
+      "hd_sha256": "d8aee11cd2dc753805c965ceee3c825cd985964ae3f0145a38a44c58ec58b296",
+      "target_bbox_x4": [
+        0,
+        0,
+        92,
+        256
+      ],
+      "shadow_pixels": 149,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d0-f004.shadow-mask",
+      "source_shift": [
+        4,
+        -3
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d0.png",
+      "atlas_sha256": "a54dc721b80c1b789564110656099b40a10414f46eaa0ba47edb6469a0b47e12",
+      "source_crop": [
+        986,
+        461,
+        124,
+        329
+      ],
+      "target_rect": [
+        0,
+        0,
+        92,
+        256
+      ],
+      "anisotropy": 1.0487643716135853,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d0-f004.rgba",
+      "png": "walk-d0-f004.png",
+      "png_sha256": "793db4457f427226df7c4872731c451c9a5cf65ba054579cb6311805e8dc50bb",
+      "rgba_sha256": "7a1c7e3f081fd1755d6b81de189ec900d215215b4462037335b3313ca290fe75",
+      "shadow_mask_sha256": "7e0ea650518d18c4d47c21024240a6a7055bbf91f10476f0f40de3bb9e5e51dc",
+      "silhouette_iou_previous_hd": 0.9299647304397898,
+      "solid_alpha_pixels": 13744,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 0,
+      "animation": 1,
+      "frame": 5,
+      "cell": 6,
+      "stem": "walk-d0-f005",
+      "native_dimensions": [
+        26,
+        66
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d0-f005.png",
+      "hd_sha256": "9e5dea04ecb8b5bb773f9fbf9628f3e2d3a795b7a79db4507fae4fc53d8ebcb8",
+      "target_bbox_x4": [
+        0,
+        0,
+        104,
+        264
+      ],
+      "shadow_pixels": 146,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d0-f005.shadow-mask",
+      "source_shift": [
+        5,
+        -1
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d0.png",
+      "atlas_sha256": "a54dc721b80c1b789564110656099b40a10414f46eaa0ba47edb6469a0b47e12",
+      "source_crop": [
+        125,
+        870,
+        140,
+        345
+      ],
+      "target_rect": [
+        0,
+        0,
+        104,
+        264
+      ],
+      "anisotropy": 1.0301003344481605,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d0-f005.rgba",
+      "png": "walk-d0-f005.png",
+      "png_sha256": "903b75a251c7283f1e05ea749c5a16e5b434e584e9f6c6a67c07bb337e0a4c6c",
+      "rgba_sha256": "8c50a73683e7b6be2dda374c4f233feeb0706da6a1eae42d1fbd5e0f9d1b1657",
+      "shadow_mask_sha256": "132e2f11ab7fc2721b555835e4e22e629eb53b6ce20f99c751e71cdeb7802800",
+      "silhouette_iou_previous_hd": 0.9205682425723669,
+      "solid_alpha_pixels": 12942,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 0,
+      "animation": 1,
+      "frame": 6,
+      "cell": 7,
+      "stem": "walk-d0-f006",
+      "native_dimensions": [
+        26,
+        67
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d0-f006.png",
+      "hd_sha256": "3cd9794f77533f7f2538a94eb083a3cbe522d64b20af66ee50907e6b4422e700",
+      "target_bbox_x4": [
+        0,
+        0,
+        104,
+        268
+      ],
+      "shadow_pixels": 180,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d0-f006.shadow-mask",
+      "source_shift": [
+        5,
+        -1
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d0.png",
+      "atlas_sha256": "a54dc721b80c1b789564110656099b40a10414f46eaa0ba47edb6469a0b47e12",
+      "source_crop": [
+        548,
+        870,
+        141,
+        344
+      ],
+      "target_rect": [
+        0,
+        0,
+        104,
+        268
+      ],
+      "anisotropy": 1.0562388193202148,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d0-f006.rgba",
+      "png": "walk-d0-f006.png",
+      "png_sha256": "eafa012cfb7b693b784c40bcac950a5349690bfa866e5cfba8487bf4973ce0be",
+      "rgba_sha256": "9bda9b8b5d816e14f9ffacb129fd02cc87b2fc95d998fd86afec9100593c7daf",
+      "shadow_mask_sha256": "12ce8c5cd3e43594b48bf04b902784054543c0e674306f4ec921f286c35fd886",
+      "silhouette_iou_previous_hd": 0.9115064007144984,
+      "solid_alpha_pixels": 13192,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 0,
+      "animation": 1,
+      "frame": 7,
+      "cell": 8,
+      "stem": "walk-d0-f007",
+      "native_dimensions": [
+        27,
+        66
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d0-f007.png",
+      "hd_sha256": "e85a30239513c464e2e852fb451669ef4b2699731335decade772372b19aaf4f",
+      "target_bbox_x4": [
+        0,
+        0,
+        108,
+        264
+      ],
+      "shadow_pixels": 148,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d0-f007.shadow-mask",
+      "source_shift": [
+        4,
+        -7
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d0.png",
+      "atlas_sha256": "a54dc721b80c1b789564110656099b40a10414f46eaa0ba47edb6469a0b47e12",
+      "source_crop": [
+        975,
+        870,
+        147,
+        347
+      ],
+      "target_rect": [
+        0,
+        0,
+        108,
+        264
+      ],
+      "anisotropy": 1.0355427473583092,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d0-f007.rgba",
+      "png": "walk-d0-f007.png",
+      "png_sha256": "26eb1c27b4d7fc6d3d4e92b45fde14cd44d9944e6906b2e745bc0131d33f3cfd",
+      "rgba_sha256": "fbd2a48368bc385a34f0872b8e27350d0bf1d23f8481d996f1c2ef569348bb43",
+      "shadow_mask_sha256": "d2265b70592df4c493ba5621aa614676d8ede9c60acb17f34f7959adf9986fbb",
+      "silhouette_iou_previous_hd": 0.9374101753377407,
+      "solid_alpha_pixels": 13760,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 1,
+      "animation": 0,
+      "frame": -1,
+      "cell": 0,
+      "stem": "stand-d1",
+      "native_dimensions": [
+        13,
+        65
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\stand-d1.png",
+      "hd_sha256": "cc5aa66e6b943d273e86adf2af6d8381e4c76ba723fda90e8dc9436425c43cdb",
+      "target_bbox_x4": [
+        0,
+        0,
+        52,
+        260
+      ],
+      "shadow_pixels": 67,
+      "shadow_palette_indices": [
+        207
+      ],
+      "shadow_mask": "stand-d1.shadow-mask",
+      "source_shift": [
+        0,
+        0
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d1.png",
+      "atlas_sha256": "18e8c1e901ffdf414fb0c0ef8d9e515791e1cf0a145c83c55daa61accda62b52",
+      "source_crop": [
+        146,
+        46,
+        71,
+        328
+      ],
+      "target_rect": [
+        0,
+        0,
+        52,
+        260
+      ],
+      "anisotropy": 1.0823170731707317,
+      "alpha_threshold_for_crop": 32,
+      "filename": "stand-d1.rgba",
+      "png": "stand-d1.png",
+      "png_sha256": "8451ac33a45bc4aaf6b97ba87ad33bcf77f8050c7d36ac7d70af2c8a468b2008",
+      "rgba_sha256": "6856557a7d7fb0a77d610db969f9a1796f995492dc107ac3fb62343ae0305502",
+      "shadow_mask_sha256": "5e83a8c80b4ea97dfaa652fc6b3c2900e5480c1b27f492ec8db9ab205892a9af",
+      "silhouette_iou_previous_hd": 0.9361550229474758,
+      "solid_alpha_pixels": 9444,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 1,
+      "animation": 1,
+      "frame": 0,
+      "cell": 1,
+      "stem": "walk-d1-f000",
+      "native_dimensions": [
+        17,
+        62
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d1-f000.png",
+      "hd_sha256": "6f96113e7f90b087d54bc6b0f22212e92baa2bfc80fcc0f1a04898ee57f4f956",
+      "target_bbox_x4": [
+        0,
+        0,
+        68,
+        248
+      ],
+      "shadow_pixels": 105,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d1-f000.shadow-mask",
+      "source_shift": [
+        9,
+        0
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d1.png",
+      "atlas_sha256": "18e8c1e901ffdf414fb0c0ef8d9e515791e1cf0a145c83c55daa61accda62b52",
+      "source_crop": [
+        583,
+        62,
+        89,
+        311
+      ],
+      "target_rect": [
+        0,
+        0,
+        68,
+        248
+      ],
+      "anisotropy": 1.0436920749007,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d1-f000.rgba",
+      "png": "walk-d1-f000.png",
+      "png_sha256": "8a0fa64d969c2e111ed6c8a786a397cb90004dbe6f296258c64c9659d2324c5e",
+      "rgba_sha256": "7b4d6b6cb599522767e9204c9902fa42814edd355a6b69eae5309ef70e7fbf17",
+      "shadow_mask_sha256": "63035cb343419b7ecfc758ef301bc5d6666cd551bdac5052b3e1f5847c3d3518",
+      "silhouette_iou_previous_hd": 0.9243663123466884,
+      "solid_alpha_pixels": 9640,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 1,
+      "animation": 1,
+      "frame": 1,
+      "cell": 2,
+      "stem": "walk-d1-f001",
+      "native_dimensions": [
+        25,
+        61
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d1-f001.png",
+      "hd_sha256": "24af43e5dc9c4b2205b0a18e15c668041cfbf792f61a9452fc0b820f4ea56ecb",
+      "target_bbox_x4": [
+        0,
+        0,
+        100,
+        244
+      ],
+      "shadow_pixels": 143,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d1-f001.shadow-mask",
+      "source_shift": [
+        6,
+        0
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d1.png",
+      "atlas_sha256": "18e8c1e901ffdf414fb0c0ef8d9e515791e1cf0a145c83c55daa61accda62b52",
+      "source_crop": [
+        985,
+        65,
+        140,
+        309
+      ],
+      "target_rect": [
+        0,
+        0,
+        100,
+        244
+      ],
+      "anisotropy": 1.1055016181229773,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d1-f001.rgba",
+      "png": "walk-d1-f001.png",
+      "png_sha256": "850043970f02b0e5b4a749fbc922d0f8f04637a85e6fbc8f68fcbb757a95549d",
+      "rgba_sha256": "e8c1b8d9e2430c4c3e1f8150ba3a3c55db52b2810962084ebe6800b3b3c9803b",
+      "shadow_mask_sha256": "19ceee13defdfce8d59d9f9ebc53f6805f7204f0975dd4ee83970c073f443875",
+      "silhouette_iou_previous_hd": 0.9169182907859823,
+      "solid_alpha_pixels": 10662,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 1,
+      "animation": 1,
+      "frame": 2,
+      "cell": 3,
+      "stem": "walk-d1-f002",
+      "native_dimensions": [
+        43,
+        60
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d1-f002.png",
+      "hd_sha256": "bbd7d8e11eebe37265c655d4f1d76ba8e2294d2d5876abe51938ebbaee1f5de1",
+      "target_bbox_x4": [
+        0,
+        0,
+        172,
+        240
+      ],
+      "shadow_pixels": 200,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d1-f002.shadow-mask",
+      "source_shift": [
+        9,
+        0
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d1.png",
+      "atlas_sha256": "18e8c1e901ffdf414fb0c0ef8d9e515791e1cf0a145c83c55daa61accda62b52",
+      "source_crop": [
+        88,
+        489,
+        228,
+        302
+      ],
+      "target_rect": [
+        0,
+        0,
+        172,
+        240
+      ],
+      "anisotropy": 1.053442168489142,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d1-f002.rgba",
+      "png": "walk-d1-f002.png",
+      "png_sha256": "b6f1360e4c5e7802f6ff2fa925c88b2375ef94c4ac6e54c466dc3406cbb02bcd",
+      "rgba_sha256": "093f240b1d380a2c433958854bd8066285e981da614fef84e911b0561eb6f862",
+      "shadow_mask_sha256": "d54d8a84af99971d35a375b4254121b1e251c59547689c62649b9ee019357144",
+      "silhouette_iou_previous_hd": 0.8089657606777267,
+      "solid_alpha_pixels": 13257,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 1,
+      "animation": 1,
+      "frame": 3,
+      "cell": 4,
+      "stem": "walk-d1-f003",
+      "native_dimensions": [
+        26,
+        63
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d1-f003.png",
+      "hd_sha256": "40fa7501853bd04605f2e485f69b68c62f2e251e0b0561e2bd003f7aff8de522",
+      "target_bbox_x4": [
+        0,
+        0,
+        104,
+        252
+      ],
+      "shadow_pixels": 152,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d1-f003.shadow-mask",
+      "source_shift": [
+        9,
+        0
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d1.png",
+      "atlas_sha256": "18e8c1e901ffdf414fb0c0ef8d9e515791e1cf0a145c83c55daa61accda62b52",
+      "source_crop": [
+        560,
+        473,
+        136,
+        317
+      ],
+      "target_rect": [
+        0,
+        0,
+        104,
+        252
+      ],
+      "anisotropy": 1.0395535064304782,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d1-f003.rgba",
+      "png": "walk-d1-f003.png",
+      "png_sha256": "9ce34e5d59dd808ed980dc55e153c686556317e3cf56de95d63ee2a51023a00c",
+      "rgba_sha256": "b86881cdfe8fd8987f642247cf12c2680cf97742b02f99ec5905b958f1921fb3",
+      "shadow_mask_sha256": "a4b850f022e25dd927edc5a88167c38d8e58140aa8e792e37c3bdf8da241525b",
+      "silhouette_iou_previous_hd": 0.8997842037116962,
+      "solid_alpha_pixels": 11398,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 1,
+      "animation": 1,
+      "frame": 4,
+      "cell": 5,
+      "stem": "walk-d1-f004",
+      "native_dimensions": [
+        18,
+        63
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d1-f004.png",
+      "hd_sha256": "d0491ca7908d73620db986b357b6f77b487183aae29acfb876b860e05652b03e",
+      "target_bbox_x4": [
+        0,
+        0,
+        72,
+        252
+      ],
+      "shadow_pixels": 88,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d1-f004.shadow-mask",
+      "source_shift": [
+        9,
+        0
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d1.png",
+      "atlas_sha256": "18e8c1e901ffdf414fb0c0ef8d9e515791e1cf0a145c83c55daa61accda62b52",
+      "source_crop": [
+        997,
+        474,
+        101,
+        318
+      ],
+      "target_rect": [
+        0,
+        0,
+        72,
+        252
+      ],
+      "anisotropy": 1.1116352201257862,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d1-f004.rgba",
+      "png": "walk-d1-f004.png",
+      "png_sha256": "ddf25645e5f4ec66ac0fbdb22e5fca066a17d46e667eb34d6f6b56faef79a92d",
+      "rgba_sha256": "93f087988ec2680dfb45ceda4583b7d4ae08a4c0242c6512f98235770d373541",
+      "shadow_mask_sha256": "bc70737396407691ee6bcc8d0151eae34d52a8e1bd75ff0915d142bad3cfb7ce",
+      "silhouette_iou_previous_hd": 0.9332514332514332,
+      "solid_alpha_pixels": 9610,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 1,
+      "animation": 1,
+      "frame": 5,
+      "cell": 6,
+      "stem": "walk-d1-f005",
+      "native_dimensions": [
+        23,
+        62
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d1-f005.png",
+      "hd_sha256": "26bd13c844ca33e8f5f4836de50a55cafe7f0f0ef16901585a285d3113753d3b",
+      "target_bbox_x4": [
+        0,
+        0,
+        92,
+        248
+      ],
+      "shadow_pixels": 131,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d1-f005.shadow-mask",
+      "source_shift": [
+        6,
+        0
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d1.png",
+      "atlas_sha256": "18e8c1e901ffdf414fb0c0ef8d9e515791e1cf0a145c83c55daa61accda62b52",
+      "source_crop": [
+        130,
+        895,
+        125,
+        314
+      ],
+      "target_rect": [
+        0,
+        0,
+        92,
+        248
+      ],
+      "anisotropy": 1.0731099418443646,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d1-f005.rgba",
+      "png": "walk-d1-f005.png",
+      "png_sha256": "6f305afb7b22a360aaff07361cafb859179d467f9367e471e79b6a5852e876e2",
+      "rgba_sha256": "ea28ce8f7910fc1ade744e13d3cf5a0cf01295c07124410722d10d9f031ed436",
+      "shadow_mask_sha256": "9a4a92901a8b4401e2f0c8654138c375b99f460e161100be3aafd7aca0c4e067",
+      "silhouette_iou_previous_hd": 0.908927454659162,
+      "solid_alpha_pixels": 12493,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 1,
+      "animation": 1,
+      "frame": 6,
+      "cell": 7,
+      "stem": "walk-d1-f006",
+      "native_dimensions": [
+        43,
+        61
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d1-f006.png",
+      "hd_sha256": "7c3b6675c9d56b46316ad6f0b3eae392c2fe0a2d86f27a896e76fd447fc8fd01",
+      "target_bbox_x4": [
+        0,
+        0,
+        172,
+        244
+      ],
+      "shadow_pixels": 240,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d1-f006.shadow-mask",
+      "source_shift": [
+        11,
+        0
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d1.png",
+      "atlas_sha256": "18e8c1e901ffdf414fb0c0ef8d9e515791e1cf0a145c83c55daa61accda62b52",
+      "source_crop": [
+        517,
+        900,
+        232,
+        309
+      ],
+      "target_rect": [
+        0,
+        0,
+        172,
+        244
+      ],
+      "anisotropy": 1.0651012267630013,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d1-f006.rgba",
+      "png": "walk-d1-f006.png",
+      "png_sha256": "594b5647be133e0e93e3ec7a63e7e83d22d567f9ca32d3339678a134e250ec1a",
+      "rgba_sha256": "e15bdace2c00238f7ebadab2186b98f6e361feb47d881f773cb30bcfb0d94a29",
+      "shadow_mask_sha256": "9cd60345123dd49452599a4057262819e5f73af37e7f59e064e8e4c5707cb4db",
+      "silhouette_iou_previous_hd": 0.9026879402041109,
+      "solid_alpha_pixels": 13645,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 1,
+      "animation": 1,
+      "frame": 7,
+      "cell": 8,
+      "stem": "walk-d1-f007",
+      "native_dimensions": [
+        24,
+        63
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d1-f007.png",
+      "hd_sha256": "4abd6e69df7e9b8061e00a28434b39b8c5e4128c502aced4a9e83caf0f5723a4",
+      "target_bbox_x4": [
+        0,
+        0,
+        95,
+        252
+      ],
+      "shadow_pixels": 142,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d1-f007.shadow-mask",
+      "source_shift": [
+        10,
+        0
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d1.png",
+      "atlas_sha256": "18e8c1e901ffdf414fb0c0ef8d9e515791e1cf0a145c83c55daa61accda62b52",
+      "source_crop": [
+        989,
+        893,
+        128,
+        316
+      ],
+      "target_rect": [
+        0,
+        0,
+        95,
+        252
+      ],
+      "anisotropy": 1.074483677548301,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d1-f007.rgba",
+      "png": "walk-d1-f007.png",
+      "png_sha256": "d7fe64724cd42fbcf705c84a8144b3093f7d17acb840283d22ac00214eb9fe70",
+      "rgba_sha256": "8395fa7b5cf18fd5791fbcae48845095a8a981992e88fb6bda99aa1a427a6d2c",
+      "shadow_mask_sha256": "43492dca4797ae18efc5207664648785ef81ed801d448373d764c229eacf241c",
+      "silhouette_iou_previous_hd": 0.9035147009124704,
+      "solid_alpha_pixels": 11531,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 2,
+      "animation": 0,
+      "frame": -1,
+      "cell": 0,
+      "stem": "stand-d2",
+      "native_dimensions": [
+        28,
+        64
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\stand-d2.png",
+      "hd_sha256": "ed19485df96cf6085e1d3aea11e9e043365a65e45638da7c0f3abf80da420a87",
+      "target_bbox_x4": [
+        0,
+        0,
+        112,
+        256
+      ],
+      "shadow_pixels": 128,
+      "shadow_palette_indices": [
+        207
+      ],
+      "shadow_mask": "stand-d2.shadow-mask",
+      "source_shift": [
+        0,
+        0
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d2.png",
+      "atlas_sha256": "cf56641c0eff27be7b40cf5477b91f09769663bf71a06da44d9d757c93527f0a",
+      "source_crop": [
+        140,
+        49,
+        140,
+        319
+      ],
+      "target_rect": [
+        0,
+        0,
+        112,
+        256
+      ],
+      "anisotropy": 1.0031347962382444,
+      "alpha_threshold_for_crop": 32,
+      "filename": "stand-d2.rgba",
+      "png": "stand-d2.png",
+      "png_sha256": "671bd4c6d0c60d37c926c96afe645eff01e273fe20fc9c26516d0ab68407ab15",
+      "rgba_sha256": "727f74e20974b464f0d22cb649c47b41c81c9f40d78f3c3e5e2f20c9d25e0526",
+      "shadow_mask_sha256": "4743ff5faef50fe2e8d3fdad523c2b1c937bc8c82a0ee4fa8c833372b39f83f1",
+      "silhouette_iou_previous_hd": 0.9215394566623545,
+      "solid_alpha_pixels": 15262,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 2,
+      "animation": 1,
+      "frame": 0,
+      "cell": 1,
+      "stem": "walk-d2-f000",
+      "native_dimensions": [
+        22,
+        62
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d2-f000.png",
+      "hd_sha256": "dc5f567d5ccc951a731ac973df1263d798069c81ddda3ba7efb971a26c143ad2",
+      "target_bbox_x4": [
+        0,
+        0,
+        88,
+        248
+      ],
+      "shadow_pixels": 144,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d2-f000.shadow-mask",
+      "source_shift": [
+        1,
+        1
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d2.png",
+      "atlas_sha256": "cf56641c0eff27be7b40cf5477b91f09769663bf71a06da44d9d757c93527f0a",
+      "source_crop": [
+        571,
+        60,
+        110,
+        308
+      ],
+      "target_rect": [
+        0,
+        0,
+        88,
+        248
+      ],
+      "anisotropy": 1.0064935064935066,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d2-f000.rgba",
+      "png": "walk-d2-f000.png",
+      "png_sha256": "2f63a54cd0dec04b22b9d730b9a41913a761571b7cc8232ebdbc5f09023a563a",
+      "rgba_sha256": "b5314c25bc3319eb60bc25a648cdc6979174de57b28fe3d71f6bbf839b8dc32c",
+      "shadow_mask_sha256": "6ccc1fa6b623f743879008e47e84728e403efeb8abd8a7fab7fc3e2c581b212d",
+      "silhouette_iou_previous_hd": 0.9512357063814091,
+      "solid_alpha_pixels": 13529,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 2,
+      "animation": 1,
+      "frame": 1,
+      "cell": 2,
+      "stem": "walk-d2-f001",
+      "native_dimensions": [
+        26,
+        63
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d2-f001.png",
+      "hd_sha256": "34437617ae35a003135784733f0dce800932782253e0d316adcfd22108cfe8ea",
+      "target_bbox_x4": [
+        0,
+        0,
+        104,
+        252
+      ],
+      "shadow_pixels": 118,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d2-f001.shadow-mask",
+      "source_shift": [
+        4,
+        6
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d2.png",
+      "atlas_sha256": "cf56641c0eff27be7b40cf5477b91f09769663bf71a06da44d9d757c93527f0a",
+      "source_crop": [
+        981,
+        55,
+        130,
+        313
+      ],
+      "target_rect": [
+        0,
+        0,
+        104,
+        252
+      ],
+      "anisotropy": 1.0063897763578273,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d2-f001.rgba",
+      "png": "walk-d2-f001.png",
+      "png_sha256": "0697b8ed15f9c04b4aeaf631c9d40a43ffa792fd211d2f5d969cf0b3439f969f",
+      "rgba_sha256": "33d9af0d0d8861e693cb9e952aecc8e4fa1472986c6e9d639800d9c0eebb9976",
+      "shadow_mask_sha256": "21fdf555c2d95bcf6416af43f3eacb5e460f49f1a61cca427a0c04a31adcb2e1",
+      "silhouette_iou_previous_hd": 0.9370556096100592,
+      "solid_alpha_pixels": 13311,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 2,
+      "animation": 1,
+      "frame": 2,
+      "cell": 3,
+      "stem": "walk-d2-f002",
+      "native_dimensions": [
+        28,
+        66
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d2-f002.png",
+      "hd_sha256": "94850269a071351dc921f8a5bcc525975c0be660081ea28eba01a83ec1b4f588",
+      "target_bbox_x4": [
+        0,
+        0,
+        112,
+        264
+      ],
+      "shadow_pixels": 141,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d2-f002.shadow-mask",
+      "source_shift": [
+        5,
+        7
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d2.png",
+      "atlas_sha256": "cf56641c0eff27be7b40cf5477b91f09769663bf71a06da44d9d757c93527f0a",
+      "source_crop": [
+        139,
+        459,
+        141,
+        325
+      ],
+      "target_rect": [
+        0,
+        0,
+        112,
+        264
+      ],
+      "anisotropy": 1.0226373626373626,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d2-f002.rgba",
+      "png": "walk-d2-f002.png",
+      "png_sha256": "bc68efc677aebddcbaae5661c4fa3f8efcb83b3fa886a2fd76681a2dea321901",
+      "rgba_sha256": "4b7f229404cf2d031af17f9e242e233613010735015908a61549fe504212cd40",
+      "shadow_mask_sha256": "d6e2fdde111bc4ae2206938a90bd84986b83967f834984ae70dea84aff35fcbb",
+      "silhouette_iou_previous_hd": 0.9256494904550021,
+      "solid_alpha_pixels": 13901,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 2,
+      "animation": 1,
+      "frame": 3,
+      "cell": 4,
+      "stem": "walk-d2-f003",
+      "native_dimensions": [
+        26,
+        65
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d2-f003.png",
+      "hd_sha256": "ab3cf045646fe55a7e2e92f2c475ff348a1897af786d595e23c299e11cbe85ef",
+      "target_bbox_x4": [
+        0,
+        0,
+        104,
+        260
+      ],
+      "shadow_pixels": 131,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d2-f003.shadow-mask",
+      "source_shift": [
+        4,
+        0
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d2.png",
+      "atlas_sha256": "cf56641c0eff27be7b40cf5477b91f09769663bf71a06da44d9d757c93527f0a",
+      "source_crop": [
+        563,
+        463,
+        131,
+        323
+      ],
+      "target_rect": [
+        0,
+        0,
+        104,
+        260
+      ],
+      "anisotropy": 1.0139318885448916,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d2-f003.rgba",
+      "png": "walk-d2-f003.png",
+      "png_sha256": "5d8aa41504690808505b785e3bd17ab3ab80228f25b9bfb98f596a0dc53b5610",
+      "rgba_sha256": "6303ce73c358bdf9180c5f518a31d92a7c13b9c297a8326c77fa4b0d9f2ca0db",
+      "shadow_mask_sha256": "dc3f5c718cb90a9feb27c45f0d0e7a031aef75aa5e2a06f33716b70db8800aa3",
+      "silhouette_iou_previous_hd": 0.9174128616887441,
+      "solid_alpha_pixels": 13393,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 2,
+      "animation": 1,
+      "frame": 4,
+      "cell": 5,
+      "stem": "walk-d2-f004",
+      "native_dimensions": [
+        23,
+        62
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d2-f004.png",
+      "hd_sha256": "f2540edd33b9ace21569c0ee501f2a65bcf74b1d30ddcb034f1a29a2c43b9f79",
+      "target_bbox_x4": [
+        0,
+        0,
+        92,
+        248
+      ],
+      "shadow_pixels": 147,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d2-f004.shadow-mask",
+      "source_shift": [
+        4,
+        0
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d2.png",
+      "atlas_sha256": "cf56641c0eff27be7b40cf5477b91f09769663bf71a06da44d9d757c93527f0a",
+      "source_crop": [
+        987,
+        478,
+        117,
+        307
+      ],
+      "target_rect": [
+        0,
+        0,
+        92,
+        248
+      ],
+      "anisotropy": 1.0273332389180003,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d2-f004.rgba",
+      "png": "walk-d2-f004.png",
+      "png_sha256": "672fbb79bc827e6be0070773cd76b37c526b8afa2cb593fe2fe79cf48af7623e",
+      "rgba_sha256": "d18529aafda984ff0aac38e51727a465553ccc85b29ff2b6b5ca9ca3a1012e5c",
+      "shadow_mask_sha256": "94bb9359184130dacc55f1c8e91f1587f867f6cd45eaa95e6b8663cd0afbd60e",
+      "silhouette_iou_previous_hd": 0.925402635431918,
+      "solid_alpha_pixels": 13587,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 2,
+      "animation": 1,
+      "frame": 5,
+      "cell": 6,
+      "stem": "walk-d2-f005",
+      "native_dimensions": [
+        20,
+        61
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d2-f005.png",
+      "hd_sha256": "045940e36df7f66a9540f0ad4642a531ce3048637fd11c08a8cc5fa520440869",
+      "target_bbox_x4": [
+        0,
+        0,
+        80,
+        244
+      ],
+      "shadow_pixels": 109,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d2-f005.shadow-mask",
+      "source_shift": [
+        5,
+        3
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d2.png",
+      "atlas_sha256": "cf56641c0eff27be7b40cf5477b91f09769663bf71a06da44d9d757c93527f0a",
+      "source_crop": [
+        159,
+        901,
+        102,
+        303
+      ],
+      "target_rect": [
+        0,
+        0,
+        80,
+        244
+      ],
+      "anisotropy": 1.0267326732673268,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d2-f005.rgba",
+      "png": "walk-d2-f005.png",
+      "png_sha256": "190f907d7e4a2c7b777b2e9558ffc77a979f38a07f18239e1f2652c91fbd8c1c",
+      "rgba_sha256": "6f1079571b1c2dac91fbcec14b32ef70d23a6538143f4c99af6c13788bbba4a0",
+      "shadow_mask_sha256": "13809d98530c4251b153925828eb60dd4ce02fc404ae0829f73cfb08e07eadd7",
+      "silhouette_iou_previous_hd": 0.930347478233587,
+      "solid_alpha_pixels": 12693,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 2,
+      "animation": 1,
+      "frame": 6,
+      "cell": 7,
+      "stem": "walk-d2-f006",
+      "native_dimensions": [
+        30,
+        65
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d2-f006.png",
+      "hd_sha256": "607fc6148a268fd6a54414fb966dcf4930fc3b957e75764fe91f099371e7f512",
+      "target_bbox_x4": [
+        0,
+        0,
+        120,
+        260
+      ],
+      "shadow_pixels": 151,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d2-f006.shadow-mask",
+      "source_shift": [
+        6,
+        8
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d2.png",
+      "atlas_sha256": "cf56641c0eff27be7b40cf5477b91f09769663bf71a06da44d9d757c93527f0a",
+      "source_crop": [
+        550,
+        883,
+        155,
+        321
+      ],
+      "target_rect": [
+        0,
+        0,
+        120,
+        260
+      ],
+      "anisotropy": 1.046209761163032,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d2-f006.rgba",
+      "png": "walk-d2-f006.png",
+      "png_sha256": "1662a733af08b7506c189c911fb9a419de964a2d9fb197d4bdcd90f571825657",
+      "rgba_sha256": "32014bdba5ca0cab03f0d6b98b95ef5e1ab452e7390e2819341b352d3b73e8fb",
+      "shadow_mask_sha256": "43282b5052c204e4ad3d0d228d11d0ad54653ffc910bf05dceed79e3e86da9c7",
+      "silhouette_iou_previous_hd": 0.933082826990726,
+      "solid_alpha_pixels": 12463,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 2,
+      "animation": 1,
+      "frame": 7,
+      "cell": 8,
+      "stem": "walk-d2-f007",
+      "native_dimensions": [
+        20,
+        62
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d2-f007.png",
+      "hd_sha256": "5368ee975297285eb74e26ec37df7d76dbda7df4bf22c1fbde81d436b97b9f93",
+      "target_bbox_x4": [
+        0,
+        0,
+        80,
+        248
+      ],
+      "shadow_pixels": 108,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d2-f007.shadow-mask",
+      "source_shift": [
+        5,
+        0
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d2.png",
+      "atlas_sha256": "cf56641c0eff27be7b40cf5477b91f09769663bf71a06da44d9d757c93527f0a",
+      "source_crop": [
+        995,
+        897,
+        104,
+        306
+      ],
+      "target_rect": [
+        0,
+        0,
+        80,
+        248
+      ],
+      "anisotropy": 1.05359477124183,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d2-f007.rgba",
+      "png": "walk-d2-f007.png",
+      "png_sha256": "0c08827464206275ffcfc82ec60bb10a5283358199a86a176e722a6c37da6287",
+      "rgba_sha256": "682a874bcb64212c16a16b38c81c08979e49dd767a26fac4c16b7eac1df73b84",
+      "shadow_mask_sha256": "a8b9d681048c8d95464d991b311023d6152c3aa218f7555f02692375c02da819",
+      "silhouette_iou_previous_hd": 0.9184566428003182,
+      "solid_alpha_pixels": 12524,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 3,
+      "animation": 0,
+      "frame": -1,
+      "cell": 0,
+      "stem": "stand-d3",
+      "native_dimensions": [
+        28,
+        63
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\stand-d3.png",
+      "hd_sha256": "4bd9c7028bcb76d4ea9ba55c502658d581a85fd27da8ef461cddbe8b4dca328a",
+      "target_bbox_x4": [
+        0,
+        0,
+        112,
+        252
+      ],
+      "shadow_pixels": 125,
+      "shadow_palette_indices": [
+        207
+      ],
+      "shadow_mask": "stand-d3.shadow-mask",
+      "source_shift": [
+        0,
+        0
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d3.png",
+      "atlas_sha256": "37204a7665380b48ebcce928be02d12a5f09c2d13bda59ccdb614226772bb3a4",
+      "source_crop": [
+        137,
+        51,
+        145,
+        319
+      ],
+      "target_rect": [
+        0,
+        0,
+        112,
+        252
+      ],
+      "anisotropy": 1.0227272727272727,
+      "alpha_threshold_for_crop": 32,
+      "filename": "stand-d3.rgba",
+      "png": "stand-d3.png",
+      "png_sha256": "22a8a4501950da3b98494b4c026891cf4b36f21f0bf1586a77de9392824fc170",
+      "rgba_sha256": "542ab9788d5505abf6e71f1aee101a87a29e286358af04d26c19db2ba5aa6c4b",
+      "shadow_mask_sha256": "a29823548a35fbbd7f493386fa4a98402c385ea26b65ca9fc2a8f3b950619c40",
+      "silhouette_iou_previous_hd": 0.8804818624796968,
+      "solid_alpha_pixels": 14345,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 3,
+      "animation": 1,
+      "frame": 0,
+      "cell": 1,
+      "stem": "walk-d3-f000",
+      "native_dimensions": [
+        26,
+        63
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d3-f000.png",
+      "hd_sha256": "32c1fd630c0c4934e89b4a693767cc79a8fe9004669a7b4c2c1a56c13ef53c4b",
+      "target_bbox_x4": [
+        0,
+        0,
+        104,
+        252
+      ],
+      "shadow_pixels": 158,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d3-f000.shadow-mask",
+      "source_shift": [
+        -3,
+        0
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d3.png",
+      "atlas_sha256": "37204a7665380b48ebcce928be02d12a5f09c2d13bda59ccdb614226772bb3a4",
+      "source_crop": [
+        564,
+        54,
+        132,
+        316
+      ],
+      "target_rect": [
+        0,
+        0,
+        104,
+        252
+      ],
+      "anisotropy": 1.0121713729308668,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d3-f000.rgba",
+      "png": "walk-d3-f000.png",
+      "png_sha256": "a65910a4700aac5c236bb6329f387b91a4c24457fa956da48369253d2291c760",
+      "rgba_sha256": "df66b09d01ca9de3d85b506f8a76f46014d6935e99c7ef64edd6a442f2be7832",
+      "shadow_mask_sha256": "3d59d1b21c2dd56a0c2cb364631cb74195090648293db18ed3c425ea3469d524",
+      "silhouette_iou_previous_hd": 0.9048507462686567,
+      "solid_alpha_pixels": 14692,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 3,
+      "animation": 1,
+      "frame": 1,
+      "cell": 2,
+      "stem": "walk-d3-f001",
+      "native_dimensions": [
+        22,
+        63
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d3-f001.png",
+      "hd_sha256": "693756de959aeea9214cf0408271aa053c457a5a49cd842bcf7bada176121811",
+      "target_bbox_x4": [
+        0,
+        0,
+        88,
+        252
+      ],
+      "shadow_pixels": 129,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d3-f001.shadow-mask",
+      "source_shift": [
+        -4,
+        4
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d3.png",
+      "atlas_sha256": "37204a7665380b48ebcce928be02d12a5f09c2d13bda59ccdb614226772bb3a4",
+      "source_crop": [
+        988,
+        55,
+        117,
+        315
+      ],
+      "target_rect": [
+        0,
+        0,
+        88,
+        252
+      ],
+      "anisotropy": 1.0636363636363637,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d3-f001.rgba",
+      "png": "walk-d3-f001.png",
+      "png_sha256": "8f541d178a7f0c09b15106d0d240c3d583b55ad2c01d0b8a6cc5a11e20040a01",
+      "rgba_sha256": "8e8868fc409dd87f922ef6bdb11e7e46d2f41ea50c4da4f42a5c0d67c328798a",
+      "shadow_mask_sha256": "165ace2fa212a36c47836b98bf040589c7202354848c573507688260eb7967a1",
+      "silhouette_iou_previous_hd": 0.9223067370381869,
+      "solid_alpha_pixels": 12575,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 3,
+      "animation": 1,
+      "frame": 2,
+      "cell": 3,
+      "stem": "walk-d3-f002",
+      "native_dimensions": [
+        29,
+        64
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d3-f002.png",
+      "hd_sha256": "5698bff4a6cc4d570d478e452b099aa501a38190d165595ab6e8c05c7515cb48",
+      "target_bbox_x4": [
+        0,
+        0,
+        116,
+        256
+      ],
+      "shadow_pixels": 152,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d3-f002.shadow-mask",
+      "source_shift": [
+        -6,
+        6
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d3.png",
+      "atlas_sha256": "37204a7665380b48ebcce928be02d12a5f09c2d13bda59ccdb614226772bb3a4",
+      "source_crop": [
+        137,
+        470,
+        147,
+        316
+      ],
+      "target_rect": [
+        0,
+        0,
+        116,
+        256
+      ],
+      "anisotropy": 1.0266259275425578,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d3-f002.rgba",
+      "png": "walk-d3-f002.png",
+      "png_sha256": "eb887a10e6fb4a83fd59fa76443ff55e50295eed0d4c499fd7aa0242cdf81d34",
+      "rgba_sha256": "6a9ee4c1ddc30233279d2f353fc6f420454b3e2f6197e66a2a2c931395b8231b",
+      "shadow_mask_sha256": "ad857e881c71f3b4fc4d961246307918a355462da14ebe7b54b044357354c348",
+      "silhouette_iou_previous_hd": 0.9027600510529674,
+      "solid_alpha_pixels": 12484,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 3,
+      "animation": 1,
+      "frame": 3,
+      "cell": 4,
+      "stem": "walk-d3-f003",
+      "native_dimensions": [
+        22,
+        63
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d3-f003.png",
+      "hd_sha256": "fb62565c97a725ab4e4126399996924ecc69488f48317fbd360ce531eda8dbf2",
+      "target_bbox_x4": [
+        0,
+        0,
+        88,
+        252
+      ],
+      "shadow_pixels": 136,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d3-f003.shadow-mask",
+      "source_shift": [
+        -3,
+        0
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d3.png",
+      "atlas_sha256": "37204a7665380b48ebcce928be02d12a5f09c2d13bda59ccdb614226772bb3a4",
+      "source_crop": [
+        574,
+        475,
+        111,
+        312
+      ],
+      "target_rect": [
+        0,
+        0,
+        88,
+        252
+      ],
+      "anisotropy": 1.0187937062937062,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d3-f003.rgba",
+      "png": "walk-d3-f003.png",
+      "png_sha256": "709735a280cd746ef83770ee0cbc0171488c6eab874a384967ddde8bd3eb20bc",
+      "rgba_sha256": "a244a4b323bcc5967db4272a77eab8ced2321b6fc2ea543dd523e7763223809f",
+      "shadow_mask_sha256": "17db7ef493c17c516acab76230aa393f48a490ddc4aee1ed0b40150e3c9c994a",
+      "silhouette_iou_previous_hd": 0.8914130274959565,
+      "solid_alpha_pixels": 13585,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 3,
+      "animation": 1,
+      "frame": 4,
+      "cell": 5,
+      "stem": "walk-d3-f004",
+      "native_dimensions": [
+        22,
+        60
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d3-f004.png",
+      "hd_sha256": "d5b69ff06c201263a2dcce8b18129fa704eadf21a4275ab7eed3baf9289729ba",
+      "target_bbox_x4": [
+        0,
+        0,
+        88,
+        240
+      ],
+      "shadow_pixels": 142,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d3-f004.shadow-mask",
+      "source_shift": [
+        -3,
+        1
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d3.png",
+      "atlas_sha256": "37204a7665380b48ebcce928be02d12a5f09c2d13bda59ccdb614226772bb3a4",
+      "source_crop": [
+        990,
+        482,
+        116,
+        304
+      ],
+      "target_rect": [
+        0,
+        0,
+        88,
+        240
+      ],
+      "anisotropy": 1.0406698564593302,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d3-f004.rgba",
+      "png": "walk-d3-f004.png",
+      "png_sha256": "1302086ef4578ee924b391e762f1859ed516c0b9716325f14a584d3317731bc9",
+      "rgba_sha256": "cc20f7e21e79563d4a5961dea84efc80c5935ca49b3deeaa3440a0cba23cd2a7",
+      "shadow_mask_sha256": "fe0afa46e6d1076b9c470e5b0f8a50478e0a487c439c25e615cf4c3228310b98",
+      "silhouette_iou_previous_hd": 0.9195587221328431,
+      "solid_alpha_pixels": 12820,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 3,
+      "animation": 1,
+      "frame": 5,
+      "cell": 6,
+      "stem": "walk-d3-f005",
+      "native_dimensions": [
+        26,
+        62
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d3-f005.png",
+      "hd_sha256": "47425586656cf7ec70bcc5a6582988cc8c3cb9b710e6fc1b3d32168827598c0d",
+      "target_bbox_x4": [
+        0,
+        0,
+        104,
+        248
+      ],
+      "shadow_pixels": 129,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d3-f005.shadow-mask",
+      "source_shift": [
+        -5,
+        6
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d3.png",
+      "atlas_sha256": "37204a7665380b48ebcce928be02d12a5f09c2d13bda59ccdb614226772bb3a4",
+      "source_crop": [
+        143,
+        896,
+        136,
+        310
+      ],
+      "target_rect": [
+        0,
+        0,
+        104,
+        248
+      ],
+      "anisotropy": 1.0461538461538462,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d3-f005.rgba",
+      "png": "walk-d3-f005.png",
+      "png_sha256": "09cb92876448a3375ea94a0753519cd53b0b464d0998a79d586c038ab58bcf36",
+      "rgba_sha256": "bbc6753645701393304ef6e69f2a064870732a16c76a51e3db97499724cb5228",
+      "shadow_mask_sha256": "ceb170c83663855282fbbe30304e0f0a18738c06bbda2f2bf0adcda3ce062f51",
+      "silhouette_iou_previous_hd": 0.9276194852941176,
+      "solid_alpha_pixels": 12772,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 3,
+      "animation": 1,
+      "frame": 6,
+      "cell": 7,
+      "stem": "walk-d3-f006",
+      "native_dimensions": [
+        25,
+        65
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d3-f006.png",
+      "hd_sha256": "a2d110a626152d07d7c55670e3a4b7cee36f4f385cf28e5480c949e894ec2479",
+      "target_bbox_x4": [
+        0,
+        0,
+        100,
+        260
+      ],
+      "shadow_pixels": 145,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d3-f006.shadow-mask",
+      "source_shift": [
+        -5,
+        7
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d3.png",
+      "atlas_sha256": "37204a7665380b48ebcce928be02d12a5f09c2d13bda59ccdb614226772bb3a4",
+      "source_crop": [
+        557,
+        884,
+        140,
+        320
+      ],
+      "target_rect": [
+        0,
+        0,
+        100,
+        260
+      ],
+      "anisotropy": 1.1375,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d3-f006.rgba",
+      "png": "walk-d3-f006.png",
+      "png_sha256": "337fdef7087ec170ba40e6329e4345b6fc320fa2afb818e1a33fa5b1e6b7cfa7",
+      "rgba_sha256": "c3a9f233cf72881cb15ca2d9360dbb1409192e3e372477255633a66a196248e6",
+      "shadow_mask_sha256": "ad612d5715738d7fdb693723e7de34f75962c7589af286303caf720847db4a1f",
+      "silhouette_iou_previous_hd": 0.9163755126841865,
+      "solid_alpha_pixels": 12748,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 3,
+      "animation": 1,
+      "frame": 7,
+      "cell": 8,
+      "stem": "walk-d3-f007",
+      "native_dimensions": [
+        27,
+        64
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d3-f007.png",
+      "hd_sha256": "6e5348ef3ea0d32637682681e4ab73c89d320a6e4f034b586731968702d7ba71",
+      "target_bbox_x4": [
+        0,
+        0,
+        108,
+        256
+      ],
+      "shadow_pixels": 127,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d3-f007.shadow-mask",
+      "source_shift": [
+        -5,
+        1
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d3.png",
+      "atlas_sha256": "37204a7665380b48ebcce928be02d12a5f09c2d13bda59ccdb614226772bb3a4",
+      "source_crop": [
+        977,
+        888,
+        141,
+        317
+      ],
+      "target_rect": [
+        0,
+        0,
+        108,
+        256
+      ],
+      "anisotropy": 1.054328776726253,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d3-f007.rgba",
+      "png": "walk-d3-f007.png",
+      "png_sha256": "5387a227da0ef88a224c7fdfc6cf54777ec8c3a57c1a61afbd9f7deb71992c89",
+      "rgba_sha256": "c80bc75677f1201fe90f8f4fa97cea4ef69f7caa8207c98417addbf8918f2c8f",
+      "shadow_mask_sha256": "83ef9aa405164cfcf40e23d6b808b729692077d78d72281b9f2121b474b01de3",
+      "silhouette_iou_previous_hd": 0.9022949017452246,
+      "solid_alpha_pixels": 14278,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 4,
+      "animation": 0,
+      "frame": -1,
+      "cell": 0,
+      "stem": "stand-d4",
+      "native_dimensions": [
+        14,
+        66
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\stand-d4.png",
+      "hd_sha256": "bd20eda922b969afbe2b95f08e381b60fea78f9bb535ff890b6611c55d5d1698",
+      "target_bbox_x4": [
+        0,
+        0,
+        56,
+        264
+      ],
+      "shadow_pixels": 54,
+      "shadow_palette_indices": [
+        207
+      ],
+      "shadow_mask": "stand-d4.shadow-mask",
+      "source_shift": [
+        0,
+        0
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d4.png",
+      "atlas_sha256": "c72427087ddb90fd9fc50cebfc17867715ecd8c6ae95138fd6899fe4a730cae8",
+      "source_crop": [
+        168,
+        39,
+        69,
+        331
+      ],
+      "target_rect": [
+        0,
+        0,
+        56,
+        264
+      ],
+      "anisotropy": 1.0175669740887132,
+      "alpha_threshold_for_crop": 32,
+      "filename": "stand-d4.rgba",
+      "png": "stand-d4.png",
+      "png_sha256": "5818641c4d47ce44eaa565d90ce31a1f8622260b8d45d0caac33701e3a08e07d",
+      "rgba_sha256": "62abe4d112c5588d967257703743c664f8c113c7f6bf112293619a466a376388",
+      "shadow_mask_sha256": "e0b762df4d72a3a43097001eaccb094794c72f4bc352d00cc740b2723374a5c0",
+      "silhouette_iou_previous_hd": 0.9128597122302158,
+      "solid_alpha_pixels": 10971,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 4,
+      "animation": 1,
+      "frame": 0,
+      "cell": 1,
+      "stem": "walk-d4-f000",
+      "native_dimensions": [
+        17,
+        63
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d4-f000.png",
+      "hd_sha256": "3db86598813e64d9c5d29d3eb9e2d0cdd9b50c685b02cfb3a634cabb3939264f",
+      "target_bbox_x4": [
+        0,
+        0,
+        68,
+        252
+      ],
+      "shadow_pixels": 96,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d4-f000.shadow-mask",
+      "source_shift": [
+        -9,
+        0
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d4.png",
+      "atlas_sha256": "c72427087ddb90fd9fc50cebfc17867715ecd8c6ae95138fd6899fe4a730cae8",
+      "source_crop": [
+        578,
+        56,
+        92,
+        317
+      ],
+      "target_rect": [
+        0,
+        0,
+        68,
+        252
+      ],
+      "anisotropy": 1.0755242159955467,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d4-f000.rgba",
+      "png": "walk-d4-f000.png",
+      "png_sha256": "4a32dd5b8b936c20f74b25e0a773782b6d5938c212f3c0d5a64693daffe91542",
+      "rgba_sha256": "543efab62bd2cb7075b2b5588a7fa391f76b92b463a161e6728a3e56797cfa81",
+      "shadow_mask_sha256": "c0b8572e1add27b1f526baa270180634b3ff00234bf51d4adc150209e7f9c7b2",
+      "silhouette_iou_previous_hd": 0.9238022668825603,
+      "solid_alpha_pixels": 10251,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 4,
+      "animation": 1,
+      "frame": 1,
+      "cell": 2,
+      "stem": "walk-d4-f001",
+      "native_dimensions": [
+        25,
+        61
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d4-f001.png",
+      "hd_sha256": "f9d94ee53ea8826d89497a12173a33b211a2c7cad6c22efc2b7646ce56cc6edf",
+      "target_bbox_x4": [
+        0,
+        1,
+        100,
+        244
+      ],
+      "shadow_pixels": 135,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d4-f001.shadow-mask",
+      "source_shift": [
+        -6,
+        0
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d4.png",
+      "atlas_sha256": "c72427087ddb90fd9fc50cebfc17867715ecd8c6ae95138fd6899fe4a730cae8",
+      "source_crop": [
+        979,
+        65,
+        136,
+        307
+      ],
+      "target_rect": [
+        0,
+        1,
+        100,
+        243
+      ],
+      "anisotropy": 1.0764820846905536,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d4-f001.rgba",
+      "png": "walk-d4-f001.png",
+      "png_sha256": "20cfd64e310b50acc996b438533d6f0f69890c4c24a4a80c117ea945dfb7fb10",
+      "rgba_sha256": "ef28521176a143638085e82a43c50793716f9ae251d7c52f4313f5338b13d8d2",
+      "shadow_mask_sha256": "5a2791d16112429491702dd618f203709842ee0acca2ff36e46197de6d6a71a4",
+      "silhouette_iou_previous_hd": 0.9163402106729346,
+      "solid_alpha_pixels": 11290,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 4,
+      "animation": 1,
+      "frame": 2,
+      "cell": 3,
+      "stem": "walk-d4-f002",
+      "native_dimensions": [
+        43,
+        60
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d4-f002.png",
+      "hd_sha256": "04da46cec6d70e6defe3d40ea1447547238928d6f60caf691da280978c838974",
+      "target_bbox_x4": [
+        0,
+        0,
+        172,
+        240
+      ],
+      "shadow_pixels": 225,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d4-f002.shadow-mask",
+      "source_shift": [
+        -9,
+        0
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d4.png",
+      "atlas_sha256": "c72427087ddb90fd9fc50cebfc17867715ecd8c6ae95138fd6899fe4a730cae8",
+      "source_crop": [
+        97,
+        487,
+        222,
+        301
+      ],
+      "target_rect": [
+        0,
+        0,
+        172,
+        240
+      ],
+      "anisotropy": 1.0291277138221433,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d4-f002.rgba",
+      "png": "walk-d4-f002.png",
+      "png_sha256": "51dfdbc2dc76c5d7c4c943e65b8c517fbf7a22b7045445f382019caddf92d88b",
+      "rgba_sha256": "0b702c492788ba94826c58d8b82463efd2fe4bab12d795abcde5c050838853a9",
+      "shadow_mask_sha256": "947b9a37fc5756e6968604346824e44a0848caf0b575a0a6b433f0d223697014",
+      "silhouette_iou_previous_hd": 0.8319830669294213,
+      "solid_alpha_pixels": 13264,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 4,
+      "animation": 1,
+      "frame": 3,
+      "cell": 4,
+      "stem": "walk-d4-f003",
+      "native_dimensions": [
+        27,
+        63
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d4-f003.png",
+      "hd_sha256": "653a5bb19b8e73a2a75da8b81f9047ef0d295a8fbfd0d28cc46540538ff6cecf",
+      "target_bbox_x4": [
+        0,
+        0,
+        108,
+        252
+      ],
+      "shadow_pixels": 147,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d4-f003.shadow-mask",
+      "source_shift": [
+        -8,
+        0
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d4.png",
+      "atlas_sha256": "c72427087ddb90fd9fc50cebfc17867715ecd8c6ae95138fd6899fe4a730cae8",
+      "source_crop": [
+        557,
+        473,
+        143,
+        316
+      ],
+      "target_rect": [
+        0,
+        0,
+        108,
+        252
+      ],
+      "anisotropy": 1.0559071729957807,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d4-f003.rgba",
+      "png": "walk-d4-f003.png",
+      "png_sha256": "78254653ebb69f9cfc1d2f319a10c8017ca65bd65da6ef6c0ead86bad517c401",
+      "rgba_sha256": "e35dd9d5278291463a2b83ac973c38da885a43abf766bfa1d1a938f2778ea26c",
+      "shadow_mask_sha256": "d779e243d0cc7eb47f3f0e638e89fab8725465c5506acf61d5b0d2517f6cfd61",
+      "silhouette_iou_previous_hd": 0.923238607701362,
+      "solid_alpha_pixels": 11805,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 4,
+      "animation": 1,
+      "frame": 4,
+      "cell": 5,
+      "stem": "walk-d4-f004",
+      "native_dimensions": [
+        18,
+        62
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d4-f004.png",
+      "hd_sha256": "b094d165a288b0d2e7c0e0ec43f2e039d2a13d1fae0540e9ccb048f58b7180bd",
+      "target_bbox_x4": [
+        0,
+        0,
+        72,
+        248
+      ],
+      "shadow_pixels": 108,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d4-f004.shadow-mask",
+      "source_shift": [
+        -9,
+        0
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d4.png",
+      "atlas_sha256": "c72427087ddb90fd9fc50cebfc17867715ecd8c6ae95138fd6899fe4a730cae8",
+      "source_crop": [
+        998,
+        479,
+        97,
+        309
+      ],
+      "target_rect": [
+        0,
+        0,
+        72,
+        248
+      ],
+      "anisotropy": 1.0812657317511687,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d4-f004.rgba",
+      "png": "walk-d4-f004.png",
+      "png_sha256": "234fd85f6bd20c550765b6cc2463dde3dd1d19cf2e54b36f6892e31c4526bb06",
+      "rgba_sha256": "b8b54cc6604b115bead796ae9898c6b418f24415ee0b0a4587f2719484b1681a",
+      "shadow_mask_sha256": "e9b60152549a3b2e4a68bf5b4da03c8e8397cdd4d2be9fa511d64f79bf5797e4",
+      "silhouette_iou_previous_hd": 0.8875109852553461,
+      "solid_alpha_pixels": 10031,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 4,
+      "animation": 1,
+      "frame": 5,
+      "cell": 6,
+      "stem": "walk-d4-f005",
+      "native_dimensions": [
+        23,
+        61
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d4-f005.png",
+      "hd_sha256": "0c3b53c98b2d6761a2515e64636fe6ee529ef8ffd1dd0e0f9f82f9c883b69543",
+      "target_bbox_x4": [
+        0,
+        0,
+        92,
+        244
+      ],
+      "shadow_pixels": 118,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d4-f005.shadow-mask",
+      "source_shift": [
+        -7,
+        0
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d4.png",
+      "atlas_sha256": "c72427087ddb90fd9fc50cebfc17867715ecd8c6ae95138fd6899fe4a730cae8",
+      "source_crop": [
+        140,
+        901,
+        131,
+        303
+      ],
+      "target_rect": [
+        0,
+        0,
+        92,
+        244
+      ],
+      "anisotropy": 1.146649447553451,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d4-f005.rgba",
+      "png": "walk-d4-f005.png",
+      "png_sha256": "f41c17c7f75eb11da129f716c5aa50917d97088730fa5dcb991dfd4e48a9dc9d",
+      "rgba_sha256": "6816860cfd057cecf9091f5c6e7f71d9d2be6acd86d6ef3315d346efebf22cce",
+      "shadow_mask_sha256": "93765e11e3fced41f1a47c35a10d016f0b067ddf142eadce894158b83b483739",
+      "silhouette_iou_previous_hd": 0.8716244636998401,
+      "solid_alpha_pixels": 11348,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 4,
+      "animation": 1,
+      "frame": 6,
+      "cell": 7,
+      "stem": "walk-d4-f006",
+      "native_dimensions": [
+        42,
+        60
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d4-f006.png",
+      "hd_sha256": "0bc22c162a71d89d37ede0f9ab1b98690f13d9f1d07c407ec8fca07860dad694",
+      "target_bbox_x4": [
+        0,
+        0,
+        168,
+        240
+      ],
+      "shadow_pixels": 200,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d4-f006.shadow-mask",
+      "source_shift": [
+        -10,
+        0
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d4.png",
+      "atlas_sha256": "c72427087ddb90fd9fc50cebfc17867715ecd8c6ae95138fd6899fe4a730cae8",
+      "source_crop": [
+        513,
+        906,
+        227,
+        302
+      ],
+      "target_rect": [
+        0,
+        0,
+        168,
+        240
+      ],
+      "anisotropy": 1.0737937559129611,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d4-f006.rgba",
+      "png": "walk-d4-f006.png",
+      "png_sha256": "1052825bb5e0b7757472d959b909e8e7689d80ac69e00bc90da32c38d19bf8b5",
+      "rgba_sha256": "5975267b28481cc1c2938c0acbaf7ea38461722ca9d4d8f54d34a255abc9f441",
+      "shadow_mask_sha256": "e2c6fc2a438d596438e2f2317b1974495dc3fffc25e092ec3969fb15048586bb",
+      "silhouette_iou_previous_hd": 0.8695243602717941,
+      "solid_alpha_pixels": 13449,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 4,
+      "animation": 1,
+      "frame": 7,
+      "cell": 8,
+      "stem": "walk-d4-f007",
+      "native_dimensions": [
+        23,
+        62
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d4-f007.png",
+      "hd_sha256": "44d205ee03e840cf45738418600ed2794922d2300c70dbb6d9a6ac478f4b7ce9",
+      "target_bbox_x4": [
+        0,
+        0,
+        92,
+        248
+      ],
+      "shadow_pixels": 114,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d4-f007.shadow-mask",
+      "source_shift": [
+        -11,
+        0
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d4.png",
+      "atlas_sha256": "c72427087ddb90fd9fc50cebfc17867715ecd8c6ae95138fd6899fe4a730cae8",
+      "source_crop": [
+        984,
+        896,
+        125,
+        311
+      ],
+      "target_rect": [
+        0,
+        0,
+        92,
+        248
+      ],
+      "anisotropy": 1.0834614846917379,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d4-f007.rgba",
+      "png": "walk-d4-f007.png",
+      "png_sha256": "ea61d1e4c36e60108fbda9d920047d1ffce62849342ad01417e224ecc6c49cf7",
+      "rgba_sha256": "aa04f09acba9009c858ada146557aace78b6dfd5f7841797280d4b2c295f35b0",
+      "shadow_mask_sha256": "afa108ddc3a44f45e8f366f2a92b0836f3610f76e2bb14cbdd0fd0aa7bcdf25c",
+      "silhouette_iou_previous_hd": 0.9035683942225998,
+      "solid_alpha_pixels": 11578,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 5,
+      "animation": 0,
+      "frame": -1,
+      "cell": 0,
+      "stem": "stand-d5",
+      "native_dimensions": [
+        27,
+        63
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\stand-d5.png",
+      "hd_sha256": "04446378a83ede6b09fd8d572f88ec59f8766990618589965bc21d8c3f5660d4",
+      "target_bbox_x4": [
+        0,
+        0,
+        108,
+        252
+      ],
+      "shadow_pixels": 111,
+      "shadow_palette_indices": [
+        207
+      ],
+      "shadow_mask": "stand-d5.shadow-mask",
+      "source_shift": [
+        0,
+        0
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d5.png",
+      "atlas_sha256": "0d6650c26a7391a957faab3eed4fea46bbec445655eac74b435c0793ddb330fd",
+      "source_crop": [
+        142,
+        57,
+        134,
+        310
+      ],
+      "target_rect": [
+        0,
+        0,
+        108,
+        252
+      ],
+      "anisotropy": 1.0086021505376344,
+      "alpha_threshold_for_crop": 32,
+      "filename": "stand-d5.rgba",
+      "png": "stand-d5.png",
+      "png_sha256": "ff6e8a833d55a7ad5f28673cca28193db639019a099e226c94464263a6d7ab27",
+      "rgba_sha256": "594bb3ae276a2f2afef0535e31d9888a08db90cd528d352fa75db2f088894bbb",
+      "shadow_mask_sha256": "43e917da18adf121719d1f66456e1c559de757c4a8d7983618c3e6976cf5b987",
+      "silhouette_iou_previous_hd": 0.935409538440053,
+      "solid_alpha_pixels": 14276,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 5,
+      "animation": 1,
+      "frame": 0,
+      "cell": 1,
+      "stem": "walk-d5-f000",
+      "native_dimensions": [
+        22,
+        64
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d5-f000.png",
+      "hd_sha256": "93e9bbdd8fea3ccd547712ffc0ddd5fe152f41b620d8a5c017b39b26444b08ad",
+      "target_bbox_x4": [
+        0,
+        0,
+        88,
+        256
+      ],
+      "shadow_pixels": 112,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d5-f000.shadow-mask",
+      "source_shift": [
+        -2,
+        -1
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d5.png",
+      "atlas_sha256": "0d6650c26a7391a957faab3eed4fea46bbec445655eac74b435c0793ddb330fd",
+      "source_crop": [
+        571,
+        52,
+        110,
+        316
+      ],
+      "target_rect": [
+        0,
+        0,
+        88,
+        256
+      ],
+      "anisotropy": 1.0126582278481011,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d5-f000.rgba",
+      "png": "walk-d5-f000.png",
+      "png_sha256": "9ab815fd73bf2448ddaf2a7d3aca2fc0d218efb0d44e4497a5fc3462bfc19155",
+      "rgba_sha256": "db298b5f47d8b37cf897b3faf5f6c749c076d4c57583120a2899f6909a0f8daa",
+      "shadow_mask_sha256": "13f369073dc0dc8d9762eaeb599d3cf460e4ce2843b6b0bc85871558e0592867",
+      "silhouette_iou_previous_hd": 0.9566979362101313,
+      "solid_alpha_pixels": 13199,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 5,
+      "animation": 1,
+      "frame": 1,
+      "cell": 2,
+      "stem": "walk-d5-f001",
+      "native_dimensions": [
+        26,
+        65
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d5-f001.png",
+      "hd_sha256": "e942a999a5b0abff2ae48b9dfdd390f1e90ea70a3cf5f9cee4b2abc27534e73b",
+      "target_bbox_x4": [
+        0,
+        0,
+        104,
+        260
+      ],
+      "shadow_pixels": 119,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d5-f001.shadow-mask",
+      "source_shift": [
+        -5,
+        -1
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d5.png",
+      "atlas_sha256": "0d6650c26a7391a957faab3eed4fea46bbec445655eac74b435c0793ddb330fd",
+      "source_crop": [
+        981,
+        49,
+        128,
+        318
+      ],
+      "target_rect": [
+        0,
+        0,
+        104,
+        260
+      ],
+      "anisotropy": 1.0062893081761006,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d5-f001.rgba",
+      "png": "walk-d5-f001.png",
+      "png_sha256": "1fb3fa339ffffd1f2491bab23dd21e39f222be9f83f48c23bff4b0bb5ba66521",
+      "rgba_sha256": "c7087b91ee72aca50c13fd34aebf1bc7d226c9edbd5435c7a4f3d801c8142d90",
+      "shadow_mask_sha256": "84ab5735c0adb966c0524733ee55b7d983360fec70a8f635a1666d9227d65c7c",
+      "silhouette_iou_previous_hd": 0.9298164785379713,
+      "solid_alpha_pixels": 12971,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 5,
+      "animation": 1,
+      "frame": 2,
+      "cell": 3,
+      "stem": "walk-d5-f002",
+      "native_dimensions": [
+        27,
+        66
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d5-f002.png",
+      "hd_sha256": "0300d527fe19e98c67cd2ac7ba71200030a510407d8ecc1d63d8ee81f15bb1cf",
+      "target_bbox_x4": [
+        0,
+        0,
+        108,
+        264
+      ],
+      "shadow_pixels": 156,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d5-f002.shadow-mask",
+      "source_shift": [
+        -5,
+        -1
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d5.png",
+      "atlas_sha256": "0d6650c26a7391a957faab3eed4fea46bbec445655eac74b435c0793ddb330fd",
+      "source_crop": [
+        142,
+        460,
+        134,
+        324
+      ],
+      "target_rect": [
+        0,
+        0,
+        108,
+        264
+      ],
+      "anisotropy": 1.0109739368998627,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d5-f002.rgba",
+      "png": "walk-d5-f002.png",
+      "png_sha256": "4fd25250477ac88d3ad2a54e0c38a51cc195afb25d596b4302185b4c227f1d9e",
+      "rgba_sha256": "a03e248bb210591feb4712969cf09ffa984adfd773608e0a33a714038f19d13c",
+      "shadow_mask_sha256": "69511d273972b6aa07af3cb9b56b71885a03c6e178d9110450ab94b43c304f7b",
+      "silhouette_iou_previous_hd": 0.9328761904761905,
+      "solid_alpha_pixels": 13029,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 5,
+      "animation": 1,
+      "frame": 3,
+      "cell": 4,
+      "stem": "walk-d5-f003",
+      "native_dimensions": [
+        27,
+        66
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d5-f003.png",
+      "hd_sha256": "07b3cb1ff2f4e5b0ae23ab15143d810e9bd6381092243ba9851c1f0675074695",
+      "target_bbox_x4": [
+        0,
+        0,
+        108,
+        264
+      ],
+      "shadow_pixels": 150,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d5-f003.shadow-mask",
+      "source_shift": [
+        -4,
+        -6
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d5.png",
+      "atlas_sha256": "0d6650c26a7391a957faab3eed4fea46bbec445655eac74b435c0793ddb330fd",
+      "source_crop": [
+        560,
+        461,
+        133,
+        325
+      ],
+      "target_rect": [
+        0,
+        0,
+        108,
+        264
+      ],
+      "anisotropy": 1.0003418803418804,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d5-f003.rgba",
+      "png": "walk-d5-f003.png",
+      "png_sha256": "df0743108e87b38c345057776812f13f5d9ba8ced1f6976e82b80335a6793a9f",
+      "rgba_sha256": "d5f7a292d0823cccaa7569f18bf68f320c8b951851445e99897088c28eb48a8b",
+      "shadow_mask_sha256": "0dd550b1970aad05a5276d6306195b4ac3e85cd50e6348b607ba116355284772",
+      "silhouette_iou_previous_hd": 0.9409395007553414,
+      "solid_alpha_pixels": 13838,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 5,
+      "animation": 1,
+      "frame": 4,
+      "cell": 5,
+      "stem": "walk-d5-f004",
+      "native_dimensions": [
+        24,
+        64
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d5-f004.png",
+      "hd_sha256": "38df2f9993f4658934033dff26e9cfc00ab0e076354a34965f5c861c3be5b125",
+      "target_bbox_x4": [
+        0,
+        0,
+        96,
+        256
+      ],
+      "shadow_pixels": 145,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d5-f004.shadow-mask",
+      "source_shift": [
+        -4,
+        -5
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d5.png",
+      "atlas_sha256": "0d6650c26a7391a957faab3eed4fea46bbec445655eac74b435c0793ddb330fd",
+      "source_crop": [
+        985,
+        470,
+        120,
+        315
+      ],
+      "target_rect": [
+        0,
+        0,
+        96,
+        256
+      ],
+      "anisotropy": 1.0158730158730158,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d5-f004.rgba",
+      "png": "walk-d5-f004.png",
+      "png_sha256": "2aaded58676fbee46abde3ea7dddd96435d8c0ff49665ddb2b40e2fb15ff516f",
+      "rgba_sha256": "0e43d6d17fa0b25e6c09467bb55f9000ebce221d9fb4bfd71accc3dfb12f1d44",
+      "shadow_mask_sha256": "76b7acf67256a284d2440ab3d0c334673f8106d4d49f8805acf98845e676b53a",
+      "silhouette_iou_previous_hd": 0.9455608575845151,
+      "solid_alpha_pixels": 14788,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 5,
+      "animation": 1,
+      "frame": 5,
+      "cell": 6,
+      "stem": "walk-d5-f005",
+      "native_dimensions": [
+        21,
+        64
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d5-f005.png",
+      "hd_sha256": "c9d2c5947b7b7d9549171bfe42fc71de4caacdb51dd2ac39343980d997be21da",
+      "target_bbox_x4": [
+        0,
+        1,
+        84,
+        256
+      ],
+      "shadow_pixels": 120,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d5-f005.shadow-mask",
+      "source_shift": [
+        -5,
+        -2
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d5.png",
+      "atlas_sha256": "0d6650c26a7391a957faab3eed4fea46bbec445655eac74b435c0793ddb330fd",
+      "source_crop": [
+        156,
+        889,
+        106,
+        313
+      ],
+      "target_rect": [
+        0,
+        1,
+        84,
+        255
+      ],
+      "anisotropy": 1.028069374714742,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d5-f005.rgba",
+      "png": "walk-d5-f005.png",
+      "png_sha256": "c118e5cd2e3aa816d52abdb2192c97610ea02934453f3130b1a847bdb4398f83",
+      "rgba_sha256": "a0d2952eb16a9b94984fd96498cc42b8775e937a1cdb8df11b15c395a2690d63",
+      "shadow_mask_sha256": "7148633e9b716e32c494fdb2bfdb4b07a184bf9ba3478df101c9eabff22efe35",
+      "silhouette_iou_previous_hd": 0.9312983183231052,
+      "solid_alpha_pixels": 12511,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 5,
+      "animation": 1,
+      "frame": 6,
+      "cell": 7,
+      "stem": "walk-d5-f006",
+      "native_dimensions": [
+        30,
+        65
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d5-f006.png",
+      "hd_sha256": "3c230e3c3c552014d1a357cf927a44c0c3b7d5bc476ce12b082971b4da77018a",
+      "target_bbox_x4": [
+        0,
+        0,
+        120,
+        260
+      ],
+      "shadow_pixels": 187,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d5-f006.shadow-mask",
+      "source_shift": [
+        -4,
+        -1
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d5.png",
+      "atlas_sha256": "0d6650c26a7391a957faab3eed4fea46bbec445655eac74b435c0793ddb330fd",
+      "source_crop": [
+        552,
+        885,
+        151,
+        320
+      ],
+      "target_rect": [
+        0,
+        0,
+        120,
+        260
+      ],
+      "anisotropy": 1.0223958333333334,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d5-f006.rgba",
+      "png": "walk-d5-f006.png",
+      "png_sha256": "24e55ad655d7406a28a26c2b6b64dd266fbbaa52399b03007662d8fe652dd256",
+      "rgba_sha256": "57a453b2dc072d9ecd3864289bb77fe916cd809b3088e8554c97c13471fa7743",
+      "shadow_mask_sha256": "c3e079a96d18ffb3c10ca80b6b09ee3127c4ac6e5599fad751df34ec6402edc8",
+      "silhouette_iou_previous_hd": 0.9354918234859068,
+      "solid_alpha_pixels": 12010,
+      "rgba_decoded_identical": true
+    },
+    {
+      "direction": 5,
+      "animation": 1,
+      "frame": 7,
+      "cell": 8,
+      "stem": "walk-d5-f007",
+      "native_dimensions": [
+        20,
+        63
+      ],
+      "hd_source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\player-male-vault13\\v1-x4\\walk-d5-f007.png",
+      "hd_sha256": "09f977f4f193bba3410bedf897a953c409a0bb738e1694decbf6043c32d37101",
+      "target_bbox_x4": [
+        0,
+        0,
+        80,
+        252
+      ],
+      "shadow_pixels": 110,
+      "shadow_palette_indices": [
+        31,
+        47,
+        100
+      ],
+      "shadow_mask": "walk-d5-f007.shadow-mask",
+      "source_shift": [
+        -5,
+        -8
+      ],
+      "atlas": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\player-male-vault13\\lighting-walk-v2-20261116\\raw\\d5.png",
+      "atlas_sha256": "0d6650c26a7391a957faab3eed4fea46bbec445655eac74b435c0793ddb330fd",
+      "source_crop": [
+        994,
+        894,
+        102,
+        311
+      ],
+      "target_rect": [
+        0,
+        0,
+        80,
+        252
+      ],
+      "anisotropy": 1.0331189710610933,
+      "alpha_threshold_for_crop": 32,
+      "filename": "walk-d5-f007.rgba",
+      "png": "walk-d5-f007.png",
+      "png_sha256": "5166c0c608e5bb475da9fbe8c68eb57698a6974936776cbba4733e765b9eb66d",
+      "rgba_sha256": "ebbf8b012464dc76af383e2c3b1614e63d951b5495fb572c86992fc7ba897587",
+      "shadow_mask_sha256": "0dc200a6bc656502e31266602875ea75d34deea422067eef21317605fa89b26e",
+      "silhouette_iou_previous_hd": 0.9442448979591836,
+      "solid_alpha_pixels": 12122,
+      "rgba_decoded_identical": true
+    }
+  ]
+}

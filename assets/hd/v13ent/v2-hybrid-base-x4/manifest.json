@@ -1,0 +1,3419 @@
+{
+  "schema_version": 1,
+  "version": "2-hybrid-base-x4",
+  "component": "v13ent-cave",
+  "created_utc": "2026-11-11T19:54:53.024736+00:00",
+  "status": "candidate_integration_pending",
+  "artistic_status": "candidate_for_review",
+  "integrated_in_ce": false,
+  "scale": 4,
+  "asset_count": 159,
+  "category_counts": {
+    "tiles": 57,
+    "scenery": 32,
+    "walls": 70
+  },
+  "selection_counts": {
+    "individual_hybrid_override": 2,
+    "direct_material_refresh": 99,
+    "faithful_previous_hd_mechanical": 3,
+    "floor_edge_prepared": 55
+  },
+  "source_inventory": {
+    "path": "assets/generated/v13ent-cave/v1-20261111/sources/manifest.json",
+    "sha256": "35d546b4d0804d4fd20228650adf734721feb0ceae339bda9ad9126cc21450a0"
+  },
+  "original_map": {
+    "source": "maps/v13ent.map",
+    "sha256": "e160e99522ecaf56d37a5320d754a3fabe070bc2d219f70b94a8f804514a7295",
+    "size": 177224,
+    "header": {
+      "version": 19,
+      "name": "V13ENT.MAP",
+      "entering_tile": 20100,
+      "entering_elevation": 0,
+      "entering_rotation": 0,
+      "local_count": 0,
+      "script_index": 430,
+      "flags": 12,
+      "darkness": 1,
+      "global_count": 1,
+      "map_index": 35,
+      "last_visit": 0
+    },
+    "root_object_count": 1494,
+    "parsed_bytes": 177224
+  },
+  "source_runs": {
+    "direct_atlas": {
+      "path": "assets/generated/v13ent-cave/v2-visible-20261111/direct-atlas/run.json",
+      "sha256": "e2ac4c504deef0089637c59f2ed363efa7ac7ff1e72caab9966c8a6a3b88ab71"
+    },
+    "floor_edges": {
+      "path": "assets/generated/v13ent-cave/v2-visible-20261111/floor-soft/run.json",
+      "sha256": "f58b8f3226f03579c10472fcf7bce63807a7b800176787c1c35785a2ce93250a"
+    },
+    "rock03_override": {
+      "path": "assets/generated/v13ent-rock03/v2-visible-20261111/run.json",
+      "sha256": "45a8419cc5df8d4112024867b81afee7d0b95e15e82a87f81e1c8fbd29aed66c"
+    },
+    "cav1000_override": {
+      "path": "assets/generated/v13ent-cav1000/v3-hybrid-20261111/run.json",
+      "sha256": "d07d5ae9bc9821b06346bf243918ee8b409081503ae25fa9316c993a850e544d"
+    }
+  },
+  "faithful_mechanical_source_package": {
+    "path": "assets/hd/v13ent/v1.1-detail-x4/manifest.json",
+    "sha256": "17c852ee878a9f300ecb0f6c758f1ff8b1af623bae25214f3cd9d4c84505872f"
+  },
+  "faithful_mechanical_selection_reasons": {
+    "art/tiles/grt2000.frm": "The direct candidate changed the original cross-grid grating into parallel bars; retain the previous HD grid geometry.",
+    "art/scenery/doorcomp.frm": "The direct candidate reinterpreted the display and buttons; retain the previous HD control layout.",
+    "art/scenery/v13secr3.frm": "The direct candidate rounded the sill and smoothed the original right-pillar panel wear and shading; retain the previous HD mechanical structure."
+  },
+  "coverage_file": "coverage.json",
+  "coverage_sha256": "5c96224dcde8e09244447e7475001f5537ae66ee4ddd7ba43900f23aaf4d2c27",
+  "all_selected_png_dimensions_and_alpha_validated": true,
+  "all_inputs_validated_before_selected_pack_writes": true,
+  "assets": [
+    {
+      "asset_id": 1,
+      "resource": "art/tiles/cav1000.frm",
+      "category": "tiles",
+      "fids": [
+        67108885
+      ],
+      "png": "art/tiles/cav1000.frm.png",
+      "sha256": "a6d732164b9fa978937a0984b8f6d918cd8ea1789008152cc5c9f1fe113d5e9a",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/cav1000.frm.json",
+      "metadata_sha256": "320ea2bc055388813515205bc1498da8552647318ef0d7a92e7e04fcdb508d6b",
+      "selection": "individual_hybrid_override"
+    },
+    {
+      "asset_id": 2,
+      "resource": "art/scenery/rock03.frm",
+      "category": "scenery",
+      "fids": [
+        33554605
+      ],
+      "png": "art/scenery/rock03.frm.png",
+      "sha256": "86d78b22b32bb69a1ae72d572a9c7b60e534fb21a0516c499d4888589c90d450",
+      "native_dimensions": [
+        123,
+        103
+      ],
+      "dimensions": [
+        492,
+        412
+      ],
+      "metadata": "metadata/art/scenery/rock03.frm.json",
+      "metadata_sha256": "a72a9cdf372624efd1269ecbc5211473b8a54a1fa9d33c79eb38ab0cfd006c89",
+      "selection": "individual_hybrid_override"
+    },
+    {
+      "asset_id": 3,
+      "resource": "art/scenery/bone01.frm",
+      "category": "scenery",
+      "fids": [
+        33554464
+      ],
+      "png": "art/scenery/bone01.frm.png",
+      "sha256": "ced61495d8df681f893bc90b9a5f00834a94d78f65f4a7538f0f32e9a850fc74",
+      "native_dimensions": [
+        54,
+        30
+      ],
+      "dimensions": [
+        216,
+        120
+      ],
+      "metadata": "metadata/art/scenery/bone01.frm.json",
+      "metadata_sha256": "e2d1cb98eeae38be9fb7d54bdf8ae4ddde5423b6b29ffa7c4abbcba830661469",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 4,
+      "resource": "art/scenery/bone02.frm",
+      "category": "scenery",
+      "fids": [
+        33554465
+      ],
+      "png": "art/scenery/bone02.frm.png",
+      "sha256": "9cd551174de31762c4d9c8e36c608dd3e9bd7ee52b7005c72c57e65896f3c4b7",
+      "native_dimensions": [
+        70,
+        29
+      ],
+      "dimensions": [
+        280,
+        116
+      ],
+      "metadata": "metadata/art/scenery/bone02.frm.json",
+      "metadata_sha256": "12d045a1a92ad98464ae8a2b0b9ab03050d6e2f004473f2159cd34ae4f24d985",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 5,
+      "resource": "art/scenery/bone04.frm",
+      "category": "scenery",
+      "fids": [
+        33554467
+      ],
+      "png": "art/scenery/bone04.frm.png",
+      "sha256": "41f0d31f12fb2507b64611d6e82cddebc6f2336800b630500759ffa05272e16b",
+      "native_dimensions": [
+        42,
+        26
+      ],
+      "dimensions": [
+        168,
+        104
+      ],
+      "metadata": "metadata/art/scenery/bone04.frm.json",
+      "metadata_sha256": "4003b3f0a65709225fc7f9d1ecdf09c0d54000d931ac9534651d1480af7737de",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 6,
+      "resource": "art/scenery/cstalag1.frm",
+      "category": "scenery",
+      "fids": [
+        33554529
+      ],
+      "png": "art/scenery/cstalag1.frm.png",
+      "sha256": "cde2313b1e0026e77ef54c4c19ba1e3d2bb52d448e5d3264dd5dbb3a5f3c9212",
+      "native_dimensions": [
+        51,
+        110
+      ],
+      "dimensions": [
+        204,
+        440
+      ],
+      "metadata": "metadata/art/scenery/cstalag1.frm.json",
+      "metadata_sha256": "b54cca222ede78b1c603a1862f8fd998c642d11b4a3c28165e8a124ae5ae11dc",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 7,
+      "resource": "art/scenery/cstalag2.frm",
+      "category": "scenery",
+      "fids": [
+        33554530
+      ],
+      "png": "art/scenery/cstalag2.frm.png",
+      "sha256": "1a43b049404eb36429e2861e68aa4d3d70cc3f703fda3325a2250b9555b82bc5",
+      "native_dimensions": [
+        32,
+        50
+      ],
+      "dimensions": [
+        128,
+        200
+      ],
+      "metadata": "metadata/art/scenery/cstalag2.frm.json",
+      "metadata_sha256": "12e392c56ca177a8bc7e7723566d1f29e7b2f8934d2e9cd918d6f7004a6e4e06",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 8,
+      "resource": "art/scenery/cvcolum1.frm",
+      "category": "scenery",
+      "fids": [
+        33554531
+      ],
+      "png": "art/scenery/cvcolum1.frm.png",
+      "sha256": "e5ddbeeee35e02567e9207e1762c24d602cbe10795e2609ff5aa45e61222af05",
+      "native_dimensions": [
+        53,
+        110
+      ],
+      "dimensions": [
+        212,
+        440
+      ],
+      "metadata": "metadata/art/scenery/cvcolum1.frm.json",
+      "metadata_sha256": "88e068088adfe2e5d1577da3fe94f69695e7d9c42f8e9a65590031b156c1f2ef",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 9,
+      "resource": "art/scenery/cvcolum2.frm",
+      "category": "scenery",
+      "fids": [
+        33554532
+      ],
+      "png": "art/scenery/cvcolum2.frm.png",
+      "sha256": "e986046d75285651360eb454c3dbee12d8624b2d99d228598a0d46edae53377c",
+      "native_dimensions": [
+        37,
+        104
+      ],
+      "dimensions": [
+        148,
+        416
+      ],
+      "metadata": "metadata/art/scenery/cvcolum2.frm.json",
+      "metadata_sha256": "be0053cb9daa95af2c02425767f5a22968e5b56a0f23c777e3cd2667515754df",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 10,
+      "resource": "art/scenery/doorcomp.frm",
+      "category": "scenery",
+      "fids": [
+        33554542
+      ],
+      "png": "art/scenery/doorcomp.frm.png",
+      "sha256": "1561b033b5ddea11867abc297914441606f2c48316c1df0530faa56482df1c86",
+      "native_dimensions": [
+        32,
+        53
+      ],
+      "dimensions": [
+        128,
+        212
+      ],
+      "metadata": "metadata/art/scenery/doorcomp.frm.json",
+      "metadata_sha256": "b3d6d5a0bf6a1808120b50dd311ef75b401413172dc0ed0beec8a561bf396adb",
+      "selection": "faithful_previous_hd_mechanical"
+    },
+    {
+      "asset_id": 11,
+      "resource": "art/scenery/rock01.frm",
+      "category": "scenery",
+      "fids": [
+        33554603
+      ],
+      "png": "art/scenery/rock01.frm.png",
+      "sha256": "37721e8f74b093a7250d629b367687f64a8ebaae3a3cfe3267ecff28bcd06352",
+      "native_dimensions": [
+        70,
+        48
+      ],
+      "dimensions": [
+        280,
+        192
+      ],
+      "metadata": "metadata/art/scenery/rock01.frm.json",
+      "metadata_sha256": "813d53cdfb282af3ccc358a60cb90ba88d97de618897381b0fae032cd2d2707f",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 12,
+      "resource": "art/scenery/rock02.frm",
+      "category": "scenery",
+      "fids": [
+        33554604
+      ],
+      "png": "art/scenery/rock02.frm.png",
+      "sha256": "7e0fc354eeb52c5da1618f78623c34a109352cbb770898be0cce431a93c6626e",
+      "native_dimensions": [
+        66,
+        41
+      ],
+      "dimensions": [
+        264,
+        164
+      ],
+      "metadata": "metadata/art/scenery/rock02.frm.json",
+      "metadata_sha256": "a824f4db21b3e969a59ddec287e556918f69d02850d15edd219e3b35e562ed17",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 13,
+      "resource": "art/scenery/rock04.frm",
+      "category": "scenery",
+      "fids": [
+        33554606
+      ],
+      "png": "art/scenery/rock04.frm.png",
+      "sha256": "cda02beb0b274e469bce91b536a0b1fbacd6b8afd18d87a71766529653eac0a8",
+      "native_dimensions": [
+        74,
+        50
+      ],
+      "dimensions": [
+        296,
+        200
+      ],
+      "metadata": "metadata/art/scenery/rock04.frm.json",
+      "metadata_sha256": "6578e14bfccc16921d2501e8d0fe21f8e5609b3e9d12dfc78adb927bf70531dd",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 14,
+      "resource": "art/scenery/rock05.frm",
+      "category": "scenery",
+      "fids": [
+        33554607
+      ],
+      "png": "art/scenery/rock05.frm.png",
+      "sha256": "ef6b56677befa1fffb09587f510c34857c3eabf3d36a6b85835a1c2a3f3d1090",
+      "native_dimensions": [
+        74,
+        46
+      ],
+      "dimensions": [
+        296,
+        184
+      ],
+      "metadata": "metadata/art/scenery/rock05.frm.json",
+      "metadata_sha256": "8f32539e8d30e8ca7aba468fc70e79cd85a18bbb01846cce5d2978f5dafce6f2",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 15,
+      "resource": "art/scenery/rock06.frm",
+      "category": "scenery",
+      "fids": [
+        33554608
+      ],
+      "png": "art/scenery/rock06.frm.png",
+      "sha256": "d32cf6e8a7e21cd4efd3e6c9a6849c29314bdf9397a3002a055e163569895f62",
+      "native_dimensions": [
+        110,
+        95
+      ],
+      "dimensions": [
+        440,
+        380
+      ],
+      "metadata": "metadata/art/scenery/rock06.frm.json",
+      "metadata_sha256": "f0da54fd633e2f7bc05cf0f5ed0315ba7a33206469cf7638bf534d96d535d866",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 16,
+      "resource": "art/scenery/v13secr3.frm",
+      "category": "scenery",
+      "fids": [
+        33554714
+      ],
+      "png": "art/scenery/v13secr3.frm.png",
+      "sha256": "53cae00e0b191ac7617d99323580e3028fdbd1c19203634b03117d76433e1029",
+      "native_dimensions": [
+        342,
+        224
+      ],
+      "dimensions": [
+        1368,
+        896
+      ],
+      "metadata": "metadata/art/scenery/v13secr3.frm.json",
+      "metadata_sha256": "882d43effc1079fe9520a340ccd3bd8b2d9a8ad165b8adcfa4ea2a39eae7a03e",
+      "selection": "faithful_previous_hd_mechanical"
+    },
+    {
+      "asset_id": 17,
+      "resource": "art/scenery/weed01.frm",
+      "category": "scenery",
+      "fids": [
+        33554740
+      ],
+      "png": "art/scenery/weed01.frm.png",
+      "sha256": "de2e932c4f92c6abd68b89b50f43a8c07b732bdee5a6e921202d7d79cc3f28f5",
+      "native_dimensions": [
+        23,
+        33
+      ],
+      "dimensions": [
+        92,
+        132
+      ],
+      "metadata": "metadata/art/scenery/weed01.frm.json",
+      "metadata_sha256": "dc342125ca0d3f7c91a77dfcf3915a9112cdd805322dcec833a09da38a415f54",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 18,
+      "resource": "art/scenery/weed02.frm",
+      "category": "scenery",
+      "fids": [
+        33554741
+      ],
+      "png": "art/scenery/weed02.frm.png",
+      "sha256": "4e7a273c35c3f6f133ace185b9c0c7fb8fcd4f1a26e467bce37c3dc8e9bd83ed",
+      "native_dimensions": [
+        71,
+        36
+      ],
+      "dimensions": [
+        284,
+        144
+      ],
+      "metadata": "metadata/art/scenery/weed02.frm.json",
+      "metadata_sha256": "d307795de5529a2c472c1fee9873a90b6e58f445f627d2f59ed5eda6728fa329",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 19,
+      "resource": "art/scenery/weed03.frm",
+      "category": "scenery",
+      "fids": [
+        33554742
+      ],
+      "png": "art/scenery/weed03.frm.png",
+      "sha256": "a460395eb0d13df2b07aaf9a50f1a8a70d605bfa9882227c75559e392a8eb7cd",
+      "native_dimensions": [
+        48,
+        41
+      ],
+      "dimensions": [
+        192,
+        164
+      ],
+      "metadata": "metadata/art/scenery/weed03.frm.json",
+      "metadata_sha256": "ac3f869d2a82c2d2b3b1c543d839af05988062e7a25f0a8a534daa46c270ba8d",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 20,
+      "resource": "art/scenery/weed04.frm",
+      "category": "scenery",
+      "fids": [
+        33554743
+      ],
+      "png": "art/scenery/weed04.frm.png",
+      "sha256": "4ef5728d3fa5e3d8b0d26b28e6cc1341fb3c3dcf7b0e81bb6c949611ef7c97e8",
+      "native_dimensions": [
+        46,
+        41
+      ],
+      "dimensions": [
+        184,
+        164
+      ],
+      "metadata": "metadata/art/scenery/weed04.frm.json",
+      "metadata_sha256": "6a2d3cba7c8cf0d5c997333b3bf852ad19e83121dac74d37cdb284250f587b21",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 21,
+      "resource": "art/scenery/weed07.frm",
+      "category": "scenery",
+      "fids": [
+        33554746
+      ],
+      "png": "art/scenery/weed07.frm.png",
+      "sha256": "3469e513546783fcedc20507e6fdb4b62d9f0a206edde96ed59936f730c0141a",
+      "native_dimensions": [
+        94,
+        41
+      ],
+      "dimensions": [
+        376,
+        164
+      ],
+      "metadata": "metadata/art/scenery/weed07.frm.json",
+      "metadata_sha256": "5a491f31f63ab0e672f84aa957002fb8f102cf766c0075c0a5d7f585fb541fdc",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 22,
+      "resource": "art/scenery/weed11.frm",
+      "category": "scenery",
+      "fids": [
+        33554750
+      ],
+      "png": "art/scenery/weed11.frm.png",
+      "sha256": "55d08874997b57281a83d0ae13cb4ef230fca5e691d06a87932304c25c118b1d",
+      "native_dimensions": [
+        16,
+        18
+      ],
+      "dimensions": [
+        64,
+        72
+      ],
+      "metadata": "metadata/art/scenery/weed11.frm.json",
+      "metadata_sha256": "48f33cad027d230c51c5f3382227b51545a5aea967dc933b0daa9eb54e0e4629",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 23,
+      "resource": "art/scenery/weed12.frm",
+      "category": "scenery",
+      "fids": [
+        33554751
+      ],
+      "png": "art/scenery/weed12.frm.png",
+      "sha256": "e7acc5d373f0f429255283e4f86c977641448a1dd624dc0029bcf332fc6777a6",
+      "native_dimensions": [
+        19,
+        21
+      ],
+      "dimensions": [
+        76,
+        84
+      ],
+      "metadata": "metadata/art/scenery/weed12.frm.json",
+      "metadata_sha256": "0397896c596b39e4925a4e8e04d6b5aaa7612dcd5a3836af1fa19a7b5d2498d4",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 24,
+      "resource": "art/scenery/weed13.frm",
+      "category": "scenery",
+      "fids": [
+        33554752
+      ],
+      "png": "art/scenery/weed13.frm.png",
+      "sha256": "0a50492c223b25e2ce9bee099eb38a0887c520f476830abec2c235585c4c8fd3",
+      "native_dimensions": [
+        23,
+        21
+      ],
+      "dimensions": [
+        92,
+        84
+      ],
+      "metadata": "metadata/art/scenery/weed13.frm.json",
+      "metadata_sha256": "9a19c1576e83f7a7db63f45863becd6aa200c86b26611f3c655aaedbb601163c",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 25,
+      "resource": "art/scenery/weed18.frm",
+      "category": "scenery",
+      "fids": [
+        33554757
+      ],
+      "png": "art/scenery/weed18.frm.png",
+      "sha256": "85fb9117637928caa76d74e265854ce3fd92cd67c7890da0f8ae2c8c3f59b3f6",
+      "native_dimensions": [
+        20,
+        12
+      ],
+      "dimensions": [
+        80,
+        48
+      ],
+      "metadata": "metadata/art/scenery/weed18.frm.json",
+      "metadata_sha256": "4a98f179caa19f0d5eea802d7d5817013a381f55094546fa5c2544e05d08b1c6",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 26,
+      "resource": "art/scenery/weed19.frm",
+      "category": "scenery",
+      "fids": [
+        33554758
+      ],
+      "png": "art/scenery/weed19.frm.png",
+      "sha256": "e60adabac24eabcfd0edfaa8d2406812d0a447c24bc375cd5633379f49d73fad",
+      "native_dimensions": [
+        23,
+        18
+      ],
+      "dimensions": [
+        92,
+        72
+      ],
+      "metadata": "metadata/art/scenery/weed19.frm.json",
+      "metadata_sha256": "08327cc1104bd882b2c8d77d0c62ee06f5847fd0130ec67cab254752c15b6fe8",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 27,
+      "resource": "art/scenery/weed20.frm",
+      "category": "scenery",
+      "fids": [
+        33554759
+      ],
+      "png": "art/scenery/weed20.frm.png",
+      "sha256": "d6d646c116bc3bcb832d9478ed9a70a3d2644a449ba2360b0ef114512ae2f592",
+      "native_dimensions": [
+        34,
+        17
+      ],
+      "dimensions": [
+        136,
+        68
+      ],
+      "metadata": "metadata/art/scenery/weed20.frm.json",
+      "metadata_sha256": "98e9ba0b08b39bbaaf5c24ff6cc505b89230af98b47f553b3753cbe2a3616e97",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 28,
+      "resource": "art/scenery/weed21.frm",
+      "category": "scenery",
+      "fids": [
+        33554760
+      ],
+      "png": "art/scenery/weed21.frm.png",
+      "sha256": "06e35baa38b4a0027865c8e1e0f318bdd345162fccc11a432d25bcc7428cc58d",
+      "native_dimensions": [
+        43,
+        22
+      ],
+      "dimensions": [
+        172,
+        88
+      ],
+      "metadata": "metadata/art/scenery/weed21.frm.json",
+      "metadata_sha256": "4b5cf28de63fdbb3a62e78ec8a44fa1833caff6374aef6bd8e58c14a3e5b5dd4",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 29,
+      "resource": "art/scenery/weed22.frm",
+      "category": "scenery",
+      "fids": [
+        33554761
+      ],
+      "png": "art/scenery/weed22.frm.png",
+      "sha256": "50fa80fe64c25f236e440ca0914e4116d6f82d373a414016ae0131771be7d04f",
+      "native_dimensions": [
+        34,
+        24
+      ],
+      "dimensions": [
+        136,
+        96
+      ],
+      "metadata": "metadata/art/scenery/weed22.frm.json",
+      "metadata_sha256": "e4a94f5a2acc1b2b774ea9bd9f95db149fbc334fc775a120ffe3828f7972244d",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 30,
+      "resource": "art/scenery/weed23.frm",
+      "category": "scenery",
+      "fids": [
+        33554762
+      ],
+      "png": "art/scenery/weed23.frm.png",
+      "sha256": "61a208f4635f1dff83e81c5ac148bfe7d9c5abbec192801283a425364fe792b1",
+      "native_dimensions": [
+        43,
+        21
+      ],
+      "dimensions": [
+        172,
+        84
+      ],
+      "metadata": "metadata/art/scenery/weed23.frm.json",
+      "metadata_sha256": "381a6e0e160eabfd9cb8766781e1db0d1b55a5151fac363dd62ebffd83e13128",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 31,
+      "resource": "art/scenery/weed24.frm",
+      "category": "scenery",
+      "fids": [
+        33554763
+      ],
+      "png": "art/scenery/weed24.frm.png",
+      "sha256": "5a564770758789d95e5109a7161da46daa6b3dbfb8fbe203d78efecfa90f831c",
+      "native_dimensions": [
+        16,
+        30
+      ],
+      "dimensions": [
+        64,
+        120
+      ],
+      "metadata": "metadata/art/scenery/weed24.frm.json",
+      "metadata_sha256": "cdad2e38421653abdd94df180b3ea8cc13a637a37289c16f80a0a92fd55d2ae4",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 32,
+      "resource": "art/scenery/weed25.frm",
+      "category": "scenery",
+      "fids": [
+        33554764
+      ],
+      "png": "art/scenery/weed25.frm.png",
+      "sha256": "466caf6357991b1a0ed0302d6f98aef047ad227ed92f5d0edbacca6ee9d1c04e",
+      "native_dimensions": [
+        17,
+        38
+      ],
+      "dimensions": [
+        68,
+        152
+      ],
+      "metadata": "metadata/art/scenery/weed25.frm.json",
+      "metadata_sha256": "c2d6fc37a21c6f5c779a0fe3d3e6bb642a194fa0a7ad8a0de23ba4fa82aa1d52",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 33,
+      "resource": "art/scenery/weed26.frm",
+      "category": "scenery",
+      "fids": [
+        33554765
+      ],
+      "png": "art/scenery/weed26.frm.png",
+      "sha256": "7b023d7902247dc67ac876ea090eadb3e1a315f6db0faf7149d4dce1f55b917b",
+      "native_dimensions": [
+        18,
+        35
+      ],
+      "dimensions": [
+        72,
+        140
+      ],
+      "metadata": "metadata/art/scenery/weed26.frm.json",
+      "metadata_sha256": "2e174e7c4b4f384e0c786814591d21d1ec4b277862c43a2b7e853f52bff773c9",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 34,
+      "resource": "art/tiles/cav1001.frm",
+      "category": "tiles",
+      "fids": [
+        67108886
+      ],
+      "png": "art/tiles/cav1001.frm.png",
+      "sha256": "5c8c8ac6b1f9659c7981c568efee6bc7b03013c68a8d07e34fdfd0cfd7c93f29",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/cav1001.frm.json",
+      "metadata_sha256": "75800ae04d6a6332b42220252698b0abc4886863ae1b1659c13e8ac035be1a21",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 35,
+      "resource": "art/tiles/cav1002.frm",
+      "category": "tiles",
+      "fids": [
+        67108887
+      ],
+      "png": "art/tiles/cav1002.frm.png",
+      "sha256": "fde992c4d6cee407f77452ebbbfdcdf03448bdb2651d99161e92da0fc377daa0",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/cav1002.frm.json",
+      "metadata_sha256": "933ca9d4d608088218d8288476c8f766049d05b1bad2f63111443873eca12ab6",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 36,
+      "resource": "art/tiles/cav1003.frm",
+      "category": "tiles",
+      "fids": [
+        67108888
+      ],
+      "png": "art/tiles/cav1003.frm.png",
+      "sha256": "d1a20aa53311045bdfd42cb3887ee1c8512a045f54a005484103c5388c8d547a",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/cav1003.frm.json",
+      "metadata_sha256": "a11daf285a58d31fc0394ae4d896312be3a84d68555033aada17a6c6dad543a7",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 37,
+      "resource": "art/tiles/cav1004.frm",
+      "category": "tiles",
+      "fids": [
+        67108889
+      ],
+      "png": "art/tiles/cav1004.frm.png",
+      "sha256": "09ad2afb62b09014f5f45cde70c9cf2e149fdf7ad32853d0f41173b49f3f9e73",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/cav1004.frm.json",
+      "metadata_sha256": "9b84ca6a7a3d764763f7418539e4a75f401ba4e081b1bca2b74a4366e546442a",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 38,
+      "resource": "art/tiles/cav1005.frm",
+      "category": "tiles",
+      "fids": [
+        67108891
+      ],
+      "png": "art/tiles/cav1005.frm.png",
+      "sha256": "db01478cedfac1dbceb3d6ba6a66569e5340c47b419c22437c8e720ab827687e",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/cav1005.frm.json",
+      "metadata_sha256": "f274d339f74996642580c35ce0aa50c700d8f27397f0cb604fb3f1040905654d",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 39,
+      "resource": "art/tiles/cav1006.frm",
+      "category": "tiles",
+      "fids": [
+        67108893
+      ],
+      "png": "art/tiles/cav1006.frm.png",
+      "sha256": "b734078011093ccdc73a943546eb2a7ee23bfda71431d4647c70c689773af883",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/cav1006.frm.json",
+      "metadata_sha256": "8e58e40e420c118cb9c49fdd14644ca692bae4167703920caf2935ded96475b8",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 40,
+      "resource": "art/tiles/cav1007.frm",
+      "category": "tiles",
+      "fids": [
+        67108895
+      ],
+      "png": "art/tiles/cav1007.frm.png",
+      "sha256": "325eff964065111b590cd6666cdc6ed29d224b4a5ca9fde5221ae8b410a78481",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/cav1007.frm.json",
+      "metadata_sha256": "e6b7e4de85aa61ce21445c03a0cc0376e7b3e52dd7178bc11fa0e2f8045200ff",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 41,
+      "resource": "art/tiles/cav1008.frm",
+      "category": "tiles",
+      "fids": [
+        67108897
+      ],
+      "png": "art/tiles/cav1008.frm.png",
+      "sha256": "fa1e73f70755cbd924740c1172429db6c5c24231ec7a9fb00af7ef8af0831389",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/cav1008.frm.json",
+      "metadata_sha256": "bfe09b7c1e5f5179299f258b1a5ea9aa8b54d9f77dc73f5a484c5be7b1d4ca1a",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 42,
+      "resource": "art/tiles/cav1009.frm",
+      "category": "tiles",
+      "fids": [
+        67108899
+      ],
+      "png": "art/tiles/cav1009.frm.png",
+      "sha256": "2c410855e014f686f25cfa00abac4aa9c71bce963c1ddb67584f065da4d4759d",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/cav1009.frm.json",
+      "metadata_sha256": "0803d0e926237c4939f447831fbaee5c96c45b963b6bf4c3a1730f2deae6e6e9",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 43,
+      "resource": "art/tiles/cav2000.frm",
+      "category": "tiles",
+      "fids": [
+        67108901
+      ],
+      "png": "art/tiles/cav2000.frm.png",
+      "sha256": "8fcafb9cd9fa939654aabcc65f5e20ec6e01c3b7906562c160da500c18d84c9d",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/cav2000.frm.json",
+      "metadata_sha256": "17b6d42c046e743ff73654813625e2590cc64618a0783ad7882763db11faea6a",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 44,
+      "resource": "art/tiles/cav2001.frm",
+      "category": "tiles",
+      "fids": [
+        67108903
+      ],
+      "png": "art/tiles/cav2001.frm.png",
+      "sha256": "306dd26382a7302af4bb15343e70c7ba9fc371f159a65409200e85143241ea07",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/cav2001.frm.json",
+      "metadata_sha256": "3d2fdaef75836be802a07d44632f6b9f2ff00a71b0e4b7a1836d3432ba2d280f",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 45,
+      "resource": "art/tiles/cav2002.frm",
+      "category": "tiles",
+      "fids": [
+        67108905
+      ],
+      "png": "art/tiles/cav2002.frm.png",
+      "sha256": "a8574c9101308990a73ea2eb7552db781921d008d7a1aa2e434b644fe5610d79",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/cav2002.frm.json",
+      "metadata_sha256": "bb3201bd7964272f9ae7c916127391bbd4e8f22c1c3054afc72f8be97fb983ad",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 46,
+      "resource": "art/tiles/cav2003.frm",
+      "category": "tiles",
+      "fids": [
+        67108907
+      ],
+      "png": "art/tiles/cav2003.frm.png",
+      "sha256": "93e22cccac4d120199f0aea4322315505563eb6fbe81ec949664ce9b6dafee50",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/cav2003.frm.json",
+      "metadata_sha256": "88defd5b0e4ac578ef91dbacf7182dd2c00649ff0f8f22574e5cb36cba3b88c2",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 47,
+      "resource": "art/tiles/cav3000.frm",
+      "category": "tiles",
+      "fids": [
+        67108909
+      ],
+      "png": "art/tiles/cav3000.frm.png",
+      "sha256": "cc032c3bdcb1060d40e8ea4ee866308438953d6038b807f14fb17b66c47aabf2",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/cav3000.frm.json",
+      "metadata_sha256": "b72d5d4b2eeecaca0988e0f7454289743d57e345928e7818cb1b75acef045266",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 48,
+      "resource": "art/tiles/cav3001.frm",
+      "category": "tiles",
+      "fids": [
+        67108911
+      ],
+      "png": "art/tiles/cav3001.frm.png",
+      "sha256": "815b7314caa9420987a1b593c0dc4b47cda2302e09216c03e646b29b0715ce99",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/cav3001.frm.json",
+      "metadata_sha256": "4d23be0956ef9df9414fa4baacf00c05bcc38880078bf3b03fb42293651a6d77",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 49,
+      "resource": "art/tiles/cav3002.frm",
+      "category": "tiles",
+      "fids": [
+        67108913
+      ],
+      "png": "art/tiles/cav3002.frm.png",
+      "sha256": "f01604bef0e10b391cf41843d072e2e031dc514d705c2d5f75216df6261f8071",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/cav3002.frm.json",
+      "metadata_sha256": "106129ab5cc8e806ee65ca53fcbcef225893e2c6cefe73a1ac24ebcfcd737dd7",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 50,
+      "resource": "art/tiles/cav3003.frm",
+      "category": "tiles",
+      "fids": [
+        67108915
+      ],
+      "png": "art/tiles/cav3003.frm.png",
+      "sha256": "d0bd458458c3ca8277717f1538ee77c0891059dad83facf160fc70cf93ae2f07",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/cav3003.frm.json",
+      "metadata_sha256": "13b64460aa695a01c916c0464eb235c420a01880e25dc37263164f5d398cd2b8",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 51,
+      "resource": "art/tiles/cav3004.frm",
+      "category": "tiles",
+      "fids": [
+        67108917
+      ],
+      "png": "art/tiles/cav3004.frm.png",
+      "sha256": "a78b06ea127da4918006e8b1f26dfe9c0ee56c2b82dc278d5f68dbf3ed7f5fd5",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/cav3004.frm.json",
+      "metadata_sha256": "8f3b851a8e2f04dae3979c9dee9e7682c612ad0426165ecc57ffb02d29bfe874",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 52,
+      "resource": "art/tiles/cav3005.frm",
+      "category": "tiles",
+      "fids": [
+        67108919
+      ],
+      "png": "art/tiles/cav3005.frm.png",
+      "sha256": "b5a8517ddc61722c05150db047879f53b2bae9381f38b4b1fd63f0ea58ca00ba",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/cav3005.frm.json",
+      "metadata_sha256": "7f07618e26ed00a01e4030bedf49441139c660c533a080b73865743fac3bc1fa",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 53,
+      "resource": "art/tiles/cav4000.frm",
+      "category": "tiles",
+      "fids": [
+        67108921
+      ],
+      "png": "art/tiles/cav4000.frm.png",
+      "sha256": "331f3d33af0f4035537d1954173e30436e14140eb057fab5ba5a38616d8d741e",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/cav4000.frm.json",
+      "metadata_sha256": "ce4029b6e741233598436c6ebf75cb792aef53e71d8832dc3b58d3c2b384f63e",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 54,
+      "resource": "art/tiles/cav4001.frm",
+      "category": "tiles",
+      "fids": [
+        67108923
+      ],
+      "png": "art/tiles/cav4001.frm.png",
+      "sha256": "6b1a3f96fa051d5b6ea0b75737dfff639b27858caeeb956385eda16528987a94",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/cav4001.frm.json",
+      "metadata_sha256": "d1ddb4d60c273f33b631c543c8eca4588196b975474e5ea6753f72c2410880ec",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 55,
+      "resource": "art/tiles/cav4002.frm",
+      "category": "tiles",
+      "fids": [
+        67108925
+      ],
+      "png": "art/tiles/cav4002.frm.png",
+      "sha256": "e170d0b4faa28540fe4c89084819a048784dea861129fd42a9f77413b2e8d5e1",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/cav4002.frm.json",
+      "metadata_sha256": "17ce567090b5d5a9cc4a282433bf51800bef100bfc99a4ca1cfe5718f09a4c34",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 56,
+      "resource": "art/tiles/cav4003.frm",
+      "category": "tiles",
+      "fids": [
+        67108927
+      ],
+      "png": "art/tiles/cav4003.frm.png",
+      "sha256": "0c95f62476935801fbcbbc1aba725f9b9257b349b2987e60ee43c0e913523244",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/cav4003.frm.json",
+      "metadata_sha256": "5071db9d1f65f2a958e276d3fd2f661f7f65f6af45210ed33960c104d59d2bfe",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 57,
+      "resource": "art/tiles/cav4004.frm",
+      "category": "tiles",
+      "fids": [
+        67108929
+      ],
+      "png": "art/tiles/cav4004.frm.png",
+      "sha256": "e14f1bc96613ebd8f96c1e635224cbdb982629b002c3e87734c1d596916819f3",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/cav4004.frm.json",
+      "metadata_sha256": "42399e853133c64e17345a9654f2065d4e3b512a3411fa7981c623387f9cbd3d",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 58,
+      "resource": "art/tiles/cav4005.frm",
+      "category": "tiles",
+      "fids": [
+        67108930
+      ],
+      "png": "art/tiles/cav4005.frm.png",
+      "sha256": "1f3a5b51f0722324ed877f1c24b3436324eec0f95f2717b90893f6406a17e09a",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/cav4005.frm.json",
+      "metadata_sha256": "7d7a6744af607663f63944d0fc5fd1ded303df556d7188f2a4683f366242c86c",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 59,
+      "resource": "art/tiles/cav4006.frm",
+      "category": "tiles",
+      "fids": [
+        67108931
+      ],
+      "png": "art/tiles/cav4006.frm.png",
+      "sha256": "9614f56fb2c4042f0a07eb0dab00f975a5f4f8da70dd12d725e6fb4060158bb2",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/cav4006.frm.json",
+      "metadata_sha256": "69a60dc9a37289ef4aad81fd819849df7cb1d3d75fd3c5541690a917be6cdb60",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 60,
+      "resource": "art/tiles/cav4007.frm",
+      "category": "tiles",
+      "fids": [
+        67108932
+      ],
+      "png": "art/tiles/cav4007.frm.png",
+      "sha256": "64183b9190b8759c7254cea1658777444303fdfc036bf86ec028a7b47b100166",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/cav4007.frm.json",
+      "metadata_sha256": "6441867ff433d2ebde9e85dbf62fad31d160bd90db9c3e32ab3fc5f04c30aee4",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 61,
+      "resource": "art/tiles/cav4008.frm",
+      "category": "tiles",
+      "fids": [
+        67108933
+      ],
+      "png": "art/tiles/cav4008.frm.png",
+      "sha256": "9b214de1e048499d5133e2b2c375704b10539d6b1c314867b22830f0780dc47c",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/cav4008.frm.json",
+      "metadata_sha256": "eec679f9f9c67ad3ffe58359d8b6d7d8980c7133917f776df3115cd11676801b",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 62,
+      "resource": "art/tiles/cav4009.frm",
+      "category": "tiles",
+      "fids": [
+        67108934
+      ],
+      "png": "art/tiles/cav4009.frm.png",
+      "sha256": "4f3b9e92ac2c6a73e29d0e52c1f6f5442d0d7350fc08dcab0421dcf9a76c0d60",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/cav4009.frm.json",
+      "metadata_sha256": "e79ac304177650a91a06896a4d24f4360a2f6a19700b900f519ed6d957f9d723",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 63,
+      "resource": "art/tiles/cav4010.frm",
+      "category": "tiles",
+      "fids": [
+        67108935
+      ],
+      "png": "art/tiles/cav4010.frm.png",
+      "sha256": "1db6c4c41a075791041514d0ee2095c9234e8ada949d3f71b1774d8c2e86fc62",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/cav4010.frm.json",
+      "metadata_sha256": "77a560875f3f21ddc8e6e6a7f160dcdde764c097809130bd3e55edb42c300e80",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 64,
+      "resource": "art/tiles/cav4011.frm",
+      "category": "tiles",
+      "fids": [
+        67108936
+      ],
+      "png": "art/tiles/cav4011.frm.png",
+      "sha256": "2fec804368acfea30996969fe3c4ca39b16a10467fb083524ed83c564f4a98b6",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/cav4011.frm.json",
+      "metadata_sha256": "5319d2928f66b8c5a09cab48a8fa7c7812ad2f5913512eb14c75048363c1ae94",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 65,
+      "resource": "art/tiles/cav4012.frm",
+      "category": "tiles",
+      "fids": [
+        67108937
+      ],
+      "png": "art/tiles/cav4012.frm.png",
+      "sha256": "1a56eb8d2601436d6b06b8da2ac54f66399ec29cabf23284140bc65a6d98f8fb",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/cav4012.frm.json",
+      "metadata_sha256": "17705b3be49de735f69997ed2175a133c20ff6a83f09561cb45341dc0cc3c2d7",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 66,
+      "resource": "art/tiles/cav4013.frm",
+      "category": "tiles",
+      "fids": [
+        67108938
+      ],
+      "png": "art/tiles/cav4013.frm.png",
+      "sha256": "308c67e5bb1707b030ace0bbf0848b17ca3f43c8ebcbdbbe490ddf4dc6fa6ae3",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/cav4013.frm.json",
+      "metadata_sha256": "e3d8a731b3b825858512949509bef63e821f8c01142d643b7b27819437770da8",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 67,
+      "resource": "art/tiles/cav4014.frm",
+      "category": "tiles",
+      "fids": [
+        67108939
+      ],
+      "png": "art/tiles/cav4014.frm.png",
+      "sha256": "3f1430be4330b2a11e5bbdfbed0ee7b4d6505ef6520ff50300b9b3bedd9cc0f5",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/cav4014.frm.json",
+      "metadata_sha256": "7f15d8a0eb64eba1555c3369191611349ba8ea50e492f0cfd42ea2f72cf8c607",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 68,
+      "resource": "art/tiles/edg1001.frm",
+      "category": "tiles",
+      "fids": [
+        67109037
+      ],
+      "png": "art/tiles/edg1001.frm.png",
+      "sha256": "b399487def09c8ea092420425ce9dacf17ec157b552365516abee52decd2ca01",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/edg1001.frm.json",
+      "metadata_sha256": "d32792b21867e6267be4a5194ac9b7c5efc7cb51489a24ee47d379255982255c",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 69,
+      "resource": "art/tiles/edg1002.frm",
+      "category": "tiles",
+      "fids": [
+        67109038
+      ],
+      "png": "art/tiles/edg1002.frm.png",
+      "sha256": "e82f76cbe0cd5273524976431fb0097dc113be8def7b32c38c6706e0dc2d0e32",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/edg1002.frm.json",
+      "metadata_sha256": "06c3254314219931c2dc6a0b31130c771c2bd3f4f9628142020a32b62011fe00",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 70,
+      "resource": "art/tiles/edg1003.frm",
+      "category": "tiles",
+      "fids": [
+        67109039
+      ],
+      "png": "art/tiles/edg1003.frm.png",
+      "sha256": "f39fa2248bba967ddbc205f224d10b56387521cde428c808f608e1fc6e68899b",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/edg1003.frm.json",
+      "metadata_sha256": "9caaf7d5626f3bdef937372598b1c46fdf24ccbe21f3dfdcc4c5c371802c5eff",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 71,
+      "resource": "art/tiles/edg2000.frm",
+      "category": "tiles",
+      "fids": [
+        67109040
+      ],
+      "png": "art/tiles/edg2000.frm.png",
+      "sha256": "5490d028499916945cb1f4da479d88247e69ba9b79e6f375080f03f1c85fbc44",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/edg2000.frm.json",
+      "metadata_sha256": "e96408997a07182b9559b3fd5bbdd6b4aa99ebc59ed36a621ffe1249f48edf4f",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 72,
+      "resource": "art/tiles/edg2001.frm",
+      "category": "tiles",
+      "fids": [
+        67109041
+      ],
+      "png": "art/tiles/edg2001.frm.png",
+      "sha256": "fcd71dc22e7b111b987bad881062fd9839b644183f602c94fbdd44f0cd9f39a4",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/edg2001.frm.json",
+      "metadata_sha256": "9bc0e36353ca6b912452a27fd634336d0aecf2816f99c623067b4e38e2d86361",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 73,
+      "resource": "art/tiles/edg2003.frm",
+      "category": "tiles",
+      "fids": [
+        67109043
+      ],
+      "png": "art/tiles/edg2003.frm.png",
+      "sha256": "2d131188f146a25cc4949c44000a0c4e9a48cd756ea6f22d625cf3f9e97d2f7b",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/edg2003.frm.json",
+      "metadata_sha256": "254fa2258a02c41034ba585b4560df4c3ee8652339a4194513543a24b9199b45",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 74,
+      "resource": "art/tiles/edg3000.frm",
+      "category": "tiles",
+      "fids": [
+        67109044
+      ],
+      "png": "art/tiles/edg3000.frm.png",
+      "sha256": "9294766761e5bed0dfb837c85e47717ec2e2d1d6a91f48a47b11cd6f829ae8ab",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/edg3000.frm.json",
+      "metadata_sha256": "0bbcfb390238ce41971fdb877752aaf891ce11205df1bb84affef37260197b61",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 75,
+      "resource": "art/tiles/edg4000.frm",
+      "category": "tiles",
+      "fids": [
+        67109046
+      ],
+      "png": "art/tiles/edg4000.frm.png",
+      "sha256": "ef2cb2a2407a3c2c3d1c4e03c77e3c701039d4a78b95ac9b51982ca99fc94420",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/edg4000.frm.json",
+      "metadata_sha256": "5498fe7dab2497f3575fd5eef3c979716f406e95a6c3d33520a5ffeea61b600a",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 76,
+      "resource": "art/tiles/edg4001.frm",
+      "category": "tiles",
+      "fids": [
+        67109047
+      ],
+      "png": "art/tiles/edg4001.frm.png",
+      "sha256": "060a8d979d65ebfbb3509b926da2b1fafca9493760ba3c924edd136a978d48ea",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/edg4001.frm.json",
+      "metadata_sha256": "e99ea92259cfbcbafe97bf8c920e4362d8ca261a2afb93a518267c0820a432e0",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 77,
+      "resource": "art/tiles/edg4002.frm",
+      "category": "tiles",
+      "fids": [
+        67109048
+      ],
+      "png": "art/tiles/edg4002.frm.png",
+      "sha256": "0676a2bfe4da2212a9ae67b11da9584687a9fabadfb8bd37029c1eb51797645b",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/edg4002.frm.json",
+      "metadata_sha256": "16856c36b7ac113b590cd5a66382e50eb184f912705b9d5c66117f6f13f833e0",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 78,
+      "resource": "art/tiles/edg4003.frm",
+      "category": "tiles",
+      "fids": [
+        67109049
+      ],
+      "png": "art/tiles/edg4003.frm.png",
+      "sha256": "2786b4096ea16e4bb6abae0168d3c86b3d5be57edf83953a8e7c4900839fe004",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/edg4003.frm.json",
+      "metadata_sha256": "fb6e2626c42963c4559a59e3610b8cd7e8ad26e680a37b1132b53215adfbdd02",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 79,
+      "resource": "art/tiles/edg4004.frm",
+      "category": "tiles",
+      "fids": [
+        67109050
+      ],
+      "png": "art/tiles/edg4004.frm.png",
+      "sha256": "0eff84e958136220e001fd454b99292db809e80c997c67b270df434a34b58a87",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/edg4004.frm.json",
+      "metadata_sha256": "e347a74d10c3d06a026e485397b9d8da250a2f173c67f3e4aede5867309960b7",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 80,
+      "resource": "art/tiles/edg4005.frm",
+      "category": "tiles",
+      "fids": [
+        67109051
+      ],
+      "png": "art/tiles/edg4005.frm.png",
+      "sha256": "5046ccde8d4eb0cce7df829ea5274fa21b1694c605780f37c18debe3d418797b",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/edg4005.frm.json",
+      "metadata_sha256": "ee4d7f92ea1444fc9ed57efeb32d8b21d83b2988d7c07aabbb45410a95c02453",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 81,
+      "resource": "art/tiles/edg5000.frm",
+      "category": "tiles",
+      "fids": [
+        67109055
+      ],
+      "png": "art/tiles/edg5000.frm.png",
+      "sha256": "f79e72924ac27cb04cf22782812ab5c222037c9326abe0c182474dc0fbc87235",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/edg5000.frm.json",
+      "metadata_sha256": "c64a50d78d8000745bf7ad75f42f203ad72f5173bfa2a285112a4c81df8a1bed",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 82,
+      "resource": "art/tiles/edg6002.frm",
+      "category": "tiles",
+      "fids": [
+        67109066
+      ],
+      "png": "art/tiles/edg6002.frm.png",
+      "sha256": "28e81c8e6b00bcd021efa08bbb1504028b83ccb2deee8b6bd9ebf2cae784a369",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/edg6002.frm.json",
+      "metadata_sha256": "e80e5d023199c903bb1c706e0c8a8f677b4e2b018c85e89bdc21e41a182a3437",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 83,
+      "resource": "art/tiles/edg6004.frm",
+      "category": "tiles",
+      "fids": [
+        67109068
+      ],
+      "png": "art/tiles/edg6004.frm.png",
+      "sha256": "b95979a7d51bffa891e517d6d793940fbfbd9e53c08d2d584a13bdfc47f25425",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/edg6004.frm.json",
+      "metadata_sha256": "b29cbdefab7a6027c77700257bdbf8289bb793c3ad6d43292eac2776374dbc88",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 84,
+      "resource": "art/tiles/edg6005.frm",
+      "category": "tiles",
+      "fids": [
+        67109069
+      ],
+      "png": "art/tiles/edg6005.frm.png",
+      "sha256": "65e53322f83d217bedb148b801c59f6d3985ad64da80ceb01cf000c0faea1c84",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/edg6005.frm.json",
+      "metadata_sha256": "be8a54b82928e67b2c6a91821ab16fb593ba001f184f1b08b02e2c4200d00b19",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 85,
+      "resource": "art/tiles/edg6007.frm",
+      "category": "tiles",
+      "fids": [
+        67109071
+      ],
+      "png": "art/tiles/edg6007.frm.png",
+      "sha256": "74210c03a1f92bc2a05d7007e313dfc23da827181a21108229d7f2a14ece6701",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/edg6007.frm.json",
+      "metadata_sha256": "8f92f8975c2efdcfb6e63da15b0997732ba3b0de037fdef0e0e73e78210ceef7",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 86,
+      "resource": "art/tiles/edg6008.frm",
+      "category": "tiles",
+      "fids": [
+        67109072
+      ],
+      "png": "art/tiles/edg6008.frm.png",
+      "sha256": "a10ecdea894b6b5dbf9722de709e30910331352de65c69c7dfd4bf68a61e1e47",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/edg6008.frm.json",
+      "metadata_sha256": "ee2a65aa76a49e5ffe17949d7b7e49e2d75656502cdb29d62cbba56c9606f5a9",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 87,
+      "resource": "art/tiles/edg6009.frm",
+      "category": "tiles",
+      "fids": [
+        67109073
+      ],
+      "png": "art/tiles/edg6009.frm.png",
+      "sha256": "3b37c1c477ebf42809ae5b810d4c496ab32e93495946b49dad917ac2267e7bf9",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/edg6009.frm.json",
+      "metadata_sha256": "a770669152ab919ed5e769f6a2251468a9e17654ce317d2525eaf533dbcd32ae",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 88,
+      "resource": "art/tiles/grt2000.frm",
+      "category": "tiles",
+      "fids": [
+        67109087
+      ],
+      "png": "art/tiles/grt2000.frm.png",
+      "sha256": "bb375a28f22371a251dd842d0c6098d58f84e458d6267195542dc918933930b1",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/grt2000.frm.json",
+      "metadata_sha256": "87c41b0a169701aba5aaeba2adbff5181298fa9e419f9b2d18321ed35c279ad9",
+      "selection": "faithful_previous_hd_mechanical"
+    },
+    {
+      "asset_id": 89,
+      "resource": "art/tiles/road02.frm",
+      "category": "tiles",
+      "fids": [
+        67109101
+      ],
+      "png": "art/tiles/road02.frm.png",
+      "sha256": "1a4bb11ba956e8de2b88e974c09d49e28d6df40f8d32c5aef197107f7d43ee0c",
+      "native_dimensions": [
+        80,
+        36
+      ],
+      "dimensions": [
+        320,
+        144
+      ],
+      "metadata": "metadata/art/tiles/road02.frm.json",
+      "metadata_sha256": "dfc624125c1d78374bb74727f28e8a85f2ea7ad65661594e15770dadb46fd9a6",
+      "selection": "floor_edge_prepared"
+    },
+    {
+      "asset_id": 90,
+      "resource": "art/walls/ca002.frm",
+      "category": "walls",
+      "fids": [
+        50331673
+      ],
+      "png": "art/walls/ca002.frm.png",
+      "sha256": "2e88b569b79a3875d88005397ca9c727c1251ff56b0a54794083735b6d8cabc4",
+      "native_dimensions": [
+        17,
+        120
+      ],
+      "dimensions": [
+        68,
+        480
+      ],
+      "metadata": "metadata/art/walls/ca002.frm.json",
+      "metadata_sha256": "528aa1265e8e0a04676a554338d382639840b744769e8fa0851b9be0cbf56782",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 91,
+      "resource": "art/walls/ca003.frm",
+      "category": "walls",
+      "fids": [
+        50331674
+      ],
+      "png": "art/walls/ca003.frm.png",
+      "sha256": "73bf65af9750848e96149ff5391dcdb6bbdd1939735bb5972eb89b9069a27da8",
+      "native_dimensions": [
+        33,
+        126
+      ],
+      "dimensions": [
+        132,
+        504
+      ],
+      "metadata": "metadata/art/walls/ca003.frm.json",
+      "metadata_sha256": "f8bcc80cdd1184ebe38d40e595acee0166d106f3cf96e3b7ee413513d3a1f41c",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 92,
+      "resource": "art/walls/ca004.frm",
+      "category": "walls",
+      "fids": [
+        50331675
+      ],
+      "png": "art/walls/ca004.frm.png",
+      "sha256": "6e60e2623d354db8495eb060fc8203b0d0d52d3bb1c889909d8b95cf0c0c6c89",
+      "native_dimensions": [
+        16,
+        120
+      ],
+      "dimensions": [
+        64,
+        480
+      ],
+      "metadata": "metadata/art/walls/ca004.frm.json",
+      "metadata_sha256": "374438ab58247e85d482d52df307769ba655330c42701101b09bcd4f95e283a7",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 93,
+      "resource": "art/walls/ca005.frm",
+      "category": "walls",
+      "fids": [
+        50331676
+      ],
+      "png": "art/walls/ca005.frm.png",
+      "sha256": "0e53f19b1fb118d60aa9671389ba14aaeec8a19447e9b970740a00eb8ec72584",
+      "native_dimensions": [
+        33,
+        120
+      ],
+      "dimensions": [
+        132,
+        480
+      ],
+      "metadata": "metadata/art/walls/ca005.frm.json",
+      "metadata_sha256": "11f2e6c473e58f60a06da577eaf1edb37b6b52ab9a375a4fd669bbc88e0b4c35",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 94,
+      "resource": "art/walls/ca006.frm",
+      "category": "walls",
+      "fids": [
+        50331677
+      ],
+      "png": "art/walls/ca006.frm.png",
+      "sha256": "e4a1527d6a0baa52911e0c0612bc1e5e11d253aa3bd1038143abc5b1a0a6f5f3",
+      "native_dimensions": [
+        17,
+        120
+      ],
+      "dimensions": [
+        68,
+        480
+      ],
+      "metadata": "metadata/art/walls/ca006.frm.json",
+      "metadata_sha256": "7c6752aeafda9384010f3e845d3d26a8749c9e9d5603161e09979667a290a8f8",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 95,
+      "resource": "art/walls/ca007.frm",
+      "category": "walls",
+      "fids": [
+        50331678
+      ],
+      "png": "art/walls/ca007.frm.png",
+      "sha256": "fb577ae7176a7de04e1492a2400ce9b16359934d84a46a03dacc76128b0f2153",
+      "native_dimensions": [
+        33,
+        125
+      ],
+      "dimensions": [
+        132,
+        500
+      ],
+      "metadata": "metadata/art/walls/ca007.frm.json",
+      "metadata_sha256": "18eb016e39723f68aee627511248912709412965dc1da8b3dc5915ffdfde9add",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 96,
+      "resource": "art/walls/ca008.frm",
+      "category": "walls",
+      "fids": [
+        50331679
+      ],
+      "png": "art/walls/ca008.frm.png",
+      "sha256": "3a093ca82c424bbdaf995a61d0c8800512b055deb01f427e5d6b9922ff61b312",
+      "native_dimensions": [
+        16,
+        120
+      ],
+      "dimensions": [
+        64,
+        480
+      ],
+      "metadata": "metadata/art/walls/ca008.frm.json",
+      "metadata_sha256": "03f91b4d7c451f1f00416e940beeca128df7f052508ab9f77fa33a8e9f6bbfc5",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 97,
+      "resource": "art/walls/ca009.frm",
+      "category": "walls",
+      "fids": [
+        50331680
+      ],
+      "png": "art/walls/ca009.frm.png",
+      "sha256": "16318fda1e1e10ff15e729485f1245da3fd24fefd0955b7789dac49ad6258860",
+      "native_dimensions": [
+        33,
+        122
+      ],
+      "dimensions": [
+        132,
+        488
+      ],
+      "metadata": "metadata/art/walls/ca009.frm.json",
+      "metadata_sha256": "acab16ba790347dfd980f33a5560af8377be4e60abf9c4fabf6c881c5a862c15",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 98,
+      "resource": "art/walls/ca010.frm",
+      "category": "walls",
+      "fids": [
+        50331681
+      ],
+      "png": "art/walls/ca010.frm.png",
+      "sha256": "2303f6caa856926e5c3b3690d31022983cd4e0d35804d6b7451bbf65e8a6994a",
+      "native_dimensions": [
+        17,
+        119
+      ],
+      "dimensions": [
+        68,
+        476
+      ],
+      "metadata": "metadata/art/walls/ca010.frm.json",
+      "metadata_sha256": "44aa38021739cc372a603ad75881de90c07fb594c989086aeb6b2a3bd82a77aa",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 99,
+      "resource": "art/walls/ca011.frm",
+      "category": "walls",
+      "fids": [
+        50331682
+      ],
+      "png": "art/walls/ca011.frm.png",
+      "sha256": "1327a3237f92385f7ff21c48c6d28a600d189cfe9779720d9f1a4811454504f2",
+      "native_dimensions": [
+        32,
+        134
+      ],
+      "dimensions": [
+        128,
+        536
+      ],
+      "metadata": "metadata/art/walls/ca011.frm.json",
+      "metadata_sha256": "370b89a22e6d82425db4af78637ba408faf5b25579f3f0be70daa90c0225500b",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 100,
+      "resource": "art/walls/ca012.frm",
+      "category": "walls",
+      "fids": [
+        50331683
+      ],
+      "png": "art/walls/ca012.frm.png",
+      "sha256": "8504a8bb962bd9c8d6359273ab374c1f4ba9c88e04bf37703f93b7874fdaa3e2",
+      "native_dimensions": [
+        16,
+        139
+      ],
+      "dimensions": [
+        64,
+        556
+      ],
+      "metadata": "metadata/art/walls/ca012.frm.json",
+      "metadata_sha256": "0c0686c25eabdf7ee15ad14fbab06a27bd5ab86dd0195c396fa6eeef958c363e",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 101,
+      "resource": "art/walls/ca013.frm",
+      "category": "walls",
+      "fids": [
+        50331684
+      ],
+      "png": "art/walls/ca013.frm.png",
+      "sha256": "f1e4efb86f12f110a206bc6fb27d2ed5a9d36c66eeb808d54d5afa07ea07198f",
+      "native_dimensions": [
+        33,
+        144
+      ],
+      "dimensions": [
+        132,
+        576
+      ],
+      "metadata": "metadata/art/walls/ca013.frm.json",
+      "metadata_sha256": "628148d5a622ff934e686ac3d6ca96cb403c1fa8d372b86db6e9984e07061311",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 102,
+      "resource": "art/walls/ca014.frm",
+      "category": "walls",
+      "fids": [
+        50331685
+      ],
+      "png": "art/walls/ca014.frm.png",
+      "sha256": "aaa0ab73d419e3077ad9985391f03a4c63399c276dfb1207f7f769247d5df2e9",
+      "native_dimensions": [
+        17,
+        142
+      ],
+      "dimensions": [
+        68,
+        568
+      ],
+      "metadata": "metadata/art/walls/ca014.frm.json",
+      "metadata_sha256": "876f8926f401b81e4dde4e0cc719e14e5dc2379cf75fd6f8a6052e1de273e319",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 103,
+      "resource": "art/walls/ca015.frm",
+      "category": "walls",
+      "fids": [
+        50331686
+      ],
+      "png": "art/walls/ca015.frm.png",
+      "sha256": "768016f579b5930dc885cfa12d9f2313ccb8e0a59d2ce1c3192662409e196a35",
+      "native_dimensions": [
+        32,
+        134
+      ],
+      "dimensions": [
+        128,
+        536
+      ],
+      "metadata": "metadata/art/walls/ca015.frm.json",
+      "metadata_sha256": "232c0c8a976cd5e64c5fffdb7847d9302a87e41c09c579a68a7fd1a6376504f8",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 104,
+      "resource": "art/walls/ca016.frm",
+      "category": "walls",
+      "fids": [
+        50331687
+      ],
+      "png": "art/walls/ca016.frm.png",
+      "sha256": "81e1fbb1909d433e9d1a6b725bd1e7836cbe4c4beb15c97d403998cf3f82874a",
+      "native_dimensions": [
+        17,
+        130
+      ],
+      "dimensions": [
+        68,
+        520
+      ],
+      "metadata": "metadata/art/walls/ca016.frm.json",
+      "metadata_sha256": "c4dda6450d509123b93ccac8594fab2477ed94c0cf485e9feb0b7c763da46a02",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 105,
+      "resource": "art/walls/ca017.frm",
+      "category": "walls",
+      "fids": [
+        50331688
+      ],
+      "png": "art/walls/ca017.frm.png",
+      "sha256": "de39d768e9eb15641d330e32e8f822ca0286646ff4a683de6ae886064ca0ce70",
+      "native_dimensions": [
+        17,
+        127
+      ],
+      "dimensions": [
+        68,
+        508
+      ],
+      "metadata": "metadata/art/walls/ca017.frm.json",
+      "metadata_sha256": "cfc253a0102db533625d3da60bdd4e43df2dc5fbac1c3554fd0898ed29b9a1eb",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 106,
+      "resource": "art/walls/ca018.frm",
+      "category": "walls",
+      "fids": [
+        50331689
+      ],
+      "png": "art/walls/ca018.frm.png",
+      "sha256": "1cac9beea579ed6fb6040da307a5babda59246607908b65766d59f2e298bebda",
+      "native_dimensions": [
+        17,
+        131
+      ],
+      "dimensions": [
+        68,
+        524
+      ],
+      "metadata": "metadata/art/walls/ca018.frm.json",
+      "metadata_sha256": "3919c990fa040f2e3526e1e92942ae1e37727cf3d2029f5acbaf2a9a00d4d4bd",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 107,
+      "resource": "art/walls/ca019.frm",
+      "category": "walls",
+      "fids": [
+        50331690
+      ],
+      "png": "art/walls/ca019.frm.png",
+      "sha256": "8cb7f7b8ea6fb6146aee2a49e454965e8023da1123f8451afcbf26557df488b1",
+      "native_dimensions": [
+        16,
+        130
+      ],
+      "dimensions": [
+        64,
+        520
+      ],
+      "metadata": "metadata/art/walls/ca019.frm.json",
+      "metadata_sha256": "e05a1a32cf42111667732e270b1ea7c6934420ba7bc71feb64f9a396e6b822f9",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 108,
+      "resource": "art/walls/ca020.frm",
+      "category": "walls",
+      "fids": [
+        50331691
+      ],
+      "png": "art/walls/ca020.frm.png",
+      "sha256": "5031c64b545d1aa32efae847ff58a1cb4e9e6fea7dc5cb6a66253cdd8f76f596",
+      "native_dimensions": [
+        17,
+        133
+      ],
+      "dimensions": [
+        68,
+        532
+      ],
+      "metadata": "metadata/art/walls/ca020.frm.json",
+      "metadata_sha256": "cc22f9130727eef03138ec6025e5eb183c19f43ddcde1cf670317642223ab828",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 109,
+      "resource": "art/walls/ca021.frm",
+      "category": "walls",
+      "fids": [
+        50331692
+      ],
+      "png": "art/walls/ca021.frm.png",
+      "sha256": "44bfab1c69a0d25a146587cbf32540a2f0c13ffe70720e00fc62b8f051623524",
+      "native_dimensions": [
+        17,
+        133
+      ],
+      "dimensions": [
+        68,
+        532
+      ],
+      "metadata": "metadata/art/walls/ca021.frm.json",
+      "metadata_sha256": "519f13b0c8e7a69d95d5ab4ae5b21e47da30659655243e1adc00b10ab7684c27",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 110,
+      "resource": "art/walls/ca022.frm",
+      "category": "walls",
+      "fids": [
+        50331693
+      ],
+      "png": "art/walls/ca022.frm.png",
+      "sha256": "57466fb7050569a5c651df6a014dd9d1b3472c542003206a70d3f1411bc97b43",
+      "native_dimensions": [
+        17,
+        126
+      ],
+      "dimensions": [
+        68,
+        504
+      ],
+      "metadata": "metadata/art/walls/ca022.frm.json",
+      "metadata_sha256": "3d871a7e5fbe19057decd79454e0d7ca5a5b57dd66f89ff1a3f9f184ccef3dba",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 111,
+      "resource": "art/walls/ca023.frm",
+      "category": "walls",
+      "fids": [
+        50331694
+      ],
+      "png": "art/walls/ca023.frm.png",
+      "sha256": "76327097e90248bca5fa34c0b1d424d8b7409c69be275c06e96a6278b1671d20",
+      "native_dimensions": [
+        17,
+        131
+      ],
+      "dimensions": [
+        68,
+        524
+      ],
+      "metadata": "metadata/art/walls/ca023.frm.json",
+      "metadata_sha256": "6388dfae08c778bd7b31c836458726c29bef04c7f3f8f2ae7fca45b44f822b65",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 112,
+      "resource": "art/walls/ca024.frm",
+      "category": "walls",
+      "fids": [
+        50331695
+      ],
+      "png": "art/walls/ca024.frm.png",
+      "sha256": "14b4724a6070e8c22693f7fae173f1a9e49c494d43400b93954f0f4adf5debe8",
+      "native_dimensions": [
+        17,
+        126
+      ],
+      "dimensions": [
+        68,
+        504
+      ],
+      "metadata": "metadata/art/walls/ca024.frm.json",
+      "metadata_sha256": "06047fd738586d6e2a8e122b1be3eebd25a22c5e29e859fb52c92aed9a1b191f",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 113,
+      "resource": "art/walls/ca025.frm",
+      "category": "walls",
+      "fids": [
+        50331696
+      ],
+      "png": "art/walls/ca025.frm.png",
+      "sha256": "3e3d13b17fff0be3b7beb49c47cbdfd0e152c8108ad6af7b3b8e3c1e6ee2cae5",
+      "native_dimensions": [
+        32,
+        123
+      ],
+      "dimensions": [
+        128,
+        492
+      ],
+      "metadata": "metadata/art/walls/ca025.frm.json",
+      "metadata_sha256": "9fe0a1ffc6d53e2742dfb14b2b359f8cde21065e2ddfccaf55d29253770e5b95",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 114,
+      "resource": "art/walls/ca026.frm",
+      "category": "walls",
+      "fids": [
+        50331697
+      ],
+      "png": "art/walls/ca026.frm.png",
+      "sha256": "89b1aff47b6b7947e95a12fa473d55d77c911cf1cd7f9e2b2f2a0cd1aca31e07",
+      "native_dimensions": [
+        17,
+        111
+      ],
+      "dimensions": [
+        68,
+        444
+      ],
+      "metadata": "metadata/art/walls/ca026.frm.json",
+      "metadata_sha256": "b7ae8308663689157076e76e97038c9296e0705c3380a55786a19668b9fc3ae1",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 115,
+      "resource": "art/walls/ca027.frm",
+      "category": "walls",
+      "fids": [
+        50331698
+      ],
+      "png": "art/walls/ca027.frm.png",
+      "sha256": "bbf4db1b7f37cac73de53535c9cd19a164fc39cf13a09671aaa7d07e51e41ef1",
+      "native_dimensions": [
+        33,
+        141
+      ],
+      "dimensions": [
+        132,
+        564
+      ],
+      "metadata": "metadata/art/walls/ca027.frm.json",
+      "metadata_sha256": "512e64d7581a17a562b27d67d59e10121981ffc6bec16673206f351d1b13b789",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 116,
+      "resource": "art/walls/ca028.frm",
+      "category": "walls",
+      "fids": [
+        50331699
+      ],
+      "png": "art/walls/ca028.frm.png",
+      "sha256": "d1ae4e4601fd7c69c180e00f17f0823785b5f21f7d71b7668af111507dfd31da",
+      "native_dimensions": [
+        16,
+        120
+      ],
+      "dimensions": [
+        64,
+        480
+      ],
+      "metadata": "metadata/art/walls/ca028.frm.json",
+      "metadata_sha256": "8d333423532cdebf7b30e67ec4d2df9e18d47097e45d7f1c6e206d1be97b9a35",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 117,
+      "resource": "art/walls/ca032.frm",
+      "category": "walls",
+      "fids": [
+        50331702
+      ],
+      "png": "art/walls/ca032.frm.png",
+      "sha256": "57ac92b6963be686736f463c1fd8da71828be1918b738e33b22fc91c8abf8a40",
+      "native_dimensions": [
+        30,
+        118
+      ],
+      "dimensions": [
+        120,
+        472
+      ],
+      "metadata": "metadata/art/walls/ca032.frm.json",
+      "metadata_sha256": "fd9d91af12814f25abcee1b10ae42836d22fbb9a786cbb19e5fd068cf91f8f67",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 118,
+      "resource": "art/walls/ca036.frm",
+      "category": "walls",
+      "fids": [
+        50331705
+      ],
+      "png": "art/walls/ca036.frm.png",
+      "sha256": "702e1e193163902cd5eb9b152af4ec03a21e0db1507f806af578df5dfb18354d",
+      "native_dimensions": [
+        31,
+        120
+      ],
+      "dimensions": [
+        124,
+        480
+      ],
+      "metadata": "metadata/art/walls/ca036.frm.json",
+      "metadata_sha256": "47a89f18be3b501b8757564d0121e4f07ef2eac191b5ef5148391e84ab8b780a",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 119,
+      "resource": "art/walls/ca037.frm",
+      "category": "walls",
+      "fids": [
+        50331706
+      ],
+      "png": "art/walls/ca037.frm.png",
+      "sha256": "dfee769cfa6e7e1ba867b9b1dded80e016c6b7dc6783d635467b830323e606a9",
+      "native_dimensions": [
+        32,
+        130
+      ],
+      "dimensions": [
+        128,
+        520
+      ],
+      "metadata": "metadata/art/walls/ca037.frm.json",
+      "metadata_sha256": "d2dc7eb1ca6f17827982fe4b2fab858f568902ffe86b13d88b7d1a2ab23279e3",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 120,
+      "resource": "art/walls/ca038.frm",
+      "category": "walls",
+      "fids": [
+        50331707
+      ],
+      "png": "art/walls/ca038.frm.png",
+      "sha256": "bfc47e9a8547af8da4f6fd71f798780ecf1c62ba4ae3345074e20d1613271725",
+      "native_dimensions": [
+        32,
+        116
+      ],
+      "dimensions": [
+        128,
+        464
+      ],
+      "metadata": "metadata/art/walls/ca038.frm.json",
+      "metadata_sha256": "2dded4c7feddaa389e242eb2818f3cf454ae2ad0732cbe052d6e6d1391809895",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 121,
+      "resource": "art/walls/ca039.frm",
+      "category": "walls",
+      "fids": [
+        50331708
+      ],
+      "png": "art/walls/ca039.frm.png",
+      "sha256": "398fd281b537fa3feba500dfb965e790bc23fb78a7fe1fb9af688291a5c3ab89",
+      "native_dimensions": [
+        32,
+        115
+      ],
+      "dimensions": [
+        128,
+        460
+      ],
+      "metadata": "metadata/art/walls/ca039.frm.json",
+      "metadata_sha256": "c6325833636cff541f0d90cdf7bfa249a8d606ce6fc8e9c8c27bab27ae500df7",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 122,
+      "resource": "art/walls/ca040.frm",
+      "category": "walls",
+      "fids": [
+        50331709
+      ],
+      "png": "art/walls/ca040.frm.png",
+      "sha256": "48ceb877e71f2dfcc4e881e0c28db9d3e3a98f71b2e8190aa430290c2bb4d909",
+      "native_dimensions": [
+        32,
+        117
+      ],
+      "dimensions": [
+        128,
+        468
+      ],
+      "metadata": "metadata/art/walls/ca040.frm.json",
+      "metadata_sha256": "a3412a85ee3645693e25d3bd74475cd6955b65bb577f8a1774c3a9639544524d",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 123,
+      "resource": "art/walls/ca041.frm",
+      "category": "walls",
+      "fids": [
+        50331710
+      ],
+      "png": "art/walls/ca041.frm.png",
+      "sha256": "800516401a345de44f90da2bb522b3db8dc2d151de3aaf97c20f88dc840aabfb",
+      "native_dimensions": [
+        33,
+        118
+      ],
+      "dimensions": [
+        132,
+        472
+      ],
+      "metadata": "metadata/art/walls/ca041.frm.json",
+      "metadata_sha256": "254a10ce4de62b7fce7976297817813b07ba609e49c1479b91d609e596f97c4e",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 124,
+      "resource": "art/walls/ca042.frm",
+      "category": "walls",
+      "fids": [
+        50331711
+      ],
+      "png": "art/walls/ca042.frm.png",
+      "sha256": "5680785f01591c753dc4ebe9b5954b14b194dcd3e5431a276e090b7e1f66192f",
+      "native_dimensions": [
+        32,
+        119
+      ],
+      "dimensions": [
+        128,
+        476
+      ],
+      "metadata": "metadata/art/walls/ca042.frm.json",
+      "metadata_sha256": "6ee27cd671f21fe0568da47506638aa2f2a149f240452c94c126bdfa8d7b5833",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 125,
+      "resource": "art/walls/ca043.frm",
+      "category": "walls",
+      "fids": [
+        50331712
+      ],
+      "png": "art/walls/ca043.frm.png",
+      "sha256": "cf16830061adc441f68fdd611fab7cf74fb380520ce1375630fccecf9412d2da",
+      "native_dimensions": [
+        33,
+        116
+      ],
+      "dimensions": [
+        132,
+        464
+      ],
+      "metadata": "metadata/art/walls/ca043.frm.json",
+      "metadata_sha256": "d7ba4bb5c87631dc65dd9f8e0c3bdc39e0ce009c1fe6f5be1e282fb7340d15bf",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 126,
+      "resource": "art/walls/ca044.frm",
+      "category": "walls",
+      "fids": [
+        50331713
+      ],
+      "png": "art/walls/ca044.frm.png",
+      "sha256": "a0910fd7c2d4c82a0239a17611ccdd491e31d5399395427ac44c4da0be0cfb31",
+      "native_dimensions": [
+        32,
+        116
+      ],
+      "dimensions": [
+        128,
+        464
+      ],
+      "metadata": "metadata/art/walls/ca044.frm.json",
+      "metadata_sha256": "e76157c173dfa2f60a9c63c220efc6e1ef27ef5b2f160b624a829c12fad19478",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 127,
+      "resource": "art/walls/ca045.frm",
+      "category": "walls",
+      "fids": [
+        50331714
+      ],
+      "png": "art/walls/ca045.frm.png",
+      "sha256": "a22b696b3b34ea83d318423476f7145cac8308423ce76a8f9ee8f66b61164812",
+      "native_dimensions": [
+        33,
+        113
+      ],
+      "dimensions": [
+        132,
+        452
+      ],
+      "metadata": "metadata/art/walls/ca045.frm.json",
+      "metadata_sha256": "ba5127dec5fefeda63ef606de6ef47b3ce1dc6d70a6ad4636f300a1adffc8786",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 128,
+      "resource": "art/walls/ca046.frm",
+      "category": "walls",
+      "fids": [
+        50331715
+      ],
+      "png": "art/walls/ca046.frm.png",
+      "sha256": "4fdd74f2f5287d47e0c83c823eaa25f8ea75319b9f2629446805f5659cce0cd0",
+      "native_dimensions": [
+        33,
+        121
+      ],
+      "dimensions": [
+        132,
+        484
+      ],
+      "metadata": "metadata/art/walls/ca046.frm.json",
+      "metadata_sha256": "3c8f4b0e6efca71eec80eb5aabb004f4c044464876ba84579c5a4995c700825f",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 129,
+      "resource": "art/walls/ca047.frm",
+      "category": "walls",
+      "fids": [
+        50331716
+      ],
+      "png": "art/walls/ca047.frm.png",
+      "sha256": "86364ab95a98781e2337007cf2caf0b1ffe38e5ae3aee8f69f41a3169eeaf443",
+      "native_dimensions": [
+        17,
+        120
+      ],
+      "dimensions": [
+        68,
+        480
+      ],
+      "metadata": "metadata/art/walls/ca047.frm.json",
+      "metadata_sha256": "22e7028db8fa5b92d52267db18e1a1ee05ebb4d2eae1ac82230895ba0cc0f53a",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 130,
+      "resource": "art/walls/ca048.frm",
+      "category": "walls",
+      "fids": [
+        50331717
+      ],
+      "png": "art/walls/ca048.frm.png",
+      "sha256": "fab3a5ceafb0b3ff410daab38a349d8cf3617c3fff0857c4e9f7bba3f173cb09",
+      "native_dimensions": [
+        33,
+        124
+      ],
+      "dimensions": [
+        132,
+        496
+      ],
+      "metadata": "metadata/art/walls/ca048.frm.json",
+      "metadata_sha256": "036907f459ce7c8f6edaa0ecc5f19bcb48afaace7cd66ecac2dd9c1e6f9fe4ac",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 131,
+      "resource": "art/walls/ca050.frm",
+      "category": "walls",
+      "fids": [
+        50331719
+      ],
+      "png": "art/walls/ca050.frm.png",
+      "sha256": "f2b870e04cf82e74e07a37965c311a387297849f46e08fcefc21ca830fd6377d",
+      "native_dimensions": [
+        16,
+        94
+      ],
+      "dimensions": [
+        64,
+        376
+      ],
+      "metadata": "metadata/art/walls/ca050.frm.json",
+      "metadata_sha256": "7b413edba833cdaeb1d24996f243048f363ac2e1bf1fa8cea7f2a7c16071b034",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 132,
+      "resource": "art/walls/ca053.frm",
+      "category": "walls",
+      "fids": [
+        50331722
+      ],
+      "png": "art/walls/ca053.frm.png",
+      "sha256": "c81dfb69522c0aab815e53c9a270156ce8fc2f4c4d36a573a0a84ce2a356f0cc",
+      "native_dimensions": [
+        32,
+        101
+      ],
+      "dimensions": [
+        128,
+        404
+      ],
+      "metadata": "metadata/art/walls/ca053.frm.json",
+      "metadata_sha256": "3616aa23d525915016f164a5d2e4e70ba37c022f5d204a41e1a3b00e1da15e65",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 133,
+      "resource": "art/walls/ca054.frm",
+      "category": "walls",
+      "fids": [
+        50331723
+      ],
+      "png": "art/walls/ca054.frm.png",
+      "sha256": "9dcb597311a3b4c72324574590449e8af43508fc23e5480bc6d91ac03bac4b7b",
+      "native_dimensions": [
+        16,
+        93
+      ],
+      "dimensions": [
+        64,
+        372
+      ],
+      "metadata": "metadata/art/walls/ca054.frm.json",
+      "metadata_sha256": "9d6147061ba4fc29de032a5d993437835c0c364f9565af9095ea076559bf4c31",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 134,
+      "resource": "art/walls/ca055.frm",
+      "category": "walls",
+      "fids": [
+        50331724
+      ],
+      "png": "art/walls/ca055.frm.png",
+      "sha256": "cdb4f2dcf62190c7731ed0840b0d5a228597febb9fff4bddd0fe1739cafdc5e2",
+      "native_dimensions": [
+        32,
+        102
+      ],
+      "dimensions": [
+        128,
+        408
+      ],
+      "metadata": "metadata/art/walls/ca055.frm.json",
+      "metadata_sha256": "6be186b8937e37ce4fddd0c58458d19b368c1654ff13fbf30ee732c93450365d",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 135,
+      "resource": "art/walls/ca056.frm",
+      "category": "walls",
+      "fids": [
+        50331725
+      ],
+      "png": "art/walls/ca056.frm.png",
+      "sha256": "b9dabc54c6afe39a11b72f80ca9f2bfc33af6c4d3731e7cc4c85d299ff54ffc0",
+      "native_dimensions": [
+        16,
+        97
+      ],
+      "dimensions": [
+        64,
+        388
+      ],
+      "metadata": "metadata/art/walls/ca056.frm.json",
+      "metadata_sha256": "045e876e34ced33c29cb28cdbe7ca0eb476324774b5a1ea65cddd17fb06a25a2",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 136,
+      "resource": "art/walls/ca057.frm",
+      "category": "walls",
+      "fids": [
+        50331726
+      ],
+      "png": "art/walls/ca057.frm.png",
+      "sha256": "ae15017e87ee04846374781e839cb8ec1368b490b9b2d3714572e23eb065105e",
+      "native_dimensions": [
+        32,
+        101
+      ],
+      "dimensions": [
+        128,
+        404
+      ],
+      "metadata": "metadata/art/walls/ca057.frm.json",
+      "metadata_sha256": "e0255b43cf4f0bf9fff530ae6d2abf561754d822958572af68a268f5998deba2",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 137,
+      "resource": "art/walls/ca058.frm",
+      "category": "walls",
+      "fids": [
+        50331727
+      ],
+      "png": "art/walls/ca058.frm.png",
+      "sha256": "6f0eec35e8a3a686e459f2a41a208d2d24777769414d9f33e79dba56362d0b10",
+      "native_dimensions": [
+        16,
+        98
+      ],
+      "dimensions": [
+        64,
+        392
+      ],
+      "metadata": "metadata/art/walls/ca058.frm.json",
+      "metadata_sha256": "34ee35836e719e250f51fdfe379f338c1c3e613041fd0e3a0e45e5aadd29b22d",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 138,
+      "resource": "art/walls/ca059.frm",
+      "category": "walls",
+      "fids": [
+        50331728
+      ],
+      "png": "art/walls/ca059.frm.png",
+      "sha256": "c3063f462225b5e08a18194e3d9d0886b4a816a74875200a434061c260e87a04",
+      "native_dimensions": [
+        16,
+        100
+      ],
+      "dimensions": [
+        64,
+        400
+      ],
+      "metadata": "metadata/art/walls/ca059.frm.json",
+      "metadata_sha256": "1f919f76dfeb3535395d467a05f7b97c3a4f1ebca77ebd027cf1984a5d0cf68c",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 139,
+      "resource": "art/walls/ca060.frm",
+      "category": "walls",
+      "fids": [
+        50331729
+      ],
+      "png": "art/walls/ca060.frm.png",
+      "sha256": "e53e135003fba3ba49020178d2e1e00d5c1bca2da0b6f2b16d40087be8ad50b6",
+      "native_dimensions": [
+        16,
+        106
+      ],
+      "dimensions": [
+        64,
+        424
+      ],
+      "metadata": "metadata/art/walls/ca060.frm.json",
+      "metadata_sha256": "753f609e93799604cd1c7cb11fba5a0abcf4c77f5015e100f8b3521dcec227e1",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 140,
+      "resource": "art/walls/ca061.frm",
+      "category": "walls",
+      "fids": [
+        50331730
+      ],
+      "png": "art/walls/ca061.frm.png",
+      "sha256": "674acd1974fa911583246999fd9ed09465d2b75d765be4cfb3b2eda145d2b5c6",
+      "native_dimensions": [
+        16,
+        106
+      ],
+      "dimensions": [
+        64,
+        424
+      ],
+      "metadata": "metadata/art/walls/ca061.frm.json",
+      "metadata_sha256": "de36099238d690cd373ca709b3c47f6366bef45ebd32375352c5cfdd8c93a51f",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 141,
+      "resource": "art/walls/ca062.frm",
+      "category": "walls",
+      "fids": [
+        50331731
+      ],
+      "png": "art/walls/ca062.frm.png",
+      "sha256": "b71245943ae725548fee34a0ef4a1e2035edf09182e24de2d2f7ebaec68b8191",
+      "native_dimensions": [
+        16,
+        106
+      ],
+      "dimensions": [
+        64,
+        424
+      ],
+      "metadata": "metadata/art/walls/ca062.frm.json",
+      "metadata_sha256": "196e65616db28f461b1afbfa2604cfa28b3f7745d93b0bd3165666ca12f7eeb7",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 142,
+      "resource": "art/walls/ca063.frm",
+      "category": "walls",
+      "fids": [
+        50331732
+      ],
+      "png": "art/walls/ca063.frm.png",
+      "sha256": "1035422c3a13d80f0371f2f58f233e6b53ff26a3e82a81f99181d72d15cb9eff",
+      "native_dimensions": [
+        36,
+        168
+      ],
+      "dimensions": [
+        144,
+        672
+      ],
+      "metadata": "metadata/art/walls/ca063.frm.json",
+      "metadata_sha256": "847decfcc936e6363d39842245bfe147cb6d51aefb84634c30a6a4df5d07c3e6",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 143,
+      "resource": "art/walls/ca064.frm",
+      "category": "walls",
+      "fids": [
+        50331733
+      ],
+      "png": "art/walls/ca064.frm.png",
+      "sha256": "696a83b0faaa52a4616803cf35bad8c644f296a1f4e88151fb6eef71cf67dac9",
+      "native_dimensions": [
+        33,
+        168
+      ],
+      "dimensions": [
+        132,
+        672
+      ],
+      "metadata": "metadata/art/walls/ca064.frm.json",
+      "metadata_sha256": "2d0a7b7689bb20ae6fd34fff4ee746bf6e37f0e77d9f30d50fe3e1e7ad0d52fe",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 144,
+      "resource": "art/walls/ca065.frm",
+      "category": "walls",
+      "fids": [
+        50331734
+      ],
+      "png": "art/walls/ca065.frm.png",
+      "sha256": "9c0c9a1002a6cafc935440b9cfeecb6d26d6abcf35729d0d809a7c5c04c5ad45",
+      "native_dimensions": [
+        32,
+        117
+      ],
+      "dimensions": [
+        128,
+        468
+      ],
+      "metadata": "metadata/art/walls/ca065.frm.json",
+      "metadata_sha256": "78ded6aabc88ae839e4b654ca724342d792edd81d78586ac5071f00a27f9eab3",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 145,
+      "resource": "art/walls/ca066.frm",
+      "category": "walls",
+      "fids": [
+        50331735
+      ],
+      "png": "art/walls/ca066.frm.png",
+      "sha256": "716df996195b7b2b7e613cbadd1d248f19f0efa9e50d03a5426dae92480b982d",
+      "native_dimensions": [
+        32,
+        94
+      ],
+      "dimensions": [
+        128,
+        376
+      ],
+      "metadata": "metadata/art/walls/ca066.frm.json",
+      "metadata_sha256": "a44e48bba2330e5b959e1bc9ac0089b35fa8cb5aa48f960178f0bd5c86cb90ea",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 146,
+      "resource": "art/walls/ca067.frm",
+      "category": "walls",
+      "fids": [
+        50331736
+      ],
+      "png": "art/walls/ca067.frm.png",
+      "sha256": "d7c75243dc21139b942aa6ec17b0d38bff96ace0fb157b4c3f1a0175e2b9872e",
+      "native_dimensions": [
+        32,
+        94
+      ],
+      "dimensions": [
+        128,
+        376
+      ],
+      "metadata": "metadata/art/walls/ca067.frm.json",
+      "metadata_sha256": "a29886a5ad4cc986ff699e5bcc5914ed21a8b8a2892ee2686cfc204766686dc8",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 147,
+      "resource": "art/walls/ca068.frm",
+      "category": "walls",
+      "fids": [
+        50331737
+      ],
+      "png": "art/walls/ca068.frm.png",
+      "sha256": "733b49791bc0e4e23dbea5e0d631f284bff3d488f8c459046c694abb3e7e3a3f",
+      "native_dimensions": [
+        32,
+        94
+      ],
+      "dimensions": [
+        128,
+        376
+      ],
+      "metadata": "metadata/art/walls/ca068.frm.json",
+      "metadata_sha256": "2d2784afbaaaf5b4b393ddd26c52568d634664c0bf0d99a35f8e050a08a99518",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 148,
+      "resource": "art/walls/ca069.frm",
+      "category": "walls",
+      "fids": [
+        50331738
+      ],
+      "png": "art/walls/ca069.frm.png",
+      "sha256": "ccd464578665030a6204852b4efd52017626c2a00e0c7dac45ae2e77ea3d144f",
+      "native_dimensions": [
+        32,
+        94
+      ],
+      "dimensions": [
+        128,
+        376
+      ],
+      "metadata": "metadata/art/walls/ca069.frm.json",
+      "metadata_sha256": "bb171f5a310c5417e0bb4ebbd70270392ce594272e00066d83e448af6cae5307",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 149,
+      "resource": "art/walls/ca070.frm",
+      "category": "walls",
+      "fids": [
+        50331739
+      ],
+      "png": "art/walls/ca070.frm.png",
+      "sha256": "15b4acd0e2d3f80fdb2ec3f3fe1292d689479e70afee5725cfcc04a313e0f056",
+      "native_dimensions": [
+        32,
+        96
+      ],
+      "dimensions": [
+        128,
+        384
+      ],
+      "metadata": "metadata/art/walls/ca070.frm.json",
+      "metadata_sha256": "562afc54ae9bbdb94455ae0130f2d9c42f189b7909dd200532b5a3e88ae2ed07",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 150,
+      "resource": "art/walls/ca071.frm",
+      "category": "walls",
+      "fids": [
+        50331740
+      ],
+      "png": "art/walls/ca071.frm.png",
+      "sha256": "2788b21f3304e83d4b0bc80a6c6d75a09262840c5de5ff65fa7eca3413e07e29",
+      "native_dimensions": [
+        24,
+        116
+      ],
+      "dimensions": [
+        96,
+        464
+      ],
+      "metadata": "metadata/art/walls/ca071.frm.json",
+      "metadata_sha256": "198bad63e6ee765f4058e5162e91be822c538dd4f0e6a34f85a573b6d3f39395",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 151,
+      "resource": "art/walls/ca072.frm",
+      "category": "walls",
+      "fids": [
+        50331741
+      ],
+      "png": "art/walls/ca072.frm.png",
+      "sha256": "73ccd583590b9c4de1700fe74a80e53e1bbe0f271b1344b9f4fcb18e4358c655",
+      "native_dimensions": [
+        26,
+        120
+      ],
+      "dimensions": [
+        104,
+        480
+      ],
+      "metadata": "metadata/art/walls/ca072.frm.json",
+      "metadata_sha256": "3886103f942bc7cfcb38566c743b8824073fdd5e3b543e6f7ba2cb3563d15a3e",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 152,
+      "resource": "art/walls/va5001.frm",
+      "category": "walls",
+      "fids": [
+        50332423
+      ],
+      "png": "art/walls/va5001.frm.png",
+      "sha256": "2b8843dc4654bf0fe2f8993911dfe8b8d7a75ba299ed290d4b7456d077da8266",
+      "native_dimensions": [
+        16,
+        107
+      ],
+      "dimensions": [
+        64,
+        428
+      ],
+      "metadata": "metadata/art/walls/va5001.frm.json",
+      "metadata_sha256": "9adc3d9a37490a37abcd86ab7f1056ff9aa1f3fe531f116ce750044c83adf870",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 153,
+      "resource": "art/walls/vb3000.frm",
+      "category": "walls",
+      "fids": [
+        50332436
+      ],
+      "png": "art/walls/vb3000.frm.png",
+      "sha256": "024b284f91a12e20d628b87f0776dd438010b58acab97b28a2b9a8ca54d0a701",
+      "native_dimensions": [
+        16,
+        121
+      ],
+      "dimensions": [
+        64,
+        484
+      ],
+      "metadata": "metadata/art/walls/vb3000.frm.json",
+      "metadata_sha256": "3f0a8f00ae438bf4a32cd6fcfa0b1ab1e866a9d1b94f624f82f06408a12f9c84",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 154,
+      "resource": "art/walls/vb3001.frm",
+      "category": "walls",
+      "fids": [
+        50332437
+      ],
+      "png": "art/walls/vb3001.frm.png",
+      "sha256": "4d98ed71572e3b61ca92d095f4999ab0e5d29152a53e9f2d35acd5abdb406f36",
+      "native_dimensions": [
+        16,
+        121
+      ],
+      "dimensions": [
+        64,
+        484
+      ],
+      "metadata": "metadata/art/walls/vb3001.frm.json",
+      "metadata_sha256": "913dea4fbb988626c53c5cb8ca6a4bdd85c8935b498685806be43c576e0d4132",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 155,
+      "resource": "art/walls/vb4000.frm",
+      "category": "walls",
+      "fids": [
+        50332438
+      ],
+      "png": "art/walls/vb4000.frm.png",
+      "sha256": "c869c06ec412919ba16d7400c6a843ebb5ed9f7e057b44ead2c511f977c44785",
+      "native_dimensions": [
+        16,
+        122
+      ],
+      "dimensions": [
+        64,
+        488
+      ],
+      "metadata": "metadata/art/walls/vb4000.frm.json",
+      "metadata_sha256": "1f4769a78c9d184c119d88bd4bed061913a46151f87bbbc4ef39a731e93975bb",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 156,
+      "resource": "art/walls/vb4003.frm",
+      "category": "walls",
+      "fids": [
+        50332440
+      ],
+      "png": "art/walls/vb4003.frm.png",
+      "sha256": "b8ff704a347a48302b20c2c60431a6ed993ff042152a8392090f32bd319f738a",
+      "native_dimensions": [
+        16,
+        122
+      ],
+      "dimensions": [
+        64,
+        488
+      ],
+      "metadata": "metadata/art/walls/vb4003.frm.json",
+      "metadata_sha256": "7200c81220dffbbb4e8d7ed0b7d2b535abe67a3b49ea3fc23ff2d09dfc186da9",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 157,
+      "resource": "art/walls/vcn3000.frm",
+      "category": "walls",
+      "fids": [
+        50332450
+      ],
+      "png": "art/walls/vcn3000.frm.png",
+      "sha256": "5359f0df54ab7286d547d656e8bca09cf7f2bfe33491924c3edfb3d0a290d359",
+      "native_dimensions": [
+        32,
+        127
+      ],
+      "dimensions": [
+        128,
+        508
+      ],
+      "metadata": "metadata/art/walls/vcn3000.frm.json",
+      "metadata_sha256": "caca577db2d989397f2e89544d59c14fd1b3b93164d2c14359c2bf0dd4c67e60",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 158,
+      "resource": "art/walls/vcn4000.frm",
+      "category": "walls",
+      "fids": [
+        50332451
+      ],
+      "png": "art/walls/vcn4000.frm.png",
+      "sha256": "c2778f7b84f7284aade135937c33f96077a7e745e6bf5ee1f6bff63277cf2ffa",
+      "native_dimensions": [
+        24,
+        121
+      ],
+      "dimensions": [
+        96,
+        484
+      ],
+      "metadata": "metadata/art/walls/vcn4000.frm.json",
+      "metadata_sha256": "74d4b4b1441d12512609b9ff9a0a3acd7a7b584a6e9d1813412df201030adba7",
+      "selection": "direct_material_refresh"
+    },
+    {
+      "asset_id": 159,
+      "resource": "art/walls/vcn6000.frm",
+      "category": "walls",
+      "fids": [
+        50332452
+      ],
+      "png": "art/walls/vcn6000.frm.png",
+      "sha256": "a995c8160d163152dd57de53edc6e83aaca8e96f74646fd4493c7f7aa0facc79",
+      "native_dimensions": [
+        33,
+        116
+      ],
+      "dimensions": [
+        132,
+        464
+      ],
+      "metadata": "metadata/art/walls/vcn6000.frm.json",
+      "metadata_sha256": "8a6789f77b510c3960717826fa96a1bfeac65f7c6b2aff54eb475d52cc05a4a4",
+      "selection": "direct_material_refresh"
+    }
+  ]
+}

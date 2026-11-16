@@ -1,0 +1,745 @@
+{
+  "status": "installed and verified",
+  "component": "original-seed-qwen-v1",
+  "source_sprites": 65,
+  "wall_sources": 62,
+  "cap_sources": 3,
+  "checks": {
+    "passed": 1119,
+    "failed": 0,
+    "map": "V13ENT.MAP",
+    "loaded_resources": 247,
+    "scene_resources_seen": 76,
+    "decoration_images": 8,
+    "decoration_placements": 19,
+    "largest_vault_texel_offset": 72925,
+    "floor_instances": 96,
+    "rock_instances": 13,
+    "collision_hexes_checked": 120000,
+    "blocked_hexes": 1069,
+    "collision_hash": "18093902727436680495",
+    "path_routes_checked": 12,
+    "floor_visible_pixels": 20342,
+    "rock_visible_pixels": 6796,
+    "front_actor_tile": 20106,
+    "rear_actor_tile": 22286,
+    "capture_width": 1920,
+    "capture_height": 1080
+  },
+  "test_render_equivalence": {
+    "frames": 117,
+    "all_exact": true,
+    "captures": [
+      {
+        "file": "actor-behind-classic.png",
+        "exact": true
+      },
+      {
+        "file": "actor-behind-hd.png",
+        "exact": true
+      },
+      {
+        "file": "actor-front-classic.png",
+        "exact": true
+      },
+      {
+        "file": "actor-front-hd.png",
+        "exact": true
+      },
+      {
+        "file": "camera-down-incremental.png",
+        "exact": true
+      },
+      {
+        "file": "camera-down.png",
+        "exact": true
+      },
+      {
+        "file": "camera-left-incremental.png",
+        "exact": true
+      },
+      {
+        "file": "camera-left.png",
+        "exact": true
+      },
+      {
+        "file": "camera-restored.png",
+        "exact": true
+      },
+      {
+        "file": "camera-right-incremental.png",
+        "exact": true
+      },
+      {
+        "file": "camera-right.png",
+        "exact": true
+      },
+      {
+        "file": "camera-up-incremental.png",
+        "exact": true
+      },
+      {
+        "file": "camera-up.png",
+        "exact": true
+      },
+      {
+        "file": "campfire-shadow-actor-off.png",
+        "exact": true
+      },
+      {
+        "file": "campfire-shadow-actor-on.png",
+        "exact": true
+      },
+      {
+        "file": "campfire-shadow-off-hd.png",
+        "exact": true
+      },
+      {
+        "file": "campfire-shadow-on-hd.png",
+        "exact": true
+      },
+      {
+        "file": "campfire-shadow-scroll-0-full.png",
+        "exact": true
+      },
+      {
+        "file": "campfire-shadow-scroll-0-incremental.png",
+        "exact": true
+      },
+      {
+        "file": "campfire-shadow-scroll-1-full.png",
+        "exact": true
+      },
+      {
+        "file": "campfire-shadow-scroll-1-incremental.png",
+        "exact": true
+      },
+      {
+        "file": "campfire-shadow-scroll-2-full.png",
+        "exact": true
+      },
+      {
+        "file": "campfire-shadow-scroll-2-incremental.png",
+        "exact": true
+      },
+      {
+        "file": "campfire-shadow-scroll-3-full.png",
+        "exact": true
+      },
+      {
+        "file": "campfire-shadow-scroll-3-incremental.png",
+        "exact": true
+      },
+      {
+        "file": "cave-16290-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-16290-hd.png",
+        "exact": true
+      },
+      {
+        "file": "cave-18721-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-18721-hd.png",
+        "exact": true
+      },
+      {
+        "file": "cave-22662-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-22662-hd.png",
+        "exact": true
+      },
+      {
+        "file": "cave-24097-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-24097-hd.png",
+        "exact": true
+      },
+      {
+        "file": "cave-27075-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-27075-hd.png",
+        "exact": true
+      },
+      {
+        "file": "cave-27871-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-27871-hd.png",
+        "exact": true
+      },
+      {
+        "file": "cursor-hd.png",
+        "exact": true
+      },
+      {
+        "file": "decor-240-tile-19491-walkover.png",
+        "exact": true
+      },
+      {
+        "file": "decor-240-tile-19491.png",
+        "exact": true
+      },
+      {
+        "file": "decor-241-tile-18092-walkover.png",
+        "exact": true
+      },
+      {
+        "file": "decor-241-tile-18092.png",
+        "exact": true
+      },
+      {
+        "file": "decor-242-actor-behind.png",
+        "exact": true
+      },
+      {
+        "file": "decor-242-actor-front.png",
+        "exact": true
+      },
+      {
+        "file": "decor-242-tile-18706-walkover.png",
+        "exact": true
+      },
+      {
+        "file": "decor-242-tile-18706.png",
+        "exact": true
+      },
+      {
+        "file": "decor-242-tile-19514-walkover.png",
+        "exact": true
+      },
+      {
+        "file": "decor-242-tile-19514.png",
+        "exact": true
+      },
+      {
+        "file": "decor-242-tile-20087-walkover.png",
+        "exact": true
+      },
+      {
+        "file": "decor-242-tile-20087.png",
+        "exact": true
+      },
+      {
+        "file": "decor-242-tile-25068-walkover.png",
+        "exact": true
+      },
+      {
+        "file": "decor-242-tile-25068.png",
+        "exact": true
+      },
+      {
+        "file": "decor-242-tile-25522-walkover.png",
+        "exact": true
+      },
+      {
+        "file": "decor-242-tile-25522.png",
+        "exact": true
+      },
+      {
+        "file": "decor-244-tile-24070-walkover.png",
+        "exact": true
+      },
+      {
+        "file": "decor-244-tile-24070.png",
+        "exact": true
+      },
+      {
+        "file": "decor-245-tile-25729-walkover.png",
+        "exact": true
+      },
+      {
+        "file": "decor-245-tile-25729.png",
+        "exact": true
+      },
+      {
+        "file": "decor-246-actor-behind.png",
+        "exact": true
+      },
+      {
+        "file": "decor-246-actor-front.png",
+        "exact": true
+      },
+      {
+        "file": "decor-246-tile-17513-walkover.png",
+        "exact": true
+      },
+      {
+        "file": "decor-246-tile-17513.png",
+        "exact": true
+      },
+      {
+        "file": "decor-246-tile-19910-walkover.png",
+        "exact": true
+      },
+      {
+        "file": "decor-246-tile-19910.png",
+        "exact": true
+      },
+      {
+        "file": "decor-246-tile-20692-walkover.png",
+        "exact": true
+      },
+      {
+        "file": "decor-246-tile-20692.png",
+        "exact": true
+      },
+      {
+        "file": "decor-246-tile-26067-walkover.png",
+        "exact": true
+      },
+      {
+        "file": "decor-246-tile-26067.png",
+        "exact": true
+      },
+      {
+        "file": "decor-246-tile-26338-walkover.png",
+        "exact": true
+      },
+      {
+        "file": "decor-246-tile-26338.png",
+        "exact": true
+      },
+      {
+        "file": "decor-247-actor-behind.png",
+        "exact": true
+      },
+      {
+        "file": "decor-247-actor-front.png",
+        "exact": true
+      },
+      {
+        "file": "decor-247-tile-18689-walkover.png",
+        "exact": true
+      },
+      {
+        "file": "decor-247-tile-18689.png",
+        "exact": true
+      },
+      {
+        "file": "decor-247-tile-18714-walkover.png",
+        "exact": true
+      },
+      {
+        "file": "decor-247-tile-18714.png",
+        "exact": true
+      },
+      {
+        "file": "decor-247-tile-19488-walkover.png",
+        "exact": true
+      },
+      {
+        "file": "decor-247-tile-19488.png",
+        "exact": true
+      },
+      {
+        "file": "decor-247-tile-23079-walkover.png",
+        "exact": true
+      },
+      {
+        "file": "decor-247-tile-23079.png",
+        "exact": true
+      },
+      {
+        "file": "decor-248-tile-23677-walkover.png",
+        "exact": true
+      },
+      {
+        "file": "decor-248-tile-23677.png",
+        "exact": true
+      },
+      {
+        "file": "decor-disabled-hd.png",
+        "exact": true
+      },
+      {
+        "file": "decor-enabled-hd.png",
+        "exact": true
+      },
+      {
+        "file": "entrance-classic-4k.png",
+        "exact": true
+      },
+      {
+        "file": "entrance-classic.png",
+        "exact": true
+      },
+      {
+        "file": "entrance-disabled.png",
+        "exact": true
+      },
+      {
+        "file": "entrance-hd-4k.png",
+        "exact": true
+      },
+      {
+        "file": "entrance-hd.png",
+        "exact": true
+      },
+      {
+        "file": "fade-dark25-classic.png",
+        "exact": true
+      },
+      {
+        "file": "fade-dark25-hd.png",
+        "exact": true
+      },
+      {
+        "file": "fade-dark50-classic.png",
+        "exact": true
+      },
+      {
+        "file": "fade-dark50-hd.png",
+        "exact": true
+      },
+      {
+        "file": "fade-normal-classic.png",
+        "exact": true
+      },
+      {
+        "file": "fade-normal-hd.png",
+        "exact": true
+      },
+      {
+        "file": "fade-owner-mask.png",
+        "exact": true
+      },
+      {
+        "file": "fade-white-classic.png",
+        "exact": true
+      },
+      {
+        "file": "fade-white-hd.png",
+        "exact": true
+      },
+      {
+        "file": "fade-white50-classic.png",
+        "exact": true
+      },
+      {
+        "file": "fade-white50-hd.png",
+        "exact": true
+      },
+      {
+        "file": "grey-buffer-classic.png",
+        "exact": true
+      },
+      {
+        "file": "grey-buffer-hd.png",
+        "exact": true
+      },
+      {
+        "file": "overlay-classic.png",
+        "exact": true
+      },
+      {
+        "file": "overlay-hd.png",
+        "exact": true
+      },
+      {
+        "file": "palette-black.png",
+        "exact": true
+      },
+      {
+        "file": "renderer-recreated.png",
+        "exact": true
+      },
+      {
+        "file": "saved-map-name-hd.png",
+        "exact": true
+      },
+      {
+        "file": "tile-variants-after.png",
+        "exact": true
+      },
+      {
+        "file": "tile-variants-before.png",
+        "exact": true
+      },
+      {
+        "file": "vault-outer-wheel-frame-00-hd.png",
+        "exact": true
+      },
+      {
+        "file": "vault-outer-wheel-frame-07-hd.png",
+        "exact": true
+      },
+      {
+        "file": "vault-outer-wheel-frame-14-hd.png",
+        "exact": true
+      },
+      {
+        "file": "vault-rock-a-entrance.png",
+        "exact": true
+      },
+      {
+        "file": "viewport-classic.png",
+        "exact": true
+      },
+      {
+        "file": "viewport-hd.png",
+        "exact": true
+      },
+      {
+        "file": "wall-variants-base.png",
+        "exact": true
+      },
+      {
+        "file": "wall-variants-enabled.png",
+        "exact": true
+      }
+    ],
+    "sampled_views_not_paired": [
+      "new-form-224-hd.png",
+      "new-form-224-previous-hd.png",
+      "new-form-225-hd.png",
+      "new-form-225-previous-hd.png",
+      "new-form-226-hd.png",
+      "new-form-226-previous-hd.png",
+      "new-form-227-hd.png",
+      "new-form-227-previous-hd.png",
+      "new-form-228-hd.png",
+      "new-form-228-previous-hd.png",
+      "new-form-229-hd.png",
+      "new-form-229-previous-hd.png",
+      "new-form-230-hd.png",
+      "new-form-230-previous-hd.png",
+      "new-form-231-hd.png",
+      "new-form-231-previous-hd.png",
+      "new-form-232-hd.png",
+      "new-form-232-previous-hd.png",
+      "new-form-233-hd.png",
+      "new-form-233-previous-hd.png",
+      "new-form-234-hd.png",
+      "new-form-234-previous-hd.png",
+      "new-form-235-hd.png",
+      "new-form-235-previous-hd.png",
+      "new-form-236-hd.png",
+      "new-form-236-previous-hd.png",
+      "new-form-237-hd.png",
+      "new-form-237-previous-hd.png",
+      "new-form-238-hd.png",
+      "new-form-238-previous-hd.png",
+      "new-form-252-hd.png",
+      "new-form-252-previous-hd.png",
+      "wall-geometry-50331679.png",
+      "wall-geometry-50331683.png",
+      "wall-geometry-50331686.png",
+      "wall-geometry-50331728.png",
+      "wall-geometry-50331729.png",
+      "wall-geometry-50331733.png"
+    ],
+    "sampled_view_reason": "Diagnostic views selected by iteration over std::set<Object*>; different process addresses choose different representative objects/camera positions. These 38 views retain their independent in-engine assertions, not a cross-process pixel-equality requirement.",
+    "total_captures_each": 155,
+    "legacy_passed": 1079,
+    "legacy_failed": 40,
+    "legacy_failures": [
+      "FAIL registered geometry appears in SDL 50331733",
+      "FAIL registered geometry appears in SDL 50331686",
+      "FAIL registered geometry appears in SDL 50331683",
+      "FAIL registered geometry appears in SDL 50331679",
+      "FAIL registered geometry appears in SDL 50331685",
+      "FAIL registered geometry appears in SDL 50331680",
+      "FAIL registered geometry appears in SDL 50331676",
+      "FAIL registered geometry appears in SDL 50331682",
+      "FAIL registered geometry appears in SDL 50331681",
+      "FAIL registered geometry appears in SDL 50331684",
+      "FAIL registered geometry appears in SDL 50331736",
+      "FAIL registered geometry appears in SDL 50331673",
+      "FAIL registered geometry appears in SDL 50331674",
+      "FAIL registered geometry appears in SDL 50331719",
+      "FAIL registered geometry appears in SDL 50331711",
+      "FAIL registered geometry appears in SDL 50331697",
+      "FAIL registered geometry appears in SDL 50331710",
+      "FAIL registered geometry appears in SDL 50331696",
+      "FAIL registered geometry appears in SDL 50331737",
+      "FAIL registered geometry appears in SDL 50331702",
+      "FAIL registered geometry appears in SDL 50331712",
+      "FAIL registered geometry appears in SDL 50331727",
+      "FAIL registered geometry appears in SDL 50331723",
+      "FAIL registered geometry appears in SDL 50331714",
+      "FAIL registered geometry appears in SDL 50331713",
+      "FAIL registered geometry appears in SDL 50331738",
+      "FAIL registered geometry appears in SDL 50331741",
+      "FAIL registered geometry appears in SDL 50331722",
+      "FAIL registered geometry appears in SDL 50331732",
+      "FAIL registered geometry appears in SDL 50331690",
+      "FAIL registered geometry appears in SDL 50331731",
+      "FAIL registered geometry appears in SDL 50331689",
+      "FAIL registered geometry appears in SDL 50331691",
+      "FAIL registered geometry appears in SDL 50331705",
+      "FAIL registered geometry appears in SDL 50331694",
+      "FAIL registered geometry appears in SDL 50331735",
+      "FAIL registered geometry appears in SDL 50331724",
+      "FAIL registered geometry appears in SDL 50331739",
+      "FAIL registered geometry appears in SDL 50331706",
+      "FAIL registered geometry appears in SDL 50331688"
+    ],
+    "updated_test_passed": 1119,
+    "updated_test_failed": 0,
+    "test_only_source": {
+      "installed_source_hashes_verified": true,
+      "source_file_count": 323,
+      "changed": [
+        "src/game/hd_wall_geometry_test.inc"
+      ],
+      "rendering_code_changed": false,
+      "reason": "HD base and placement sprites are intentionally identical; compare HD against classic in the exact owning wall cells instead of demanding a geometric redesign",
+      "original_test_source_sha256": "37ead82fb4164c4a96c3b04aba3674af1a4166926a2598fb09a31a41e923d344",
+      "revised_test_source_sha256": "751d01b50e6c73c1d1bb7bb15a52dcc389cc6eaa89ea7695af00437055cbccf8"
+    },
+    "installed_exe_restored": true
+  },
+  "legacy_test_result": {
+    "passed": 1079,
+    "failed": 40,
+    "map": "V13ENT.MAP",
+    "loaded_resources": 247,
+    "scene_resources_seen": 76,
+    "decoration_images": 8,
+    "decoration_placements": 19,
+    "largest_vault_texel_offset": 72925,
+    "floor_instances": 96,
+    "rock_instances": 13,
+    "collision_hexes_checked": 120000,
+    "blocked_hexes": 1069,
+    "collision_hash": "18093902727436680495",
+    "path_routes_checked": 12,
+    "floor_visible_pixels": 20342,
+    "rock_visible_pixels": 6796,
+    "front_actor_tile": 20106,
+    "rear_actor_tile": 22286,
+    "capture_width": 1920,
+    "capture_height": 1080
+  },
+  "test_source_change": {
+    "installed_source_hashes_verified": true,
+    "source_file_count": 323,
+    "changed": [
+      "src/game/hd_wall_geometry_test.inc"
+    ],
+    "rendering_code_changed": false,
+    "reason": "HD base and placement sprites are intentionally identical; compare HD against classic in the exact owning wall cells instead of demanding a geometric redesign",
+    "original_test_source_sha256": "37ead82fb4164c4a96c3b04aba3674af1a4166926a2598fb09a31a41e923d344",
+    "revised_test_source_sha256": "751d01b50e6c73c1d1bb7bb15a52dcc389cc6eaa89ea7695af00437055cbccf8"
+  },
+  "audit": {
+    "images": 537,
+    "source_sprites": 65,
+    "wall_sources": 62,
+    "cutaway_sources": 3,
+    "canonical_alpha_exact_original_all": true,
+    "runtime_native_alpha_exact_images": 536,
+    "door_clearance": "intersection of native alpha and previously approved A alpha, in existing 512x512 atlas",
+    "registered_frame_sizes_unchanged": true,
+    "canonical_source_size_exact": true,
+    "registration_files_unchanged": true,
+    "protected_art_files": 823,
+    "exe_unchanged": true,
+    "source_contexts_pixel_exact": true
+  },
+  "comparison": {
+    "before": "build\\hd-wall-blender-cave-20261115\\after-v1",
+    "after": "build\\hd-wall-original-restore-20261116\\after-v1",
+    "scale": 0.5,
+    "color_correction": false,
+    "views": [
+      "entrance",
+      "cave-18721",
+      "cave-22662",
+      "cave-27075",
+      "cave-27871"
+    ],
+    "classic_frames": [
+      {
+        "file": "actor-behind-classic.png",
+        "exact": true
+      },
+      {
+        "file": "actor-front-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-16290-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-18721-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-22662-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-24097-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-27075-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-27871-classic.png",
+        "exact": true
+      },
+      {
+        "file": "entrance-classic-4k.png",
+        "exact": true
+      },
+      {
+        "file": "entrance-classic.png",
+        "exact": true
+      },
+      {
+        "file": "fade-dark25-classic.png",
+        "exact": true
+      },
+      {
+        "file": "fade-dark50-classic.png",
+        "exact": true
+      },
+      {
+        "file": "fade-normal-classic.png",
+        "exact": true
+      },
+      {
+        "file": "fade-white-classic.png",
+        "exact": true
+      },
+      {
+        "file": "fade-white50-classic.png",
+        "exact": true
+      },
+      {
+        "file": "grey-buffer-classic.png",
+        "exact": true
+      },
+      {
+        "file": "overlay-classic.png",
+        "exact": true
+      },
+      {
+        "file": "viewport-classic.png",
+        "exact": true
+      }
+    ],
+    "classic_all_exact": true
+  },
+  "exe_unchanged": true,
+  "exe_sha256": "dfc334a2ccedf1dfe91845c6e484dac456238c0fae1c5278f81c85934d87423f",
+  "other_runtime_files_unchanged": 838,
+  "backup": "build\\backups\\before-original-seed-qwen-v1-20261116",
+  "blender_preserved": "assets/hd/v13ent/blender-cave-v3",
+  "generated": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116"
+}

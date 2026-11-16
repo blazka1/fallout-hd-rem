@@ -1,0 +1,14 @@
+{
+  "task": "HD ordinary rats integrated into the latest cave environment",
+  "date": "2026-11-15",
+  "status": "installed and verified in current world pilot",
+  "runtime": "runtime/hd-world-pilot",
+  "launcher": "Start-Fallout-HD-World-Pilot.cmd",
+  "executable_sha256": "dfc334a2ccedf1dfe91845c6e484dac456238c0fae1c5278f81c85934d87423f",
+  "package": "assets/hd/critter-rat/qwen21-seedvr2-v1-x4",
+  "final_report": "build/hd-rat-world-integration-20261115/integration.json",
+  "preservation_report": "build/hd-rat-world-integration-20261115/preservation.json",
+  "backup": "build/backups/before-world-hd-rat-20261115",
+  "historical_task_snapshot": "build/backups/before-world-hd-rat-20261115/work/hd-world-pilot/task.json",
+  "known_scope_exclusions": "Other creatures and maps unchanged; male player HD coverage remains the pre-existing stand/walk set."
+}

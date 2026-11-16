@@ -1,0 +1,52 @@
+{
+  "status": "installed-and-verified",
+  "checks": {
+    "world": {
+      "passed": 541,
+      "failed": 0
+    },
+    "terminal": {
+      "passed": 27,
+      "failed": 0
+    },
+    "menu": {
+      "passed": 139,
+      "failed": 0
+    }
+  },
+  "executable_sha256": "39dcba0e4dafd497b717f4aadb61fa6176319542767df5a7195b4f38360fd1db",
+  "assets": [
+    120,
+    121,
+    122,
+    123,
+    130,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    197,
+    198,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174
+  ],
+  "protected_existing_files": 526,
+  "review": "build\\hd-cave-seams-20261115\\review\\index.html",
+  "code_changes": "optional diagnostic captures in test harness only",
+  "game_geometry_changed": false
+}

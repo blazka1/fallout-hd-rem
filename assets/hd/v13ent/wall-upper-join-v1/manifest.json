@@ -1,0 +1,161 @@
+{
+  "status": "installed-and-verified",
+  "records": [
+    {
+      "id": 120,
+      "base": 120,
+      "file": "asset-120.rgba",
+      "png": "asset-120.png",
+      "runtime_sha256": "f837b38348614ab81a53c9c32bccb5ccb63b206f7bb46e1be6647554aa4307e9",
+      "png_sha256": "d4c81ca2c065ef4bdd6f46bf4ee9723f32a30fb6ad6757c946a28183509c85b4",
+      "decoded_rgba_sha256": "2581cb701a174a568dc8ecaf3725c6b4697c590d0dd14f82cdc49ec33ee0163c",
+      "alpha_exact": true,
+      "protected_lower_from": 320,
+      "changed_pixels": 13833
+    },
+    {
+      "id": 121,
+      "base": 121,
+      "file": "asset-121.rgba",
+      "png": "asset-121.png",
+      "runtime_sha256": "8b675b10f3b1033bb4a7f59210528c2c1d4ba8de5b345f2b8fca04fac79db449",
+      "png_sha256": "5551d41ce7bf1279b85b0ba1cebf98def5f0b793c779219360e1e737d8f6bb7a",
+      "decoded_rgba_sha256": "575bb8a7af793a9763950bb33a122c0f3a28776f8317bbe6e1b588a3054379a4",
+      "alpha_exact": true,
+      "protected_lower_from": 320,
+      "changed_pixels": 26634
+    },
+    {
+      "id": 122,
+      "base": 122,
+      "file": "asset-122.rgba",
+      "png": "asset-122.png",
+      "runtime_sha256": "232537ab6bf12365a708c44b072646c7a32ddb67fff8f3b64b7694904e74d4dd",
+      "png_sha256": "e0d9483577b0f46f4e4bcd90c53a39a938eb15089439c86e8385c1dd8314ce3f",
+      "decoded_rgba_sha256": "1fc186cc4b7f0e3ad5a7b2d31d4e6c6c4c141ab70c41e890f79baa9c00ddea92",
+      "alpha_exact": true,
+      "protected_lower_from": 320,
+      "changed_pixels": 32926
+    },
+    {
+      "id": 123,
+      "base": 123,
+      "file": "asset-123.rgba",
+      "png": "asset-123.png",
+      "runtime_sha256": "6925ad95684e001062e3d3314257bac98a780d5ed828e108012c1a9523e57b1a",
+      "png_sha256": "68b5623f7d8550250be16ae039897c77f30b8490dca43eef60e9aaba97f4a639",
+      "decoded_rgba_sha256": "79fd684cc9bef0847b8f276cd51b2c05504edfd70bcd0a71cf0d7a6be5ddad7b",
+      "alpha_exact": true,
+      "protected_lower_from": 320,
+      "changed_pixels": 37876
+    },
+    {
+      "id": 130,
+      "base": 130,
+      "file": "asset-130.rgba",
+      "png": "asset-130.png",
+      "runtime_sha256": "b042691488601f901f93d0dafbd9d708cbbf1e4c53a34c61c89eb0b99d2f4fe7",
+      "png_sha256": "9104977b61a470c6092a65bc44654fb2a14a148c4c1b176574541f0564f15925",
+      "decoded_rgba_sha256": "e814f1fba1f932f887c8640baf63f83edd9776d190100a5097c1da23b5d707f7",
+      "alpha_exact": true,
+      "protected_lower_from": 316,
+      "changed_pixels": 37515
+    },
+    {
+      "id": 186,
+      "base": 120,
+      "file": "wall-accent-186.rgba",
+      "png": "asset-186.png",
+      "runtime_sha256": "594017e4748167f781c8c57abab966ba1a9c56a4cd807e7aa36542b7fca34d47",
+      "png_sha256": "7433ac2650a5ace47a9c621e28bb4af0f9e242ce89b8f2fd7ad4e4d15fe8937b",
+      "decoded_rgba_sha256": "955e9b02a7e2e63cd8aed69d6ab4225beab8848b34e2d5379d8f9ebd7218c43b",
+      "alpha_exact": true,
+      "protected_lower_from": 320,
+      "changed_pixels": 13833
+    },
+    {
+      "id": 187,
+      "base": 120,
+      "file": "wall-accent-187.rgba",
+      "png": "asset-187.png",
+      "runtime_sha256": "2d258ec560bd6f2ac5703f2ceba3d809ea91136c9dcfcf57563f8265b39af7f6",
+      "png_sha256": "0529548a7c4a4240990507faff87e96a7958882a4b40db84fd54c91324a753ed",
+      "decoded_rgba_sha256": "f3b1dd58cc1f99ba54f8811081c28542289d095122e82f4cbd2ed29819a05729",
+      "alpha_exact": true,
+      "protected_lower_from": 320,
+      "changed_pixels": 13772
+    },
+    {
+      "id": 188,
+      "base": 121,
+      "file": "wall-accent-188.rgba",
+      "png": "asset-188.png",
+      "runtime_sha256": "0fe4d507fe54800a1a987da53cbb02acf32bb0c673ffe308e94a1bb63e75ddc5",
+      "png_sha256": "3ac687ec081c29731fedb89800f51979d92758a3e78eeb580d5a14f81391c46c",
+      "decoded_rgba_sha256": "9dd268ecf21f2e7ed0ff58d97a0ca20831dab8f2b9101a76a4178c49ebc2202c",
+      "alpha_exact": true,
+      "protected_lower_from": 320,
+      "changed_pixels": 26643
+    },
+    {
+      "id": 189,
+      "base": 121,
+      "file": "wall-accent-189.rgba",
+      "png": "asset-189.png",
+      "runtime_sha256": "7c7a7b716eae56496e39fe10e0c11f2da6d8b3ce0c2aa180522582c60f3fc1c0",
+      "png_sha256": "4441076975d0a698de5553b80b0d6c4a166bba7b93b08bdd70f5f180c54950dc",
+      "decoded_rgba_sha256": "c1f0715650c1065a8fcf9f3a01ab0246daf6cd38700e4b9830dcb411e3acfea2",
+      "alpha_exact": true,
+      "protected_lower_from": 320,
+      "changed_pixels": 26590
+    },
+    {
+      "id": 190,
+      "base": 122,
+      "file": "wall-accent-190.rgba",
+      "png": "asset-190.png",
+      "runtime_sha256": "6768f081a78d5bbe8cf852d71f43acd25037036a60985b488522900573cb0ae5",
+      "png_sha256": "2d9745f8d4d7968d5dbd4b2e3bac55651d7ea05adce86e0e844d082fc27df551",
+      "decoded_rgba_sha256": "77652814f3f16ede2372ccb26791f0f0419de78de140858b4cf8ceab6c7f3af1",
+      "alpha_exact": true,
+      "protected_lower_from": 320,
+      "changed_pixels": 32906
+    },
+    {
+      "id": 191,
+      "base": 123,
+      "file": "wall-accent-191.rgba",
+      "png": "asset-191.png",
+      "runtime_sha256": "a26388de9f3920d95e37a5106c8adaebafd7c560eb7f76f09a15aa909d67bf39",
+      "png_sha256": "bcfc0c621fe39b014409f9ffac4d3ade0bb648a2dff5c228731e549f49b89dbf",
+      "decoded_rgba_sha256": "0baeab62243127c0e315300e230dab4116feb5cdbf6b3534676c49194073257b",
+      "alpha_exact": true,
+      "protected_lower_from": 320,
+      "changed_pixels": 37892
+    },
+    {
+      "id": 197,
+      "base": 130,
+      "file": "wall-accent-197.rgba",
+      "png": "asset-197.png",
+      "runtime_sha256": "674ba176b4c97fb246bf73f51adb387d8bc957bb32d93e3c9e96e872280f45ef",
+      "png_sha256": "9524597edbb099217ce51075733d15f0f0476980f4e1d5b4926bd0d280f6d5dd",
+      "decoded_rgba_sha256": "2600b46ed1a528c612c2caaead3322ee1b422e6c838e0f13c953821db5e7a25b",
+      "alpha_exact": true,
+      "protected_lower_from": 316,
+      "changed_pixels": 37372
+    },
+    {
+      "id": 198,
+      "base": 130,
+      "file": "wall-accent-198.rgba",
+      "png": "asset-198.png",
+      "runtime_sha256": "399de6f9957f9dac5da2f039945c42ad23d744eeceb1b0f17fa6ec78d8d44b38",
+      "png_sha256": "55bcc13b99f8d1cd1df78014319b3fc4155a2ed306055c1da45db4c6da47e810",
+      "decoded_rgba_sha256": "a0e29552462d1fb021095a1f847118987ddde02a8709d4c61f2b8b1a17bf9297",
+      "alpha_exact": true,
+      "protected_lower_from": 316,
+      "changed_pixels": 37516
+    }
+  ]
+}

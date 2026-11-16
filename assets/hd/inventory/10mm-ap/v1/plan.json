@@ -1,0 +1,36 @@
+{
+  "item": {
+    "pid": 30,
+    "name": "10mm AP",
+    "fid": 117440542,
+    "size": [
+      83,
+      61
+    ]
+  },
+  "model": "qwen",
+  "outputs": {
+    "11": "raw.png",
+    "12": "reference-working.png",
+    "15": "candidate.png"
+  },
+  "target": [
+    332,
+    244
+  ],
+  "working": [
+    1152,
+    960
+  ],
+  "padding_native": [
+    6,
+    9,
+    7,
+    10
+  ],
+  "source_sha256": "3dfa89c024e7e1ff112b9c27a4d5ca31984fb64a96d968d2c6013990b6e76aed",
+  "seed": 13112026,
+  "steps": 25,
+  "cfg": 1,
+  "denoise": 1
+}

@@ -1,0 +1,345 @@
+{
+  "status": "installed and verified prototype",
+  "component": "blender-corner-v1",
+  "updated_placement_sprites": 11,
+  "objects": [
+    327,
+    328,
+    349,
+    350,
+    351,
+    365,
+    366,
+    415,
+    434,
+    452,
+    463
+  ],
+  "scene": "assets\\hd\\v13ent\\blender-corner-v1\\fallout-wall-corner.blend",
+  "scene_sha256": "1870be1d80939e8757925a20d05966f7dd0fb0bcd69b0e803a84546724d6e369",
+  "render_sha256": "7985e4b42e86e6e0c9da0860ce7f2256e5f35a3e31317ab723ab9d50946fef84",
+  "authoring_script_sha256": "05a47f662fd96abed5b81319e6d828f55498f8b4f0ed2e6d55a93fc264079feb",
+  "assets": [
+    {
+      "object_id": 328,
+      "file": "wall-geometry-0328.rgba",
+      "world_box": [
+        4192,
+        288,
+        16,
+        120
+      ],
+      "source": "art/walls/ca028.frm",
+      "png": "assets\\generated\\v13ent-wall-blender\\pilot-20261115\\sprites\\wall-geometry-0328.png",
+      "before_sha256": "61d03d77ebd64c2455600a5fa5c8c5da7d6bcc27c01d19a73ab4ab725a767009",
+      "sha256": "633416783295130f58b2231aa1a4aed77c4339202bd6ae44e9bf78efb967f9f6",
+      "alpha_changed": 208
+    },
+    {
+      "object_id": 327,
+      "file": "wall-geometry-0327.rgba",
+      "world_box": [
+        4208,
+        298,
+        32,
+        116
+      ],
+      "source": "art/walls/ca038.frm",
+      "png": "assets\\generated\\v13ent-wall-blender\\pilot-20261115\\sprites\\wall-geometry-0327.png",
+      "before_sha256": "174fe041f3dd0717c11372f5922724dda4cd931ac78c303ac323e00d88aedfa3",
+      "sha256": "0228fb2edbc04beea713865ab74978389ff572e854e3f2a9e6788c9dca68e312",
+      "alpha_changed": 3328
+    },
+    {
+      "object_id": 350,
+      "file": "wall-geometry-0350.rgba",
+      "world_box": [
+        4240,
+        298,
+        32,
+        115
+      ],
+      "source": "art/walls/ca039.frm",
+      "png": "assets\\generated\\v13ent-wall-blender\\pilot-20261115\\sprites\\wall-geometry-0350.png",
+      "before_sha256": "09b53ba1ad24a4c23042ee2cee67561a7900466601071297d0fbe2b0ea1505a4",
+      "sha256": "448365d223054063298eefa13b7856ddf7994ea88e94fdeda547ca47c504dee0",
+      "alpha_changed": 6256
+    },
+    {
+      "object_id": 349,
+      "file": "wall-geometry-0349.rgba",
+      "world_box": [
+        4272,
+        298,
+        32,
+        117
+      ],
+      "source": "art/walls/ca040.frm",
+      "png": "assets\\generated\\v13ent-wall-blender\\pilot-20261115\\sprites\\wall-geometry-0349.png",
+      "before_sha256": "8ca8ed162db158198b6e5e939f1c3b9f4d9a91c5259a0790f24920d1af623104",
+      "sha256": "3a6824a80aac3a869d356348651056b64dd20644113af683e9138df9d79ecb5d",
+      "alpha_changed": 7424
+    },
+    {
+      "object_id": 366,
+      "file": "wall-geometry-0366.rgba",
+      "world_box": [
+        4304,
+        298,
+        33,
+        118
+      ],
+      "source": "art/walls/ca041.frm",
+      "png": "assets\\generated\\v13ent-wall-blender\\pilot-20261115\\sprites\\wall-geometry-0366.png",
+      "before_sha256": "b84a16a2704eeb975126c6dec4de01e19bdd0173747e1ebaea0e101201cba7c3",
+      "sha256": "9d344028a7e270ce9ba3840044f644dc6859c47f7988630358e23bb7fb7313de",
+      "alpha_changed": 9808
+    },
+    {
+      "object_id": 365,
+      "file": "wall-geometry-0365.rgba",
+      "world_box": [
+        4336,
+        299,
+        33,
+        124
+      ],
+      "source": "art/walls/ca048.frm",
+      "png": "assets\\generated\\v13ent-wall-blender\\pilot-20261115\\sprites\\wall-geometry-0365.png",
+      "before_sha256": "0ce5a2fad9805a1a38cab0671a2f275b5c2615be5f0361c19f91b000c71b45e3",
+      "sha256": "cf3c5534c5e28ed9dc90d6f9c5b1330e7ff1655c1da0c2303fe0362284be0841",
+      "alpha_changed": 11232
+    },
+    {
+      "object_id": 351,
+      "file": "wall-geometry-0351.rgba",
+      "world_box": [
+        4208,
+        300,
+        17,
+        111
+      ],
+      "source": "art/walls/ca026.frm",
+      "png": "assets\\generated\\v13ent-wall-blender\\pilot-20261115\\sprites\\wall-geometry-0351.png",
+      "before_sha256": "fd1a7296492fa35026feb31c96c10a4c5f1f55ac9b7e89794815b1ea794e8acc",
+      "sha256": "e3188f59fdf628721da7afd3db210315f4a9ecd9f01b266924531b18b52f7e07",
+      "alpha_changed": 2656
+    },
+    {
+      "object_id": 415,
+      "file": "wall-geometry-0415.rgba",
+      "world_box": [
+        4368,
+        309,
+        17,
+        131
+      ],
+      "source": "art/walls/ca018.frm",
+      "png": "assets\\generated\\v13ent-wall-blender\\pilot-20261115\\sprites\\wall-geometry-0415.png",
+      "before_sha256": "854fefd4db1669388d7ee716752811089fe05cc848e8f9e3bb44664823a139b8",
+      "sha256": "c7280406b1f776b1d05d4934a98faecaa0da52e89e801531332e74b2ca5dced5",
+      "alpha_changed": 5360
+    },
+    {
+      "object_id": 434,
+      "file": "wall-geometry-0434.rgba",
+      "world_box": [
+        4384,
+        322,
+        16,
+        130
+      ],
+      "source": "art/walls/ca019.frm",
+      "png": "assets\\generated\\v13ent-wall-blender\\pilot-20261115\\sprites\\wall-geometry-0434.png",
+      "before_sha256": "45586033249d93ae36791c33be4d16135ff490678a22b7ec46986efe4d8a8408",
+      "sha256": "28dc54fb0b398597979e9ba702c9cffd6204e770ed9ef455445f6d101fc2df06",
+      "alpha_changed": 1984
+    },
+    {
+      "object_id": 452,
+      "file": "wall-geometry-0452.rgba",
+      "world_box": [
+        4400,
+        335,
+        17,
+        133
+      ],
+      "source": "art/walls/ca020.frm",
+      "png": "assets\\generated\\v13ent-wall-blender\\pilot-20261115\\sprites\\wall-geometry-0452.png",
+      "before_sha256": "5f70903b187ce7a5ebdd083ceb458e7d6f28851d3d44e24ca8f8327768e713e9",
+      "sha256": "c9ab49bdc910a8948aa2854cad1282db59fd9fe071a41375190fdd906c955e9f",
+      "alpha_changed": 4720
+    },
+    {
+      "object_id": 463,
+      "file": "wall-geometry-0463.rgba",
+      "world_box": [
+        4416,
+        347,
+        17,
+        133
+      ],
+      "source": "art/walls/ca021.frm",
+      "png": "assets\\generated\\v13ent-wall-blender\\pilot-20261115\\sprites\\wall-geometry-0463.png",
+      "before_sha256": "d94e91875015b1dbb79afb57d2b14c2fe86f63c9e5842711d2a739ab4b573687",
+      "sha256": "a965592e42cc795c49d27cfb757d418dce4eccbd41bc47c2af53e2c43ea62131",
+      "alpha_changed": 560
+    }
+  ],
+  "checks": {
+    "passed": 1119,
+    "failed": 0,
+    "map": "V13ENT.MAP",
+    "loaded_resources": 247,
+    "scene_resources_seen": 76,
+    "decoration_images": 8,
+    "decoration_placements": 19,
+    "largest_vault_texel_offset": 72925,
+    "floor_instances": 96,
+    "rock_instances": 13,
+    "collision_hexes_checked": 120000,
+    "blocked_hexes": 1069,
+    "collision_hash": "18093902727436680495",
+    "path_routes_checked": 12,
+    "floor_visible_pixels": 20342,
+    "rock_visible_pixels": 6796,
+    "front_actor_tile": 20106,
+    "rear_actor_tile": 22286,
+    "capture_width": 1920,
+    "capture_height": 1080
+  },
+  "audit": {
+    "updated_sprites": 11,
+    "unchanged_art_and_exe_files": 1350,
+    "alpha_native_binary": true,
+    "alpha_changed_pixels": 53536,
+    "crown_pixels_clipped_by_canvas": 0,
+    "shared_render_overlap": [
+      {
+        "objects": [
+          327,
+          351
+        ],
+        "opaque_pixels": 8688,
+        "max_rgb_difference": 0
+      },
+      {
+        "objects": [
+          366,
+          365
+        ],
+        "opaque_pixels": 1648,
+        "max_rgb_difference": 0
+      },
+      {
+        "objects": [
+          365,
+          415
+        ],
+        "opaque_pixels": 1616,
+        "max_rgb_difference": 0
+      },
+      {
+        "objects": [
+          415,
+          434
+        ],
+        "opaque_pixels": 1808,
+        "max_rgb_difference": 0
+      }
+    ],
+    "registry_unchanged": true,
+    "exe_unchanged": true
+  },
+  "comparison": {
+    "before": "build\\hd-wall-blender-pilot-20261115\\before-final",
+    "after": "build\\hd-wall-blender-pilot-20261115\\after-v4",
+    "crop": [
+      1210,
+      170,
+      1840,
+      670
+    ],
+    "scale": 1,
+    "color_correction": false,
+    "classic_frames": [
+      {
+        "file": "actor-behind-classic.png",
+        "exact": true
+      },
+      {
+        "file": "actor-front-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-16290-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-18721-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-22662-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-24097-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-27075-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-27871-classic.png",
+        "exact": true
+      },
+      {
+        "file": "entrance-classic-4k.png",
+        "exact": true
+      },
+      {
+        "file": "entrance-classic.png",
+        "exact": true
+      },
+      {
+        "file": "fade-dark25-classic.png",
+        "exact": true
+      },
+      {
+        "file": "fade-dark50-classic.png",
+        "exact": true
+      },
+      {
+        "file": "fade-normal-classic.png",
+        "exact": true
+      },
+      {
+        "file": "fade-white-classic.png",
+        "exact": true
+      },
+      {
+        "file": "fade-white50-classic.png",
+        "exact": true
+      },
+      {
+        "file": "grey-buffer-classic.png",
+        "exact": true
+      },
+      {
+        "file": "overlay-classic.png",
+        "exact": true
+      },
+      {
+        "file": "viewport-classic.png",
+        "exact": true
+      }
+    ],
+    "classic_all_exact": true
+  },
+  "exe_sha256": "dfc334a2ccedf1dfe91845c6e484dac456238c0fae1c5278f81c85934d87423f",
+  "exe_changed": false,
+  "other_runtime_files_unchanged": 1365,
+  "backup": "build\\backups\\before-blender-corner-v1-20261115"
+}

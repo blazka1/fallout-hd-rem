@@ -1,0 +1,50 @@
+{
+  "status": "installed_in_hd_world_pilot",
+  "selection": "Assistant selected Qwen for detail and silhouette preservation; user requested processing and installation",
+  "pid": 8,
+  "inventory_fid": 117440516,
+  "inventory_art": "art/inven/pistol.frm",
+  "native_size": [
+    70,
+    63
+  ],
+  "hd_size": [
+    280,
+    252
+  ],
+  "master_size": [
+    960,
+    960
+  ],
+  "source_generation": "assets\\generated\\inventory-10mm-pistol\\qwen21-x4-20261113",
+  "framing_crop": [
+    50,
+    87,
+    860,
+    774
+  ],
+  "opaque_pixels_clipped": 0,
+  "postprocess": "ComfyUI: remove alpha<=15 background noise; retain higher alpha; crop slightly wider at unchanged aspect ratio; Lanczos to 280x252",
+  "format": "F1HD RGBA8, exact decoded selected PNG bytes",
+  "classic_fallback": "Original pistol.frm in DAT, no loose FRM override",
+  "files": {
+    "comparison.png": "529da1e28851f0bf668479fde5b6a70667ef5cb81eaf12bde5b6ee3ece2f965a",
+    "pistol-hd-x4.png": "3b9291500ec7a0f546162b758538ce1d8d3cb3cacf2cf338bcf2b917ac44fdc1",
+    "pistol-master.png": "f2a402bea625bbb961f2de05070ad1d4e1d68f65829123da3ecf9582908ce264",
+    "pistol.rgba": "177192156e61ceb6daf7762da06070216a2e0e69614dbbfa732a352da171a9e0",
+    "postprocess-api.json": "d4565191f76e787b132dc907a5e023d069f506b26728bd8b6b9b58b8a4ab403f",
+    "postprocess-workflow.json": "67fbe41364532bdf52bf6932e56dd8e8a0c239132fbc494786f88cceb8a90c29",
+    "prompt-api.json": "c37931d8a18f9ea09b64066160f51eaf2de9563c85a7a6997ce0453f6d5d00de",
+    "prompt.txt": "dbfd3db3d0ece48d1558d61625f498de0209ad02671970546fc69e5cf795b121",
+    "README.txt": "26cd3a15864325d12a2230f36068ba5cb8fc5770337cf06ff3ead1b6f789e94b",
+    "result.json": "fb3dc5fdf608a06e247fed489af9f1c71b4bb00e4b41469ef07cc9932c5d5823",
+    "source.json": "6ec4094be1510e250c150044dd0306fcb2e1186c313dda37b9e3ada584711894",
+    "workflow.json": "a63e2107dc806f4c5676bf51ce597cf81e4b706ebc9048377a231bd5a84fe969"
+  },
+  "integration": {
+    "report": "build/hd-inventory-pistol/integration.json",
+    "executable_sha256": "1C3BC0B1C4C3E69F56FD3F22CFC1CD5C346A7F2A3D9F1800F4235B6114A9AD61",
+    "runtime_file": "data/art/hd/inventory/10mm-pistol/pistol.rgba",
+    "installation": "build/hd-inventory-pistol/installations/20261113-231553-474.json"
+  }
+}

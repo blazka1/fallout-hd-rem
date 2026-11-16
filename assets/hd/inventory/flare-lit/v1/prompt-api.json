@@ -1,0 +1,205 @@
+{
+  "1": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "fallout1_flare/ammo-17b613c07c814ebea30e1de567e97903.png"
+    }
+  },
+  "2": {
+    "class_type": "JoinImageWithAlpha",
+    "inputs": {
+      "image": [
+        "1",
+        0
+      ],
+      "alpha": [
+        "1",
+        1
+      ]
+    }
+  },
+  "3": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "2",
+        0
+      ],
+      "upscale_method": "lanczos",
+      "width": 1152,
+      "height": 960,
+      "crop": "disabled"
+    }
+  },
+  "4": {
+    "class_type": "UNETLoader",
+    "inputs": {
+      "unet_name": "qwen_image_2.1_int8_convrot.safetensors",
+      "weight_dtype": "default"
+    }
+  },
+  "5": {
+    "class_type": "CLIPLoader",
+    "inputs": {
+      "clip_name": "qwen3vl_8b_int8_convrot.safetensors",
+      "type": "qwen_image",
+      "device": "default"
+    }
+  },
+  "6": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "qwen_image_2.1_vae_bf16.safetensors"
+    }
+  },
+  "7": {
+    "class_type": "QwenImage21Cache",
+    "inputs": {
+      "model": [
+        "4",
+        0
+      ],
+      "device": "cpu",
+      "dtype": "default"
+    }
+  },
+  "8": {
+    "class_type": "TextEncodeQwenImage21",
+    "inputs": {
+      "clip": [
+        "5",
+        0
+      ],
+      "prompt": "Restore this exact Fallout 1 flare inventory icon as a detailed prerendered 2D game asset. Preserve its silhouette, diagonal direction from lower-left to upper-right, proportions, placement and muted Fallout appearance. The item is a red paper-wrapped cylindrical hand flare, not a gun or flashlight. Preserve the worn red paper, subtle ochre print-like texture, dark functional fittings and restrained upper-left lighting. No new lettering, logos, hands, scene, floor, pedestal or cast shadow. Keep the whole object inside transparent margins. This is the LIT state of the same flare. Image 1 fixes the lit silhouette, framing and original orientation; image 2 shows the finished unlit flare and must be matched for red paper color, surface texture and cylinder construction. Keep the red tube extending to upper-right. The lower-left end burns with the compact bright cream-white and warm yellow flame shown in image 1; the flame obscures the cap and casts a warm light onto the adjacent red tube. Preserve the flame footprint and readable bright core, add restrained warm edge gradation. No giant fire plume, spark shower, smoke cloud or background glow. Do not copy the unlit cap over the flame. Exactly one flare. Transparent background, including all space outside the localized flame and body.\nImportant correction: edit IMAGE 1 ONLY, retaining its exact object scale, angle, shape and bounds. Image 2 is a smaller unlit material reference, never copy its object size or composition. The cylinder must have the SAME smooth matte red paper as image 2, with gentle fine paper fibers, faded ochre markings and restrained wear. Do not add crumpled foil, bark, snakeskin, deep wrinkles, reptile scales, glossy dents or rough ridges. Keep the original compact white-yellow flame, not a large fireball. Preserve transparent margins on all four sides. The edited flare must remain within the object region of image 1.",
+      "negative_prompt": "",
+      "vae": [
+        "6",
+        0
+      ],
+      "resolution": 0,
+      "images.image_1": [
+        "3",
+        0
+      ],
+      "images.image_2": [
+        "17",
+        0
+      ]
+    }
+  },
+  "9": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "7",
+        0
+      ],
+      "positive": [
+        "8",
+        0
+      ],
+      "negative": [
+        "8",
+        1
+      ],
+      "latent_image": [
+        "8",
+        2
+      ],
+      "seed": 13112026,
+      "steps": 25,
+      "cfg": 1.0,
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "denoise": 1.0
+    }
+  },
+  "10": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "9",
+        0
+      ],
+      "vae": [
+        "6",
+        0
+      ]
+    }
+  },
+  "11": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "10",
+        0
+      ],
+      "filename_prefix": "fallout1_flare/lit/qwen/2c8491c9fd7a4feb993e7fb8b55e1440/raw"
+    }
+  },
+  "12": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "3",
+        0
+      ],
+      "filename_prefix": "fallout1_flare/lit/qwen/2c8491c9fd7a4feb993e7fb8b55e1440/reference"
+    }
+  },
+  "13": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "10",
+        0
+      ],
+      "width": 960,
+      "height": 708,
+      "x": 96,
+      "y": 120
+    }
+  },
+  "14": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "13",
+        0
+      ],
+      "upscale_method": "lanczos",
+      "width": 320,
+      "height": 236,
+      "crop": "disabled"
+    }
+  },
+  "15": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "14",
+        0
+      ],
+      "filename_prefix": "fallout1_flare/lit/qwen/2c8491c9fd7a4feb993e7fb8b55e1440/candidate"
+    }
+  },
+  "16": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "fallout1_flare/ammo-8eafa38c4c45446b912195918a8f441a.png"
+    }
+  },
+  "17": {
+    "class_type": "JoinImageWithAlpha",
+    "inputs": {
+      "image": [
+        "16",
+        0
+      ],
+      "alpha": [
+        "16",
+        1
+      ]
+    }
+  }
+}

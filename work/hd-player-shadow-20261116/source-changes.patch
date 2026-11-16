@@ -1,0 +1,263 @@
+--- a/src/game/hd_player.cc
++++ b/src/game/hd_player.cc
+@@ -25,7 +25,27 @@
+ constexpr const char* kDirectory = "data/art/hd/player-male-vault13/";
+ bool initialized = false;
+ bool enabled = true;
++bool shadowEnabled = true;
+ std::vector<HdPlayerFrame> frames;
++
++void prepareShadow(HdPlayerFrame& frame)
++{
++    const int width = frame.canvasWidth() * 4;
++    const int height = frame.canvasHeight() * 4;
++    frame.shadow.resize(static_cast<size_t>(width) * height);
++    // One stationary ground-plane footprint for the whole cycle: changing the
++    // silhouette of the swinging legs must not make this ambient shadow pulse.
++    // Keep floor(width / 2) in native coordinates, including odd-width frames.
++    const double cx = (kHdPlayerShadowPadX + frame.width / 2 - 1) * 4.0;
++    const double cy = (frame.height - 3) * 4.0;
++    for (int y = 0; y < height; ++y) for (int x = 0; x < width; ++x) {
++        const double dx = (x + 0.5 - cx) / (17.0 * 4);
++        const double dy = (y + 0.5 - cy) / (7.0 * 4);
++        const double falloff = std::max(0.0, 1.0 - dx * dx - dy * dy);
++        frame.shadow[static_cast<size_t>(y) * width + x]
++            = static_cast<unsigned char>(90.0 * falloff * falloff + 0.5);
++    }
++}
+ 
+ bool parseInteger(const std::string& token, int& value)
+ {
+@@ -111,6 +131,9 @@
+     int configured = 1;
+     config_get_value(&game_config, "remaster", "hd_player_male", &configured);
+     enabled = configured != 0;
++    int configuredShadow = 1;
++    config_get_value(&game_config, "remaster", "hd_player_shadow", &configuredShadow);
++    shadowEnabled = configuredShadow != 0;
+     const std::string registryPath = std::string(kDirectory) + "registry.tsv";
+     FILE* registry = fopen(registryPath.c_str(), "rb");
+     if (!registry) return;
+@@ -142,7 +165,10 @@
+                 || (candidate.animation == ANIM_WALK && candidate.frame >= 0 && candidate.frame < 8))) continue;
+         const int queryFrame = candidate.animation == ANIM_STAND ? 0 : candidate.frame;
+         if (findFrame(candidate.animation, candidate.direction, queryFrame) >= 0) continue;
+-        if (loadFrame(candidate, filename)) frames.push_back(std::move(candidate));
++        if (loadFrame(candidate, filename)) {
++            prepareShadow(candidate);
++            frames.push_back(std::move(candidate));
++        }
+     }
+     fclose(registry);
+ }
+@@ -158,6 +184,9 @@
+     hdPlayerInit();
+     enabled = value;
+ }
++
++bool hdPlayerShadowEnabled() { hdPlayerInit(); return shadowEnabled; }
++void hdPlayerSetShadowEnabled(bool value) { hdPlayerInit(); shadowEnabled = value; }
+ 
+ bool hdPlayerEligible(const Object* object)
+ {
+--- a/src/game/hd_player.h
++++ b/src/game/hd_player.h
+@@ -5,6 +5,10 @@
+ 
+ namespace fallout {
+ struct Object;
++
++// Render-only apron. Original FRM size, offsets and costume pixels stay intact.
++constexpr int kHdPlayerShadowPadX = 16;
++constexpr int kHdPlayerShadowPadBottom = 8;
+ 
+ // Immutable x4 RGBA data; IDs remain stable for the lifetime of this process.
+ // Idle frame -1 is one static directional pose serving CE idle frames 0..11.
+@@ -15,11 +19,16 @@
+     int direction = 0;
+     int frame = 0;
+     std::vector<unsigned char> rgba;
++    std::vector<unsigned char> shadow;
++    int canvasWidth() const { return width + 2 * kHdPlayerShadowPadX; }
++    int canvasHeight() const { return height + kHdPlayerShadowPadBottom; }
+ };
+ 
+ void hdPlayerInit();
+ bool hdPlayerEnabled();
+ void hdPlayerSetEnabled(bool enabled);
++bool hdPlayerShadowEnabled();
++void hdPlayerSetShadowEnabled(bool enabled);
+ bool hdPlayerEligible(const Object* object);
+ // Returns -1 if the object/state is unsupported or its individual frame is absent.
+ int hdPlayerResolve(const Object* object);
+--- a/src/game/hd_player_shadow_test.inc
++++ b/src/game/hd_player_shadow_test.inc
+@@ -0,0 +1,62 @@
++// Isolated contact-shadow trial: exercise real SDL output and original owners.
++void checkPlayerShadow(Report& report, const std::filesystem::path& output,
++    const std::string& label, const std::string& filename)
++{
++    const auto mask = spriteMask(obj_dude);
++    const int flags = obj_dude->flags;
++    obj_dude->flags |= OBJECT_HIDDEN;
++    tile_refresh_display();
++    const auto groundOwners = owners();
++    obj_dude->flags = flags;
++    hdPlayerSetShadowEnabled(false);
++    const auto off = refreshCapture(true);
++    const auto ownerBefore = owners();
++    hdPlayerSetShadowEnabled(true);
++    const auto on = capture(); // Toggle must also work without rebuilding owners.
++    const int pitch = win_width(display_win), worldHeight = win_height(display_win);
++    int changed = 0, brighter = 0, nonFloor = 0, distant = 0;
++    for (int y = 0; y < on.height; ++y) for (int x = 0; x < on.width; ++x) {
++        const size_t at = static_cast<size_t>(y) * on.width + x;
++        if (on.pixels[at] == off.pixels[at]) continue;
++        ++changed;
++        const int lx = x * screenGetWidth() / on.width;
++        const int ly = y * screenGetHeight() / on.height;
++        if (ly >= worldHeight || !hdWorldAssetIsFloor(groundOwners[static_cast<size_t>(ly) * pitch + lx] >> 24)) ++nonFloor;
++        if (ly < mask.y + mask.height - 14 || ly > mask.y + mask.height + 8) ++distant;
++        for (int shift : {0, 8, 16})
++            if (((on.pixels[at] >> shift) & 255) > ((off.pixels[at] >> shift) & 255)) ++brighter;
++    }
++    report.check(on.valid && off.valid && changed > 0 && brighter == 0 && nonFloor == 0 && distant == 0
++        && sameHud(on, off), label + " shadow darkens only nearby floor, preserves foreground and HUD ("
++        + std::to_string(changed) + " pixels, nonfloor " + std::to_string(nonFloor) + ")");
++    hdPlayerSetShadowEnabled(false);
++    report.check(capture().pixels == off.pixels && owners() == ownerBefore,
++        label + " shadow toggles reversibly without changing classic ownership");
++    saveCrop(off, output / ("no-shadow-" + filename), obj_dude->tile);
++    hdPlayerSetShadowEnabled(true);
++    tile_refresh_display();
++    report.check(capture().pixels == on.pixels, label + " repeated shadow draw has no accumulation");
++}
++
++void checkShadowApron(Report& report, const std::filesystem::path& output)
++{
++    const auto full = refreshCapture(true);
++    const auto mask = spriteMask(obj_dude);
++    // A dirty strip intersects the new shadow but none of the original FRM.
++    Rect strip {mask.x - 16, mask.y + mask.height, mask.x + mask.width + 16, mask.y + mask.height + 8};
++    tile_refresh_rect(&strip, obj_dude->elevation);
++    report.check(capture().pixels == full.pixels, "shadow-only dirty strip matches full redraw beyond original FRM");
++    const int flags = obj_dude->flags;
++    // Use CE's actual visibility transition: it also invalidates the wall
++    // transparency egg and the player's light footprint beyond sprite bounds.
++    Rect dirty;
++    const bool hidden = obj_turn_off(obj_dude, &dirty) == 0;
++    tile_refresh_rect(&dirty, obj_dude->elevation);
++    const auto hiddenPartial = capture(output / "hidden-partial.bmp");
++    tile_refresh_display();
++    report.check(hidden && capture(output / "hidden-full.bmp").pixels == hiddenPartial.pixels,
++        "CE obj_turn_off clears shadow, wall transparency and light with ordinary dirty rectangle");
++    obj_turn_on(obj_dude, &dirty);
++    obj_dude->flags = flags;
++    tile_refresh_display();
++}
+--- a/src/game/hd_player_test.cc
++++ b/src/game/hd_player_test.cc
+@@ -507,6 +507,8 @@
+     report.check(blockers() == originalBlockers, "skeleton preserves all40000 cave collision cells");
+ }
+ 
++#include "game/hd_player_shadow_test.inc"
++
+ int hdPlayerPreview(const char* directory)
+ {
+     const std::filesystem::path output(directory);
+@@ -565,6 +567,7 @@
+                     label + " actual render selection or missing-frame fallback");
+                 char name[64]; std::snprintf(name, sizeof(name), "%s-d%d-f%03d.bmp", animation == ANIM_STAND ? "stand" : "walk", direction, frame);
+                 report.check(saveCrop(hdActor, output / name, obj_dude->tile), label + " actual cave crop saved");
++                if (available) checkPlayerShadow(report, output, label, name);
+                 const uint64_t hash = pixelHash(hdActor);
+                 if (animation == ANIM_WALK && available) walkingHashes.insert(hash);
+                 coverage << animation << '\t' << direction << '\t' << frame << '\t' << available << '\t' << visible << '\t' << hash << '\n';
+@@ -577,6 +580,7 @@
+         "unsupported action frame and direction keys are rejected");
+ 
+     if (expected == 54) {
++        checkShadowApron(report, output);
+         setPose(ANIM_STAND, 2, 0);
+         const auto still = refreshCapture(true);
+         report.check(setPose(ANIM_STAND, 2, 11), "last original idle frame exists");
+--- a/src/game/hd_world_pilot.cc
++++ b/src/game/hd_world_pilot.cc
+@@ -927,11 +927,13 @@
+     if (!target) return false;
+     const size_t start = base - target->base;
+     const int height = static_cast<int>((target->size - start) / pitch);
++    const Rect canvas {hdRect->ulx - kHdPlayerShadowPadX, hdRect->uly,
++        hdRect->lrx + kHdPlayerShadowPadX, hdRect->lry + kHdPlayerShadowPadBottom};
+     Rect area {
+-        std::max({std::min(classicRect->ulx, hdRect->ulx), clip->ulx, 0}),
+-        std::max({std::min(classicRect->uly, hdRect->uly), clip->uly, 0}),
+-        std::min({std::max(classicRect->lrx, hdRect->lrx), clip->lrx, pitch - 1}),
+-        std::min({std::max(classicRect->lry, hdRect->lry), clip->lry, height - 1}) };
++        std::max({std::min(classicRect->ulx, canvas.ulx), clip->ulx, 0}),
++        std::max({std::min(classicRect->uly, canvas.uly), clip->uly, 0}),
++        std::min({std::max(classicRect->lrx, canvas.lrx), clip->lrx, pitch - 1}),
++        std::min({std::max(classicRect->lry, canvas.lry), clip->lry, height - 1}) };
+     if (area.ulx > area.lrx || area.uly > area.lry) return false;
+     for (int y = area.uly; y <= area.lry; y++) for (int x = area.ulx; x <= area.lrx; x++) {
+         const size_t at = start + static_cast<size_t>(y) * pitch + x;
+@@ -941,7 +943,7 @@
+         target->playerUnderLights[at] = target->lights[at];
+         target->playerUnderIndices[at] = target->base[at];
+     }
+-    playerDraw = {base, pitch, frameIndex, std::clamp(light >> 9, 0, 128), area, *hdRect};
++    playerDraw = {base, pitch, frameIndex, std::clamp(light >> 9, 0, 128), area, canvas};
+     return true;
+ }
+ 
+@@ -955,8 +957,8 @@
+         for (int y = playerDraw.clipped.uly; y <= playerDraw.clipped.lry; y++) {
+             for (int x = playerDraw.clipped.ulx; x <= playerDraw.clipped.lrx; x++) {
+                 const int u = x - playerDraw.art.ulx, v = y - playerDraw.art.uly;
+-                const uint32_t texel = u >= 0 && v >= 0 && u < frame->width && v < frame->height
+-                    ? static_cast<uint32_t>(v * frame->width + u) : 0xFFFF;
++                const uint32_t texel = u >= 0 && v >= 0 && u < frame->canvasWidth() && v < frame->canvasHeight()
++                    ? static_cast<uint32_t>(v * frame->canvasWidth() + u) : 0xFFFF;
+                 const size_t at = start + static_cast<size_t>(y) * playerDraw.pitch + x;
+                 target->owners[at] = (kPlayerOwner << 24) | (static_cast<uint32_t>(playerDraw.frame) << 16) | texel;
+                 target->lights[at] = static_cast<unsigned char>(playerDraw.light);
+@@ -1491,10 +1493,20 @@
+                             if (rgba[uv + 3]) for (int c = 0; c < 3; c++)
+                                 bg[c] = lightColors[c][underLight][rgba[uv + c]];
+                         }
++                        const int canvasX = actorTexel % actor->canvasWidth();
++                        const int canvasY = actorTexel / actor->canvasWidth();
++                        const int bodyX = canvasX - kHdPlayerShadowPadX;
++                        if (hdPlayerShadowEnabled() && hasUnder && under.floor
++                            && canvasY < actor->canvasHeight()) {
++                            const size_t shadowUV = (canvasY * 4 + samples[sy]) * actor->canvasWidth() * 4
++                                + canvasX * 4 + samples[sx];
++                            const int alpha = actor->shadow[shadowUV];
++                            for (int c = 0; c < 3; ++c) bg[c] = (bg[c] * (255 - alpha) + 127) / 255;
++                        }
+                         unsigned char out[3] {bg[0], bg[1], bg[2]};
+-                        if (actorTexel < static_cast<unsigned int>(actor->width * actor->height)) {
+-                            const size_t uv = ((actorTexel / actor->width * 4 + samples[sy]) * actor->width * 4
+-                                + actorTexel % actor->width * 4 + samples[sx]) * 4;
++                        if (bodyX >= 0 && bodyX < actor->width && canvasY < actor->height) {
++                            const size_t uv = ((canvasY * 4 + samples[sy]) * actor->width * 4
++                                + bodyX * 4 + samples[sx]) * 4;
+                             const unsigned int alpha = actor->rgba[uv + 3];
+                             for (int c = 0; c < 3; c++) out[c] = static_cast<unsigned char>(
+                                 (lightColors[c][light][actor->rgba[uv + c]] * alpha + bg[c] * (255 - alpha) + 127) / 255);
+--- a/src/game/object.cc
++++ b/src/game/object.cc
+@@ -2283,9 +2283,10 @@
+     const HdPlayerFrame* hdFrame = hdPlayerBoundsFrame(obj);
+     if (hdFrame && obj->tile != -1) {
+         const int anchorX = rect->ulx + width / 2;
+-        rect->ulx = std::min(rect->ulx, anchorX - hdFrame->width / 2);
++        rect->ulx = std::min(rect->ulx, anchorX - hdFrame->width / 2 - kHdPlayerShadowPadX);
+         rect->uly = std::min(rect->uly, rect->lry - hdFrame->height + 1);
+-        rect->lrx = std::max(rect->lrx, anchorX - hdFrame->width / 2 + hdFrame->width - 1);
++        rect->lrx = std::max(rect->lrx, anchorX - hdFrame->width / 2 + hdFrame->width - 1 + kHdPlayerShadowPadX);
++        rect->lry += kHdPlayerShadowPadBottom;
+     }
+     art_ptr_unlock(artHandle);
+ 

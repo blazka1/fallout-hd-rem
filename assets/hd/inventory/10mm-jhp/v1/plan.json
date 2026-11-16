@@ -1,0 +1,36 @@
+{
+  "item": {
+    "pid": 29,
+    "name": "10mm JHP",
+    "fid": 117440543,
+    "size": [
+      83,
+      58
+    ]
+  },
+  "model": "qwen",
+  "outputs": {
+    "11": "raw.png",
+    "12": "reference-working.png",
+    "15": "candidate.png"
+  },
+  "target": [
+    332,
+    232
+  ],
+  "working": [
+    1152,
+    960
+  ],
+  "padding_native": [
+    6,
+    9,
+    7,
+    13
+  ],
+  "source_sha256": "757193b9a3e7e5578b3534b1b64d872b8259a3042bed510599f1f95202bac07a",
+  "seed": 13112026,
+  "steps": 25,
+  "cfg": 1,
+  "denoise": 1
+}

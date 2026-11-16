@@ -1,0 +1,6 @@
+{
+  "src/game/hd_world_pilot.cc": "040ad50a3c35a541e375b1d73a11d59941e4bda6f1470fe1b4672a2fa22de6fb",
+  "src/game/hd_world_pilot.h": "1ada182f81d73a00f90ce44d9d6bb338e89afdc0c4d33fefff98bc46f6e9be02",
+  "src/game/hd_cave_variety.inc": "3c4a04d17a612cb540ddf449602fb3e10212863bd5572e995976839386bc9868",
+  "src/game/hd_world_pilot_test.cc": "9c0cb54f96a8f9c6c3141fe6c01cf1bf7c98024ccf9af34c5beaf05dbb05bb53"
+}

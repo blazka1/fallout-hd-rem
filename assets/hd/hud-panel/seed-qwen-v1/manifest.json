@@ -1,0 +1,27 @@
+{
+  "status": "installed-and-verified",
+  "source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\hud-shell-monitor\\seed-qwen-v1-20261116\\qwen\\qwen-master.png",
+  "source_sha256": "ef66c2e03583a9ab6849248006adc69a99bf08228b40fafd55591124b1b0a2a9",
+  "native": [
+    640,
+    100
+  ],
+  "master": [
+    3840,
+    600
+  ],
+  "scale": 6,
+  "label": "SKILLDEX",
+  "label_repair_box": [
+    3348,
+    78,
+    3744,
+    126
+  ],
+  "rgb_outside_label_unchanged": true,
+  "source_alpha": "Qwen 241..255 normalized to opaque for the HUD base",
+  "png_sha256": "ee74fe58a4f041ab976520e5608c329ea5cc70a4dcdcbe7e09dbb223fa5fc53e",
+  "runtime_asset_sha256": "4e4f2fcc088890416815c2797246d8cb1a118c6014ed4d102384b57b9dd3ecbf",
+  "integration_report": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\build\\hd-hud-shell-install-20261116\\integration.json",
+  "runtime_executable_sha256": "2029577319701b415d2d9547c760de64c181effcb1879132c9b568c21d4edeb2"
+}

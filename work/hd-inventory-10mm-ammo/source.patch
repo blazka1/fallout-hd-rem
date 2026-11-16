@@ -1,0 +1,140 @@
+--- before/hd_hud.cc
++++ after/hd_hud.cc
+@@ -2,6 +2,7 @@
+ #include <array>
+ #include <algorithm>
+ #include <cstdio>
++#include <cstdlib>
+ #include <cstring>
+ #include <vector>
+ #include "game/gconfig.h"
+@@ -18,10 +19,12 @@
+     SDL_Texture* cursor = nullptr;
+     bool enabled = true;
+ };
+-std::array<Asset,3> assets {{
++std::array<Asset,5> assets {{
+     {0x07000060,88,33,4,"data/art/hd/inventory/knife/knife.rgba"},
+     {0x07000004,70,63,8,"data/art/hd/inventory/10mm-pistol/pistol.rgba"},
+-    {0x0700008C,81,65,21,"data/art/hd/inventory/brass-knuckles/knuckles.rgba"}
++    {0x0700008C,81,65,21,"data/art/hd/inventory/brass-knuckles/knuckles.rgba"},
++    {0x0700001F,83,58,29,"data/art/hd/inventory/10mm-jhp/ammo.rgba"},
++    {0x0700001E,83,61,30,"data/art/hd/inventory/10mm-ap/ammo.rgba"}
+ }};
+ struct Fit { int asset, width, height; unsigned int base; };
+ std::vector<Fit> fits;
+@@ -39,7 +42,7 @@
+     unsigned int base=0;
+     const bool preview=SDL_getenv("FALLOUT_HD_HUD_PREVIEW")!=nullptr;
+     const char* pidText=preview?SDL_getenv("FALLOUT_HD_HUD_ITEM_PID"):nullptr;
+-    const int testPid=pidText && strcmp(pidText,"21")==0?21:(pidText && strcmp(pidText,"8")==0?8:4);
++    const int testPid=pidText?std::atoi(pidText):4;
+     for(size_t i=0;i<assets.size();++i) {
+         Asset& asset=assets[i];
+         fits.push_back({static_cast<int>(i),asset.width,asset.height,base});
+--- before/hd_hud_test.cc
++++ after/hd_hud_test.cc
+@@ -1,6 +1,7 @@
+ #include "game/hd_hud_test.h"
+ #include <algorithm>
+ #include <cstdint>
++#include <cstdlib>
+ #include <cstring>
+ #include <filesystem>
+ #include <fstream>
+@@ -27,6 +28,7 @@
+ namespace fallout { namespace {
+ int kItemFid = 0x07000060;
+ int kItemPid = 4;
++int itemWorldFid() { return kItemPid==29 || kItemPid==30 ? 1 : (kItemPid==21?47:(kItemPid==8?34:28)); }
+ struct Report {
+     std::ofstream log; int passed=0,failed=0;
+     explicit Report(const std::filesystem::path& p):log(p/"checks.txt"){}
+@@ -150,7 +152,7 @@
+     }
+     Object* temporary = nullptr;
+     if (!item) {
+-        if (obj_new(&temporary, kItemPid==21?47:(kItemPid==8?34:28), kItemPid) == -1 || !temporary) {
++        if (obj_new(&temporary, itemWorldFid(), kItemPid) == -1 || !temporary) {
+             report.check(false, "create real selected item PID for equipped HUD preview");
+             return;
+         }
+@@ -170,12 +172,18 @@
+     Object* selected = nullptr;
+     int hitMode = -1;
+     bool aiming = false;
+-    report.check(updated == 0 && intface_get_current_item(&selected) == 0 && selected == item
+-            && item_inv_fid(item) == kItemFid && intface_get_attack(&hitMode, &aiming) == 0 && !aiming
++    const bool selectedCorrectly=updated == 0 && intface_get_current_item(&selected) == 0 && selected == item
++            && item_inv_fid(item) == kItemFid;
++    if (kItemPid==29 || kItemPid==30) {
++        report.check(selectedCorrectly && item_get_type(item)==ITEM_TYPE_AMMO && intface_get_attack(&hitMode,&aiming)==-1,
++            "real equipped ammunition resolves correct art and retains non-weapon action");
++    } else {
++    report.check(selectedCorrectly && intface_get_attack(&hitMode, &aiming) == 0 && !aiming
+             && hitMode == (hand == HAND_RIGHT ? HIT_MODE_RIGHT_WEAPON_PRIMARY : HIT_MODE_LEFT_WEAPON_PRIMARY)
+             && item_hit_with(obj_dude, hitMode) == item && item_w_anim(obj_dude, hitMode) == (kItemPid==21?ANIM_THROW_PUNCH:(kItemPid==8?ANIM_FIRE_SINGLE:ANIM_SWING_ANIM))
+             && item_w_mp_cost(obj_dude, hitMode, false) > 0,
+         "real equipped item resolves inventory art, weapon animation and AP through intface_update_items");
++    }
+     hdHudSetItemEnabled(kItemFid,true);
+     intface_update_items(false);
+     win_draw(intfaceHdHudTestWindow());
+@@ -189,7 +197,7 @@
+     obj_dude->data.inventory = original;
+     // Drop the HUD's reference before destroying the temporary object.
+     intface_update_items(false);
+-    report.check(item_w_curr_ammo(item)==originalAmmo,"equipped HD rendering preserves weapon ammunition");
++    report.check(item_w_curr_ammo(item)==originalAmmo,"equipped HD rendering preserves ammunition quantity");
+     if (temporary) {
+         temporary->owner = nullptr;
+         report.check(obj_erase_object(temporary, nullptr) == 0, "temporary preview item removed from object registry");
+@@ -292,8 +300,9 @@
+ int hdHudPreview(const char* directory)
+ {
+     const char* pidText=SDL_getenv("FALLOUT_HD_HUD_ITEM_PID");
+-    kItemPid=pidText && std::strcmp(pidText,"21")==0?21:(pidText && std::strcmp(pidText,"8")==0?8:4);
+-    kItemFid=kItemPid==21?0x0700008C:(kItemPid==8?0x07000004:0x07000060);
++    kItemPid=pidText?std::atoi(pidText):4;
++    if(kItemPid!=4 && kItemPid!=8 && kItemPid!=21 && kItemPid!=29 && kItemPid!=30) return 53;
++    kItemFid=kItemPid==29?0x0700001F:(kItemPid==30?0x0700001E:(kItemPid==21?0x0700008C:(kItemPid==8?0x07000004:0x07000060)));
+     hdHudSetEnabled(true);
+     std::filesystem::path out(directory);std::filesystem::create_directories(out);Report report(out);
+     map_disable_bk_processes();scr_disable();cycle_disable();gmouse_disable_scrolling();mouse_hide();
+@@ -374,7 +383,7 @@
+     Object* inventoryFixture=nullptr;
+     const int priorQuantity=inven_pid_quantity_carried(obj_dude,kItemPid);
+     if(priorQuantity==0) {
+-        bool created=obj_new(&inventoryFixture,kItemPid==21?47:(kItemPid==8?34:28),kItemPid)==0 && inventoryFixture;
++        bool created=obj_new(&inventoryFixture,itemWorldFid(),kItemPid)==0 && inventoryFixture;
+         if(created) inventoryFixture->flags|=OBJECT_HIDDEN|OBJECT_NO_SAVE;
+         bool added=created && item_add_force(obj_dude,inventoryFixture,1)==0;
+         report.check(added,"create temporary real inventory item for absent starting equipment");
+--- before/inventry.cc
++++ after/inventry.cc
+@@ -1535,7 +1535,7 @@
+ int inventoryHdTest(int action, int pid)
+ {
+     if (!SDL_getenv("FALLOUT_HD_HUD_PREVIEW")) return -1;
+-    const int fid=pid==21?0x0700008C:(pid==8?0x07000004:0x07000060);
++    const int fid=pid==29?0x0700001F:(pid==30?0x0700001E:(pid==21?0x0700008C:(pid==8?0x07000004:0x07000060)));
+     static bool restoreIso=false;
+     static CacheEntry* cursorKey=nullptr;
+     if(action==7) {
+@@ -1566,7 +1566,15 @@
+         i_rhand=nullptr;
+     }
+     if(action==3 || action==4) display_stats();
+-    display_inventory(action==2?pud->length:0,-1,INVENTORY_WINDOW_TYPE_NORMAL);
++    // Adding an absent-item fixture can make seven entries for six visible
++    // slots. Returning it from the hand appends it: scroll the test view to
++    // keep the target visible instead of mistaking offscreen art for failure.
++    int first=0;
++    for(int i=0;i<pud->length;++i) if(pud->items[i].item->pid==pid) {
++        if(i>=inven_cur_disp) first=i-inven_cur_disp+1;
++        break;
++    }
++    display_inventory(action==2?pud->length:first,-1,INVENTORY_WINDOW_TYPE_NORMAL);
+     if(action==6) {
+         for(int i=0;i<pud->length && i<inven_cur_disp;++i) if(pud->items[i].item->pid==pid)
+             display_inventory_info(pud->items[i].item,99999,win_get_buf(i_wid)+(INVENTORY_SCROLLER_Y_PAD+i*INVENTORY_SLOT_HEIGHT)*499+INVENTORY_SCROLLER_X_PAD,499,false);

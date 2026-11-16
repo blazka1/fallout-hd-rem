@@ -1,0 +1,31 @@
+{
+  "key": "bones",
+  "asset_id": 240,
+  "source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\v13ent-floor-decor\\v1-20261112\\bones.png",
+  "source_sha256": "495cafb39f9f278e43c1df6d4c298d0269f18757aefe4e2066b258ee067bb901",
+  "crop": [
+    146,
+    226,
+    1225,
+    591
+  ],
+  "native_dimensions": [
+    54,
+    26
+  ],
+  "dimensions": [
+    216,
+    104
+  ],
+  "gain": 0.76,
+  "desaturation": 0.65,
+  "save_node": "20",
+  "file": "bones.png",
+  "sha256": "abcfe693467c0199ca84629169cfd43db58795bf84c5eeb4858e9d1fe2486cba",
+  "opaque_native_pixels": 635,
+  "render_only": true,
+  "game_object": false,
+  "collision": false,
+  "registration": "native pixel dimensions; tile center/bottom anchor plus placement offset",
+  "workflow": "assets\\generated\\v13ent-floor-decor\\integration-v1-20261112\\workflow.json"
+}

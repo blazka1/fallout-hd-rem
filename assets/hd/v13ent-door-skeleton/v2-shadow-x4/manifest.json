@@ -1,0 +1,40 @@
+{
+  "component": "v13ent-door-skeleton",
+  "operation": "ComfyUI Lanczos full-canvas mapping to native67x41 x4; lossless RGBA packaging",
+  "source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\v13ent-door-skeleton-qwen\\trial-v1-20261113\\contact-shadow-v6\\qwen21-skeleton-raw.png",
+  "source_sha256": "26229b1c892fb756ca9a1cf805768a4a6204f979fd677355f85ba12e1ffc17cf",
+  "png_sha256": "d78a58a1432680ffc9a288727c247ff64a729765e03c64c5b512ac193b02e2c9",
+  "rgba_sha256": "a68825f10546653e2c67f3be6028c931700ac613a764a2e17ec3e18fa0969d8c",
+  "native_dimensions": [
+    67,
+    41
+  ],
+  "hd_dimensions": [
+    268,
+    164
+  ],
+  "scale": 4,
+  "fid": 113,
+  "pid": 211,
+  "frame": 0,
+  "tile": 17488,
+  "elevation": 0,
+  "direction_offset": [
+    20,
+    30
+  ],
+  "frame_shift": [
+    0,
+    0
+  ],
+  "anchor_native": [
+    13,
+    10
+  ],
+  "alpha": "native soft alpha retained; no original-mask clipping",
+  "geometry": "original full FRM canvas and object placement retained; no crop or added offsets",
+  "aspect_mapping": "1312x800 generated canvas mapped to268x164 (less than0.5percent aspect correction)",
+  "comfy_prompt_id": "3eaa5f03-45b6-439c-9605-e8e396279753",
+  "installed": true,
+  "integration_receipt": "build/hd-door-skeleton/integration-v19-shadow.json"
+}

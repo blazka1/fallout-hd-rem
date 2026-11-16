@@ -1,0 +1,88 @@
+{
+  "scope": "All one-frame, single-image non-block scenery/wall art and visible non-default floor art referenced by original V13ENT.MAP; no animated/critter/items/misc replacements",
+  "resource_count": 159,
+  "by_category": {
+    "scenery": 32,
+    "tiles": 57,
+    "walls": 70
+  },
+  "map_root_objects": 1494,
+  "covered_object_instances": 603,
+  "covered_floor_cells": 7549,
+  "nondefault_roof_resources": 0,
+  "source_reference_sample_assets": 18,
+  "excluded_wall_scenery": [
+    {
+      "path": "art/scenery/block.frm",
+      "instances": 43,
+      "fids": [
+        33554453
+      ],
+      "pids": [
+        33554481,
+        33554499,
+        33554573,
+        33554776
+      ],
+      "width": 1,
+      "height": 1,
+      "frames": 1,
+      "reason": "1x1 engine blocker"
+    },
+    {
+      "path": "art/scenery/v13secr2.frm",
+      "instances": 1,
+      "fids": [
+        33554713
+      ],
+      "pids": [
+        33554605
+      ],
+      "width": 189,
+      "height": 157,
+      "frames": 15,
+      "reason": "animation"
+    },
+    {
+      "path": "art/scenery/v13secur.frm",
+      "instances": 1,
+      "fids": [
+        33554715
+      ],
+      "pids": [
+        33554440
+      ],
+      "width": 151,
+      "height": 142,
+      "frames": 15,
+      "reason": "animation"
+    },
+    {
+      "path": "art/walls/block.frm",
+      "instances": 454,
+      "fids": [
+        50331669
+      ],
+      "pids": [
+        50332269,
+        50332270
+      ],
+      "width": 1,
+      "height": 1,
+      "frames": 1,
+      "reason": "1x1 engine blocker"
+    }
+  ],
+  "object_instances_by_art_type": {
+    "3": 905,
+    "2": 197,
+    "5": 371,
+    "1": 20,
+    "0": 3
+  },
+  "limitations": [
+    "Referenced does not guarantee on-screen visibility: runtime flags, occlusion and lighting still apply.",
+    "No script-created dependencies, critters, inventory items, map markers or animated doors are included.",
+    "This is exact source export, not HD generation or CE integration."
+  ]
+}

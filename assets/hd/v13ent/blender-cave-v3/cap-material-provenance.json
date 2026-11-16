@@ -1,0 +1,12 @@
+{
+  "source": "cap-material.blend",
+  "shader": "Exact accepted corner rock shader on a horizontal plane",
+  "registration": "48,-12 / 32,24 lattice, same quarter-pixel world phase on caps and crowns",
+  "periodic_decomposition": true,
+  "median_rgb": [
+    123.45115323892719,
+    124.83485379165322,
+    126.02044005579569
+  ],
+  "translation_checks": 2
+}

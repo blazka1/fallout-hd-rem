@@ -1,0 +1,7 @@
+{
+  "source_differences": [
+    "game/hd_wall_geometry_test.inc"
+  ],
+  "exe_sha256": "504f175ad1fccd721e61bded222400afc65bca2c680b84ece5e90282a6701ef7",
+  "purpose": "Existing diagnostics-only assertion for identical wall base/placement textures; not installed in live runtime"
+}

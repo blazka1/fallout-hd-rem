@@ -1,0 +1,61 @@
+{
+  "pid": 4,
+  "name": "Knife",
+  "message_id": 400,
+  "prototype": {
+    "pid": 4,
+    "path": "proto/items/00000012.pro",
+    "fid": 28,
+    "subtype": 3,
+    "sha256": "ac7cb219b73aa3ba3436b0762bd361bd46301e454eec6ee7fcfa589f13103c00"
+  },
+  "inventory_fid": 117440608,
+  "source_art": "art/inven/oknife.frm",
+  "frm_sha256": "cb83d29ba45ac19b00baa123eaed2c2397248cab8c5326d7bf225c582dfccb6f",
+  "source_png_sha256": "34b87054d2d16239e295903b6706e37ce8dd14a38e4c0cab0983c5389245a39b",
+  "native_size": [
+    88,
+    33
+  ],
+  "metadata": {
+    "version": 3,
+    "stored_fps": 0,
+    "action_frame": 0,
+    "frame_count": 1,
+    "direction_x": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "direction_y": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "direction_offsets": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "data_size": 2916,
+    "frame_size": [
+      88,
+      33
+    ],
+    "frame_shift": [
+      0,
+      0
+    ],
+    "decoder": "Task-local legacy static FRM reader, verified against CE art.cc"
+  },
+  "preserved": "Original DAT, runtime and game resources are unchanged."
+}

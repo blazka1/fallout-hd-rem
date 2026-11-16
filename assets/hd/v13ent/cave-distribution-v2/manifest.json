@@ -1,0 +1,143 @@
+{
+  "status": "installed-and-verified",
+  "records": [
+    {
+      "id": "geo-rock-01",
+      "asset_id": 224,
+      "source": "assets\\generated\\v13ent-cave-variety\\style-match-v2-20261115\\selected\\geo-rock-01.png",
+      "source_sha256": "e9a3bd28ee210e96ae427a7c4918b105f69fead4d0a51c5591f1805ae4a26839",
+      "rgba_sha256": "14f7e4e6c1afa0ebcdb2d1aab41d06846d5249f7b95afeccce6e0261f2b213d5",
+      "alpha_border_pixels": 0
+    },
+    {
+      "id": "geo-rock-02",
+      "asset_id": 225,
+      "source": "assets\\generated\\v13ent-cave-variety\\style-match-v2-20261115\\selected\\geo-rock-02.png",
+      "source_sha256": "a06fd1333cfd2764d2eb705ed1e6e3a89e7f7b5e1abd121139420de9bd8e15fd",
+      "rgba_sha256": "c659f548f7ccb688942729fae24f28cdcf86554a193f395b52d09bc3bdd1ffa9",
+      "alpha_border_pixels": 0
+    },
+    {
+      "id": "geo-rock-03",
+      "asset_id": 226,
+      "source": "assets\\generated\\v13ent-cave-variety\\style-match-v2-20261115\\selected\\geo-rock-03.png",
+      "source_sha256": "bf46727d6f564644571cbe14a0d617e00b326e25bc003666542eac1b85773666",
+      "rgba_sha256": "5b33bb619a005dcda1c8cbaf92efe79f9647e1ded88c1a7558c7af96cbde0db9",
+      "alpha_border_pixels": 0
+    },
+    {
+      "id": "geo-rock-04",
+      "asset_id": 227,
+      "source": "assets\\generated\\v13ent-cave-variety\\style-match-v2-20261115\\selected\\geo-rock-04.png",
+      "source_sha256": "4dc16f749200b801749abed1cf81ae911ee06abbc81eeeae012d7cc521ff196a",
+      "rgba_sha256": "de4dbd8db661c0b3507a150791419e38951cb042a21e9970b8d3a99abd331437",
+      "alpha_border_pixels": 0
+    },
+    {
+      "id": "geo-rock-05",
+      "asset_id": 228,
+      "source": "assets\\generated\\v13ent-cave-variety\\style-match-v2-20261115\\selected\\geo-rock-05.png",
+      "source_sha256": "a0411240d8ec60402d3b01cd098d7214e6ec07d80469a8bc33c29d1906a8b210",
+      "rgba_sha256": "74ebc25f277135dc5f76a7f3da24afc0cd8f749b124e8b228022cee5db584886",
+      "alpha_border_pixels": 0
+    },
+    {
+      "id": "geo-rock-06",
+      "asset_id": 229,
+      "source": "assets\\generated\\v13ent-cave-variety\\style-match-v2-20261115\\selected\\geo-rock-06.png",
+      "source_sha256": "cb1c6763dff9f847ce670715fe7b9ea6185a41eb6671bfe0fe1133a7e6608b0b",
+      "rgba_sha256": "66adfdb8911dad3b965bb147dd87f998b683ac6e9776e6fe14bf71b55b0407b7",
+      "alpha_border_pixels": 0
+    },
+    {
+      "id": "geo-rock-07",
+      "asset_id": 230,
+      "source": "assets\\generated\\v13ent-cave-variety\\style-match-v2-20261115\\selected\\geo-rock-07.png",
+      "source_sha256": "6c7e3f2c19889906a5426af7e0b2f1bfdbe43a8b0ec7941b401dc458dea53173",
+      "rgba_sha256": "2b166fbf69ffe13e0a11c27f977b1633e1ddcff1c77094af455fca728ae24653",
+      "alpha_border_pixels": 0
+    },
+    {
+      "id": "geo-rock-08",
+      "asset_id": 231,
+      "source": "assets\\generated\\v13ent-cave-variety\\style-match-v2-20261115\\selected\\geo-rock-08.png",
+      "source_sha256": "b666bed23fd3eb9ae96530c6c1d6ff55f65ee5c12c5b68c00c76eba549e7d733",
+      "rgba_sha256": "78a812ed4f5c5d47b199f6910d7e3857aca12186acb1ac992c696d8289482b0e",
+      "alpha_border_pixels": 0
+    },
+    {
+      "id": "geo-rock-09",
+      "asset_id": 232,
+      "source": "assets\\generated\\v13ent-cave-variety\\style-match-v2-20261115\\selected\\geo-rock-09.png",
+      "source_sha256": "ee06e670420a48831ad52f35497be8f8f4ebd4e5fcde1f248e468f00a28331f9",
+      "rgba_sha256": "68b4bd2c781309d567984b96924069d8774d7cb05da160df3c7695b752283514",
+      "alpha_border_pixels": 0
+    },
+    {
+      "id": "geo-rock-10",
+      "asset_id": 233,
+      "source": "assets\\generated\\v13ent-cave-variety\\style-match-v2-20261115\\selected\\geo-rock-10.png",
+      "source_sha256": "cccab927a6b0b227a20995367e650c36598cf8ebef44dde9d5cd197304ab8714",
+      "rgba_sha256": "6601b6ecb8a58afb6f895b7f385b82fc4a6fe4534dc807d72b4984314c3e52d5",
+      "alpha_border_pixels": 0
+    },
+    {
+      "id": "geo-rock-11",
+      "asset_id": 234,
+      "source": "assets\\generated\\v13ent-cave-variety\\style-match-v2-20261115\\selected\\geo-rock-11.png",
+      "source_sha256": "c65ee0163901f034eb4da075cca0ae049c069502225d12cc89002160e348e3bc",
+      "rgba_sha256": "167169dae2375936b9ddc2e0ab68df89fbbf52e485a8d67accbc8fafb4cf1da2",
+      "alpha_border_pixels": 0
+    },
+    {
+      "id": "geo-rock-12",
+      "asset_id": 235,
+      "source": "assets\\generated\\v13ent-cave-variety\\style-match-v2-20261115\\selected\\geo-rock-12.png",
+      "source_sha256": "b3e9b0e0da90327ff91aa07c0c75f1869ff1e0495c35d114637b4b520ff2d829",
+      "rgba_sha256": "6d6dda50cb8134c1609ddceae45fd100c384049106b7f67881697d5e04803465",
+      "alpha_border_pixels": 0
+    },
+    {
+      "id": "geo-formation-01",
+      "asset_id": 236,
+      "source": "assets\\generated\\v13ent-cave-variety\\style-match-v2-20261115\\selected\\geo-formation-01.png",
+      "source_sha256": "8a8e0813e8f1605e7a610ed8d0d8903aa775a7a4df67975542efb2eb8c02a7c5",
+      "rgba_sha256": "802bb88b7c4d9d4ad2d97b1beca5047a84fb645301143972f6e5ac79427d9a7e",
+      "alpha_border_pixels": 0
+    },
+    {
+      "id": "geo-formation-02",
+      "asset_id": 237,
+      "source": "assets\\generated\\v13ent-cave-variety\\style-match-v2-20261115\\selected\\geo-formation-02.png",
+      "source_sha256": "10e81efc8e86edef9d82d9321c93e098c6b818571de9867506a506b701202e88",
+      "rgba_sha256": "cae2b994c66f90e229d61030a915616e033120e9123f80de3088b1bf281f85f3",
+      "alpha_border_pixels": 0
+    },
+    {
+      "id": "geo-formation-03",
+      "asset_id": 238,
+      "source": "assets\\generated\\v13ent-cave-variety\\style-match-v2-20261115\\selected\\geo-formation-03.png",
+      "source_sha256": "b71b5ca51ae0f315d6cdfa00ae60a1cd930aa869af98b154635b04e16a306c1e",
+      "rgba_sha256": "f91e427b4412a17ad641dc27683b5f2aff260568801bb8283eb71166efe7e690",
+      "alpha_border_pixels": 0
+    },
+    {
+      "id": "geo-formation-04",
+      "asset_id": 239,
+      "source": "assets\\generated\\v13ent-cave-variety\\style-match-v2-20261115\\selected\\geo-formation-04.png",
+      "source_sha256": "7283dfb1f3244c8bd0fc7a04d5545742ec3714a52a590b0370aa7acd09fcebe5",
+      "rgba_sha256": "da5595e4b65ce6b601a369a025262d8e4c7c59461b47b1b6294b9020d975e3d5",
+      "alpha_border_pixels": 0
+    }
+  ],
+  "placements": 76,
+  "old_appearances": 40,
+  "new_appearances": 76,
+  "executable_modified": false,
+  "integration": "build/hd-cave-style-v2-20261115/integration.json",
+  "checks": {
+    "world": 463,
+    "terminal": 27,
+    "failed": 0
+  }
+}

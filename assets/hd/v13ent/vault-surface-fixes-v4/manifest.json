@@ -1,0 +1,31 @@
+{
+  "asset_id": 16,
+  "png_sha256": "55548ae25ea4c1fbd59794b112a4ed91e97842f6cdd71427e56df7e9b10a2074",
+  "rgba_sha256": "d713bf512ff2e335ccf9d6cfc0e2f3a1c133c48f6081637f8bbb40ab070b1eef",
+  "decoded_rgba_sha256": "20da84f148962ff634c8cf6675fbb7576e5851f7645fa37b2716e55add60cab8",
+  "source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\v13ent-vault\\surface-fixes-v4-20261114\\prepared-v2",
+  "comfy_prompt": "052812c4-cb15-4e53-9255-038d8b573563",
+  "provenance": {
+    "source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\v13ent\\vault-clean-trim-v3\\asset-016.png",
+    "trim_prompt": "ed22d58c-bf4d-418b-8e3f-d31107e96c3e",
+    "recess_prompt": "27822874-1025-43f0-b19b-c24bf7757e17",
+    "trim_brightness_factor": 0.96,
+    "adjacent_texture_crop": [
+      196,
+      600,
+      72,
+      144
+    ],
+    "adjacent_texture_weight": 0.7,
+    "recess_crop": [
+      224,
+      576,
+      192,
+      224
+    ]
+  },
+  "alpha_exact": true,
+  "outside_selection_exact": true,
+  "changed_pixels": 61909,
+  "method": "Local Qwen 2.1: smooth neutral interior-facing trim; rusty recess restored and blended 70 percent with adjacent same-panel texture to match pit scale. Exact user selections composited in ComfyUI"
+}

@@ -1,0 +1,35 @@
+{
+  "verification": "Current paths and byte sizes checked; hashes copied from prior verified receipts, not recomputed today.",
+  "models": [
+    {
+      "path": "C:\\Users\\Administrator\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\models\\diffusion_models\\qwen_image_2.1_int8_convrot.safetensors",
+      "bytes": 7256783064,
+      "previously_recorded_sha256": "cb74113cb03faecd79611b01fd7fd642f0aa60d6f0b95086abee214d75eaa57d",
+      "size_matches_record": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\models\\text_encoders\\qwen3vl_8b_int8_convrot.safetensors",
+      "bytes": 9350798360,
+      "previously_recorded_sha256": "8bfd0f6e12abf2d2d697ecc888e5e90b0d6741d6708f05799f53afa560452e8f",
+      "size_matches_record": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\models\\vae\\qwen_image_2.1_vae_bf16.safetensors",
+      "bytes": 675509688,
+      "previously_recorded_sha256": "bb21f7473051e1ac368515dd3f2e15cd44d7a11748ee8823e1ddca3e4876b7c9",
+      "size_matches_record": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\models\\diffusion_models\\seedvr2_3b_int8_convrot.safetensors",
+      "bytes": 3458259704,
+      "previously_recorded_sha256": "c3dec8bcc5916843a8a858572970597462e1f2dc598d6dfd818f6cd40f53a157",
+      "size_matches_record": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\models\\vae\\seedvr2_ema_vae_fp16.safetensors",
+      "bytes": 501324814,
+      "previously_recorded_sha256": "20678548f420d98d26f11442d3528f8b8c94e57ee046ef93dbb7633da8612ca1",
+      "size_matches_record": true
+    }
+  ]
+}

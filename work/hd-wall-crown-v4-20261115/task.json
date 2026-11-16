@@ -1,0 +1,178 @@
+{
+  "status": "installed and verified",
+  "component": "wall-crown-v4",
+  "render_images": 427,
+  "registered_wall_placements": 417,
+  "approved_door_wall": 1,
+  "cap_images": 9,
+  "source_wall_types": 62,
+  "checks": {
+    "passed": 1119,
+    "failed": 0,
+    "map": "V13ENT.MAP",
+    "loaded_resources": 247,
+    "scene_resources_seen": 76,
+    "decoration_images": 8,
+    "decoration_placements": 19,
+    "largest_vault_texel_offset": 72925,
+    "floor_instances": 96,
+    "rock_instances": 13,
+    "collision_hexes_checked": 120000,
+    "blocked_hexes": 1069,
+    "collision_hash": "18093902727436680495",
+    "path_routes_checked": 12,
+    "floor_visible_pixels": 20342,
+    "rock_visible_pixels": 6796,
+    "front_actor_tile": 20106,
+    "rear_actor_tile": 22286,
+    "capture_width": 1920,
+    "capture_height": 1080
+  },
+  "comparison": {
+    "pairs": [
+      {
+        "file": "build\\hd-wall-crown-v4-20261115\\review\\entrance-hd-comparison.png",
+        "before": "build\\hd-wall-crown-v4-20261115\\before\\entrance-hd.png",
+        "after": "build\\hd-wall-crown-v4-20261115\\after-v1\\entrance-hd.png",
+        "crop": [
+          0,
+          0,
+          1920,
+          880
+        ],
+        "scale": 0.5,
+        "color_or_brightness_adjustments": false
+      },
+      {
+        "file": "build\\hd-wall-crown-v4-20261115\\review\\cave-22662-hd-comparison.png",
+        "before": "build\\hd-wall-crown-v4-20261115\\before\\cave-22662-hd.png",
+        "after": "build\\hd-wall-crown-v4-20261115\\after-v1\\cave-22662-hd.png",
+        "crop": [
+          640,
+          55,
+          1740,
+          675
+        ],
+        "scale": 1.0,
+        "color_or_brightness_adjustments": false
+      }
+    ],
+    "classic_frames": [
+      {
+        "file": "actor-behind-classic.png",
+        "exact": true
+      },
+      {
+        "file": "actor-front-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-16290-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-18721-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-22662-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-24097-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-27075-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-27871-classic.png",
+        "exact": true
+      },
+      {
+        "file": "entrance-classic-4k.png",
+        "exact": true
+      },
+      {
+        "file": "entrance-classic.png",
+        "exact": true
+      },
+      {
+        "file": "fade-dark25-classic.png",
+        "exact": true
+      },
+      {
+        "file": "fade-dark50-classic.png",
+        "exact": true
+      },
+      {
+        "file": "fade-normal-classic.png",
+        "exact": true
+      },
+      {
+        "file": "fade-white-classic.png",
+        "exact": true
+      },
+      {
+        "file": "fade-white50-classic.png",
+        "exact": true
+      },
+      {
+        "file": "grey-buffer-classic.png",
+        "exact": true
+      },
+      {
+        "file": "overlay-classic.png",
+        "exact": true
+      },
+      {
+        "file": "viewport-classic.png",
+        "exact": true
+      }
+    ],
+    "classic_all_exact": true,
+    "checks": {
+      "passed": 1119,
+      "failed": 0,
+      "map": "V13ENT.MAP",
+      "loaded_resources": 247,
+      "scene_resources_seen": 76,
+      "decoration_images": 8,
+      "decoration_placements": 19,
+      "largest_vault_texel_offset": 72925,
+      "floor_instances": 96,
+      "rock_instances": 13,
+      "collision_hexes_checked": 120000,
+      "blocked_hexes": 1069,
+      "collision_hash": "18093902727436680495",
+      "path_routes_checked": 12,
+      "floor_visible_pixels": 20342,
+      "rock_visible_pixels": 6796,
+      "front_actor_tile": 20106,
+      "rear_actor_tile": 22286,
+      "capture_width": 1920,
+      "capture_height": 1080
+    }
+  },
+  "audit": {
+    "render_images": 427,
+    "wall_placements": 418,
+    "cap_images": 9,
+    "alpha_exact": true,
+    "registry_exact": true,
+    "overlap_pairs": 134,
+    "overlap_pixels": 1493488,
+    "overlap_max_rgb_difference": 0,
+    "cap_lattice_exact": true,
+    "variant_cap_edges_exact": true,
+    "other_asset_files_unchanged": 485,
+    "cap_rgb_mean": 94.82254028320312,
+    "top_has_stone_material": true
+  },
+  "executable_changed": false,
+  "executable_sha256": "e5be09122b7041d430bd5941e61e6daa0141927f139081827973c54880b9c064",
+  "other_runtime_files_unchanged": 571,
+  "backup": "build\\backups\\before-wall-crown-v4-20261115",
+  "material_preview": true
+}

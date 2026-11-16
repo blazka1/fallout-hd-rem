@@ -1,0 +1,15 @@
+{
+  "box": [
+    2892,
+    84,
+    5622,
+    1449
+  ],
+  "scale": 4,
+  "original_registration_retained": true,
+  "original_alpha_stamped": false,
+  "mesh": "One continuous sculpt with shared vertex indices; cap and face share vertices",
+  "material": "Accepted blender-corner-v2 rock material",
+  "variation": "continuous broad ridges plus seeded sparse open faults",
+  "protected_door_object": 252
+}

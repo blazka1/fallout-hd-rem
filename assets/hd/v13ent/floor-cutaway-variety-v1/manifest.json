@@ -1,0 +1,1114 @@
+{
+  "status": "installed-and-verified",
+  "component": "floor-cutaway-variety-v1",
+  "additional_images": 30,
+  "floor_base_types": 8,
+  "floor_total_appearances": 32,
+  "cutaway_base_types": 2,
+  "cutaway_total_appearances": 8,
+  "records": [
+    {
+      "base_id": 1,
+      "slot": 1,
+      "png": "tile-001-v1.png",
+      "file": "tile-001-v1.rgba",
+      "donor": "assets\\generated\\v13ent-floor-cutaway\\variety-v1-20261115\\qwen\\floor-1\\raw.png",
+      "donor_sha256": "e597fb6187adf61688a0f9fe4dc550e73c58418997fb693bff99b2a0176edcaf",
+      "crop": [
+        180,
+        76,
+        320,
+        144
+      ],
+      "target_mean": [
+        55.87234042553192,
+        55.87171464330413,
+        55.868820400500624
+      ],
+      "raw_mean": [
+        62.39995659722222,
+        62.33973524305556,
+        56.84809027777778
+      ],
+      "exact_edge_hd_pixels": 12,
+      "feather_hd_pixels": 20,
+      "source_png_sha256": "42da9be18ae866fee76a2aa5756f35d5e5bf76f2ce87bbe656d5ece57ee17b7c",
+      "rgba_sha256": "678e4456e52ca276579964da29a59837818a9772d93464beb225bc8ec7a6a133",
+      "changed_fraction": 0.7399739583333333,
+      "mean_rgb": [
+        56.59637586805555,
+        56.67927517361111,
+        56.680316840277776
+      ]
+    },
+    {
+      "base_id": 1,
+      "slot": 2,
+      "png": "tile-001-v2.png",
+      "file": "tile-001-v2.rgba",
+      "donor": "assets\\generated\\v13ent-floor-cutaway\\variety-v1-20261115\\qwen\\floor-2\\raw.png",
+      "donor_sha256": "641f5770e4dfea3b02c63346da318579c31eef8e9747030a7ae335659d524e82",
+      "crop": [
+        293,
+        123,
+        320,
+        144
+      ],
+      "target_mean": [
+        55.87234042553192,
+        55.87171464330413,
+        55.868820400500624
+      ],
+      "raw_mean": [
+        56.77575954861111,
+        56.48745659722222,
+        52.80017361111111
+      ],
+      "exact_edge_hd_pixels": 12,
+      "feather_hd_pixels": 20,
+      "source_png_sha256": "7b7589f99292d62d5228b6ece7ec6bc3a4ede39396cc8a2e7dde9414fca9dd4c",
+      "rgba_sha256": "1924b78639fee873a6f286f285e1b1c65088edaea710ba2d626013bdc05dc95e",
+      "changed_fraction": 0.7350694444444444,
+      "mean_rgb": [
+        56.4875,
+        56.4619140625,
+        56.537022569444446
+      ]
+    },
+    {
+      "base_id": 1,
+      "slot": 3,
+      "png": "tile-001-v3.png",
+      "file": "tile-001-v3.rgba",
+      "donor": "assets\\generated\\v13ent-floor-cutaway\\variety-v1-20261115\\qwen\\floor-3\\raw.png",
+      "donor_sha256": "5652d54985b3b65e0b4f8d39279c7ff2b8fff137c19145255a938a9cf95c6abb",
+      "crop": [
+        406,
+        170,
+        320,
+        144
+      ],
+      "target_mean": [
+        55.87234042553192,
+        55.87171464330413,
+        55.868820400500624
+      ],
+      "raw_mean": [
+        56.692708333333336,
+        56.37623697916667,
+        52.87222222222222
+      ],
+      "exact_edge_hd_pixels": 12,
+      "feather_hd_pixels": 20,
+      "source_png_sha256": "023e63b24e317a1a201bcaec23193c2bc5d9aa354fcb75efb5f863f3f3fbb1fe",
+      "rgba_sha256": "787be2bf3e1adc6077f54910a2a118f7f2ad58474cc60585db4928652ba1a3c8",
+      "changed_fraction": 0.7430121527777778,
+      "mean_rgb": [
+        56.5005859375,
+        56.55889756944445,
+        56.63446180555555
+      ]
+    },
+    {
+      "base_id": 34,
+      "slot": 1,
+      "png": "tile-034-v1.png",
+      "file": "tile-034-v1.rgba",
+      "donor": "assets\\generated\\v13ent-floor-cutaway\\variety-v1-20261115\\qwen\\floor-1\\raw.png",
+      "donor_sha256": "e597fb6187adf61688a0f9fe4dc550e73c58418997fb693bff99b2a0176edcaf",
+      "crop": [
+        276,
+        408,
+        320,
+        144
+      ],
+      "target_mean": [
+        55.585341051314145,
+        55.58275969962453,
+        55.580256570713395
+      ],
+      "raw_mean": [
+        63.58465711805555,
+        63.496744791666664,
+        58.12970920138889
+      ],
+      "exact_edge_hd_pixels": 12,
+      "feather_hd_pixels": 20,
+      "source_png_sha256": "21e8ffbc5bad4875cb32d9612559707560f02ed064d3daceff4d7e8e7651d8e9",
+      "rgba_sha256": "a230085d3e0f92cbf107ab717a0afd30acc42f429baf1e83329d65a1f87829bf",
+      "changed_fraction": 0.7405381944444445,
+      "mean_rgb": [
+        56.26558159722222,
+        56.24231770833333,
+        56.279079861111114
+      ]
+    },
+    {
+      "base_id": 34,
+      "slot": 2,
+      "png": "tile-034-v2.png",
+      "file": "tile-034-v2.rgba",
+      "donor": "assets\\generated\\v13ent-floor-cutaway\\variety-v1-20261115\\qwen\\floor-2\\raw.png",
+      "donor_sha256": "641f5770e4dfea3b02c63346da318579c31eef8e9747030a7ae335659d524e82",
+      "crop": [
+        389,
+        455,
+        320,
+        144
+      ],
+      "target_mean": [
+        55.585341051314145,
+        55.58275969962453,
+        55.580256570713395
+      ],
+      "raw_mean": [
+        56.22122395833333,
+        56.0037109375,
+        52.18524305555555
+      ],
+      "exact_edge_hd_pixels": 12,
+      "feather_hd_pixels": 20,
+      "source_png_sha256": "73b164ea5ab5d616d14892d6440232406bf4705467461484dd73c8aa1b5a8ec0",
+      "rgba_sha256": "576c2655dfe82c19491330850534a5aab0c9bbf1dc9fc7e4918ee2adacbc274f",
+      "changed_fraction": 0.7371527777777778,
+      "mean_rgb": [
+        56.236111111111114,
+        56.23365885416667,
+        56.1556640625
+      ]
+    },
+    {
+      "base_id": 34,
+      "slot": 3,
+      "png": "tile-034-v3.png",
+      "file": "tile-034-v3.rgba",
+      "donor": "assets\\generated\\v13ent-floor-cutaway\\variety-v1-20261115\\qwen\\floor-3\\raw.png",
+      "donor_sha256": "5652d54985b3b65e0b4f8d39279c7ff2b8fff137c19145255a938a9cf95c6abb",
+      "crop": [
+        502,
+        502,
+        320,
+        144
+      ],
+      "target_mean": [
+        55.585341051314145,
+        55.58275969962453,
+        55.580256570713395
+      ],
+      "raw_mean": [
+        56.33940972222222,
+        55.84904513888889,
+        52.08257378472222
+      ],
+      "exact_edge_hd_pixels": 12,
+      "feather_hd_pixels": 20,
+      "source_png_sha256": "3a6c3523f3b3fc62755bb1b3c4fe6e26da7a438292e154506e4e03991a6d32a5",
+      "rgba_sha256": "3e2320a8bf0043410e511f38cc96d4231f0aec29d2faa75f37ba42abdc3ffd57",
+      "changed_fraction": 0.7439887152777778,
+      "mean_rgb": [
+        56.25154079861111,
+        56.22992621527778,
+        56.071484375
+      ]
+    },
+    {
+      "base_id": 35,
+      "slot": 1,
+      "png": "tile-035-v1.png",
+      "file": "tile-035-v1.rgba",
+      "donor": "assets\\generated\\v13ent-floor-cutaway\\variety-v1-20261115\\qwen\\floor-1\\raw.png",
+      "donor_sha256": "e597fb6187adf61688a0f9fe4dc550e73c58418997fb693bff99b2a0176edcaf",
+      "crop": [
+        343,
+        437,
+        320,
+        144
+      ],
+      "target_mean": [
+        56.32415519399249,
+        56.325445869837296,
+        56.319892052565706
+      ],
+      "raw_mean": [
+        63.735590277777774,
+        63.675043402777774,
+        58.325520833333336
+      ],
+      "exact_edge_hd_pixels": 12,
+      "feather_hd_pixels": 20,
+      "source_png_sha256": "c86cc0ebaeaa971a8f501b0eecaf9c97292b5c00932826edd6b68282103a33e4",
+      "rgba_sha256": "1f4f7ca6aa94e2d6b2a1ce5fc345ac3928bd6407e19b114eb2c26fc1973c2842",
+      "changed_fraction": 0.7436631944444444,
+      "mean_rgb": [
+        56.81393229166667,
+        56.899088541666664,
+        56.816753472222224
+      ]
+    },
+    {
+      "base_id": 35,
+      "slot": 2,
+      "png": "tile-035-v2.png",
+      "file": "tile-035-v2.rgba",
+      "donor": "assets\\generated\\v13ent-floor-cutaway\\variety-v1-20261115\\qwen\\floor-2\\raw.png",
+      "donor_sha256": "641f5770e4dfea3b02c63346da318579c31eef8e9747030a7ae335659d524e82",
+      "crop": [
+        456,
+        484,
+        320,
+        144
+      ],
+      "target_mean": [
+        56.32415519399249,
+        56.325445869837296,
+        56.319892052565706
+      ],
+      "raw_mean": [
+        56.14791666666667,
+        55.92834201388889,
+        52.12096354166667
+      ],
+      "exact_edge_hd_pixels": 12,
+      "feather_hd_pixels": 20,
+      "source_png_sha256": "590a3c7d706da8bdf1c7795c590160b1090f390ea1ceb3a4d2a746cd3e664a54",
+      "rgba_sha256": "199117ae27351b496e2e962b983330a9840e42823da492e266ff298ac403368a",
+      "changed_fraction": 0.7467881944444444,
+      "mean_rgb": [
+        56.698046875,
+        56.94279513888889,
+        56.676258680555556
+      ]
+    },
+    {
+      "base_id": 35,
+      "slot": 3,
+      "png": "tile-035-v3.png",
+      "file": "tile-035-v3.rgba",
+      "donor": "assets\\generated\\v13ent-floor-cutaway\\variety-v1-20261115\\qwen\\floor-3\\raw.png",
+      "donor_sha256": "5652d54985b3b65e0b4f8d39279c7ff2b8fff137c19145255a938a9cf95c6abb",
+      "crop": [
+        569,
+        531,
+        320,
+        144
+      ],
+      "target_mean": [
+        56.32415519399249,
+        56.325445869837296,
+        56.319892052565706
+      ],
+      "raw_mean": [
+        56.352734375,
+        55.8431640625,
+        52.039952256944446
+      ],
+      "exact_edge_hd_pixels": 12,
+      "feather_hd_pixels": 20,
+      "source_png_sha256": "3f7eefd36439f0cbbca3221b80efd53a738dad329a87fa93205b6c00e0ffd9b8",
+      "rgba_sha256": "c14bf646bdba93e005621d0a4ee80a49e05543fa4269e1e6a0dbdb354288c41b",
+      "changed_fraction": 0.7502604166666667,
+      "mean_rgb": [
+        56.87276475694444,
+        56.99288194444444,
+        56.724544270833334
+      ]
+    },
+    {
+      "base_id": 36,
+      "slot": 1,
+      "png": "tile-036-v1.png",
+      "file": "tile-036-v1.rgba",
+      "donor": "assets\\generated\\v13ent-floor-cutaway\\variety-v1-20261115\\qwen\\floor-1\\raw.png",
+      "donor_sha256": "e597fb6187adf61688a0f9fe4dc550e73c58418997fb693bff99b2a0176edcaf",
+      "crop": [
+        410,
+        466,
+        320,
+        144
+      ],
+      "target_mean": [
+        56.239870150187734,
+        56.23924436795995,
+        56.23904881101377
+      ],
+      "raw_mean": [
+        63.756488715277776,
+        63.704166666666666,
+        58.33005642361111
+      ],
+      "exact_edge_hd_pixels": 12,
+      "feather_hd_pixels": 20,
+      "source_png_sha256": "75b3a7e1d1c3dea9c52d8c2ac7057cf5868951e10bfda5d3fc0650b55a67e6a7",
+      "rgba_sha256": "a5072dddf5c160bf3bda1f6c301d7383da055f123fcd307f18e7e6c0f430ee1e",
+      "changed_fraction": 0.7448784722222223,
+      "mean_rgb": [
+        56.93821614583333,
+        56.91766493055555,
+        56.93569878472222
+      ]
+    },
+    {
+      "base_id": 36,
+      "slot": 2,
+      "png": "tile-036-v2.png",
+      "file": "tile-036-v2.rgba",
+      "donor": "assets\\generated\\v13ent-floor-cutaway\\variety-v1-20261115\\qwen\\floor-2\\raw.png",
+      "donor_sha256": "641f5770e4dfea3b02c63346da318579c31eef8e9747030a7ae335659d524e82",
+      "crop": [
+        523,
+        513,
+        320,
+        144
+      ],
+      "target_mean": [
+        56.239870150187734,
+        56.23924436795995,
+        56.23904881101377
+      ],
+      "raw_mean": [
+        56.472981770833336,
+        56.25421006944445,
+        52.46990017361111
+      ],
+      "exact_edge_hd_pixels": 12,
+      "feather_hd_pixels": 20,
+      "source_png_sha256": "07aa661c49ec73513c555ab8abf68dde4e76e67c01584242176483cb87ec6da4",
+      "rgba_sha256": "c0c7f3d4c28287b1e97ecb981bacc3394769ff8841ca142689685dbcc6776575",
+      "changed_fraction": 0.744140625,
+      "mean_rgb": [
+        56.802973090277774,
+        56.801540798611114,
+        56.88537326388889
+      ]
+    },
+    {
+      "base_id": 36,
+      "slot": 3,
+      "png": "tile-036-v3.png",
+      "file": "tile-036-v3.rgba",
+      "donor": "assets\\generated\\v13ent-floor-cutaway\\variety-v1-20261115\\qwen\\floor-3\\raw.png",
+      "donor_sha256": "5652d54985b3b65e0b4f8d39279c7ff2b8fff137c19145255a938a9cf95c6abb",
+      "crop": [
+        636,
+        560,
+        320,
+        144
+      ],
+      "target_mean": [
+        56.239870150187734,
+        56.23924436795995,
+        56.23904881101377
+      ],
+      "raw_mean": [
+        56.34240451388889,
+        55.804622395833334,
+        51.95861545138889
+      ],
+      "exact_edge_hd_pixels": 12,
+      "feather_hd_pixels": 20,
+      "source_png_sha256": "fba41b79369fb34b1522b545495bc43bc1f0686889c4ff6faa29c63b5d338b9a",
+      "rgba_sha256": "235f6f84176720be0506f18bd65e35518534fec3f2eb1b2e264983d5c2e97746",
+      "changed_fraction": 0.7486328125,
+      "mean_rgb": [
+        56.944118923611114,
+        57.038975694444446,
+        56.754644097222226
+      ]
+    },
+    {
+      "base_id": 47,
+      "slot": 1,
+      "png": "tile-047-v1.png",
+      "file": "tile-047-v1.rgba",
+      "donor": "assets\\generated\\v13ent-floor-cutaway\\variety-v1-20261115\\qwen\\floor-1\\raw.png",
+      "donor_sha256": "e597fb6187adf61688a0f9fe4dc550e73c58418997fb693bff99b2a0176edcaf",
+      "crop": [
+        442,
+        160,
+        320,
+        144
+      ],
+      "target_mean": [
+        54.04368742177722,
+        54.03832916145181,
+        53.98020963704631
+      ],
+      "raw_mean": [
+        63.119791666666664,
+        63.00158420138889,
+        57.480946180555556
+      ],
+      "exact_edge_hd_pixels": 12,
+      "feather_hd_pixels": 20,
+      "source_png_sha256": "e0fd36214d0bf20cc8f80528c82be5d4efe6d73b8fe11f7b50d2948badf8c8cc",
+      "rgba_sha256": "b7a59de605069022b9b1fe274c15ae6f097a809fbac5baafb416d3f21d3a8ef3",
+      "changed_fraction": 0.7306423611111111,
+      "mean_rgb": [
+        54.67578125,
+        54.71848958333333,
+        54.61282552083333
+      ]
+    },
+    {
+      "base_id": 47,
+      "slot": 2,
+      "png": "tile-047-v2.png",
+      "file": "tile-047-v2.rgba",
+      "donor": "assets\\generated\\v13ent-floor-cutaway\\variety-v1-20261115\\qwen\\floor-2\\raw.png",
+      "donor_sha256": "641f5770e4dfea3b02c63346da318579c31eef8e9747030a7ae335659d524e82",
+      "crop": [
+        555,
+        207,
+        320,
+        144
+      ],
+      "target_mean": [
+        54.04368742177722,
+        54.03832916145181,
+        53.98020963704631
+      ],
+      "raw_mean": [
+        56.265125868055556,
+        56.020290798611114,
+        52.229296875
+      ],
+      "exact_edge_hd_pixels": 12,
+      "feather_hd_pixels": 20,
+      "source_png_sha256": "5636ede22848fe90b89ab16ccae0f44272093834276d2d6191a1ac04a645c010",
+      "rgba_sha256": "4f52da41ab189aec4e6fc3c61d94a8877c44a7e90d890e6e4eaa90419b4ee3d0",
+      "changed_fraction": 0.7270833333333333,
+      "mean_rgb": [
+        54.72393663194445,
+        54.72528211805555,
+        54.62278645833333
+      ]
+    },
+    {
+      "base_id": 47,
+      "slot": 3,
+      "png": "tile-047-v3.png",
+      "file": "tile-047-v3.rgba",
+      "donor": "assets\\generated\\v13ent-floor-cutaway\\variety-v1-20261115\\qwen\\floor-3\\raw.png",
+      "donor_sha256": "5652d54985b3b65e0b4f8d39279c7ff2b8fff137c19145255a938a9cf95c6abb",
+      "crop": [
+        668,
+        254,
+        320,
+        144
+      ],
+      "target_mean": [
+        54.04368742177722,
+        54.03832916145181,
+        53.98020963704631
+      ],
+      "raw_mean": [
+        56.917578125,
+        56.431553819444446,
+        52.53695746527778
+      ],
+      "exact_edge_hd_pixels": 12,
+      "feather_hd_pixels": 20,
+      "source_png_sha256": "4628faba03d7751d48c3db1b2a14693a03c83413b66184f4f9e95f1d067574d5",
+      "rgba_sha256": "c43116f371e641fc5f9c0debef1c56ede65577e0ff38e9fbbd5aaa37bff7538b",
+      "changed_fraction": 0.7349175347222222,
+      "mean_rgb": [
+        54.719921875,
+        54.72204861111111,
+        54.71271701388889
+      ]
+    },
+    {
+      "base_id": 51,
+      "slot": 1,
+      "png": "tile-051-v1.png",
+      "file": "tile-051-v1.rgba",
+      "donor": "assets\\generated\\v13ent-floor-cutaway\\variety-v1-20261115\\qwen\\floor-1\\raw.png",
+      "donor_sha256": "e597fb6187adf61688a0f9fe4dc550e73c58418997fb693bff99b2a0176edcaf",
+      "crop": [
+        5,
+        276,
+        320,
+        144
+      ],
+      "target_mean": [
+        51.946378285356694,
+        51.9549436795995,
+        51.88133604505632
+      ],
+      "raw_mean": [
+        62.85208333333333,
+        62.782421875,
+        57.46564670138889
+      ],
+      "exact_edge_hd_pixels": 12,
+      "feather_hd_pixels": 20,
+      "source_png_sha256": "f8b158997cf391cadd7ec9ee3404a82d7fca79aad980e80ee053d60abeb4e497",
+      "rgba_sha256": "c17ab0d8d82f1ccc3dc900fa0d07798326596696264b0a4a2dfec3a3c7c6e49c",
+      "changed_fraction": 0.7414496527777777,
+      "mean_rgb": [
+        53.944552951388886,
+        53.931163194444444,
+        53.844965277777774
+      ]
+    },
+    {
+      "base_id": 51,
+      "slot": 2,
+      "png": "tile-051-v2.png",
+      "file": "tile-051-v2.rgba",
+      "donor": "assets\\generated\\v13ent-floor-cutaway\\variety-v1-20261115\\qwen\\floor-2\\raw.png",
+      "donor_sha256": "641f5770e4dfea3b02c63346da318579c31eef8e9747030a7ae335659d524e82",
+      "crop": [
+        118,
+        323,
+        320,
+        144
+      ],
+      "target_mean": [
+        51.946378285356694,
+        51.9549436795995,
+        51.88133604505632
+      ],
+      "raw_mean": [
+        56.40557725694445,
+        56.246571180555556,
+        52.39533420138889
+      ],
+      "exact_edge_hd_pixels": 12,
+      "feather_hd_pixels": 20,
+      "source_png_sha256": "f69c8ae301b0cf3fad9137445d716f0cd6366fb374890472f0794fc84680298e",
+      "rgba_sha256": "b3c68d9ca0f8b3058fd80ec4fb96649818a3229cab8619b3fee404d28b40c1a8",
+      "changed_fraction": 0.7400173611111112,
+      "mean_rgb": [
+        53.814214409722226,
+        53.84958767361111,
+        53.718424479166664
+      ]
+    },
+    {
+      "base_id": 51,
+      "slot": 3,
+      "png": "tile-051-v3.png",
+      "file": "tile-051-v3.rgba",
+      "donor": "assets\\generated\\v13ent-floor-cutaway\\variety-v1-20261115\\qwen\\floor-3\\raw.png",
+      "donor_sha256": "5652d54985b3b65e0b4f8d39279c7ff2b8fff137c19145255a938a9cf95c6abb",
+      "crop": [
+        231,
+        370,
+        320,
+        144
+      ],
+      "target_mean": [
+        51.946378285356694,
+        51.9549436795995,
+        51.88133604505632
+      ],
+      "raw_mean": [
+        56.61883680555555,
+        56.228732638888886,
+        52.68585069444445
+      ],
+      "exact_edge_hd_pixels": 12,
+      "feather_hd_pixels": 20,
+      "source_png_sha256": "2f2f46c5991b91c35c80e7fc2650b40745f546b38130368d58b07b043f88c686",
+      "rgba_sha256": "a9652a68e34d39de360665c086ffabe307303bd91173fcf09a1325905845833d",
+      "changed_fraction": 0.7408637152777777,
+      "mean_rgb": [
+        53.9029296875,
+        53.94268663194445,
+        53.85158420138889
+      ]
+    },
+    {
+      "base_id": 53,
+      "slot": 1,
+      "png": "tile-053-v1.png",
+      "file": "tile-053-v1.rgba",
+      "donor": "assets\\generated\\v13ent-floor-cutaway\\variety-v1-20261115\\qwen\\floor-1\\raw.png",
+      "donor_sha256": "e597fb6187adf61688a0f9fe4dc550e73c58418997fb693bff99b2a0176edcaf",
+      "crop": [
+        139,
+        334,
+        320,
+        144
+      ],
+      "target_mean": [
+        47.952792553191486,
+        47.89764549436796,
+        47.81234355444305
+      ],
+      "raw_mean": [
+        62.97712673611111,
+        62.875238715277774,
+        57.53834635416667
+      ],
+      "exact_edge_hd_pixels": 12,
+      "feather_hd_pixels": 20,
+      "source_png_sha256": "0aa96619a64feff25ad700e3d6136f65c527ee9de9e244cca95c24872899f67c",
+      "rgba_sha256": "8b24efc9c6e1110d5c0df2911b3ae53920766958d2c339a8aa6bcf94733c7dea",
+      "changed_fraction": 0.7359157986111111,
+      "mean_rgb": [
+        49.78111979166667,
+        49.726323784722226,
+        49.68235677083333
+      ]
+    },
+    {
+      "base_id": 53,
+      "slot": 2,
+      "png": "tile-053-v2.png",
+      "file": "tile-053-v2.rgba",
+      "donor": "assets\\generated\\v13ent-floor-cutaway\\variety-v1-20261115\\qwen\\floor-2\\raw.png",
+      "donor_sha256": "641f5770e4dfea3b02c63346da318579c31eef8e9747030a7ae335659d524e82",
+      "crop": [
+        252,
+        381,
+        320,
+        144
+      ],
+      "target_mean": [
+        47.952792553191486,
+        47.89764549436796,
+        47.81234355444305
+      ],
+      "raw_mean": [
+        56.51239149305555,
+        56.3232421875,
+        52.443706597222224
+      ],
+      "exact_edge_hd_pixels": 12,
+      "feather_hd_pixels": 20,
+      "source_png_sha256": "91350d8e99687e99bc1b02705ef7223db150a402c0bd8e2534a186e097fe110e",
+      "rgba_sha256": "3c386656d45c5356d0751b2a543da029bc6920bdd3bbf005212e7c4c54da6efd",
+      "changed_fraction": 0.7341579861111112,
+      "mean_rgb": [
+        49.80319010416667,
+        49.78639322916667,
+        49.68858506944444
+      ]
+    },
+    {
+      "base_id": 53,
+      "slot": 3,
+      "png": "tile-053-v3.png",
+      "file": "tile-053-v3.rgba",
+      "donor": "assets\\generated\\v13ent-floor-cutaway\\variety-v1-20261115\\qwen\\floor-3\\raw.png",
+      "donor_sha256": "5652d54985b3b65e0b4f8d39279c7ff2b8fff137c19145255a938a9cf95c6abb",
+      "crop": [
+        365,
+        428,
+        320,
+        144
+      ],
+      "target_mean": [
+        47.952792553191486,
+        47.89764549436796,
+        47.81234355444305
+      ],
+      "raw_mean": [
+        56.24157986111111,
+        55.82591145833333,
+        52.20128038194444
+      ],
+      "exact_edge_hd_pixels": 12,
+      "feather_hd_pixels": 20,
+      "source_png_sha256": "284706a6e8fb0d6acd5d19e38bf73906816620e3a4e14dddee459058c6626b49",
+      "rgba_sha256": "342267d6db9ca2b5bae9b076bcdea60df303afe2ffb636db0458f19e873f0a56",
+      "changed_fraction": 0.7382378472222222,
+      "mean_rgb": [
+        49.745182291666666,
+        49.74034288194444,
+        49.68342013888889
+      ]
+    },
+    {
+      "base_id": 56,
+      "slot": 1,
+      "png": "tile-056-v1.png",
+      "file": "tile-056-v1.rgba",
+      "donor": "assets\\generated\\v13ent-floor-cutaway\\variety-v1-20261115\\qwen\\floor-1\\raw.png",
+      "donor_sha256": "e597fb6187adf61688a0f9fe4dc550e73c58418997fb693bff99b2a0176edcaf",
+      "crop": [
+        340,
+        421,
+        320,
+        144
+      ],
+      "target_mean": [
+        50.769555694618276,
+        50.75172090112641,
+        50.71038016270338
+      ],
+      "raw_mean": [
+        63.67506510416667,
+        63.60095486111111,
+        58.24761284722222
+      ],
+      "exact_edge_hd_pixels": 12,
+      "feather_hd_pixels": 20,
+      "source_png_sha256": "4c4e9c0a0337396200b2b176d75531bd91741566ca53fb5129ed3ec588acdd71",
+      "rgba_sha256": "4b6f853cd46ee3e34f14fd52e12cbcfd87074881bdc12158effd769f7069e7f4",
+      "changed_fraction": 0.7334852430555555,
+      "mean_rgb": [
+        52.17202690972222,
+        52.133702256944446,
+        52.137065972222224
+      ]
+    },
+    {
+      "base_id": 56,
+      "slot": 2,
+      "png": "tile-056-v2.png",
+      "file": "tile-056-v2.rgba",
+      "donor": "assets\\generated\\v13ent-floor-cutaway\\variety-v1-20261115\\qwen\\floor-2\\raw.png",
+      "donor_sha256": "641f5770e4dfea3b02c63346da318579c31eef8e9747030a7ae335659d524e82",
+      "crop": [
+        453,
+        468,
+        320,
+        144
+      ],
+      "target_mean": [
+        50.769555694618276,
+        50.75172090112641,
+        50.71038016270338
+      ],
+      "raw_mean": [
+        56.220768229166666,
+        56.00028211805556,
+        52.18404947916667
+      ],
+      "exact_edge_hd_pixels": 12,
+      "feather_hd_pixels": 20,
+      "source_png_sha256": "5184d0050b9ec97b2354c2b8053d662442a3e50d079f3aaaa18d950a871e5c52",
+      "rgba_sha256": "1cf81a6f43d9710fee2376c32350a119742c28be5eaf8fa405757a10000552fe",
+      "changed_fraction": 0.73125,
+      "mean_rgb": [
+        52.11595052083333,
+        52.09947916666667,
+        52.08274739583333
+      ]
+    },
+    {
+      "base_id": 56,
+      "slot": 3,
+      "png": "tile-056-v3.png",
+      "file": "tile-056-v3.rgba",
+      "donor": "assets\\generated\\v13ent-floor-cutaway\\variety-v1-20261115\\qwen\\floor-3\\raw.png",
+      "donor_sha256": "5652d54985b3b65e0b4f8d39279c7ff2b8fff137c19145255a938a9cf95c6abb",
+      "crop": [
+        566,
+        515,
+        320,
+        144
+      ],
+      "target_mean": [
+        50.769555694618276,
+        50.75172090112641,
+        50.71038016270338
+      ],
+      "raw_mean": [
+        56.3580078125,
+        55.853841145833336,
+        52.05813802083333
+      ],
+      "exact_edge_hd_pixels": 12,
+      "feather_hd_pixels": 20,
+      "source_png_sha256": "9262ef756b4986f6451bdb35d7fb0b0ce57dfd34e566aa490858bc1c503de52d",
+      "rgba_sha256": "d1770055ab79df86ccdbf9b654c791880b57c6dfe32e47823d816d48a4635c2f",
+      "changed_fraction": 0.7365885416666667,
+      "mean_rgb": [
+        52.20462239583333,
+        52.17762586805556,
+        52.10516493055555
+      ]
+    },
+    {
+      "base_id": 62,
+      "slot": 1,
+      "png": "tile-062-v1.png",
+      "file": "tile-062-v1.rgba",
+      "donor": "assets\\generated\\v13ent-floor-cutaway\\variety-v1-20261115\\qwen\\cutaway-1\\raw.png",
+      "donor_sha256": "52202f3707fde4e1271195c0e5016e140b440ae74a5ad8a7d03c56b8a57bc93a",
+      "crop": [
+        423,
+        354,
+        320,
+        144
+      ],
+      "target_mean": [
+        17.06296933667084,
+        17.209050375469335,
+        16.9646824155194
+      ],
+      "raw_mean": [
+        30.02423828125,
+        29.9699267578125,
+        30.9228955078125
+      ],
+      "exact_edge_hd_pixels": 12,
+      "feather_hd_pixels": 40,
+      "color_method": "histogram",
+      "donor_scale": 2,
+      "source_png_sha256": "e711a88117ae88a34ea0e14aa19b32f59199a4b476c6c9c70cdbdbce0297a894",
+      "rgba_sha256": "b929e620d8c55f751e7517235a23d08d2c72e33f057d8fd92e60f305ed8ecb24",
+      "changed_fraction": 0.7296657986111111,
+      "mean_rgb": [
+        21.2794921875,
+        21.607139756944445,
+        21.125694444444445
+      ]
+    },
+    {
+      "base_id": 62,
+      "slot": 2,
+      "png": "tile-062-v2.png",
+      "file": "tile-062-v2.rgba",
+      "donor": "assets\\generated\\v13ent-floor-cutaway\\variety-v1-20261115\\qwen\\cutaway-2\\raw.png",
+      "donor_sha256": "9adfa28006c37ebf5891d3913a439a5641340883a4d06ce7f735dcbd77c0f657",
+      "crop": [
+        536,
+        401,
+        320,
+        144
+      ],
+      "target_mean": [
+        17.06296933667084,
+        17.209050375469335,
+        16.9646824155194
+      ],
+      "raw_mean": [
+        29.0813720703125,
+        30.1999658203125,
+        30.95982421875
+      ],
+      "exact_edge_hd_pixels": 12,
+      "feather_hd_pixels": 40,
+      "color_method": "histogram",
+      "donor_scale": 2,
+      "source_png_sha256": "936a68a5730c3f114a3c962bf47716465364423061524a09ef00708cc2018fb2",
+      "rgba_sha256": "506269b7d06dc972bc77ac20d96de2c1c7339753c0aaa70b17c6411816c2e482",
+      "changed_fraction": 0.7292317708333333,
+      "mean_rgb": [
+        21.450368923611112,
+        21.715017361111112,
+        21.229796006944444
+      ]
+    },
+    {
+      "base_id": 62,
+      "slot": 3,
+      "png": "tile-062-v3.png",
+      "file": "tile-062-v3.rgba",
+      "donor": "assets\\generated\\v13ent-floor-cutaway\\variety-v1-20261115\\qwen\\cutaway-3\\raw.png",
+      "donor_sha256": "b088a9be1bb72d40509e679c4eb58e84de43b2c764d09596a4e723bd5bce9c7b",
+      "crop": [
+        649,
+        448,
+        320,
+        144
+      ],
+      "target_mean": [
+        17.06296933667084,
+        17.209050375469335,
+        16.9646824155194
+      ],
+      "raw_mean": [
+        32.950703125,
+        33.9818359375,
+        34.82560546875
+      ],
+      "exact_edge_hd_pixels": 12,
+      "feather_hd_pixels": 40,
+      "color_method": "histogram",
+      "donor_scale": 2,
+      "source_png_sha256": "426a82132690c7ad41cdf9ade544bb5bd296223e05e7aceaac6bfb3520c4257d",
+      "rgba_sha256": "d86865a1034cc76dc8634eb6048ef0c8032fc71e9261196e4b585289b2123669",
+      "changed_fraction": 0.7297309027777777,
+      "mean_rgb": [
+        21.230143229166668,
+        21.570008680555556,
+        21.0470703125
+      ]
+    },
+    {
+      "base_id": 63,
+      "slot": 1,
+      "png": "tile-063-v1.png",
+      "file": "tile-063-v1.rgba",
+      "donor": "assets\\generated\\v13ent-floor-cutaway\\variety-v1-20261115\\qwen\\cutaway-1\\raw.png",
+      "donor_sha256": "52202f3707fde4e1271195c0e5016e140b440ae74a5ad8a7d03c56b8a57bc93a",
+      "crop": [
+        490,
+        383,
+        320,
+        144
+      ],
+      "target_mean": [
+        14.561522215269086,
+        14.685857321652065,
+        14.470392678347935
+      ],
+      "raw_mean": [
+        30.02423828125,
+        29.9699267578125,
+        30.9228955078125
+      ],
+      "exact_edge_hd_pixels": 12,
+      "feather_hd_pixels": 40,
+      "color_method": "histogram",
+      "donor_scale": 2,
+      "source_png_sha256": "68fa08196006fc3e4ec0910020754627c2124fee89c14da8944670cd59fae886",
+      "rgba_sha256": "f29ac44a346b8d70b9912f4d3fea8654c9d1361a8f46d01c4e0a73710c3430ed",
+      "changed_fraction": 0.7257161458333333,
+      "mean_rgb": [
+        18.536024305555557,
+        18.93967013888889,
+        18.37306857638889
+      ]
+    },
+    {
+      "base_id": 63,
+      "slot": 2,
+      "png": "tile-063-v2.png",
+      "file": "tile-063-v2.rgba",
+      "donor": "assets\\generated\\v13ent-floor-cutaway\\variety-v1-20261115\\qwen\\cutaway-2\\raw.png",
+      "donor_sha256": "9adfa28006c37ebf5891d3913a439a5641340883a4d06ce7f735dcbd77c0f657",
+      "crop": [
+        603,
+        430,
+        320,
+        144
+      ],
+      "target_mean": [
+        14.561522215269086,
+        14.685857321652065,
+        14.470392678347935
+      ],
+      "raw_mean": [
+        29.0813720703125,
+        30.1999658203125,
+        30.95982421875
+      ],
+      "exact_edge_hd_pixels": 12,
+      "feather_hd_pixels": 40,
+      "color_method": "histogram",
+      "donor_scale": 2,
+      "source_png_sha256": "45f97731edcedf06a87559794c26bf66a1045ac57110da0aae361449f0a73859",
+      "rgba_sha256": "22a15a56b372cdca3ab2cd7c84a56e36e9b0c0b5b2d77eb0865d715e2bff7caf",
+      "changed_fraction": 0.7231119791666667,
+      "mean_rgb": [
+        18.352625868055554,
+        18.718424479166668,
+        18.08029513888889
+      ]
+    },
+    {
+      "base_id": 63,
+      "slot": 3,
+      "png": "tile-063-v3.png",
+      "file": "tile-063-v3.rgba",
+      "donor": "assets\\generated\\v13ent-floor-cutaway\\variety-v1-20261115\\qwen\\cutaway-3\\raw.png",
+      "donor_sha256": "b088a9be1bb72d40509e679c4eb58e84de43b2c764d09596a4e723bd5bce9c7b",
+      "crop": [
+        716,
+        477,
+        320,
+        144
+      ],
+      "target_mean": [
+        14.561522215269086,
+        14.685857321652065,
+        14.470392678347935
+      ],
+      "raw_mean": [
+        32.950703125,
+        33.9818359375,
+        34.82560546875
+      ],
+      "exact_edge_hd_pixels": 12,
+      "feather_hd_pixels": 40,
+      "color_method": "histogram",
+      "donor_scale": 2,
+      "source_png_sha256": "6150568957bbc48871730021fb7510bcd05730d71dc06fb8fd8f219d6e98c128",
+      "rgba_sha256": "15ae4ded798d601045a8d9befa1b5d5b60ad792182439fbade261a2d96b957b6",
+      "changed_fraction": 0.7216145833333333,
+      "mean_rgb": [
+        18.271766493055555,
+        18.659483506944444,
+        18.042578125
+      ]
+    }
+  ],
+  "source_provenance": "assets\\generated\\v13ent-floor-cutaway\\variety-v1-20261115\\source-provenance.json",
+  "models": "assets\\generated\\v13ent-floor-cutaway\\variety-v1-20261115\\model-provenance.json",
+  "runtime_table_sha256": "1f1284af30aa2ec5e6967490260e76470cca5d58d945bdd910c5ead705be9bb4",
+  "integration": {
+    "status": "installed-and-verified",
+    "completed_utc": "2026-11-15T04:24:41.314417+00:00",
+    "component": "floor-cutaway-variety-v1",
+    "package": "assets\\hd\\v13ent\\floor-cutaway-variety-v1",
+    "floor_bases": 8,
+    "floor_additional_images": 24,
+    "cutaway_original_types": 2,
+    "cutaway_total_appearances": 8,
+    "cutaway_additional_images": 6,
+    "table_sha256": "1f1284af30aa2ec5e6967490260e76470cca5d58d945bdd910c5ead705be9bb4",
+    "source_pixels_unchanged": true,
+    "original_map_unchanged": true,
+    "selection": "stable FID / square cell / elevation hash",
+    "owner_format": "existing asset ID, appended atlas page texel",
+    "executable_sha256": "81ccec24891408961884a3c4d18cf946f16f7c943280b9861e6ebcb16cc44f81",
+    "checks": {
+      "world-final": {
+        "passed": 578,
+        "failed": 0,
+        "map": "V13ENT.MAP",
+        "loaded_resources": 247,
+        "scene_resources_seen": 172,
+        "decoration_images": 8,
+        "decoration_placements": 19,
+        "largest_vault_texel_offset": 72925,
+        "floor_instances": 96,
+        "rock_instances": 13,
+        "collision_hexes_checked": 120000,
+        "blocked_hexes": 1069,
+        "collision_hash": "18093902727436680495",
+        "path_routes_checked": 12,
+        "floor_visible_pixels": 20342,
+        "rock_visible_pixels": 6796,
+        "front_actor_tile": 20505,
+        "rear_actor_tile": 22286,
+        "capture_width": 1920,
+        "capture_height": 1080
+      },
+      "terminal": {
+        "passed": 27,
+        "failed": 0
+      },
+      "menu": {
+        "passed": 139,
+        "failed": 0
+      },
+      "hud": {
+        "passed": 93,
+        "failed": 0,
+        "expected_loaded": true
+      },
+      "fallbacks": {
+        "passed": 296,
+        "failed": 0,
+        "cases": 9
+      }
+    },
+    "successful_checks": 1133,
+    "failed_checks": 0,
+    "protected_existing_files_unchanged": 558,
+    "backup": "build\\backups\\before-floor-cutaway-variety-20261115",
+    "review": "build\\hd-cave-floor-cutaway-20261115\\review\\index.html",
+    "AGENTS_modified": false,
+    "HD_TEXTURE_GUIDE_modified": false,
+    "config_and_saves_unchanged": true,
+    "render_tests": "Functional regression and SDL render captures, not a complete game playthrough"
+  }
+}

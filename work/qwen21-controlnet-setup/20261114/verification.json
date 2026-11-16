@@ -1,0 +1,9 @@
+{
+  "model_installed": true,
+  "native_inference_passed": true,
+  "missing_local_links": [],
+  "agents_unchanged": true,
+  "guide_sha256": "6ef5273eb3d97bb4060180674e5625a6817a90714ffba18b50dc732fdb210f06",
+  "guide_backup_sha256": "0c7dd19bc787e029c087b58db81b131c8832b49210c72d7ff72dde65b49d7ba1",
+  "staging_model_duplicate_present": false
+}

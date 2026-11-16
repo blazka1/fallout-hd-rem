@@ -1,0 +1,35 @@
+{
+  "component": "player-contact-shadow",
+  "date": "2026-11-16",
+  "status": "verified in isolated CE runtime; shared runtime not modified",
+  "runtime": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\work\\hd-player-shadow-20261116\\runtime",
+  "launcher": "Start-Fallout-HD-Player-Shadow.cmd",
+  "executable_sha256": "1711897734b7fdac8c49c7f3bd5f28376e929e2a10a4c6c0cbcfcc1bdd084be7",
+  "source_changes": [
+    "src/game/hd_player.cc",
+    "src/game/hd_player.h",
+    "src/game/hd_player_shadow_test.inc",
+    "src/game/hd_player_test.cc",
+    "src/game/hd_world_pilot.cc",
+    "src/game/object.cc"
+  ],
+  "test_result": {
+    "passed": 392,
+    "failed": 0,
+    "loaded_player_frames": 54,
+    "expected_player_frames": 54,
+    "walk_poses_captured": 48,
+    "idle_directions_captured": 6,
+    "distinct_walk_renders": 48,
+    "timed_movement_requested": true,
+    "runtime_map": "V13ENT.MAP"
+  },
+  "disabled_identical_frames": 54,
+  "shared_files_checked": 1691,
+  "shared_files_changed": [],
+  "artwork_changed": false,
+  "shadow": "Separate procedural floor-only contact shadow, 34x14 native px, max alpha 90/255",
+  "limits": "Not a directional physically traced shadow; existing male unarmed V13ENT stand/walk support only",
+  "previews": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\build\\hd-player-shadow-20261116\\v2\\gallery",
+  "details": "README.txt"
+}

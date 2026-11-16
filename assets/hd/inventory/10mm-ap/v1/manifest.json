@@ -1,0 +1,51 @@
+{
+  "status": "installed_and_verified",
+  "item": {
+    "pid": 30,
+    "name": "10mm AP",
+    "fid": 117440542,
+    "size": [
+      83,
+      61
+    ]
+  },
+  "source_generation": "assets\\generated\\inventory-10mm-ammo\\20261114\\ap\\qwen",
+  "final_processing": {
+    "threshold": 8,
+    "crop": [
+      64,
+      92,
+      1021,
+      750
+    ],
+    "opaque_pixels_clipped": 0,
+    "target": [
+      332,
+      244
+    ]
+  },
+  "format": "F1HD RGBA8; exact selected PNG bytes",
+  "original_fallback": "Original DAT FRM; no loose overrides",
+  "files": {
+    "alpha-review.png": "4bcd8b9024a1912559aac615b10afb00643f53df27ab4728e7f96cac339e5913",
+    "ammo-hd-x4.png": "8805b9d44022e99085d8e3e208768ca3e1c2a8aaa6822276dbdb7d2686d155e9",
+    "ammo.rgba": "5cfa0d259c81e2462e91cb32cc18e4399fba4361cc96f29a8d8ccb673c9facef",
+    "comparison.png": "5fe6e8f6517b1ce6766538cf881d42e66229e66655c1ed52aedb4be21fb0d420",
+    "master.png": "ef72e4c656928b0acd25ece01be1e2f4ca346d4195fcc30440da2d0332d22d31",
+    "plan.json": "844307085a9af24cbd04896670067f93a4e7c43edcbeb198106b60e42353c316",
+    "postprocess-api.json": "6d7b33298d2736f8d3181bb73cfffc5bd1180f9a36bebfe815e87be3a530e57a",
+    "postprocess-plan.json": "997db367796be97edc617daff61b0a5c3220e992baac44a208d11ad4bf8168d8",
+    "postprocess-run.json": "530e375cf3bcf66dbce3aa0f2b0648d82a1a982046ae5b77d3fa1e8611bdfeec",
+    "postprocess-workflow.json": "3df3cb5e3345925e40bfff23ec0892f508ca4a5b000a00eb76d82d584d85084d",
+    "prompt-api.json": "ac76341ff43558dd0f7964f094acad68f17e9c8fad718b5c772f4da18c959218",
+    "prompt.txt": "99e6fc3aab74a62049e8b1c16acdefe90ac2dfb7938526147d84db19ad6ed7ca",
+    "README.txt": "22861b62be3a0919bd335fb7c0e03345296471e4f7a3833d2f34ff1579806a38",
+    "result.json": "e503badadb044054176641daac1a5714d79d36b8afc03c281ac9863ab1f6116b",
+    "run.json": "5dfa08fd9386f73a4a556ae37cc460e4925ab7e977d6283cfd5b9bd1a899f7e8",
+    "source.json": "2b060d2fbcec1e9b91e0d87b47d77fe2e6d5d73f1931d1c9d483f7dd81e5e6c2",
+    "workflow.json": "2531c38ce1bfc92118828e2e903e15fa5d2a4ffeea4f0df485b5bd26a1de6db6"
+  },
+  "selection": "Qwen: coherent contours and restrained material highlights; Seed retained for comparison, rejected for glare and invented wear.",
+  "integration_report": "build/hd-inventory-10mm-ammo/integration.json",
+  "verified_executable_sha256": "1B8D79B25C29B6E0FF1DA2E1501BFAE9F2DBE651924CA1ABBCA12182E6A97DFF"
+}

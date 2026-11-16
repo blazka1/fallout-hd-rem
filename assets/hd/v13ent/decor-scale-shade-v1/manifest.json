@@ -1,0 +1,106 @@
+{
+  "assets": [
+    {
+      "asset_id": 240,
+      "png": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\v13ent\\decor-scale-shade-v1\\asset-240.png",
+      "png_sha256": "cfbf6d10fc0334dacf86e109013b64da2750018a241362448f0183700f5ee9bf",
+      "rgba_sha256": "b846ddfa65343613bc08168951c61a5680594ce8f4bb80633fed1739a3a2375b",
+      "decoded_rgba_sha256": "4a608650492c8cd55924f0dd671a15071e811ec91739d367c4bbeb5e60b16390",
+      "before_sha256": "96fe4cc69b36f268265603fc49e472116cd3af322d9a65d39990b6e080e2cebd",
+      "opaque_cells_before": 635,
+      "opaque_cells_after": 217
+    },
+    {
+      "asset_id": 241,
+      "png": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\v13ent\\decor-scale-shade-v1\\asset-241.png",
+      "png_sha256": "f5afb4e6b831886b13f3d9c5d5bbc2774af3de4ed938f43ae1fcc0b29022dc00",
+      "rgba_sha256": "d65febcded71947381b7db53cdb4068c52452dc863f0d9d9e3fa11391a30cb17",
+      "decoded_rgba_sha256": "24249e6fbeafa70edd8e4d704a35a3fa5beb9461c9747fafa9286435389a0835",
+      "before_sha256": "37195b97af30a51f17e5581ef7b38a545224c528d34a7e9b68aac17253bc7c3c",
+      "opaque_cells_before": 391,
+      "opaque_cells_after": 391
+    },
+    {
+      "asset_id": 244,
+      "png": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\v13ent\\decor-scale-shade-v1\\asset-244.png",
+      "png_sha256": "8aa441d39362d320920e517d5b01366c067604704b8bb0dd2a5a56f8ead58d8f",
+      "rgba_sha256": "4c201a246edcc339c8fc190ef9bff8d0327e3d807f0c714636c7c1533e39723f",
+      "decoded_rgba_sha256": "a3de912fe99346a818fdf16573410fee45156af945e1d0a64b6ea23a372702f8",
+      "before_sha256": "daace9bcf2038cb94162a1677fb8b2c0e512edec447e005b3098afb0eb9c2d3e",
+      "opaque_cells_before": 327,
+      "opaque_cells_after": 136
+    },
+    {
+      "asset_id": 245,
+      "png": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\v13ent\\decor-scale-shade-v1\\asset-245.png",
+      "png_sha256": "19289f115176a4d76fd04692352c43b95fccf625f8985297e50c68d992a02407",
+      "rgba_sha256": "6ca75a78c9e1eb3bbdad6b8a02fad7a25d6ee805fa05019ae555bd9e26555a84",
+      "decoded_rgba_sha256": "243e8949b26568b5e99f9a91c18109fcd9ffe5be8e1ceb9fdf804291b8fbb6ce",
+      "before_sha256": "ba5926f72060509df4064b55165d51d6ddac889c7be57ae3cb858b1615685e61",
+      "opaque_cells_before": 1357,
+      "opaque_cells_after": 483
+    }
+  ],
+  "specs": [
+    {
+      "asset_id": 240,
+      "old_native": [
+        54,
+        26
+      ],
+      "new_visible_canvas_native": [
+        35,
+        17
+      ],
+      "placement_hd": [
+        36,
+        16
+      ],
+      "extra_skull_resize": true
+    },
+    {
+      "asset_id": 241,
+      "old_native": [
+        38,
+        22
+      ],
+      "alpha_exact": true,
+      "shading": "30% self-multiply, 10% overall dim, up to22% extra at lower contact faces; existing details retained"
+    },
+    {
+      "asset_id": 244,
+      "old_native": [
+        48,
+        23
+      ],
+      "new_visible_canvas_native": [
+        31,
+        15
+      ],
+      "placement_hd": [
+        32,
+        16
+      ],
+      "extra_skull_resize": false
+    },
+    {
+      "asset_id": 245,
+      "old_native": [
+        64,
+        43
+      ],
+      "new_visible_canvas_native": [
+        38,
+        26
+      ],
+      "placement_hd": [
+        52,
+        32
+      ],
+      "extra_skull_resize": false
+    }
+  ],
+  "comfy_prompt": "752735df-e020-43be-9619-8e35a1f02b85",
+  "source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\v13ent-decor\\scale-shade-v1-20261116",
+  "scope": "Three decoration bone piles and litter only; human skeleton explicitly excluded; dimensions/placements/registries/game code unchanged"
+}

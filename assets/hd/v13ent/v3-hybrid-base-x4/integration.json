@@ -1,0 +1,34 @@
+{
+  "status": "integrated_and_verified_in_isolated_ce",
+  "world_checks": {
+    "passed": 107,
+    "failed": 0,
+    "map": "V13ENT.MAP",
+    "loaded_resources": 159,
+    "scene_resources_seen": 114,
+    "largest_vault_texel_offset": 72925,
+    "floor_instances": 96,
+    "rock_instances": 13,
+    "collision_hexes_checked": 120000,
+    "blocked_hexes": 1069,
+    "collision_hash": "18093902727436680495",
+    "path_routes_checked": 12,
+    "floor_visible_pixels": 19589,
+    "rock_visible_pixels": 10823,
+    "front_actor_tile": 18885,
+    "rear_actor_tile": 18284,
+    "capture_width": 1920,
+    "capture_height": 1080
+  },
+  "menu_checks": {
+    "passed": 139,
+    "failed": 0
+  },
+  "fallback_checks": {
+    "passed": 56,
+    "failed": 0,
+    "report": "build/hd-world-pilot/fallback/20261111-231024-259-3da81873/manifest.json"
+  },
+  "executable_sha256": "26F99FA2ED16D23AEA76A2D416C59B764175D75B4FCF5D588659D36CDA67FC2B",
+  "report": "build/hd-world-pilot/integration-manifest.json"
+}

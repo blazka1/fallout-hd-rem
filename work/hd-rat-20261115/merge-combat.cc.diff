@@ -1,0 +1,117 @@
+--- current/src\game\combat.cc
+
++++ rat/src\game\combat.cc
+
+@@ -16,6 +16,9 @@
+
+ #include "game/gconfig.h"
+ #include "game/gmouse.h"
+ #include "game/gsound.h"
++#include "game/hd_hud.h"
++#include "game/hd_rat.h"
++#include "game/hd_world_pilot.h"
+ #include "game/intface.h"
+ #include "game/item.h"
+ #include "game/loadsave.h"
+@@ -78,6 +81,7 @@
+
+ static void print_tohit(unsigned char* dest, int dest_pitch, int a3);
+ static char* combat_get_loc_name(Object* critter, int hitLocation);
+ static void draw_loc_off(int a1, int a2);
++static void (*ratCalledShotCapture)() = nullptr;
+ static void draw_loc_on(int a1, int a2);
+ static void draw_loc(int eventCode, int color);
+ static int get_called_shot_location(Object* critter, int* hitLocation, int hitMode);
+@@ -4222,6 +4226,16 @@
+
+ }
+ 
+ // 0x42382C
++int combatPreviewRatCalledShot(Object* critter, void (*capture)())
++{
++    if (!SDL_getenv("FALLOUT_HD_RAT_PREVIEW") || !capture || !critter) return -1;
++    ratCalledShotCapture = capture;
++    int location = -1;
++    const int result = get_called_shot_location(critter, &location, HIT_MODE_RIGHT_WEAPON_PRIMARY);
++    ratCalledShotCapture = nullptr;
++    return result;
++}
++
+ static int get_called_shot_location(Object* critter, int* hit_location, int hit_mode)
+ {
+     call_target = critter;
+@@ -4245,10 +4259,13 @@
+
+     unsigned char* data;
+ 
+     unsigned char* windowBuffer = win_get_buf(call_win);
++    if ((critter->fid & 0xFFF) == 24 && hdRatEnabled())
++        hdWorldRegisterBuffer(windowBuffer, CALLED_SHOT_WINDOW_WIDTH * CALLED_SHOT_WINDOW_HEIGHT);
+ 
+     fid = art_id(OBJ_TYPE_INTERFACE, 118, 0, 0, 0);
+     data = art_ptr_lock_data(fid, 0, 0, &handle);
+     if (data == NULL) {
++        hdWorldUnregisterBuffer(windowBuffer);
+         win_delete(call_win);
+         return -1;
+     }
+@@ -4260,6 +4277,8 @@
+
+     data = art_ptr_lock_data(fid, 0, 0, &handle);
+     if (data != NULL) {
+         buf_to_buf(data, 170, 225, 170, windowBuffer + CALLED_SHOT_WINDOW_WIDTH * 31 + 128, CALLED_SHOT_WINDOW_WIDTH);
++        if ((critter->fid & 0xFFF) == 24 && hdRatEnabled())
++            hdHudDrawFit(0x01400018, windowBuffer + CALLED_SHOT_WINDOW_WIDTH * 31 + 128, 170, 225, CALLED_SHOT_WINDOW_WIDTH);
+         art_ptr_unlock(handle);
+     }
+ 
+@@ -4268,6 +4287,7 @@
+
+     CacheEntry* upHandle;
+     unsigned char* up = art_ptr_lock_data(fid, 0, 0, &upHandle);
+     if (up == NULL) {
++        hdWorldUnregisterBuffer(windowBuffer);
+         win_delete(call_win);
+         return -1;
+     }
+@@ -4278,6 +4298,7 @@
+
+     unsigned char* down = art_ptr_lock_data(fid, 0, 0, &downHandle);
+     if (down == NULL) {
+         art_ptr_unlock(upHandle);
++        hdWorldUnregisterBuffer(windowBuffer);
+         win_delete(call_win);
+         return -1;
+     }
+@@ -4357,6 +4378,11 @@
+
+ 
+     win_draw(call_win);
+ 
++    if (ratCalledShotCapture) {
++        renderPresent();
++        ratCalledShotCapture();
++    }
++
+     bool gameUiWasDisabled = game_ui_is_disabled();
+     if (gameUiWasDisabled) {
+         game_ui_enable();
+@@ -4369,7 +4395,7 @@
+
+     while (true) {
+         sharedFpsLimiter.mark();
+ 
+-        eventCode = get_input();
++        eventCode = ratCalledShotCapture ? KEY_ESCAPE : get_input();
+ 
+         if (eventCode == KEY_ESCAPE) {
+             break;
+@@ -4397,6 +4423,7 @@
+
+ 
+     art_ptr_unlock(downHandle);
+     art_ptr_unlock(upHandle);
++    hdWorldUnregisterBuffer(windowBuffer);
+     win_delete(call_win);
+ 
+     if (eventCode == KEY_ESCAPE) {

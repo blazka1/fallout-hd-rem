@@ -1,0 +1,31 @@
+{
+  "status": "two isolated in-engine candidates; not installed",
+  "checks": {
+    "passed": 577,
+    "failed": 0,
+    "map": "V13ENT.MAP",
+    "loaded_resources": 247,
+    "scene_resources_seen": 172,
+    "decoration_images": 8,
+    "decoration_placements": 19,
+    "largest_vault_texel_offset": 72925,
+    "floor_instances": 96,
+    "rock_instances": 13,
+    "collision_hexes_checked": 120000,
+    "blocked_hexes": 1069,
+    "collision_hash": "18093902727436680495",
+    "path_routes_checked": 12,
+    "floor_visible_pixels": 20342,
+    "rock_visible_pixels": 6796,
+    "front_actor_tile": 20505,
+    "rear_actor_tile": 22286,
+    "capture_width": 1920,
+    "capture_height": 1080
+  },
+  "current_runtime_sha256": "81ccec24891408961884a3c4d18cf946f16f7c943280b9861e6ebcb16cc44f81",
+  "live_runtime_unchanged": true,
+  "lighting_unchanged": true,
+  "recommended": "expressive",
+  "review": "build\\hd-wall-texture-trials-20261115\\review",
+  "candidate_runtime": "work\\hd-wall-texture-trials-20261115\\runtime"
+}

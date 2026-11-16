@@ -1,0 +1,31 @@
+{
+  "scope": "159 existing static base resources plus all15 frames of the existing outer round vault door",
+  "selected_image_count": 174,
+  "static_resource_count": 159,
+  "animated_resource_count": 1,
+  "animated_frame_count": 15,
+  "static_material_overrides": [
+    "art/scenery/v13secr3.frm",
+    "art/walls/va5001.frm",
+    "art/walls/vb3000.frm",
+    "art/walls/vb3001.frm",
+    "art/walls/vb4000.frm",
+    "art/walls/vb4003.frm",
+    "art/walls/vcn3000.frm",
+    "art/walls/vcn4000.frm",
+    "art/walls/vcn6000.frm"
+  ],
+  "unchanged_parent_static_count": 150,
+  "animated_resource": "art/scenery/v13secr2.frm",
+  "animation_fps": 10,
+  "new_objects_or_decorations": false,
+  "maps_or_prototypes_modified": false,
+  "collision_or_gameplay_modified": false,
+  "integration_status": "pending_engine_validation",
+  "exclusions": [
+    "Rectangular inner door v13secur.frm stays original",
+    "Critters, items, invisible blockers and markers",
+    "Other maps and script-created dependencies",
+    "HUD and menu artwork"
+  ]
+}

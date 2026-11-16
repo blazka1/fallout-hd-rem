@@ -1,0 +1,53 @@
+{
+  "pid": 29,
+  "name": "10mm JHP",
+  "message_id": 2900,
+  "prototype": {
+    "pid": 29,
+    "path": "proto/items/00000029.pro",
+    "fid": 1,
+    "subtype": 4,
+    "sha256": "6f1ef02f194d64de6b9234daab7af68e4fe6fe929369969d9090844f74cbcd62"
+  },
+  "inventory_fid": 117440543,
+  "source_art": "art/inven/10mmjhp.frm",
+  "native_size": [
+    83,
+    58
+  ],
+  "metadata": {
+    "version": 4,
+    "fps": 10,
+    "stored_fps": 0,
+    "action_frame": 0,
+    "frame_count": 1,
+    "direction_x": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "direction_y": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "direction_offsets": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "unique_directions": 1,
+    "data_size": 4826
+  },
+  "frm_sha256": "8c61c0f046c96fe97c6f447f1b57300e7f630dbb30077553e158a228fad3ab76",
+  "source_sha256": "757193b9a3e7e5578b3534b1b64d872b8259a3042bed510599f1f95202bac07a"
+}

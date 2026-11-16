@@ -1,0 +1,54 @@
+{
+  "status": "installed-and-verified",
+  "asset_id": 252,
+  "object_id": 252,
+  "fid": 50331705,
+  "pid": 50331855,
+  "tile": 17285,
+  "original_native_size": [
+    31,
+    120
+  ],
+  "draw_native_size": [
+    31,
+    120
+  ],
+  "crop_hd": [
+    0,
+    0,
+    124,
+    480
+  ],
+  "atlas": [
+    512,
+    512
+  ],
+  "source": "assets/generated/v13ent-vault-rock-prototypes/v1-20261115/preview-v2/a-selected.png",
+  "runtime_sha256": "4d84dac7c54df00f11982f516a6ab3de4ca24f59f48d163297c0881fe2d24920",
+  "rgba_sha256": "fdd3ba16d66dcd510085ad0fae5ea208a397bc063b02bd0633baf4ff31898d32",
+  "new_alpha": true,
+  "map_modified": false,
+  "seam_fit": "rightmost 24 HD pixels blend to former wall material; attachment alpha closes last 4 HD columns only where adjacent interior is opaque; left contour and all other alpha exact",
+  "world_checks": {
+    "passed": 554,
+    "failed": 0,
+    "map": "V13ENT.MAP",
+    "loaded_resources": 247,
+    "scene_resources_seen": 172,
+    "decoration_images": 8,
+    "decoration_placements": 19,
+    "largest_vault_texel_offset": 72925,
+    "floor_instances": 96,
+    "rock_instances": 13,
+    "collision_hexes_checked": 120000,
+    "blocked_hexes": 1069,
+    "collision_hash": "18093902727436680495",
+    "path_routes_checked": 12,
+    "floor_visible_pixels": 20342,
+    "rock_visible_pixels": 6796,
+    "front_actor_tile": 20505,
+    "rear_actor_tile": 22286,
+    "capture_width": 1920,
+    "capture_height": 1080
+  }
+}

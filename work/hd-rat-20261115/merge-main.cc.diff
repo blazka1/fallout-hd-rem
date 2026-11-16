@@ -1,0 +1,36 @@
+--- current/src\game\main.cc
+
++++ rat/src\game\main.cc
+
+@@ -30,6 +30,7 @@
+
+ #include "game/hd_hud_test.h"
+ #include "game/hd_world_pilot_test.h"
+ #include "game/hd_player.h"
++#include "game/hd_rat.h"
+ #include "game/hd_player_test.h"
+ #include "game/loadsave.h"
+ #include "game/mainmenu.h"
+@@ -111,7 +112,9 @@
+
+     std::string worldPreview = worldPreviewEnv != nullptr ? worldPreviewEnv : "";
+     const char* playerPreviewEnv = SDL_getenv("FALLOUT_HD_PLAYER_PREVIEW");
+     std::string playerPreview = playerPreviewEnv != nullptr ? playerPreviewEnv : "";
+-    if (!worldPreview.empty() || !playerPreview.empty() || !hudPreview.empty()) {
++    const char* ratPreviewEnv = SDL_getenv("FALLOUT_HD_RAT_PREVIEW");
++    std::string ratPreview = ratPreviewEnv != nullptr ? ratPreviewEnv : "";
++    if (!worldPreview.empty() || !playerPreview.empty() || !hudPreview.empty() || !ratPreview.empty()) {
+         // Isolated test runtime only: load the real entry map with a premade hero.
+         // The companion script rejects saved/local map overrides before launch.
+         GNW95_process_message();
+@@ -123,7 +126,8 @@
+
+         // Run the existing world regression with its historical classic actor.
+         // The separate actor harness explicitly exercises the new compositor.
+         if (playerPreview.empty()) hdPlayerSetEnabled(false);
+-        int result = !hudPreview.empty() ? hdHudPreview(hudPreview.c_str()) : playerPreview.empty() ? hdWorldPilotPreview(worldPreview.c_str())
++        if (ratPreview.empty()) hdRatSetEnabled(false);
++        int result = !ratPreview.empty() ? hdRatPreview(ratPreview.c_str()) : !hudPreview.empty() ? hdHudPreview(hudPreview.c_str()) : playerPreview.empty() ? hdWorldPilotPreview(worldPreview.c_str())
+                                           : hdPlayerPreview(playerPreview.c_str());
+         main_unload_new();
+         main_exit_system();

@@ -1,0 +1,106 @@
+{
+  "scope": "Existing static V13ENT base art only: 57 floor, 70 wall and 32 scenery resources",
+  "resource_count": 159,
+  "by_category": {
+    "scenery": 32,
+    "tiles": 57,
+    "walls": 70
+  },
+  "map_root_objects": 1494,
+  "covered_object_instances": 603,
+  "covered_floor_cells": 7549,
+  "nondefault_roof_resources": 0,
+  "source_reference_sample_assets": 18,
+  "excluded_wall_scenery": [
+    {
+      "path": "art/scenery/block.frm",
+      "instances": 43,
+      "fids": [
+        33554453
+      ],
+      "pids": [
+        33554481,
+        33554499,
+        33554573,
+        33554776
+      ],
+      "width": 1,
+      "height": 1,
+      "frames": 1,
+      "reason": "1x1 engine blocker"
+    },
+    {
+      "path": "art/scenery/v13secr2.frm",
+      "instances": 1,
+      "fids": [
+        33554713
+      ],
+      "pids": [
+        33554605
+      ],
+      "width": 189,
+      "height": 157,
+      "frames": 15,
+      "reason": "animation"
+    },
+    {
+      "path": "art/scenery/v13secur.frm",
+      "instances": 1,
+      "fids": [
+        33554715
+      ],
+      "pids": [
+        33554440
+      ],
+      "width": 151,
+      "height": 142,
+      "frames": 15,
+      "reason": "animation"
+    },
+    {
+      "path": "art/walls/block.frm",
+      "instances": 454,
+      "fids": [
+        50331669
+      ],
+      "pids": [
+        50332269,
+        50332270
+      ],
+      "width": 1,
+      "height": 1,
+      "frames": 1,
+      "reason": "1x1 engine blocker"
+    }
+  ],
+  "object_instances_by_art_type": {
+    "3": 905,
+    "2": 197,
+    "5": 371,
+    "1": 20,
+    "0": 3
+  },
+  "limitations": [
+    "Map references do not guarantee screen visibility; runtime flags, occlusion and lighting still apply.",
+    "Animated and script-created dependencies are excluded from this static base subset.",
+    "This selected artistic candidate does not itself prove successful CE integration."
+  ],
+  "selected_asset_count": 159,
+  "selected_existing_object_instances": 603,
+  "selected_existing_floor_cells": 7549,
+  "new_objects_or_decorations": false,
+  "maps_or_prototypes_modified": false,
+  "integration_status": "pending_engine_validation",
+  "exclusions": [
+    "Two animated vault-door resources v13secur.frm and v13secr2.frm",
+    "Critters and their animations",
+    "Items including v13bones, knife and ammo",
+    "1x1 engine blockers and misc/exit-grid markers",
+    "Script-created dependencies",
+    "Other maps, HUD and menu artwork"
+  ],
+  "coherent_floor_postprocessing_count": 56,
+  "coherent_floor_excluded_faithful_resources": [
+    "art/tiles/grt2000.frm"
+  ]
+}

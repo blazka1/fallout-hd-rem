@@ -1,0 +1,12 @@
+{
+  "asset_id": 16,
+  "png_sha256": "6d93a11f4160f99dba888cb2f64dfc118c13e4ca3171c790468750c90e91b58c",
+  "rgba_sha256": "20435bdff420f8d64c0c7b4283371921ad2f379a4ca8c63ad542c62330666672",
+  "decoded_rgba_sha256": "23ab953e4fe4558282fe43c243dab268076e2f0b6e6625afaf056ef1e369995c",
+  "source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\v13ent-vault\\clean-trim-v3-20261114\\complete",
+  "comfy_prompt": "2120c55f-59fe-4e86-af8f-cd41ec67b920",
+  "alpha_exact": true,
+  "outside_selection_exact": true,
+  "changed_pixels": 53943,
+  "method": "Native Comfy masked desaturation 96 percent, white blend 7.5 percent; user-marked interior-facing trim only"
+}

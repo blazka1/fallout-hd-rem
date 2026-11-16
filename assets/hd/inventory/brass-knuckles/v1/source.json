@@ -1,0 +1,54 @@
+{
+  "pid": 21,
+  "name": "Brass Knuckles",
+  "message_id": 2100,
+  "prototype": {
+    "pid": 21,
+    "path": "proto/items/00000021.pro",
+    "fid": 47,
+    "subtype": 3,
+    "sha256": "9f59651aff32510d67e7a4c559bd1ebcf4cbc71eda23c15731ac1cbda2e15ae2"
+  },
+  "inventory_fid": 117440652,
+  "source_art": "art/inven/brsnuck.frm",
+  "frm_sha256": "de02e3481beafd835adb327c0140bb9ccf43fa9d8461b026469c6809fdad00b7",
+  "source_png_sha256": "ad12632e6530f4891b6123502895edc8e647f8e2713ce2142f81c0fc1f7aab26",
+  "native_size": [
+    81,
+    65
+  ],
+  "metadata": {
+    "version": 4,
+    "fps": 10,
+    "stored_fps": 0,
+    "action_frame": 0,
+    "frame_count": 1,
+    "direction_x": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "direction_y": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "direction_offsets": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "unique_directions": 1,
+    "data_size": 5277
+  },
+  "preserved": "Original DAT, runtime and game resources are unchanged."
+}

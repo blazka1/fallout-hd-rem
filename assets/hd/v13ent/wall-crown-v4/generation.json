@@ -1,0 +1,19 @@
+{
+  "tool": "built-in image_gen",
+  "seed": null,
+  "outputs": [
+    {
+      "native": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1dc00-496e-70e2-94b1-a7528ebaceb0\\exec-a15db266-561a-41b0-9072-5114599b222a.png",
+      "saved": "wall-material.png",
+      "sha256": "129b49423fc52470fbd1e3a6e4c7e770b6e0ac33b18460d79bb9842f19d3dbd3"
+    },
+    {
+      "native": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1dc00-496e-70e2-94b1-a7528ebaceb0\\exec-cbc07e64-59ff-414c-a829-b464fc9de67d.png",
+      "saved": "cap-material.png",
+      "sha256": "d0b15215672f8a6645f6396f46a99c83dbcececc3f15ec5e673378c6e447217f"
+    }
+  ],
+  "prompts": "generation-prompts.txt",
+  "reference_geometry": "assets/generated/v13ent-wall-geometry-kit/v2-registered-20261115/relief-atlas.png",
+  "reference_material": "assets/hd/v13ent/v14-campfire-x4/art/scenery/rock03.frm.png"
+}

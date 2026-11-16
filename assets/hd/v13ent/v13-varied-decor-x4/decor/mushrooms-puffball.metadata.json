@@ -1,0 +1,31 @@
+{
+  "key": "mushrooms-puffball",
+  "asset_id": 246,
+  "source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\v13ent-floor-decor\\variety-v1-20261112\\mushrooms-puffball.png",
+  "source_sha256": "5c9e846fe85eef40bda5a2fb816e9f64cc18446a45fdc521eb8992536cff35eb",
+  "crop": [
+    153,
+    106,
+    1032,
+    916
+  ],
+  "native_dimensions": [
+    26,
+    23
+  ],
+  "dimensions": [
+    104,
+    92
+  ],
+  "gain": 0.6,
+  "desaturation": 0.65,
+  "save_node": "60",
+  "file": "mushrooms-puffball.png",
+  "sha256": "917c12b36c1d410357c41becf28929b44042a7a3c2b2145254b947d520008f20",
+  "opaque_native_pixels": 407,
+  "render_only": true,
+  "game_object": false,
+  "collision": false,
+  "registration": "native tile center/bottom plus placement offsets",
+  "workflow": "assets\\generated\\v13ent-floor-decor\\variety-prepared-v1-20261112\\workflow.json"
+}

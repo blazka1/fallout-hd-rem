@@ -1,0 +1,17 @@
+{
+  "task": "Approved male Vault13 lighting and walk integrated into current cave",
+  "date": "2026-11-16",
+  "status": "installed and verified in main cave runtime",
+  "runtime": "runtime/hd-world-pilot",
+  "launcher": "Start-Fallout-HD-World-Pilot.cmd",
+  "executable_sha256": "643cf633def9610f9c37da3d94d71d8a3f51def04f28fa34303b72bb39135288",
+  "package": "assets/hd/player-male-vault13/lighting-v2-x4",
+  "final_report": "build/hd-player-world-integration-20261116/integration.json",
+  "preservation_report": "build/hd-player-world-integration-20261116/preservation.json",
+  "backup": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\build\\backups\\before-world-player-lighting-20261116",
+  "historical_components": {
+    "rats": "build/hd-rat-world-integration-20261115/integration.json",
+    "walls": "build/hd-wall-grey-match-20261116/integration.json",
+    "approved_player": "work/hd-player-lighting-20261116/integration.json"
+  }
+}

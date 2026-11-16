@@ -1,0 +1,88 @@
+{
+  "status": "installed_and_verified",
+  "created_utc": "2026-11-14T02:22:30.313432+00:00",
+  "pid": 40,
+  "inventory_fid": "0x07000073",
+  "native_size": [
+    89,
+    61
+  ],
+  "hd_size": [
+    356,
+    244
+  ],
+  "executable_sha256": "8B27B9514AE15CB8D4D2A10F1991669A1909D2DB80F6361F4070D3E180050306",
+  "asset_sha256": "CEB05AA22EC1ADA3EE41D5D1811C50299F3DAB980D2E200345DF59AFACB82FF8",
+  "png_payload_exact": true,
+  "seed_alpha_matches_baseline": true,
+  "protected_art_files_unchanged": 490,
+  "checks": [
+    {
+      "path": "build\\hd-inventory-stimpak\\preview\\loaded\\manifest.json",
+      "passed": 93,
+      "failed": 0,
+      "sha256": "55DED08A441F7D7F85BC4EABCD11EBCF5CA79FEA8FADE4991FFDB44FD3FF7CCC"
+    },
+    {
+      "path": "build\\hd-inventory-stimpak\\preview\\missing\\manifest.json",
+      "passed": 85,
+      "failed": 0,
+      "sha256": "4CAB0944DD016184D3FB1CDE04D9B81C927CECAFD021531CF23BE80975F91E67"
+    },
+    {
+      "path": "build\\hd-inventory-stimpak\\preview\\corrupt\\manifest.json",
+      "passed": 85,
+      "failed": 0,
+      "sha256": "EF6C1286D8AE41782D674B73D797F504D6164C2FF00A0595112DDBD2E545B139"
+    },
+    {
+      "path": "build\\hd-inventory-stimpak\\preview\\item-4\\manifest.json",
+      "passed": 93,
+      "failed": 0,
+      "sha256": "4E1139DFEA2F25464450A4C8BDBAAC885C68F4216D970C0AE1109F86E8E3041C"
+    },
+    {
+      "path": "build\\hd-inventory-stimpak\\preview\\item-8\\manifest.json",
+      "passed": 93,
+      "failed": 0,
+      "sha256": "654BADF2F2B52F8B660D5BC83A30487484BC9AD3B53577ABF2584076A60FF7C3"
+    },
+    {
+      "path": "build\\hd-inventory-stimpak\\preview\\item-21\\manifest.json",
+      "passed": 93,
+      "failed": 0,
+      "sha256": "3033179B017E4C7F51EE8D146E69CE1B4065F69090552755E3990A1C3C5B6033"
+    },
+    {
+      "path": "build\\hd-inventory-stimpak\\preview\\item-29\\manifest.json",
+      "passed": 93,
+      "failed": 0,
+      "sha256": "2EAE9A9D0A2173BEAD98087250FA4024A297D8B5447DE3C5F078FCD01AED70EE"
+    },
+    {
+      "path": "build\\hd-inventory-stimpak\\preview\\item-30\\manifest.json",
+      "passed": 96,
+      "failed": 0,
+      "sha256": "1E6606F11889FF794DF46AE5EAEE18B40DD5EBBC4682A7FFBD29B846D403BB29"
+    },
+    {
+      "path": "build\\hd-inventory-stimpak\\world-regression\\manifest.json",
+      "passed": 319,
+      "failed": 0,
+      "sha256": "A050915FF6D2FD462D6E532CA39B4E8AE7159A2D48EDEAFB4E4A780E980D71A0"
+    },
+    {
+      "path": "build\\hd-inventory-stimpak\\menu-regression\\manifest.json",
+      "passed": 139,
+      "failed": 0,
+      "sha256": "6EDB8B0A56B2042E6E418969F18C6B8AD602B47AAB8C959C25260782E5B8BA61"
+    }
+  ],
+  "passed": 1189,
+  "failed": 0,
+  "receipts": [
+    "build\\hd-inventory-stimpak\\installations\\20261114-051947-399.json"
+  ],
+  "visual_review": "Original, Seed and Qwen compared. Dark/light alpha and fresh SDL inventory, hand, HUD and drag frames reviewed at 1080p/4K. Needle and hose intact; loop transparent.",
+  "limitations": "Automated render checks and visual review, not a full gameplay walkthrough or a new healing-mechanics test."
+}

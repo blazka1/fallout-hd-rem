@@ -1,0 +1,77 @@
+{
+  "status": "cave foreground sampling fixed and verified in isolated runtime",
+  "cause": "Cave background sampler decoded padded actor owner texel using unpadded body width",
+  "fix": "Shared canvas-aware body and floor-shadow sampling for direct and cave background rendering",
+  "runtime": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\work\\hd-player-lighting-20261116\\runtime",
+  "launcher": "Start-Fallout-HD-Player-Lighting.cmd",
+  "executable_sha256": "3323ef300bf5229258c9e30021ced6314d0a482024d2a4f9803720fd252d1b27",
+  "tests": {
+    "cave-sampling-v2": {
+      "passed": 403,
+      "failed": 0,
+      "loaded_player_frames": 54,
+      "expected_player_frames": 54,
+      "walk_poses_captured": 48,
+      "idle_directions_captured": 6,
+      "distinct_walk_renders": 48,
+      "timed_movement_requested": true,
+      "runtime_map": "V13ENT.MAP"
+    }
+  },
+  "negative_control": {
+    "test": "cave-sampling-red",
+    "result": {
+      "passed": 394,
+      "failed": 1,
+      "loaded_player_frames": 54,
+      "expected_player_frames": 54,
+      "walk_poses_captured": 48,
+      "idle_directions_captured": 6,
+      "distinct_walk_renders": 48,
+      "timed_movement_requested": true,
+      "runtime_map": "V13ENT.MAP"
+    },
+    "expected_failure": "cave player sampler mismatch",
+    "mismatches": 5927968
+  },
+  "differential_samples": 14109376,
+  "differential_mismatches": 0,
+  "cave_poses_captured": 54,
+  "real_ce_walk_through_translucent_foreground": true,
+  "unchanged_open_ground_pose_captures": 54,
+  "unchanged_asset_files_verified": 162,
+  "protected_shared_files_verified": 1691,
+  "protected_shared_files_identical": 1690,
+  "shared_files_modified_by_fix": [],
+  "shared_files_changed": [
+    "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\runtime\\hd-world-pilot\\fallout.cfg"
+  ],
+  "shared_config_note": "Shared fallout.cfg differs from the original generation baseline; its save precedes the fix backup. Preserved without edits. All shared sources, artwork and EXE hashes match.",
+  "sources_changed_in_isolated_copy": [
+    "src/game/hd_cave_variety.inc",
+    "src/game/hd_player.cc",
+    "src/game/hd_player.h",
+    "src/game/hd_player_shadow_test.inc",
+    "src/game/hd_player_test.cc",
+    "src/game/hd_world_pilot.cc",
+    "src/game/hd_world_pilot.h",
+    "src/game/object.cc"
+  ],
+  "previews": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\build\\hd-player-lighting-20261116\\cave-sampling-v2\\gallery",
+  "gallery_sha256": {
+    "cave-before-after.png": "334948797aece2652ede20b1716814c150117cd9f88430f148d136ed574f7248",
+    "cave-six-directions-still.png": "58b7ca7d23e8e1b4e662c1011fddd4c674e014cc8f6a92becdd9f65b255096fd",
+    "cave-six-directions.gif": "2273cf543b4b75d11037ca993f2f42c01bfc503e576efb3b9d82e72929be54ed",
+    "cave-six-directions.webp": "58ea5da23d73cc71c3dc269e5137651e37e827004d410dc8df0177e8c722d1c0",
+    "cave-stand.png": "9f4101e0539a20638c95b60d3b4ed3bf16d1a3cfdcb3902a094bacc0e497f3a6",
+    "walk-through-cave-foreground.gif": "20b8bbd4a2d9a7e0dad749bdc4edd416141a95dedb1c8f6689d1c130859a9a69",
+    "walk-through-cave-foreground.webp": "8eaa93fc9158558aaf2622f19dfd09210262421655587a77d68a92a68c08c845",
+    "wall-walk-contact-sheet.png": "45f294601ca6e9ceb150efa95985b4bebc0ca56b71f42320c48215fbbea55413"
+  },
+  "preview_notes": [
+    "Actual SDL pixels, no art edits or resampling; GIF uses a shared 256-color palette, WebP lossless",
+    "Six-direction montage is fixed-pose captures at 10fps; separate real CE walk includes first24 samples",
+    "Timed captures follow actor tile and include screenshot overhead, not a screen recording"
+  ],
+  "artwork": "Original lighting-v2-x4 ImageGen body and pose shadow files unchanged; no generation in this fix"
+}

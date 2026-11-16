@@ -1,0 +1,79 @@
+{
+  "status": "complete",
+  "created_utc": "2026-11-15T17:58:50.692404+00:00",
+  "component": "Ordinary cave rat masrat, PID 0x01000030",
+  "qwen_panels": 37,
+  "seedvr2_panels": 37,
+  "prepared_base_panels": 37,
+  "unique_images": 376,
+  "world_animation_keys": 540,
+  "aimed_diagram_images": 1,
+  "all_original_directional_frames": 546,
+  "runtime": "runtime\\hd-rat-pilot",
+  "launcher": "Start-Fallout-HD-Rat-Pilot.cmd",
+  "executable_sha256": "f18276109b2690a1ddd4865c61594fa75d27b8fb0f71d3bdcadaf42db677183d",
+  "package": "assets\\hd\\critter-rat\\qwen21-seedvr2-v1-x4",
+  "package_manifest_sha256": "24ad1eb810af5c6f243487e55ca94e9f85572eada1b515d192da5dbc098cc81d",
+  "asset_qa": {
+    "passed": 1129,
+    "failed": 0,
+    "report": "assets\\generated\\critter-rat\\qwen21-seedvr2-v1-20261115\\review\\asset-qa.json"
+  },
+  "engine_reports": {
+    "loaded": {
+      "file": "build/hd-rat-20261115/preview/loaded-v4/manifest.json",
+      "passed": 582,
+      "failed": 0,
+      "sha256": "08f15cf54570c50eca53e98fdb2421171704bd35d9620d381d1c2d19449364b6"
+    },
+    "missing_frame": {
+      "file": "build/hd-rat-20261115/preview/missing-frame/manifest.json",
+      "passed": 560,
+      "failed": 0,
+      "sha256": "c201c947e8abd5e0fa5fe6b6911eeb4a609c838fb8e9d8dce43a1065c6c82141"
+    },
+    "corrupt_frame": {
+      "file": "build/hd-rat-20261115/preview/corrupt-frame/manifest.json",
+      "passed": 560,
+      "failed": 0,
+      "sha256": "9c9eeca296782d510b3e837a5b9cc3033dd3e1ca77cc843fddf707d192aca7e1"
+    },
+    "missing_aimed": {
+      "file": "build/hd-rat-20261115/preview/missing-aimed/manifest.json",
+      "passed": 582,
+      "failed": 0,
+      "sha256": "00f0827ae9d7292412f48da5a2e26458bf08c81317916ae1df6f29d09802dd5c"
+    },
+    "corrupt_aimed": {
+      "file": "build/hd-rat-20261115/preview/corrupt-aimed/manifest.json",
+      "passed": 571,
+      "failed": 0,
+      "sha256": "590ec75714ac266963e50cfd579481c48685d2c5031c28ff10204fb19a426b5a"
+    },
+    "world": {
+      "file": "build/hd-rat-20261115/world-verified/manifest.json",
+      "passed": 577,
+      "failed": 0,
+      "sha256": "9af2e9cd8a8a38e881bf038401948350f277812891ab653b8ca3a740e77680f9"
+    },
+    "menu": {
+      "file": "build/hd-rat-20261115/menu-verified/manifest.json",
+      "passed": 139,
+      "failed": 0,
+      "sha256": "458e91ba89f6861ddea5043c63c279a1d44c685b37e478452360bd510284b631"
+    }
+  },
+  "checks_total": 3571,
+  "failed": 0,
+  "original_dat_map_frm_modified": false,
+  "shared_runtime_modified_by_this_component": false,
+  "scope": "Isolated snapshot; current main world runtime and later wall work were not replaced.",
+  "limits": [
+    "Existing cave floor boundary partial/full redraw differences are identical with the classic-rat control; HD rat introduces no additional differences.",
+    "Automatic pose rendering and timed rat walking are checked; this is not a full combat playthrough.",
+    "Original native-pixel world silhouette retained. Other creatures and maps are outside this component."
+  ],
+  "resume_only_after_user_request": false,
+  "selected_package_created": true,
+  "hd_rat_assets_installed": true
+}

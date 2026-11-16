@@ -1,0 +1,111 @@
+{
+  "1": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "fallout1_stimpak/ammo-fce94a68917541ad99d367a0d421fe71.png"
+    }
+  },
+  "2": {
+    "class_type": "InvertMask",
+    "inputs": {
+      "mask": [
+        "1",
+        1
+      ]
+    }
+  },
+  "3": {
+    "class_type": "ThresholdMask",
+    "inputs": {
+      "mask": [
+        "2",
+        0
+      ],
+      "value": 0.03137254901960784
+    }
+  },
+  "4": {
+    "class_type": "MaskComposite",
+    "inputs": {
+      "destination": [
+        "2",
+        0
+      ],
+      "source": [
+        "3",
+        0
+      ],
+      "x": 0,
+      "y": 0,
+      "operation": "multiply"
+    }
+  },
+  "5": {
+    "class_type": "InvertMask",
+    "inputs": {
+      "mask": [
+        "4",
+        0
+      ]
+    }
+  },
+  "6": {
+    "class_type": "JoinImageWithAlpha",
+    "inputs": {
+      "image": [
+        "1",
+        0
+      ],
+      "alpha": [
+        "5",
+        0
+      ]
+    }
+  },
+  "7": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "6",
+        0
+      ],
+      "width": 1088,
+      "height": 746,
+      "x": 30,
+      "y": 98
+    }
+  },
+  "8": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "7",
+        0
+      ],
+      "upscale_method": "lanczos",
+      "width": 356,
+      "height": 244,
+      "crop": "disabled"
+    }
+  },
+  "9": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "8",
+        0
+      ],
+      "filename_prefix": "fallout1_stimpak/stimpak/final/48d6dab5db18419890344b61aa8ba07f/stimpak-hd-x4"
+    }
+  },
+  "10": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "6",
+        0
+      ],
+      "filename_prefix": "fallout1_stimpak/stimpak/final/48d6dab5db18419890344b61aa8ba07f/master"
+    }
+  }
+}

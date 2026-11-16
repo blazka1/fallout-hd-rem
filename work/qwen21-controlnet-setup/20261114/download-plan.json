@@ -1,0 +1,8 @@
+{
+  "repository": "Comfy-Org/Qwen-Image-2.1",
+  "revision": "aacf31a6d48e707f352ecba714cee0680da3479b",
+  "file": "model_patches/qwen_image_2.1_fun_controlnet_union_int8_convrot.safetensors",
+  "size": 3779298944,
+  "sha256": "07aa961570ac0e03d4ca936aecd76854d077a33cde69b5092399afba01b3715d",
+  "created_utc": "2026-11-14T02:47:19.770640+00:00"
+}

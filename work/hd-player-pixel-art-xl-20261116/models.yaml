@@ -1,0 +1,13 @@
+fallout_existing_models:
+  base_path: C:/Users/Administrator/AppData/Local/Comfy-Desktop/ComfyUI-Shared/models
+  diffusion_models: diffusion_models
+  text_encoders: text_encoders
+  vae: vae
+  model_patches: model_patches
+  upscale_models: upscale_models
+
+  checkpoints: checkpoints
+
+
+  loras: loras
+

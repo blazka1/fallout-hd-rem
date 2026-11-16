@@ -1,0 +1,182 @@
+{
+  "1": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "fallout1_10mm_ammo/ammo-4770f0830dad43719882a775da50e4a0.png"
+    }
+  },
+  "2": {
+    "class_type": "JoinImageWithAlpha",
+    "inputs": {
+      "image": [
+        "1",
+        0
+      ],
+      "alpha": [
+        "1",
+        1
+      ]
+    }
+  },
+  "3": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "2",
+        0
+      ],
+      "upscale_method": "lanczos",
+      "width": 1152,
+      "height": 960,
+      "crop": "disabled"
+    }
+  },
+  "4": {
+    "class_type": "UNETLoader",
+    "inputs": {
+      "unet_name": "qwen_image_2.1_int8_convrot.safetensors",
+      "weight_dtype": "default"
+    }
+  },
+  "5": {
+    "class_type": "CLIPLoader",
+    "inputs": {
+      "clip_name": "qwen3vl_8b_int8_convrot.safetensors",
+      "type": "qwen_image",
+      "device": "default"
+    }
+  },
+  "6": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "qwen_image_2.1_vae_bf16.safetensors"
+    }
+  },
+  "7": {
+    "class_type": "QwenImage21Cache",
+    "inputs": {
+      "model": [
+        "4",
+        0
+      ],
+      "device": "cpu",
+      "dtype": "default"
+    }
+  },
+  "8": {
+    "class_type": "TextEncodeQwenImage21",
+    "inputs": {
+      "clip": [
+        "5",
+        0
+      ],
+      "prompt": "Restore this exact Fallout 1 10mm JHP ammunition inventory icon as a detailed prerendered 2D game asset. Preserve the original silhouette, proportions, oblique viewing direction, position and framing of the ENTIRE group. Exactly FIVE cartridges, with THREE upright cartridges across the back and TWO cartridges lying diagonally in the foreground. Preserve their exact original overlap and orientation: the left foreground cartridge points down-left, the right foreground cartridge shows its circular brass base at lower-right. Keep the original short chunky cartridge proportions. Preserve the muted dark blue coloring around the bullet shoulders and the original metallic bullet tips; keep the warm aged brass cylindrical cases. Carefully restore smooth coherent brass surfaces, subtle scratches and restrained highlights from upper-left. Remove pixel dithering and reveal legible metal detail without redesigning the five shapes. Match the muted late-1990s Fallout look. Keep exactly the same five cartridges as one icon group, no additional rounds, no missing rounds, no box, magazine, weapons, hands, text, emblems, scene, pedestal, floor or cast shadow. Transparent background and generous clear margins. Do not crop the objects. All visible cartridge pixels should stay within the original reference group area.\n",
+      "negative_prompt": "",
+      "vae": [
+        "6",
+        0
+      ],
+      "resolution": 0,
+      "images.image_1": [
+        "3",
+        0
+      ]
+    }
+  },
+  "9": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "7",
+        0
+      ],
+      "positive": [
+        "8",
+        0
+      ],
+      "negative": [
+        "8",
+        1
+      ],
+      "latent_image": [
+        "8",
+        2
+      ],
+      "seed": 13112026,
+      "steps": 25,
+      "cfg": 1.0,
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "denoise": 1.0
+    }
+  },
+  "10": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "9",
+        0
+      ],
+      "vae": [
+        "6",
+        0
+      ]
+    }
+  },
+  "11": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "10",
+        0
+      ],
+      "filename_prefix": "fallout1_10mm_ammo/jhp/qwen/7ccc2f171e5a440392d64f7bef584e11/raw"
+    }
+  },
+  "12": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "3",
+        0
+      ],
+      "filename_prefix": "fallout1_10mm_ammo/jhp/qwen/7ccc2f171e5a440392d64f7bef584e11/reference"
+    }
+  },
+  "13": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "10",
+        0
+      ],
+      "width": 996,
+      "height": 696,
+      "x": 72,
+      "y": 108
+    }
+  },
+  "14": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "13",
+        0
+      ],
+      "upscale_method": "lanczos",
+      "width": 332,
+      "height": 232,
+      "crop": "disabled"
+    }
+  },
+  "15": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "14",
+        0
+      ],
+      "filename_prefix": "fallout1_10mm_ammo/jhp/qwen/7ccc2f171e5a440392d64f7bef584e11/candidate"
+    }
+  }
+}

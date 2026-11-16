@@ -1,0 +1,507 @@
+{
+  "status": "installed-and-verified",
+  "records": [
+    {
+      "id": 120,
+      "base": 120,
+      "file": "asset-120.rgba",
+      "protected_lower_from": 184,
+      "alpha": "exact current",
+      "scene_crop": [
+        160,
+        248,
+        128,
+        464
+      ],
+      "png": "asset-120.png",
+      "source_png": "assets\\generated\\v13ent-cave-seams\\v1-20261115\\walls-v2\\asset-120.png",
+      "png_sha256": "e5ab444d4e0d87d040265ec83a2c82b4528e66bdef80b3a85c8e60f36724ae63",
+      "runtime_sha256": "5ae69562d97d3498e67d8e2d5198a14c10f16026d74dca6df143e642fda1029d",
+      "alpha_exact": true,
+      "changed_pixels": 22801
+    },
+    {
+      "id": 121,
+      "base": 121,
+      "file": "asset-121.rgba",
+      "protected_lower_from": 184,
+      "alpha": "exact current",
+      "scene_crop": [
+        288,
+        248,
+        128,
+        460
+      ],
+      "png": "asset-121.png",
+      "source_png": "assets\\generated\\v13ent-cave-seams\\v1-20261115\\walls-v2\\asset-121.png",
+      "png_sha256": "22b45ae223d4c1e09c283495910c89e9f315c3564165d633c91c7ef2e9e63c0c",
+      "runtime_sha256": "f648283a49af5055ce3b7c9bb3b78d714d2f6b60b20ecbb8a32542d3d2402b90",
+      "alpha_exact": true,
+      "changed_pixels": 22692
+    },
+    {
+      "id": 122,
+      "base": 122,
+      "file": "asset-122.rgba",
+      "protected_lower_from": 184,
+      "alpha": "exact current",
+      "scene_crop": [
+        416,
+        248,
+        128,
+        468
+      ],
+      "png": "asset-122.png",
+      "source_png": "assets\\generated\\v13ent-cave-seams\\v1-20261115\\walls-v2\\asset-122.png",
+      "png_sha256": "96aaec12234800f86a336a2b7f7797068f06027504ce4088b2e9d0efc23687c4",
+      "runtime_sha256": "f0612adfe1229d268ef338398733400acae3af40ee54fb24018c467364e532a3",
+      "alpha_exact": true,
+      "changed_pixels": 22672
+    },
+    {
+      "id": 123,
+      "base": 123,
+      "file": "asset-123.rgba",
+      "protected_lower_from": 184,
+      "alpha": "exact current",
+      "scene_crop": [
+        544,
+        248,
+        132,
+        472
+      ],
+      "png": "asset-123.png",
+      "source_png": "assets\\generated\\v13ent-cave-seams\\v1-20261115\\walls-v2\\asset-123.png",
+      "png_sha256": "5967105af150dd268a5eb3b79ace05f477f25158f9beb64b4cc220ec2e018d50",
+      "runtime_sha256": "a9e16043765b7c8da65fce50db497ad450f1def115abc1a70bf60a133dcee5e9",
+      "alpha_exact": true,
+      "changed_pixels": 23156
+    },
+    {
+      "id": 130,
+      "base": 130,
+      "file": "asset-130.rgba",
+      "protected_lower_from": 184,
+      "alpha": "exact current",
+      "scene_crop": [
+        672,
+        248,
+        132,
+        496
+      ],
+      "png": "asset-130.png",
+      "source_png": "assets\\generated\\v13ent-cave-seams\\v1-20261115\\walls-v2\\asset-130.png",
+      "png_sha256": "c983fbe572071c642f9f7bb6b984974e412c92c7a73093e61e84760dfd90a8c2",
+      "runtime_sha256": "009213543c388d472afe7b116489887f7ed9a79b722b98200c95e261f6adb1ae",
+      "alpha_exact": true,
+      "changed_pixels": 22878
+    },
+    {
+      "id": 186,
+      "base": 120,
+      "file": "wall-accent-186.rgba",
+      "protected_lower_from": 184,
+      "alpha": "exact current",
+      "scene_crop": [
+        160,
+        248,
+        128,
+        464
+      ],
+      "png": "asset-186.png",
+      "source_png": "assets\\generated\\v13ent-cave-seams\\v1-20261115\\walls-v2\\asset-186.png",
+      "png_sha256": "a9031a4e81db21417562b1b91c9a634f8f857ec779a787b897e26a8224274360",
+      "runtime_sha256": "39b8fd8a304bcff641782627f6172fb69ebcfe4788e32f2e62f3b17d3c24e138",
+      "alpha_exact": true,
+      "changed_pixels": 22801
+    },
+    {
+      "id": 187,
+      "base": 120,
+      "file": "wall-accent-187.rgba",
+      "protected_lower_from": 184,
+      "alpha": "exact current",
+      "scene_crop": [
+        160,
+        248,
+        128,
+        464
+      ],
+      "png": "asset-187.png",
+      "source_png": "assets\\generated\\v13ent-cave-seams\\v1-20261115\\walls-v2\\asset-187.png",
+      "png_sha256": "c82be37b1ab8d256c18f23d253c5db895da874a73a814a50eae1aebe650a8c58",
+      "runtime_sha256": "866c16242c83a42b270a39508f3519013ba54b135d7c14c5f2558609e8c36530",
+      "alpha_exact": true,
+      "changed_pixels": 22746
+    },
+    {
+      "id": 188,
+      "base": 121,
+      "file": "wall-accent-188.rgba",
+      "protected_lower_from": 184,
+      "alpha": "exact current",
+      "scene_crop": [
+        288,
+        248,
+        128,
+        460
+      ],
+      "png": "asset-188.png",
+      "source_png": "assets\\generated\\v13ent-cave-seams\\v1-20261115\\walls-v2\\asset-188.png",
+      "png_sha256": "f7a8c4fc4b084299b6859931b9971078b4531e73253703bb8a120895a4c4763a",
+      "runtime_sha256": "35bc271cda4a14d4c52104ca7159bd4141dccd9b2dc2026c308023a90ec6c3ce",
+      "alpha_exact": true,
+      "changed_pixels": 22737
+    },
+    {
+      "id": 189,
+      "base": 121,
+      "file": "wall-accent-189.rgba",
+      "protected_lower_from": 184,
+      "alpha": "exact current",
+      "scene_crop": [
+        288,
+        248,
+        128,
+        460
+      ],
+      "png": "asset-189.png",
+      "source_png": "assets\\generated\\v13ent-cave-seams\\v1-20261115\\walls-v2\\asset-189.png",
+      "png_sha256": "cfb079c43186c852156eca70918198287b47a280b2c887fb88afd9668dfa66c4",
+      "runtime_sha256": "cf31f60438d3299b0af65853e541179a636595642b08bc7a3bf5af34dae88bb3",
+      "alpha_exact": true,
+      "changed_pixels": 22651
+    },
+    {
+      "id": 190,
+      "base": 122,
+      "file": "wall-accent-190.rgba",
+      "protected_lower_from": 184,
+      "alpha": "exact current",
+      "scene_crop": [
+        416,
+        248,
+        128,
+        468
+      ],
+      "png": "asset-190.png",
+      "source_png": "assets\\generated\\v13ent-cave-seams\\v1-20261115\\walls-v2\\asset-190.png",
+      "png_sha256": "6879df947c39c2afa9764efeed122eaec1f3a23effad52288f4e00cd6e0e508e",
+      "runtime_sha256": "95af1d422118f8a887ea32d298f9b34a3fa9d978451dac6f8a2dfc54f74ad699",
+      "alpha_exact": true,
+      "changed_pixels": 22672
+    },
+    {
+      "id": 191,
+      "base": 123,
+      "file": "wall-accent-191.rgba",
+      "protected_lower_from": 184,
+      "alpha": "exact current",
+      "scene_crop": [
+        544,
+        248,
+        132,
+        472
+      ],
+      "png": "asset-191.png",
+      "source_png": "assets\\generated\\v13ent-cave-seams\\v1-20261115\\walls-v2\\asset-191.png",
+      "png_sha256": "546106c34d5fac6596c1db457a1353b292c59bff7eac825a980087567c0a304f",
+      "runtime_sha256": "e1ce7681390a66b173ad45ef686ba6a98af066f97ace7ea8803c2fa8021d69bf",
+      "alpha_exact": true,
+      "changed_pixels": 23212
+    },
+    {
+      "id": 197,
+      "base": 130,
+      "file": "wall-accent-197.rgba",
+      "protected_lower_from": 184,
+      "alpha": "exact current",
+      "scene_crop": [
+        672,
+        248,
+        132,
+        496
+      ],
+      "png": "asset-197.png",
+      "source_png": "assets\\generated\\v13ent-cave-seams\\v1-20261115\\walls-v2\\asset-197.png",
+      "png_sha256": "bcabfb1e8add0a5b7f157119b1594256865662d1f5d02f14678bb7cbd6d07c36",
+      "runtime_sha256": "1f9c0bc26cc63a730558617b92a1ac75b05494ddd11414f3a2227c6a1a4d3596",
+      "alpha_exact": true,
+      "changed_pixels": 22878
+    },
+    {
+      "id": 198,
+      "base": 130,
+      "file": "wall-accent-198.rgba",
+      "protected_lower_from": 184,
+      "alpha": "exact current",
+      "scene_crop": [
+        672,
+        248,
+        132,
+        496
+      ],
+      "png": "asset-198.png",
+      "source_png": "assets\\generated\\v13ent-cave-seams\\v1-20261115\\walls-v2\\asset-198.png",
+      "png_sha256": "444fea5b973adde1ca8083f7c3b7a6150aa02f17fb490176b36aaec8eba6e4b0",
+      "runtime_sha256": "9d4e932bcd19baa145a6c1cb0b2a49551ff9ba56e0d1f090008d3917715d1660",
+      "alpha_exact": true,
+      "changed_pixels": 22878
+    },
+    {
+      "id": 160,
+      "file": "asset-160.rgba",
+      "edit_box": [
+        588,
+        0,
+        168,
+        152
+      ],
+      "alpha": "exact current",
+      "png": "asset-160.png",
+      "source_png": "assets\\generated\\v13ent-cave-seams\\v1-20261115\\door-prepared-v4\\asset-160.png",
+      "png_sha256": "a68fa12d25e1294e895f2958e912264273fa7751517c453a002608e7a023b0ae",
+      "runtime_sha256": "3c3cf2c1fb7ce3e6945e4f2b0cf77917e219137aa85ee3709d042f9fcd4f2a36",
+      "alpha_exact": true,
+      "changed_pixels": 1157
+    },
+    {
+      "id": 161,
+      "file": "asset-161.rgba",
+      "edit_box": [
+        588,
+        0,
+        168,
+        152
+      ],
+      "alpha": "exact current",
+      "png": "asset-161.png",
+      "source_png": "assets\\generated\\v13ent-cave-seams\\v1-20261115\\door-prepared-v4\\asset-161.png",
+      "png_sha256": "c9faf88af41ed04bddfcae71659057558538c3ac68d026f4f497ca85f4f27102",
+      "runtime_sha256": "d4d5d2a85c301ee5fa09c2d793fde9151d3254258705eef948e10472543d38e8",
+      "alpha_exact": true,
+      "changed_pixels": 1166
+    },
+    {
+      "id": 162,
+      "file": "asset-162.rgba",
+      "edit_box": [
+        588,
+        0,
+        168,
+        152
+      ],
+      "alpha": "exact current",
+      "png": "asset-162.png",
+      "source_png": "assets\\generated\\v13ent-cave-seams\\v1-20261115\\door-prepared-v4\\asset-162.png",
+      "png_sha256": "70a24208d4d70ec1814b3fffbb9b6b5fab4fcc61bd7ce70d1c40e99500be6aad",
+      "runtime_sha256": "af4117cec5e20cfd633632b347151f596cb1fe96913dd4771b53180c3cbd6217",
+      "alpha_exact": true,
+      "changed_pixels": 1161
+    },
+    {
+      "id": 163,
+      "file": "asset-163.rgba",
+      "edit_box": [
+        588,
+        0,
+        168,
+        152
+      ],
+      "alpha": "exact current",
+      "png": "asset-163.png",
+      "source_png": "assets\\generated\\v13ent-cave-seams\\v1-20261115\\door-prepared-v4\\asset-163.png",
+      "png_sha256": "04a13cfd81266ca6e0e990bc61f808037ec6eb7223d45204653eaea28a4d8f49",
+      "runtime_sha256": "eaa391ddd74adf86e1a8c6ce145de21e304e9700129bbef7e69710af7091503d",
+      "alpha_exact": true,
+      "changed_pixels": 1160
+    },
+    {
+      "id": 164,
+      "file": "asset-164.rgba",
+      "edit_box": [
+        588,
+        0,
+        168,
+        152
+      ],
+      "alpha": "exact current",
+      "png": "asset-164.png",
+      "source_png": "assets\\generated\\v13ent-cave-seams\\v1-20261115\\door-prepared-v4\\asset-164.png",
+      "png_sha256": "77099af4cca619fe207158f24f2fedf14fe0ab6235d8f1bf95b2078439258026",
+      "runtime_sha256": "c6538aa50ef08954815ce8fca3748899fcf79c8e0130370d5c74a6562efc1391",
+      "alpha_exact": true,
+      "changed_pixels": 1139
+    },
+    {
+      "id": 165,
+      "file": "asset-165.rgba",
+      "edit_box": [
+        588,
+        0,
+        168,
+        152
+      ],
+      "alpha": "exact current",
+      "png": "asset-165.png",
+      "source_png": "assets\\generated\\v13ent-cave-seams\\v1-20261115\\door-prepared-v4\\asset-165.png",
+      "png_sha256": "b271d203a7f5301fd5ea4af54284b31cb129c8a81062611c6369cff38e14c201",
+      "runtime_sha256": "29345f60b53f1e5b923fec5c434a26bf134411d7039cf49632f9a4b66b065477",
+      "alpha_exact": true,
+      "changed_pixels": 1166
+    },
+    {
+      "id": 166,
+      "file": "asset-166.rgba",
+      "edit_box": [
+        588,
+        0,
+        168,
+        152
+      ],
+      "alpha": "exact current",
+      "png": "asset-166.png",
+      "source_png": "assets\\generated\\v13ent-cave-seams\\v1-20261115\\door-prepared-v4\\asset-166.png",
+      "png_sha256": "1c139bec59f767111c9bf0f25242a3de9a4da6b2a56093515b725effd87d3f50",
+      "runtime_sha256": "0976834aee3361efb9addeeb59f994c7bb8837ddf979a7f2fe0123b79e8407d4",
+      "alpha_exact": true,
+      "changed_pixels": 1162
+    },
+    {
+      "id": 167,
+      "file": "asset-167.rgba",
+      "edit_box": [
+        588,
+        0,
+        168,
+        152
+      ],
+      "alpha": "exact current",
+      "png": "asset-167.png",
+      "source_png": "assets\\generated\\v13ent-cave-seams\\v1-20261115\\door-prepared-v4\\asset-167.png",
+      "png_sha256": "082caaa60e73e95fe742d83894ad3eaf5f3c9528b9f4ce40c6d81fefb98aef81",
+      "runtime_sha256": "7bf714b82a2e47ae729cdcf4a856744f0de37629954ff6a71544fbcdaa19649f",
+      "alpha_exact": true,
+      "changed_pixels": 1157
+    },
+    {
+      "id": 168,
+      "file": "asset-168.rgba",
+      "edit_box": [
+        588,
+        0,
+        168,
+        152
+      ],
+      "alpha": "exact current",
+      "png": "asset-168.png",
+      "source_png": "assets\\generated\\v13ent-cave-seams\\v1-20261115\\door-prepared-v4\\asset-168.png",
+      "png_sha256": "0ed3bf83fdce6fac075c2f7ac0c978faa1e9d32272b4c1cc171d3c72dcc7f173",
+      "runtime_sha256": "8c1e7ceeac1fd3e1038ce7229362914f172a3d4395ce3d104910953e35579255",
+      "alpha_exact": true,
+      "changed_pixels": 1156
+    },
+    {
+      "id": 169,
+      "file": "asset-169.rgba",
+      "edit_box": [
+        588,
+        0,
+        168,
+        152
+      ],
+      "alpha": "exact current",
+      "png": "asset-169.png",
+      "source_png": "assets\\generated\\v13ent-cave-seams\\v1-20261115\\door-prepared-v4\\asset-169.png",
+      "png_sha256": "68851a50685faf25c075ae0b3111cb09e5a6a46ef8b8a295be2dc62d8e46c297",
+      "runtime_sha256": "862e9fbb1d39f0ad391174340ca1d7498f32b30b985667f5b7c647b871b92306",
+      "alpha_exact": true,
+      "changed_pixels": 1153
+    },
+    {
+      "id": 170,
+      "file": "asset-170.rgba",
+      "edit_box": [
+        588,
+        0,
+        168,
+        152
+      ],
+      "alpha": "exact current",
+      "png": "asset-170.png",
+      "source_png": "assets\\generated\\v13ent-cave-seams\\v1-20261115\\door-prepared-v4\\asset-170.png",
+      "png_sha256": "b8ab217c20cdb9b75a2fb697c764d1e9c6475deeacb49aa3dc8d852980af7ac2",
+      "runtime_sha256": "6021cc5f64c1df14390795cb9f36d15a715cf6d65c6b22953a0e045ac887d7d0",
+      "alpha_exact": true,
+      "changed_pixels": 1155
+    },
+    {
+      "id": 171,
+      "file": "asset-171.rgba",
+      "edit_box": [
+        588,
+        0,
+        168,
+        152
+      ],
+      "alpha": "exact current",
+      "png": "asset-171.png",
+      "source_png": "assets\\generated\\v13ent-cave-seams\\v1-20261115\\door-prepared-v4\\asset-171.png",
+      "png_sha256": "196311d1cd00b1a58783c761525320ec998ba36919a1c3cb36c509d655d23d92",
+      "runtime_sha256": "fbce1bc92f96f07e449d1794cfe767477e768e724c9c3d1540ef882cca7632b5",
+      "alpha_exact": true,
+      "changed_pixels": 1142
+    },
+    {
+      "id": 172,
+      "file": "asset-172.rgba",
+      "edit_box": [
+        588,
+        0,
+        168,
+        152
+      ],
+      "alpha": "exact current",
+      "png": "asset-172.png",
+      "source_png": "assets\\generated\\v13ent-cave-seams\\v1-20261115\\door-prepared-v4\\asset-172.png",
+      "png_sha256": "202dc18534f1148b4621c645246d5fad5ba5c868ef9799ff8ce1f62f2b454396",
+      "runtime_sha256": "0479bab2a544b7a63b1c27b150c0580b0b1f1691f5c340dd181cdb5439a7d009",
+      "alpha_exact": true,
+      "changed_pixels": 1151
+    },
+    {
+      "id": 173,
+      "file": "asset-173.rgba",
+      "edit_box": [
+        588,
+        0,
+        168,
+        152
+      ],
+      "alpha": "exact current",
+      "png": "asset-173.png",
+      "source_png": "assets\\generated\\v13ent-cave-seams\\v1-20261115\\door-prepared-v4\\asset-173.png",
+      "png_sha256": "1033909fe36ee0566f0066d6fd5c242b1ffda4074beb5fa4eef00ad17b84b13e",
+      "runtime_sha256": "2d7e30676c072fa0981a03a52485701916f1bae722fa085b1c43902ec899158e",
+      "alpha_exact": true,
+      "changed_pixels": 1156
+    },
+    {
+      "id": 174,
+      "file": "asset-174.rgba",
+      "edit_box": [
+        588,
+        0,
+        168,
+        152
+      ],
+      "alpha": "exact current",
+      "png": "asset-174.png",
+      "source_png": "assets\\generated\\v13ent-cave-seams\\v1-20261115\\door-prepared-v4\\asset-174.png",
+      "png_sha256": "a4481f2166f6cc8340c1d8648d848e250c6291303b5e10c077a33fa467737eb2",
+      "runtime_sha256": "fc103a8b0fd1b08e904fd9048db5a0e44c5d4840d5c0233434b3b173ddf3eb89",
+      "alpha_exact": true,
+      "changed_pixels": 1156
+    }
+  ]
+}

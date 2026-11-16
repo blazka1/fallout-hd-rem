@@ -1,0 +1,561 @@
+{
+  "1": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "fallout1_menu/fallout1-menu-mainmenu.frm.png"
+    }
+  },
+  "2": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "fallout1_menu/fallout1-menu-menuup.frm.png"
+    }
+  },
+  "3": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "fallout1_menu/fallout1-menu-menudown.frm.png"
+    }
+  },
+  "4": {
+    "class_type": "UpscaleModelLoader",
+    "inputs": {
+      "model_name": "RealESRGAN_x4plus.pth"
+    }
+  },
+  "5": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "1",
+        0
+      ],
+      "width": 204,
+      "height": 41,
+      "x": 400,
+      "y": 76
+    }
+  },
+  "6": {
+    "class_type": "ImageUpscaleWithModel",
+    "inputs": {
+      "upscale_model": [
+        "4",
+        0
+      ],
+      "image": [
+        "5",
+        0
+      ]
+    }
+  },
+  "7": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "6",
+        0
+      ],
+      "upscale_method": "lanczos",
+      "width": 756,
+      "height": 152,
+      "crop": "disabled"
+    }
+  },
+  "8": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "7",
+        0
+      ],
+      "width": 80,
+      "height": 152,
+      "x": 0,
+      "y": 0
+    }
+  },
+  "9": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "7",
+        0
+      ],
+      "width": 596,
+      "height": 152,
+      "x": 80,
+      "y": 0
+    }
+  },
+  "10": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "7",
+        0
+      ],
+      "width": 80,
+      "height": 152,
+      "x": 676,
+      "y": 0
+    }
+  },
+  "11": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "9",
+        0
+      ],
+      "upscale_method": "lanczos",
+      "width": 860,
+      "height": 152,
+      "crop": "disabled"
+    }
+  },
+  "12": {
+    "class_type": "ImageStitch",
+    "inputs": {
+      "image1": [
+        "8",
+        0
+      ],
+      "direction": "right",
+      "match_image_size": false,
+      "spacing_width": 0,
+      "spacing_color": "black",
+      "image2": [
+        "11",
+        0
+      ]
+    }
+  },
+  "13": {
+    "class_type": "ImageStitch",
+    "inputs": {
+      "image1": [
+        "12",
+        0
+      ],
+      "direction": "right",
+      "match_image_size": false,
+      "spacing_width": 0,
+      "spacing_color": "black",
+      "image2": [
+        "10",
+        0
+      ]
+    }
+  },
+  "14": {
+    "class_type": "ImageUpscaleWithModel",
+    "inputs": {
+      "upscale_model": [
+        "4",
+        0
+      ],
+      "image": [
+        "2",
+        0
+      ]
+    }
+  },
+  "15": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "14",
+        0
+      ],
+      "upscale_method": "lanczos",
+      "width": 100,
+      "height": 100,
+      "crop": "disabled"
+    }
+  },
+  "16": {
+    "class_type": "ImageColorToMask",
+    "inputs": {
+      "image": [
+        "2",
+        0
+      ],
+      "color": 0
+    }
+  },
+  "17": {
+    "class_type": "InvertMask",
+    "inputs": {
+      "mask": [
+        "16",
+        0
+      ]
+    }
+  },
+  "18": {
+    "class_type": "MaskToImage",
+    "inputs": {
+      "mask": [
+        "17",
+        0
+      ]
+    }
+  },
+  "19": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "18",
+        0
+      ],
+      "upscale_method": "bilinear",
+      "width": 100,
+      "height": 100,
+      "crop": "disabled"
+    }
+  },
+  "20": {
+    "class_type": "ImageToMask",
+    "inputs": {
+      "image": [
+        "19",
+        0
+      ],
+      "channel": "red"
+    }
+  },
+  "21": {
+    "class_type": "ImageUpscaleWithModel",
+    "inputs": {
+      "upscale_model": [
+        "4",
+        0
+      ],
+      "image": [
+        "3",
+        0
+      ]
+    }
+  },
+  "22": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "21",
+        0
+      ],
+      "upscale_method": "lanczos",
+      "width": 100,
+      "height": 100,
+      "crop": "disabled"
+    }
+  },
+  "23": {
+    "class_type": "ImageColorToMask",
+    "inputs": {
+      "image": [
+        "3",
+        0
+      ],
+      "color": 0
+    }
+  },
+  "24": {
+    "class_type": "InvertMask",
+    "inputs": {
+      "mask": [
+        "23",
+        0
+      ]
+    }
+  },
+  "25": {
+    "class_type": "MaskToImage",
+    "inputs": {
+      "mask": [
+        "24",
+        0
+      ]
+    }
+  },
+  "26": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "25",
+        0
+      ],
+      "upscale_method": "bilinear",
+      "width": 100,
+      "height": 100,
+      "crop": "disabled"
+    }
+  },
+  "27": {
+    "class_type": "ImageToMask",
+    "inputs": {
+      "image": [
+        "26",
+        0
+      ],
+      "channel": "red"
+    }
+  },
+  "28": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1020,
+      "height": 152,
+      "batch_size": 1,
+      "color": 11251859
+    }
+  },
+  "29": {
+    "class_type": "ImageBlend",
+    "inputs": {
+      "image1": [
+        "13",
+        0
+      ],
+      "image2": [
+        "28",
+        0
+      ],
+      "blend_factor": 1.0,
+      "blend_mode": "multiply"
+    }
+  },
+  "30": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "29",
+        0
+      ],
+      "source": [
+        "15",
+        0
+      ],
+      "x": 44,
+      "y": 26,
+      "resize_source": false,
+      "mask": [
+        "20",
+        0
+      ]
+    }
+  },
+  "31": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "30",
+        0
+      ],
+      "filename_prefix": "fallout1_menu/new-game-v1/normal"
+    }
+  },
+  "32": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1020,
+      "height": 152,
+      "batch_size": 1,
+      "color": 13944481
+    }
+  },
+  "33": {
+    "class_type": "ImageBlend",
+    "inputs": {
+      "image1": [
+        "13",
+        0
+      ],
+      "image2": [
+        "32",
+        0
+      ],
+      "blend_factor": 1.0,
+      "blend_mode": "multiply"
+    }
+  },
+  "34": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1020,
+      "height": 2,
+      "batch_size": 1,
+      "color": 12756587
+    }
+  },
+  "35": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "33",
+        0
+      ],
+      "source": [
+        "34",
+        0
+      ],
+      "x": 0,
+      "y": 0,
+      "resize_source": false
+    }
+  },
+  "36": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "35",
+        0
+      ],
+      "source": [
+        "15",
+        0
+      ],
+      "x": 44,
+      "y": 26,
+      "resize_source": false,
+      "mask": [
+        "20",
+        0
+      ]
+    }
+  },
+  "37": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "36",
+        0
+      ],
+      "filename_prefix": "fallout1_menu/new-game-v1/hover"
+    }
+  },
+  "38": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1020,
+      "height": 152,
+      "batch_size": 1,
+      "color": 8948342
+    }
+  },
+  "39": {
+    "class_type": "ImageBlend",
+    "inputs": {
+      "image1": [
+        "13",
+        0
+      ],
+      "image2": [
+        "38",
+        0
+      ],
+      "blend_factor": 1.0,
+      "blend_mode": "multiply"
+    }
+  },
+  "40": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1020,
+      "height": 4,
+      "batch_size": 1,
+      "color": 1382932
+    }
+  },
+  "41": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "39",
+        0
+      ],
+      "source": [
+        "40",
+        0
+      ],
+      "x": 0,
+      "y": 0,
+      "resize_source": false
+    }
+  },
+  "42": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "41",
+        0
+      ],
+      "source": [
+        "22",
+        0
+      ],
+      "x": 44,
+      "y": 28,
+      "resize_source": false,
+      "mask": [
+        "27",
+        0
+      ]
+    }
+  },
+  "43": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "42",
+        0
+      ],
+      "filename_prefix": "fallout1_menu/new-game-v1/pressed"
+    }
+  },
+  "44": {
+    "class_type": "ImageStitch",
+    "inputs": {
+      "image1": [
+        "30",
+        0
+      ],
+      "direction": "down",
+      "match_image_size": false,
+      "spacing_width": 16,
+      "spacing_color": "black",
+      "image2": [
+        "36",
+        0
+      ]
+    }
+  },
+  "45": {
+    "class_type": "ImageStitch",
+    "inputs": {
+      "image1": [
+        "44",
+        0
+      ],
+      "direction": "down",
+      "match_image_size": false,
+      "spacing_width": 16,
+      "spacing_color": "black",
+      "image2": [
+        "42",
+        0
+      ]
+    }
+  },
+  "46": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "45",
+        0
+      ],
+      "filename_prefix": "fallout1_menu/new-game-v1/states"
+    }
+  }
+}

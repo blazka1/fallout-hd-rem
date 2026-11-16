@@ -1,0 +1,59 @@
+{
+  "created_at_utc": "2026-11-11T14:15:56.5513256Z",
+  "prompt_id": "e2ec5ada-7c17-4d78-9b12-307f5f892246",
+  "comfy_status": "success",
+  "model": "RealESRGAN_x4plus.pth",
+  "model_sha256": "4fa0d38905f75ac06eb49a7951b426670021be3018265fd191d2125df9d682f1",
+  "source_files": {
+    "mainmenu": {
+      "path": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\reference\\main-menu-buttons\\png\\art\\intrface\\mainmenu.frm.png",
+      "sha256": "8a5d20fa43ca0125e7e9f213d872e72ba7492f14af122b93760e68e3e46e7242"
+    },
+    "menuup": {
+      "path": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\reference\\main-menu-buttons\\png\\art\\intrface\\menuup.frm.png",
+      "sha256": "eb66edec3893040713aa282e8e41b66fa9c8fff115979383f3db5aa1840e11ae"
+    },
+    "menudown": {
+      "path": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\reference\\main-menu-buttons\\png\\art\\intrface\\menudown.frm.png",
+      "sha256": "3077bccd4f28228eeb9c0125be31b7fc521f67d4b6fe7f63fbcd5d37ab099748"
+    }
+  },
+  "plate_crop": [
+    400,
+    76,
+    204,
+    41
+  ],
+  "states": [
+    {
+      "state": "normal",
+      "width": 1020,
+      "height": 152,
+      "png_sha256": "3E562CDB907A8132EF770AFCDE45069E2A2C4F4E3F3A578F2290BA6B67890F1E",
+      "runtime_bmp_sha256": "2E1723A96F02D065CF528848E3FA72A182BFB377241026408AE25D43D496AAB1",
+      "decoded_pixel_sha256": "EA3542F18D81D2A31A4E0E9AB53C48E2D233E560FE6ADE91729D0F3F178C8665",
+      "png_to_bmp_pixel_identical": true
+    },
+    {
+      "state": "hover",
+      "width": 1020,
+      "height": 152,
+      "png_sha256": "B42BE40CFB3E0C7C5881226CD58961FC523E8F7D56483DEF4465E1A96B3F616B",
+      "runtime_bmp_sha256": "A59AF55C16B9672AB6FCC22E422380AEBEB53C95343D2F2815DEF54AE42B84C8",
+      "decoded_pixel_sha256": "7BB70AD862CE9EF2CF6F1B2164EEB055EB0DABA8780B8E77D001061CCFB20342",
+      "png_to_bmp_pixel_identical": true
+    },
+    {
+      "state": "pressed",
+      "width": 1020,
+      "height": 152,
+      "png_sha256": "D9B214A53F1262B80CBC7A2BF714AF18693EFBFEECC5D79778BC5775432A17AD",
+      "runtime_bmp_sha256": "FFCA4A6F35751A12677CDFA420C3754B02D35C550E4AAE7052A4C4B06EADAE0B",
+      "decoded_pixel_sha256": "C031C57E1A3C217B90FA0ABD4869638F9B9ECB3FE7058C261A9B42D940E03331",
+      "png_to_bmp_pixel_identical": true
+    }
+  ],
+  "method": "ComfyUI core nodes, RealESRGAN_x4plus reconstruction, shared plate, original switch sprites, no diffusion",
+  "text": "Native CE/Windows GDI caption and hotkey; no lettering baked into PNG",
+  "workflow_sha256": "FA01C24CE20EAC62DE5A4F88DB1905B5B59A3E98182FC71827D2779ED49A1F18"
+}

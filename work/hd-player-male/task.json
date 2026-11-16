@@ -1,0 +1,86 @@
+{
+  "component": "player-male-vault13",
+  "date": "2026-11-12",
+  "scope": "HD redesign of male playable character wearing the Vault 13 jumpsuit",
+  "status": "Integrated in isolated CE pilot V17: 6 static idle directions and 48 walking frames",
+  "source_prefix": "hmjmps",
+  "critter_list_index": 11,
+  "reference_directory": "assets/reference/player-male-vault13",
+  "exported_frames": 180,
+  "clips": [
+    {
+      "source": "art/critters/hmjmpsaa.frm",
+      "clip": "stand",
+      "directions": 6,
+      "frames_per_direction": 12,
+      "fps": 8
+    },
+    {
+      "source": "art/critters/hmjmpsab.frm",
+      "clip": "walk",
+      "directions": 6,
+      "frames_per_direction": 8,
+      "fps": 10
+    },
+    {
+      "source": "art/critters/hmjmpsat.frm",
+      "clip": "run",
+      "directions": 6,
+      "frames_per_direction": 10,
+      "fps": 20
+    }
+  ],
+  "source_integrity": "DAT files read only; extracted originals are immutable",
+  "registration": "Retained source frame shifts, direction offsets, fps, action frame in reference metadata",
+  "preview_note": "Reference previews remain nearest-neighbour originals. Actual current CE previews are in build/hd-player-male/preview/integration-v1",
+  "current_world_baseline_observed": "V16 cave art/contact shadow retained; V17 adds player rendering",
+  "integration_status": "Installed and verified: 228 player checks, 306 world checks, 139 menu checks; zero failures",
+  "next_stage": "Review the V1 actor in the cave; further animation artwork is separate work",
+  "remaining": [
+    "Temporal/pose refinement if requested",
+    "Animated idle, running, weapon, interaction, hit and death HD sets",
+    "Other armour, female characters and NPCs",
+    "Other maps outside V13ENT"
+  ],
+  "shared_files_modified": [
+    "work/hd-world-pilot/fallout1-ce-main/CMakeLists.txt",
+    "work/hd-world-pilot/fallout1-ce-main/src/game/main.cc",
+    "work/hd-world-pilot/fallout1-ce-main/src/game/object.cc",
+    "work/hd-world-pilot/fallout1-ce-main/src/game/hd_world_pilot.cc",
+    "work/hd-world-pilot/fallout1-ce-main/src/game/hd_world_pilot.h"
+  ],
+  "latest_art": {
+    "directory": "assets/generated/player-male-vault13/v1-20261112",
+    "master": "imagegen-master.png",
+    "preview": "comfy-prepared/six-directions.png",
+    "transparent_view_count": 6,
+    "figure_height": 448,
+    "comfy_prompt_id": "42b4f522-ada1-48f5-be50-e5ad7e3b049b",
+    "imagegen_request": "imagegen-request.json",
+    "comfy_workflow": "comfy-prepared/workflow.json",
+    "validation": "All seven output hashes/dimensions verified; six RGBA views have transparent boundaries and alpha max >=240; source/master/directions visually reviewed",
+    "limitations": "Original art study retains straighter arms and elongated silhouette. Six cropped/registered static idle views derived via ComfyUI are now integrated; this study itself is not used as a complete animation."
+  },
+  "latest_walk": {
+    "directory": "assets/generated/player-male-vault13/walk-v1-20261112",
+    "manifest": "manifest.json",
+    "frames": 48,
+    "fps": 10,
+    "scale": 4,
+    "preview": "preview/six-directions-walk.gif",
+    "archive": "walk-v1-x4.zip",
+    "runtime_installed": true
+  },
+  "runtime": "runtime/hd-world-pilot",
+  "launcher": "Start-Fallout-HD-Player-Pilot.cmd",
+  "integration_receipt": "build/hd-player-male/integration-v1.json",
+  "executable_sha256": "5514DF16D8058F817AD992DF26C32B177AC3A7FE95734D9891DB0C8671971AF7",
+  "limits": [
+    "Only male obj_dude, original unarmed hmjmps body, V13ENT.MAP/V13ENT.SAV; other maps remain outside this pilot.",
+    "Six static directional idle sprites; original idle frame numbers retain one fixed HD pose per direction.",
+    "48 walking frames use original CE direction, frame, movement offsets and 100 ms timing. Approximate art poses retain V1 temporal variation, particularly torso turns in side views.",
+    "Running, weapons, combat, interactions, hits/death, armour, female actors, NPCs, active outlines and translucency use the original renderer.",
+    "Timed CE animation was exercised on one eight-hex route. Six-direction gallery is assembled from real posed SDL captures, not six simultaneous gameplay paths.",
+    "Performance samples are hidden-window CPU elapsed times for full refresh plus presentation, not guaranteed gameplay FPS."
+  ]
+}

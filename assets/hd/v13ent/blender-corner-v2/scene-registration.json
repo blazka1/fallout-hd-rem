@@ -1,0 +1,92 @@
+{
+  "box": [
+    4184,
+    280,
+    4456,
+    500
+  ],
+  "scale": 4,
+  "origin": [
+    4240,
+    400
+  ],
+  "ground_axes": [
+    [
+      48,
+      -12
+    ],
+    [
+      32,
+      24
+    ]
+  ],
+  "camera_elevation_degrees": 25.65890627325528,
+  "pixels_per_blender_unit": 55.42562584220408,
+  "physical_height": 1.7213776534046867,
+  "physical_thickness": 0.7,
+  "fractured_rocks": 0,
+  "footprint_screen_control": [
+    [
+      4182,
+      413
+    ],
+    [
+      4200,
+      414
+    ],
+    [
+      4225,
+      414
+    ],
+    [
+      4250,
+      413
+    ],
+    [
+      4280,
+      412
+    ],
+    [
+      4310,
+      414
+    ],
+    [
+      4336,
+      418
+    ],
+    [
+      4352,
+      424
+    ],
+    [
+      4368,
+      434
+    ],
+    [
+      4384,
+      446
+    ],
+    [
+      4402,
+      459
+    ],
+    [
+      4420,
+      473
+    ],
+    [
+      4445,
+      492
+    ],
+    [
+      4460,
+      504
+    ]
+  ],
+  "seed": 15112026,
+  "renderer": "Blender Cycles CPU, 40 samples",
+  "source": "continuous authored Blender rock mesh; procedural material plus verified rock03 detail patch",
+  "geometry_type": "continuous sculpted rock with sparse partial faults, angular planes and shared crown",
+  "individual_plate_objects": 0,
+  "material_provenance": "material-provenance.json"
+}

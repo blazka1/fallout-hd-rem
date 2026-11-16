@@ -1,0 +1,129 @@
+{
+  "status": "installed_and_verified",
+  "created_utc": "2026-11-14T03:02:29.965010+00:00",
+  "assets": [
+    {
+      "pid": 79,
+      "state": "unlit",
+      "hd_size": [
+        368,
+        232
+      ],
+      "asset_sha256": "DE0B442D02735B9B286556DB3031899E6322187B4D6DF15C9CEEBA853FC266DA",
+      "png_payload_exact": true
+    },
+    {
+      "pid": 205,
+      "state": "lit",
+      "hd_size": [
+        320,
+        236
+      ],
+      "asset_sha256": "5001D9DC9B708714CD10A4CD78CA0E0DD307563060A9143957B561D7A82A75C8",
+      "png_payload_exact": true
+    }
+  ],
+  "executable_sha256": "1214761693567F206D0946E1FF95D52F4F3331CB61E4E1F5A4D2169A8013FC00",
+  "protected_art_files_unchanged": 491,
+  "checks": [
+    {
+      "path": "build\\hd-inventory-flare\\preview\\unlit-loaded\\manifest.json",
+      "passed": 98,
+      "failed": 0,
+      "sha256": "8F1CC70A11880CD26F1503083EB69D63AB81F92C33FACFEC7B61ACF92B54BE50"
+    },
+    {
+      "path": "build\\hd-inventory-flare\\preview\\unlit-missing\\manifest.json",
+      "passed": 85,
+      "failed": 0,
+      "sha256": "90A45E1B4694351F667BD711D13D2A665F1B318838950A8F7AB3DEDE8DA884AC"
+    },
+    {
+      "path": "build\\hd-inventory-flare\\preview\\unlit-corrupt\\manifest.json",
+      "passed": 85,
+      "failed": 0,
+      "sha256": "B2EDD4F3179FFCC1A68A4C4F5CF2BE464A5AA7947B6B712A9F85454B8689CC22"
+    },
+    {
+      "path": "build\\hd-inventory-flare\\preview\\lit-loaded\\manifest.json",
+      "passed": 96,
+      "failed": 0,
+      "sha256": "27472DF80766FC019815677F9AEF70EB4A511761B92F6C21496AC19CBAA96EC9"
+    },
+    {
+      "path": "build\\hd-inventory-flare\\preview\\lit-missing\\manifest.json",
+      "passed": 88,
+      "failed": 0,
+      "sha256": "E14CFA6182D1279780B1FA4F147456DC2CDA4FA24AAD83A10BF3B094304816E3"
+    },
+    {
+      "path": "build\\hd-inventory-flare\\preview\\lit-corrupt\\manifest.json",
+      "passed": 88,
+      "failed": 0,
+      "sha256": "CE7CB19329C3DB43B953180D4AB800F6BF5FAF4B8C3631B9596B53152258AF23"
+    },
+    {
+      "path": "build\\hd-inventory-flare\\preview\\installed-79\\manifest.json",
+      "passed": 98,
+      "failed": 0,
+      "sha256": "2E8E6807CD04564546B1DAF783ACBA5C686BF8CB288055605AE4036C0FD9E9A1"
+    },
+    {
+      "path": "build\\hd-inventory-flare\\preview\\installed-4\\manifest.json",
+      "passed": 93,
+      "failed": 0,
+      "sha256": "1E6F0B911D8C081B090E79791C6F06D09A03871D30116ACECC6C8755B0ACBA01"
+    },
+    {
+      "path": "build\\hd-inventory-flare\\preview\\installed-8\\manifest.json",
+      "passed": 93,
+      "failed": 0,
+      "sha256": "B5589444B460AA4F884D649E99C7FB5F79CCC5CCBF374C88FCE09F837BC7018B"
+    },
+    {
+      "path": "build\\hd-inventory-flare\\preview\\installed-21\\manifest.json",
+      "passed": 93,
+      "failed": 0,
+      "sha256": "12538CBA7C83BA6DE60BFEDC278DF1F0F4836F504CDC39145F2F10997A373FDE"
+    },
+    {
+      "path": "build\\hd-inventory-flare\\preview\\installed-29\\manifest.json",
+      "passed": 93,
+      "failed": 0,
+      "sha256": "C92B4489CD14FDB674CBE1699E785CD9296CF9C78649464E6B58E7114F7BFBA7"
+    },
+    {
+      "path": "build\\hd-inventory-flare\\preview\\installed-30\\manifest.json",
+      "passed": 96,
+      "failed": 0,
+      "sha256": "68011DF32875CE28F870C8523980D8AC4CDCF164B7B60EC33F8ABDF259F935C5"
+    },
+    {
+      "path": "build\\hd-inventory-flare\\preview\\installed-40\\manifest.json",
+      "passed": 93,
+      "failed": 0,
+      "sha256": "D797B038D4CC41A820DFC7F1767860E3594CA399B8A956BC53843FCE67D65DCB"
+    },
+    {
+      "path": "build\\hd-inventory-flare\\world-regression\\manifest.json",
+      "passed": 319,
+      "failed": 0,
+      "sha256": "8FDD78723E2AB6258ACDAC927CAB44F9117F89E727EF3152FFE05C5325B80F6C"
+    },
+    {
+      "path": "build\\hd-inventory-flare\\menu-regression\\manifest.json",
+      "passed": 139,
+      "failed": 0,
+      "sha256": "C14303E03991DE3CA4F9569496F91EEB2348C0C7039C54A828FF4785D46CD144"
+    }
+  ],
+  "passed": 1657,
+  "failed": 0,
+  "receipts": [
+    "build\\hd-inventory-flare\\installations\\20261114-055914-627.json",
+    "build\\hd-inventory-flare\\installations\\20261114-055916-005.json"
+  ],
+  "visual_review": "Original/Seed/Qwen, dark/light alpha and SDL HUD/inventory/hand/drag captures reviewed. Lit v2 uses the unlit Qwen x4 candidate as second material reference; lit v1 is rejected and excluded.",
+  "ignition": "Actual protinst_use_item on the same temporary object: PID79 -> PID205, inventory FID switches, light radius8 intensity65536 and EVENT_TYPE_FLARE scheduled. HUD switches and clears old HD metadata. Fixture and timer removed after test.",
+  "limitations": "Inventory icons only; original world sprite and mechanics unchanged. No full burn-duration, gameplay or save/load walkthrough."
+}

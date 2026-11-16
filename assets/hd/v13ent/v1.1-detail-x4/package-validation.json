@@ -1,0 +1,10 @@
+{
+  "status": "success",
+  "asset_count": 159,
+  "all_output_sha256_rechecked": true,
+  "all_metadata_sha256_rechecked": true,
+  "manifest_sha256": "17c852ee878a9f300ecb0f6c758f1ff8b1af623bae25214f3cd9d4c84505872f",
+  "readme_sha256": "0b0e7d09e77657b09cb0661d00c0a9ffd3ce40b856beed3a6eb7b7017671d4b2",
+  "integrated_in_ce": false,
+  "artistic_status": "candidate_for_review"
+}

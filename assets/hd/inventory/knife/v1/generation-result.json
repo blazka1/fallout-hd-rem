@@ -1,0 +1,14 @@
+{
+  "status": "visually_reviewed_candidate",
+  "elapsed_seconds": 70.974,
+  "output_sha256": "aadca7c5909955ac922251a3690a2ba8abcf35daa442dbb4e4ce1125293a3c42",
+  "raw_sha256": "7d7fd9a3c98f8295f4d98d0f0dbb7aff68c91da7cc6eca48dbae5f77185648ce",
+  "output_size": [
+    352,
+    132
+  ],
+  "mode": "RGBA",
+  "opaque_pixels_clipped": 0,
+  "integration": "not_installed",
+  "visual_review": "Missing lower grip material filled, continuous underside, two fasteners retained. Verified on dark/light backgrounds; blade tip repair retained."
+}

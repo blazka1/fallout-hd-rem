@@ -1,0 +1,53 @@
+{
+  "pid": 30,
+  "name": "10mm AP",
+  "message_id": 3000,
+  "prototype": {
+    "pid": 30,
+    "path": "proto/items/00000030.pro",
+    "fid": 1,
+    "subtype": 4,
+    "sha256": "60e3711bcad3f9b4a0b4222d502992dd998d55b504285af50877b727d4889d43"
+  },
+  "inventory_fid": 117440542,
+  "source_art": "art/inven/10mmap.frm",
+  "native_size": [
+    83,
+    61
+  ],
+  "metadata": {
+    "version": 4,
+    "fps": 10,
+    "stored_fps": 0,
+    "action_frame": 0,
+    "frame_count": 1,
+    "direction_x": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "direction_y": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "direction_offsets": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "unique_directions": 1,
+    "data_size": 5075
+  },
+  "frm_sha256": "edd9f1cb6e77e9819bf787f8fbc23d9fc573aab2075595ff9820e9618464ed28",
+  "source_sha256": "3dfa89c024e7e1ff112b9c27a4d5ca31984fb64a96d968d2c6013990b6e76aed"
+}

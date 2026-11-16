@@ -1,0 +1,33 @@
+{
+  "status": "selected",
+  "native": [
+    32,
+    53
+  ],
+  "hd": [
+    128,
+    212
+  ],
+  "states": [
+    {
+      "state": "off",
+      "png_sha256": "e90235341d8b0b7ec75f2269f281388ffb57bca89586533af49b4aba8f8534bd",
+      "rgba_sha256": "b7c91e1eefb30cae27fe01ed1701120baa30f4b1720cda96cc45a38b60b50bb4",
+      "decoded_rgba_sha256": "806357563772207e820b918ad372d9ecce50ad3f6f84b1f5d35ca474187a3a06"
+    },
+    {
+      "state": "on",
+      "png_sha256": "f93e67e628357b1e97247174070da8e816b317303bd82a875336af539d3c5ee2",
+      "rgba_sha256": "91a3713847e175b68576c095f9c3f52082faa9c0bd7c414e27b967e26ba0ee89",
+      "decoded_rgba_sha256": "57b2f93e4ae085b0a73c36f255be6096ba6e68a3d8fce84fa3fe7198a116f215"
+    }
+  ],
+  "alpha_exact_previous": true,
+  "lamp_and_socket_exact_previous": true,
+  "protected_edge_rgb_exact_previous": true,
+  "state_difference_pixels": 62,
+  "method": "Local SeedVR2 detail restoration; shared body donor; original user matte and lamp/socket frozen in ComfyUI",
+  "source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\v13ent-terminal\\detail-v5-20261114",
+  "seedvr2_prompt": "9b5652b5-92f9-451c-bfb5-ad08d1ab144c",
+  "exact_alpha_prompt": "dc7ac8b8-2fec-4c4f-9d69-649ca752d431"
+}

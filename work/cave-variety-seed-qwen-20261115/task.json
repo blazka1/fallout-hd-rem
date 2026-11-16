@@ -1,0 +1,48 @@
+{
+  "component": "V13ENT cave variety candidates",
+  "authorization": "User requested SeedVR2 -> Qwen 2.1 processing of current cave textures, original upscales, several new variants, whole-cave analysis and guide review.",
+  "user_choice": "Separate candidate set and comparisons first. Do not install in runtime.",
+  "latest_steering": "User explicitly requested radically different geometry; added 12 new rocks and 4 formations. Separate comparison scope remains.",
+  "output": "assets/generated/v13ent-cave-variety/seedvr2-qwen21-20261115",
+  "interpreter": "C:/Users/Administrator/AppData/Local/Comfy-Desktop/ComfyUI-Installs/local/standalone-env/python.exe",
+  "server": "http://127.0.0.1:8188",
+  "original_sources": "assets/generated/v13ent-cave/v1-20261111/sources",
+  "current_base": "Exact decoded runtime F1HD for 30 selected terrain resources; all 30 match historical V13 PNG pixels. Vault/terminal latest versions excluded.",
+  "plan": "30 source resources restored; 66 material candidates plus 16 new geometry candidates. Prioritize the 16 new forms; wall/floor materials require coherent neighborhood coverage before any installation.",
+  "completed": [
+    "Guides and updated AGENTS read and baseline verified",
+    "30 original SeedVR2 x4 controls and 30 current-HD SeedVR2 controls",
+    "66 material alternatives generated, registered and checked",
+    "16 radically new geometry sprites generated with their own alpha",
+    "Visual comparisons, silhouettes, light/dark backgrounds and real-neighbor QA assemblies reviewed",
+    "82 PNG candidate pack and manifests; runtime baseline unchanged"
+  ],
+  "production": "run_full_batch.py resumes saved prompt IDs, uses full working sizes and current-HD SeedVR2 controls, except rocks-a/A which keeps first successful original+HD two-reference trial.",
+  "running_at_checkpoint": [],
+  "remaining": [],
+  "limits": "Game engine currently variants only WALL/frame0, two slots. New rocks/floor selection requires separate engine work and ID capacity audit. None performed here. Context previews are unlit QA assemblies, never claimed SDL renders. Qwen raw alpha may contain near-transparent purple RGB; always composite on dark/light background for viewing.",
+  "shared_files_changed": "None. All writes confined to task work and generated directories plus authorized ComfyUI input/output via its API.",
+  "status": "complete: separate candidate collection and comparisons, no installation",
+  "output_counts": {
+    "status": "isolated comparison collection; not user selected or installed",
+    "total_candidate_png": 82,
+    "material_variants": 66,
+    "new_geometry_sprites": 16,
+    "restored_original_controls": 30,
+    "restored_current_hd_controls": 30,
+    "manifests": [
+      "manifest.json",
+      "new-geometry/manifest.json"
+    ],
+    "source_controls": "../prepared/<group>/seed and seed-current",
+    "runtime_writes": false,
+    "recommended_first_selection_scope": {
+      "new_rocks": 12,
+      "new_formations": 4,
+      "total_new_forms": 16,
+      "wall_material_studies": 12,
+      "floor_material_studies": 8
+    },
+    "recommendation_note": "Prioritize selection among 16 new forms. The 20 wall/floor source pieces are material studies, not a seamless partial replacement: neighborhood review shows visible material mosaics. A chosen wall family needs a connected coverage pass across the 62 cave wall pieces, and floor needs neighboring transition tiles. All candidates remain uninstalled."
+  }
+}

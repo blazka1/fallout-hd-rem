@@ -1,0 +1,14 @@
+{
+  "component": "HUD shell and log monitor",
+  "status": "installed and verified in active world pilot",
+  "output": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\hud-shell-monitor\\seed-qwen-v1-20261116",
+  "scope": "SeedVR2 then Qwen; protected controls; no runtime integration",
+  "shared_files_modified": [],
+  "runtime_installed": true,
+  "preview": "assets/generated/hud-shell-monitor/seed-qwen-v1-20261116/review/comparison-full.png",
+  "detail_preview": "assets/generated/hud-shell-monitor/seed-qwen-v1-20261116/review/comparison-monitor.png",
+  "validation": "assets/generated/hud-shell-monitor/seed-qwen-v1-20261116/review/validation.json",
+  "installation_report": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\build\\hd-hud-shell-install-20261116\\integration.json",
+  "selected_package": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\hd\\hud-panel\\seed-qwen-v1",
+  "runtime_executable_sha256": "2029577319701b415d2d9547c760de64c181effcb1879132c9b568c21d4edeb2"
+}

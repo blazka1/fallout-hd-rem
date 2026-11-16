@@ -1,0 +1,44 @@
+{
+  "native": [
+    32,
+    53
+  ],
+  "hd": [
+    128,
+    212
+  ],
+  "asset_id": 10,
+  "fid": 33554542,
+  "alpha_values": [
+    0,
+    63,
+    127,
+    191,
+    255
+  ],
+  "alpha_policy": "User red outline traced at 2x HD and area-antialiased in ComfyUI; capped to original FRM support. Actual scene background compositing required.",
+  "rgb_exact_previous": true,
+  "lamp_exact_previous": true,
+  "lamp_changed_pixels": 62,
+  "removed_visible_pixels": 2570,
+  "restored_inside_guide_pixels": 44,
+  "states": [
+    {
+      "state": "terminal-off",
+      "png_sha256": "eb77408f275dfa043989b162b1e165bec6499ad00d71c7952ae09f3ed1a70fa2",
+      "rgba_sha256": "35f861fc4ce2caefd4b549dc63ec1266fffe4975874c17e781431bbd551e944e",
+      "decoded_rgba_sha256": "022887935e083945beb6c6017d52e2fc7be3808313a3d1f30a29ecc2f7521ea2"
+    },
+    {
+      "state": "terminal-on",
+      "png_sha256": "32e11c5aa068a6dce3a3c4467567e719e0ca0bffa65f9ede6c962b5de350a0af",
+      "rgba_sha256": "bfd58865b0d26ecb33a9b0e67ae400411561d2dc9245a61eefd9ddd4be348779",
+      "decoded_rgba_sha256": "2e4509f4656fbd66d0d1a4155008045ce3970b47ba6bccadfbacbb9bdd6bd0ec"
+    }
+  ],
+  "source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\v13ent-terminal\\user-contour-v4-20261114",
+  "comfy_prompt_id": "4c9bb596-a3a7-40e3-80e4-58676b16711a",
+  "requires_soft_terminal_renderer": true,
+  "diffusion": false,
+  "guide_sha256": "3a6ac9c068a489964e313c4cb47c17791382190e1be109846fc5eb84e3bd8fbf"
+}

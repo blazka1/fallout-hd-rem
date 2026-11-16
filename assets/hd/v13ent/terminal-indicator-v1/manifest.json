@@ -1,0 +1,40 @@
+{
+  "native": [
+    32,
+    53
+  ],
+  "hd": [
+    128,
+    212
+  ],
+  "original_fid": 33554542,
+  "original_asset_id": 10,
+  "alpha_exact": true,
+  "changed_lamp_pixels": 62,
+  "lamp_hd_bounds": [
+    96,
+    58,
+    106,
+    67
+  ],
+  "period_ms": 1600,
+  "on_ms": 500,
+  "source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\v13ent-terminal\\qwen21-indicator-v2-20261114",
+  "source_sha256": "801ac845a819d41735fe3437cbddcb755aab9442387a1512ac16e23e22856d10",
+  "qwen_prompt_id": "583d2a80-1582-45a1-aa97-38d0da6b96ed",
+  "preparation_prompt_id": "f2cba50c-7972-4288-981b-d473191db3f7",
+  "states": [
+    {
+      "state": "terminal-off",
+      "png_sha256": "1f88e858d0d0e812022512ed251130304447b9fc8a1357836b24fadb5209d7b1",
+      "runtime_sha256": "8640fa39d8f5caf8985672782650b1271b8857a2514507e470a5037b59f45b26",
+      "decoded_rgba_sha256": "4ef1192ef49967ab9a288ffbfd198e5c1eead9ec59d51a91d7a84f3ba60ca45a"
+    },
+    {
+      "state": "terminal-on",
+      "png_sha256": "cead4b2d6180de42c78cd371bda897df76dbc5ac2cbce87bd171f15ce717a1c0",
+      "runtime_sha256": "ab020ccf1fc24d9359b1eadb0f32cb4d9592ed052e139f997c0925a503591b0d",
+      "decoded_rgba_sha256": "bfd0c16fc944c17c97206f7f3d390122633eabcbe0d8c114b21bd8dcf8fb3ab5"
+    }
+  ]
+}

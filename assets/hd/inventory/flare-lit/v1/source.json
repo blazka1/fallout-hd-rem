@@ -1,0 +1,53 @@
+{
+  "pid": 205,
+  "name": "Lit Flare",
+  "message_id": 20500,
+  "prototype": {
+    "pid": 205,
+    "path": "proto/items/00000205.pro",
+    "fid": 46,
+    "subtype": 3,
+    "sha256": "d78c235d3886c4f378d63c279383fca7af62ffdc9b68b2b40e260dec25f115c5"
+  },
+  "inventory_fid": 117440635,
+  "source_art": "art/inven/flareon.frm",
+  "native_size": [
+    80,
+    59
+  ],
+  "metadata": {
+    "version": 4,
+    "fps": 10,
+    "stored_fps": 0,
+    "action_frame": 0,
+    "frame_count": 1,
+    "direction_x": [
+      -273,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "direction_y": [
+      -177,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "direction_offsets": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "unique_directions": 1,
+    "data_size": 4732
+  },
+  "frm_sha256": "962480f0e93356162e74e8b4fbbd01aa3bebd3efb50f82f2a620b27cf6582ebf",
+  "source_sha256": "28b6d411dc1d8159ea7e86cad208cd35cc9dbad022f2af9233d6f1ab8c10a0ed"
+}

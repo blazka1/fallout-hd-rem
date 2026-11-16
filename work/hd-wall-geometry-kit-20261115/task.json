@@ -1,0 +1,16 @@
+{
+  "component": "hd-wall-geometry-kit-20261115",
+  "status": "geometry concept pass and local connector proof complete; full registered wall kit unfinished",
+  "user_direction": "approved broad geometry master; prioritize geometry before material",
+  "concept_count": 15,
+  "source_types_referenced": 62,
+  "ready_game_sprites": 0,
+  "connector_proof": {"position_specific_blocks": 4, "variants": 3, "combinations_verified": 81},
+  "runtime_modified": false,
+  "AGENTS_modified": false,
+  "engine_tests_run": false,
+  "remaining": ["Register new geometry to original anchors and back-face orientations", "Create final common connectors without interior blend artifacts", "Export synchronized block variants to CE fragments", "Verify all actual contacts and cutaway joins in an isolated runtime"],
+  "review": "build/hd-wall-geometry-kit-20261115/review/overview.png",
+  "manifest": "assets/generated/v13ent-wall-geometry-kit/v1-20261115/manifest.json",
+  "checks": "build/hd-wall-geometry-kit-20261115/checks.json"
+}

@@ -1,0 +1,44 @@
+{
+  "key": "extinguished-campfire",
+  "asset_id": 248,
+  "source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\v13ent-campfire\\master-v1-20261112\\extinguished-campfire.png",
+  "source_sha256": "3cfd94fb34e73551cb306465b16ba7c25b7c7436320221a75e0797c2de7a8cde",
+  "source_dimensions": [
+    1683,
+    935
+  ],
+  "crop": [
+    142,
+    228,
+    1385,
+    514
+  ],
+  "native_dimensions": [
+    64,
+    24
+  ],
+  "dimensions": [
+    256,
+    96
+  ],
+  "gain": 0.82,
+  "desaturation": 0.35,
+  "alpha_threshold": 0.5,
+  "save_node": "20",
+  "placement_intent": "flat walkable decoration, no collision or gameplay object",
+  "scale": 4,
+  "file": "extinguished-campfire.png",
+  "sha256": "921fc1663bc1585926bbd28d33cc919339ab6412aa595abb17d4358831e8a4ef",
+  "opaque_native_pixels": 984,
+  "opaque_rgb_mean": [
+    67.52978912601625,
+    66.1321138211382,
+    65.17956046747967
+  ],
+  "render_only": true,
+  "game_object": false,
+  "collision": false,
+  "registration": "native tile center/bottom plus authored placement offsets",
+  "workflow": "assets\\generated\\v13ent-campfire\\prepared-v1-20261112\\workflow.json",
+  "placement_evidence": "assets\\generated\\v13ent-campfire\\location-v1-20261112\\location.json"
+}

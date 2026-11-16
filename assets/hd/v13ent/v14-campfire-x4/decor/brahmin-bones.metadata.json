@@ -1,0 +1,31 @@
+{
+  "key": "brahmin-bones",
+  "asset_id": 245,
+  "source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\v13ent-floor-decor\\variety-v1-20261112\\brahmin-bones.png",
+  "source_sha256": "110c0e6166f41a3c3568bb43e14e944b65098a59eed35fe8da90b6bf77f527e4",
+  "crop": [
+    191,
+    106,
+    1153,
+    770
+  ],
+  "native_dimensions": [
+    64,
+    43
+  ],
+  "dimensions": [
+    256,
+    172
+  ],
+  "gain": 0.86,
+  "desaturation": 0.65,
+  "save_node": "40",
+  "file": "brahmin-bones.png",
+  "sha256": "59bcb8eca3538d135aa590a13c1731c75fa1e60a146d3ff923f7809f40fb7600",
+  "opaque_native_pixels": 1357,
+  "render_only": true,
+  "game_object": false,
+  "collision": false,
+  "registration": "native tile center/bottom plus placement offsets",
+  "workflow": "assets\\generated\\v13ent-floor-decor\\variety-prepared-v1-20261112\\workflow.json"
+}

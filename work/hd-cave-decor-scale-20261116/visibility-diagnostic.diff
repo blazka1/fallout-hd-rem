@@ -1,0 +1,22 @@
+--- 
++++ 
+@@ -1932,6 +1932,19 @@
+                 ++visible;
+                 if (hdWorldLightAt(world + pixel) != expectedLight) ++incorrectLight;
+             }
++            // Translucent cave walls may own the cell while this decoration is
++            // visible in their saved background. Count actual rendered cells.
++            if (visible <= 40) {
++                Capture decorOn = capture({}, true);
++                hdWorldSetDecorationsEnabled(false); tile_refresh_display();
++                Capture decorOff = capture({}, true);
++                hdWorldSetDecorationsEnabled(true); tile_refresh_display();
++                int renderedVisible = 0;
++                for (int y = std::max(0,top); y < std::min(win_height(display_win),top+decorHeight); ++y)
++                    for (int x = std::max(0,left); x < std::min(win_width(display_win),left+decorWidth); ++x)
++                        if (decorOn.valid && decorOff.valid && !sameRegion(decorOn,decorOff,x,y,1,1)) ++renderedVisible;
++                visible = std::max(visible, renderedVisible);
++            }
+             report.check(visible > 40, name + " visible at its location at game scale");
+             report.check(incorrectLight == 0, name + " uses actual ambient/tile lighting");
+             report.check(obj_blocking_at(obj_dude, item.tile, 0) == nullptr && !decorBefore.paths[i].empty(),

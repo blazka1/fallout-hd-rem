@@ -1,0 +1,33 @@
+{
+  "box": [
+    2892,
+    84,
+    5622,
+    1449
+  ],
+  "scale": 4,
+  "axes": [
+    [
+      47.99995422363281,
+      -12.000007629394531
+    ],
+    [
+      32.00001525878906,
+      24.000001907348633
+    ]
+  ],
+  "blender": "5.2.4 LTS",
+  "renderer": "Cycles",
+  "device": "GPU",
+  "denoiser": "OPTIX",
+  "samples": 24,
+  "sharp_edge_threshold_degrees": 55,
+  "color_transform": "Standard",
+  "lights": {
+    "key": 5.0,
+    "fill": 0.8
+  },
+  "render_regions": 19,
+  "overlap_native_pixels": 64,
+  "compositing": "Premultiplied-alpha weighted overlap; no color correction or image warp"
+}

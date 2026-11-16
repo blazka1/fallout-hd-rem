@@ -1,0 +1,163 @@
+--- current/src\game\hd_world_pilot_test.cc
+
++++ rat/src\game\hd_world_pilot_test.cc
+
+@@ -881,9 +881,7 @@
+
+         for (int x = std::max(0, actor.x); x < std::min(pitch, actor.x + actor.width); ++x) {
+             if (actor.at(x, y) && rock.at(x, y)) {
+                 size_t offset = static_cast<size_t>(y) * pitch + x;
+-                // The exact-color front test needs a genuinely unobscured actor,
+-                // not an actor seen through a translucent cave-wall egg.
+-                if (visible[offset] != hidden[offset] && owners[offset]==0) ++visibleCount;
++                if (visible[offset] != hidden[offset]) ++visibleCount;
+                 // Equal palette colors alone do not prove occlusion. Only the
+                 // actual surviving rock write is accepted as hidden evidence.
+                 else if ((owners[offset] >> 24) == 2) ++hiddenCount;
+@@ -952,20 +950,12 @@
+
+     Snapshot before = snapshot({});
+     Capture classicVisible = capture(directory / (name + "-classic.bmp"), false);
+     Capture hdVisible = capture(directory / (name + "-hd.bmp"), true);
+-    hdWorldReleaseTextures();tile_refresh_display();
+-    const Capture freshVisible=capture({},true);
+-    report.check(hdVisible.valid && freshVisible.valid && hdVisible.pixels==freshVisible.pixels,
+-        name+" actor arrival / transparency cache matches uncached frame");
+     compare(report, before, snapshot({}), name + " HD toggle");
+     int flags = obj_dude->flags;
+     obj_dude->flags |= OBJECT_HIDDEN;
+     tile_refresh_display();
+     Capture classicHidden = capture({}, false);
+     Capture hdHidden = capture({}, true);
+-    hdWorldReleaseTextures();tile_refresh_display();
+-    const Capture freshHidden=capture({},true);
+-    report.check(hdHidden.valid && freshHidden.valid && hdHidden.pixels==freshHidden.pixels,
+-        name+" actor departure / background cache matches uncached frame");
+     obj_dude->flags = flags;
+     tile_refresh_display();
+     bool valid = classicVisible.valid && hdVisible.valid && classicHidden.valid && hdHidden.valid;
+@@ -980,10 +970,7 @@
+
+             if (!actorMask.at(logicalX, logicalY)) continue;
+             size_t ownerOffset = static_cast<size_t>(logicalY) * win_width(display_win) + logicalX;
+             if (logicalY >= win_height(display_win) || ownerOffset >= visibleOwners.size()) continue;
+-            // Old egg dithering leaves unowned wall pixels inside the actor's
+-            // rectangular mask. Only pixels changed by the actor are evidence
+-            // of visible actor color; the others may legitimately change wall art.
+-            if (visibleOwners[ownerOffset] == 0 && classicVisible.pixels[offset]!=classicHidden.pixels[offset]) {
++            if (visibleOwners[ownerOffset] == 0) {
+                 ++visiblePixels;
+                 if (hdVisible.pixels[offset] != classicVisible.pixels[offset]) ++overwritten;
+             } else if ((visibleOwners[ownerOffset] >> 24) == 2 && rockMask.at(logicalX, logicalY)) {
+@@ -1148,8 +1135,6 @@
+
+         name + " scenery prototype bytes remain unchanged");
+ }
+ 
+-#include "game/hd_wall_geometry_test.inc"
+-
+ void wallAccentRegression(const std::filesystem::path& output, Report& report)
+ {
+     // The new accents use the formerly vacant 175..198 slots. Verify actual
+@@ -1166,7 +1151,7 @@
+
+         int id=hdWorldResolveAsset(o->fid,o->frame,o->tile,o->elevation);
+         if(id<175 || id>198) continue;
+         registered.insert(id);
+-        if(hdWorldCaveAssetForObject(o)==252 || hdWorldCaveAssetForObject(o)==253) {replaced.insert(id);continue;}
++        if(hdWorldCaveAssetForObject(o)==252) {replaced.insert(id);continue;}
+         if(visible.count(id)) continue;
+         tile_set_center(o->tile,TILE_SET_CENTER_REFRESH_WINDOW|TILE_SET_CENTER_FLAG_IGNORE_SCROLL_RESTRICTIONS);
+         tile_refresh_display();
+@@ -1191,7 +1176,7 @@
+
+     }
+     report.check(registered.size()==24,"all 24 wall accents assigned to original wall objects");
+     auto covered=visible;covered.insert(replaced.begin(),replaced.end());
+-    report.check(covered.size()==24,"all 24 wall accents visible or superseded by explicit connected wall geometry");
++    report.check(covered.size()==24,"all 24 wall accents visible or superseded by explicit vault rock appearance");
+     tile_set_center(center,TILE_SET_CENTER_REFRESH_WINDOW|TILE_SET_CENTER_FLAG_IGNORE_SCROLL_RESTRICTIONS);
+     compare(report,before,snapshot({}),"wall accent visual variants");
+ }
+@@ -1202,7 +1187,7 @@
+
+     const int center=tile_center_tile;
+     std::vector<Object*> assigned;
+     std::set<int> variants;
+-    for(auto* o:objects()) if(hdWorldCaveAssetForObject(o) && hdWorldCaveAssetForObject(o)!=253) {assigned.push_back(o);variants.insert(hdWorldCaveAssetForObject(o));}
++    for(auto* o:objects()) if(hdWorldCaveAssetForObject(o)) {assigned.push_back(o);variants.insert(hdWorldCaveAssetForObject(o));}
+     const int vault=hdWorldAssetLoaded(252)?1:0;
+     report.check(hdWorldCaveAssetCount()==16+vault,"16 scenery masters plus optional vault rock loaded in reserved slots");
+     report.check(hdWorldCaveAssignmentCount()==76+vault && assigned.size()==76+vault,"76 scenery identities plus optional exact vault wall resolve");
+@@ -1697,12 +1682,6 @@
+
+     report.check(classic.valid && hd.valid && classic.pixels != hd.pixels, "HD changes visible world pixels");
+     int misplacedPixels = 0;
+     std::array<int, 256> changedByAsset {};
+-    std::array<Rect,512> geometryBounds {};
+-    std::array<bool,512> geometryBoundValid {};
+-    for(auto* o:objects()) if(hdWorldCaveAssetForObject(o)==253) {
+-        const int i=hdWorldCavePlacementForObject(o);
+-        if(i>=0 && i<512) {obj_bound(o,&geometryBounds[i]);geometryBoundValid[i]=true;}
+-    }
+     Object* skeleton = nullptr;
+     for (auto* object : objects()) if (object->pid == 211 && object->fid == 113 && object->tile == 17488) skeleton = object;
+     if (classic.valid && hd.valid && classic.width == hd.width && classic.height == hd.height) {
+@@ -1721,12 +1700,7 @@
+
+                     && logicalX >= skeleton->sx && logicalX < skeleton->sx + 67
+                     && logicalY >= skeleton->sy && logicalY < skeleton->sy + 41
+                     && (owner & 0xFFFFFF) == static_cast<unsigned int>((logicalY - skeleton->sy) * 67 + logicalX - skeleton->sx);
+-                const unsigned int gi=(owner>>15)&511;
+-                const auto& gr=geometryBounds[gi];
+-                const bool geometryCell=id==253 && geometryBoundValid[gi]
+-                    && logicalX>=gr.ulx && logicalX<=gr.lrx && logicalY>=gr.uly && logicalY<=gr.lry
+-                    && (owner&32767)==static_cast<unsigned int>((logicalY-gr.uly)*(gr.lrx-gr.ulx+1)+logicalX-gr.ulx);
+-                if (id < 1 || id > 255 || (!hdWorldAssetLoaded(id) && !skeletonCell && !geometryCell)) ++misplacedPixels;
++                if (id < 1 || id > 255 || (!hdWorldAssetLoaded(id) && !skeletonCell)) ++misplacedPixels;
+                 else ++changedByAsset[id];
+             }
+         }
+@@ -1736,12 +1710,6 @@
+
+         + " misplaced; floor " + std::to_string(changedByAsset[1]) + "; rock " + std::to_string(changedByAsset[2]) + ")");
+     report.check(classic.stateRestored && hd.stateRestored, "renderer logical scale viewport and clip preserved");
+     compare(report, original, snapshot(destinations), "entrance HD toggle");
+-    if(SDL_getenv("FALLOUT_HD_WALL_OCCLUSION_ONLY")) {
+-        const auto poses=findOverlapPoses(rocks);
+-        checkOverlap(report,output,poses[0],"actor-front");checkOverlap(report,output,poses[1],"actor-behind");
+-        std::ofstream result(output/"result.json");result<<"{\"passed\":"<<report.passed<<",\"failed\":"<<report.failed<<"}\n";
+-        return report.failed==0?0:22;
+-    }
+     if (hdWorldTileVariantCount() > 0 || SDL_getenv("FALLOUT_HD_TILE_EXPECT_COUNT")) {
+         const char* expected = SDL_getenv("FALLOUT_HD_TILE_EXPECT_COUNT");
+         if (expected) report.check(hdWorldTileVariantCount() == std::atoi(expected), "expected compatible floor/cutaway pages loaded");
+@@ -1799,7 +1767,7 @@
+
+                 const auto token = hdWorldOwnerAt(screen + ly * gSdlSurface->pitch + lx);
+                 const int id = token >> 24;
+                 // Soft scenery/actors composite their saved floor underlay.
+-                const bool underlay = (id >= 224 && id <= 239) || id == 249 || id == 250 || id == 252 || id == 253;
++                const bool underlay = (id >= 224 && id <= 239) || id == 249 || id == 250 || id == 252;
+                 if (!hdWorldAssetIsFloor(id) && !underlay) ++outside;
+                 const auto blue = [](uint32_t pixel) {
+                     return int(pixel & 255) > int((pixel >> 16) & 255) + 12
+@@ -1868,7 +1836,7 @@
+
+                 if (!appearances.count(owner) && !hdWorldCaveBackgroundHasAsset(token,175,223)) ++outside;
+             }
+         }
+-        report.check((hdWorldWallGeometryEnabled() && hdWorldWallGeometryCount() ? changed==0 : changed>100) && outside == 0, "wall variety visible or replaced by connected geometry; every other world/UI pixel preserved (" + std::to_string(changed) + " changed)");
++        report.check(changed > 100 && outside == 0, "wall variety visible; every other world/UI pixel preserved (" + std::to_string(changed) + " changed)");
+         report.check(variedFrame.valid && variedFrame.pixels == hd.pixels, "restoring variants reproduces identical entrance frame");
+         compare(report, original, snapshot(destinations), "wall appearances");
+     }
+@@ -2072,7 +2040,6 @@
+
+ 
+     const std::array<int, 4> cameraOffsets { -4, 4, -800, 800 };
+     caveVarietyRegression(output,report);
+-    wallGeometryRegression(output,report);
+     vaultRockRegression(output,report);
+     wallAccentRegression(output,report);
+     const std::array<const char*, 4> cameraNames { "camera-left", "camera-right", "camera-up", "camera-down" };

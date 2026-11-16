@@ -1,0 +1,48 @@
+{
+  "status": "installed_in_hd_world_pilot",
+  "selection": "Assistant selected Qwen for detail and silhouette preservation; user requested redrawing the next inventory item in the established HD workflow",
+  "pid": 21,
+  "inventory_fid": 117440652,
+  "inventory_art": "art/inven/brsnuck.frm",
+  "native_size": [
+    81,
+    65
+  ],
+  "hd_size": [
+    324,
+    260
+  ],
+  "master_size": [
+    1152,
+    960
+  ],
+  "source_generation": "assets\\generated\\inventory-brass-knuckles\\qwen21-x4-20261113",
+  "framing_crop": [
+    84,
+    84,
+    972,
+    780
+  ],
+  "opaque_pixels_clipped": 0,
+  "postprocess": "ComfyUI: remove alpha<=15 background noise; retain higher alpha; crop to original native canvas at unchanged aspect ratio; Lanczos to 324x260",
+  "format": "F1HD RGBA8, exact decoded selected PNG bytes",
+  "classic_fallback": "Original brsnuck.frm in DAT, no loose FRM override",
+  "files": {
+    "comparison.png": "4E0DCD399A390DB7BC86BC9D3D769CD03F97E36B2873521BFD36A1446BB8C2C5",
+    "knuckles-hd-x4.png": "CAEE14018FF86989289037C2A19FA83179F9828A6B756DCB359DE973B0FF0683",
+    "knuckles-master.png": "F0FB91D006551EA8E23F8B0961E10FD74CA13255143B3370E324701E8E4D661D",
+    "knuckles.rgba": "36272386CBDEC55031BBC875E986BFF1197BAE540CB2C5A0C1957344C339AF7A",
+    "postprocess-api.json": "699480C2AA36AA412F78530042878640DCFEBBD7A2A5CEFA53D44A069E830671",
+    "postprocess-workflow.json": "7D3C9056996CDDF35879E8E9CB9549A2AF7F3B123EBBBE6516419893F2317062",
+    "prompt-api.json": "7E3E5737BF25F9A2FAD18ED4E50338087F0FD4EC6256D57A3CFF191BF0CD91BC",
+    "prompt.txt": "184698EEABB5C042246D66E9172BA66DD2E1B47392C0EC5412C45414E4DC0577",
+    "qa.json": "A37DAEC9074CF628BB745A100F9AAC0D31AF152878E346244C052C876A455366",
+    "README.txt": "94854D5FF0297B7478A506D171DDB4A6C9C1C2DB446CAAA9DCC895BADC907C02",
+    "result.json": "DD43B56E9358CFA70797D8BC08158561CB8AD37976A5F2517E603E5774F12086",
+    "source.json": "31C5A975CE64FDBE1FDE3D098864A36DF6DA9031469E102B221CEFD45CE39621",
+    "workflow.json": "D859D9BF5EB1D31809EAACC794DBE90C7A9AC0E8D00291EA39A1B30FCDA84560"
+  },
+  "integration_report": "build\\hd-inventory-brass-knuckles\\integration.json",
+  "executable_sha256": "38A0604E1D8773A9D29F1904BAEE6D94A457F04C319AE7B04862761659F9A720",
+  "installation_receipt": "build\\hd-inventory-brass-knuckles\\installations\\20261113-232939-038.json"
+}

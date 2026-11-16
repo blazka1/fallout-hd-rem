@@ -1,0 +1,218 @@
+[
+  {
+    "base_id": 62,
+    "slot": 1,
+    "png": "tile-062-v1.png",
+    "file": "tile-062-v1.rgba",
+    "donor": "assets\\generated\\v13ent-floor-cutaway\\variety-v1-20261115\\qwen\\cutaway-1\\raw.png",
+    "donor_sha256": "52202f3707fde4e1271195c0e5016e140b440ae74a5ad8a7d03c56b8a57bc93a",
+    "crop": [
+      423,
+      354,
+      320,
+      144
+    ],
+    "target_mean": [
+      17.06296933667084,
+      17.209050375469335,
+      16.9646824155194
+    ],
+    "raw_mean": [
+      30.02423828125,
+      29.9699267578125,
+      30.9228955078125
+    ],
+    "exact_edge_hd_pixels": 12,
+    "feather_hd_pixels": 40,
+    "color_method": "histogram",
+    "donor_scale": 2,
+    "source_png_sha256": "e711a88117ae88a34ea0e14aa19b32f59199a4b476c6c9c70cdbdbce0297a894",
+    "rgba_sha256": "b929e620d8c55f751e7517235a23d08d2c72e33f057d8fd92e60f305ed8ecb24",
+    "changed_fraction": 0.7296657986111111,
+    "mean_rgb": [
+      21.2794921875,
+      21.607139756944445,
+      21.125694444444445
+    ]
+  },
+  {
+    "base_id": 62,
+    "slot": 2,
+    "png": "tile-062-v2.png",
+    "file": "tile-062-v2.rgba",
+    "donor": "assets\\generated\\v13ent-floor-cutaway\\variety-v1-20261115\\qwen\\cutaway-2\\raw.png",
+    "donor_sha256": "9adfa28006c37ebf5891d3913a439a5641340883a4d06ce7f735dcbd77c0f657",
+    "crop": [
+      536,
+      401,
+      320,
+      144
+    ],
+    "target_mean": [
+      17.06296933667084,
+      17.209050375469335,
+      16.9646824155194
+    ],
+    "raw_mean": [
+      29.0813720703125,
+      30.1999658203125,
+      30.95982421875
+    ],
+    "exact_edge_hd_pixels": 12,
+    "feather_hd_pixels": 40,
+    "color_method": "histogram",
+    "donor_scale": 2,
+    "source_png_sha256": "936a68a5730c3f114a3c962bf47716465364423061524a09ef00708cc2018fb2",
+    "rgba_sha256": "506269b7d06dc972bc77ac20d96de2c1c7339753c0aaa70b17c6411816c2e482",
+    "changed_fraction": 0.7292317708333333,
+    "mean_rgb": [
+      21.450368923611112,
+      21.715017361111112,
+      21.229796006944444
+    ]
+  },
+  {
+    "base_id": 62,
+    "slot": 3,
+    "png": "tile-062-v3.png",
+    "file": "tile-062-v3.rgba",
+    "donor": "assets\\generated\\v13ent-floor-cutaway\\variety-v1-20261115\\qwen\\cutaway-3\\raw.png",
+    "donor_sha256": "b088a9be1bb72d40509e679c4eb58e84de43b2c764d09596a4e723bd5bce9c7b",
+    "crop": [
+      649,
+      448,
+      320,
+      144
+    ],
+    "target_mean": [
+      17.06296933667084,
+      17.209050375469335,
+      16.9646824155194
+    ],
+    "raw_mean": [
+      32.950703125,
+      33.9818359375,
+      34.82560546875
+    ],
+    "exact_edge_hd_pixels": 12,
+    "feather_hd_pixels": 40,
+    "color_method": "histogram",
+    "donor_scale": 2,
+    "source_png_sha256": "426a82132690c7ad41cdf9ade544bb5bd296223e05e7aceaac6bfb3520c4257d",
+    "rgba_sha256": "d86865a1034cc76dc8634eb6048ef0c8032fc71e9261196e4b585289b2123669",
+    "changed_fraction": 0.7297309027777777,
+    "mean_rgb": [
+      21.230143229166668,
+      21.570008680555556,
+      21.0470703125
+    ]
+  },
+  {
+    "base_id": 63,
+    "slot": 1,
+    "png": "tile-063-v1.png",
+    "file": "tile-063-v1.rgba",
+    "donor": "assets\\generated\\v13ent-floor-cutaway\\variety-v1-20261115\\qwen\\cutaway-1\\raw.png",
+    "donor_sha256": "52202f3707fde4e1271195c0e5016e140b440ae74a5ad8a7d03c56b8a57bc93a",
+    "crop": [
+      490,
+      383,
+      320,
+      144
+    ],
+    "target_mean": [
+      14.561522215269086,
+      14.685857321652065,
+      14.470392678347935
+    ],
+    "raw_mean": [
+      30.02423828125,
+      29.9699267578125,
+      30.9228955078125
+    ],
+    "exact_edge_hd_pixels": 12,
+    "feather_hd_pixels": 40,
+    "color_method": "histogram",
+    "donor_scale": 2,
+    "source_png_sha256": "68fa08196006fc3e4ec0910020754627c2124fee89c14da8944670cd59fae886",
+    "rgba_sha256": "f29ac44a346b8d70b9912f4d3fea8654c9d1361a8f46d01c4e0a73710c3430ed",
+    "changed_fraction": 0.7257161458333333,
+    "mean_rgb": [
+      18.536024305555557,
+      18.93967013888889,
+      18.37306857638889
+    ]
+  },
+  {
+    "base_id": 63,
+    "slot": 2,
+    "png": "tile-063-v2.png",
+    "file": "tile-063-v2.rgba",
+    "donor": "assets\\generated\\v13ent-floor-cutaway\\variety-v1-20261115\\qwen\\cutaway-2\\raw.png",
+    "donor_sha256": "9adfa28006c37ebf5891d3913a439a5641340883a4d06ce7f735dcbd77c0f657",
+    "crop": [
+      603,
+      430,
+      320,
+      144
+    ],
+    "target_mean": [
+      14.561522215269086,
+      14.685857321652065,
+      14.470392678347935
+    ],
+    "raw_mean": [
+      29.0813720703125,
+      30.1999658203125,
+      30.95982421875
+    ],
+    "exact_edge_hd_pixels": 12,
+    "feather_hd_pixels": 40,
+    "color_method": "histogram",
+    "donor_scale": 2,
+    "source_png_sha256": "45f97731edcedf06a87559794c26bf66a1045ac57110da0aae361449f0a73859",
+    "rgba_sha256": "22a15a56b372cdca3ab2cd7c84a56e36e9b0c0b5b2d77eb0865d715e2bff7caf",
+    "changed_fraction": 0.7231119791666667,
+    "mean_rgb": [
+      18.352625868055554,
+      18.718424479166668,
+      18.08029513888889
+    ]
+  },
+  {
+    "base_id": 63,
+    "slot": 3,
+    "png": "tile-063-v3.png",
+    "file": "tile-063-v3.rgba",
+    "donor": "assets\\generated\\v13ent-floor-cutaway\\variety-v1-20261115\\qwen\\cutaway-3\\raw.png",
+    "donor_sha256": "b088a9be1bb72d40509e679c4eb58e84de43b2c764d09596a4e723bd5bce9c7b",
+    "crop": [
+      716,
+      477,
+      320,
+      144
+    ],
+    "target_mean": [
+      14.561522215269086,
+      14.685857321652065,
+      14.470392678347935
+    ],
+    "raw_mean": [
+      32.950703125,
+      33.9818359375,
+      34.82560546875
+    ],
+    "exact_edge_hd_pixels": 12,
+    "feather_hd_pixels": 40,
+    "color_method": "histogram",
+    "donor_scale": 2,
+    "source_png_sha256": "6150568957bbc48871730021fb7510bcd05730d71dc06fb8fd8f219d6e98c128",
+    "rgba_sha256": "15ae4ded798d601045a8d9befa1b5d5b60ad792182439fbade261a2d96b957b6",
+    "changed_fraction": 0.7216145833333333,
+    "mean_rgb": [
+      18.271766493055555,
+      18.659483506944444,
+      18.042578125
+    ]
+  }
+]

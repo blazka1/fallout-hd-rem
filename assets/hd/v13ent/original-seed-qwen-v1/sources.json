@@ -1,0 +1,4109 @@
+[
+  {
+    "source": "art/tiles/cav4008.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\cav4008.frm.png",
+    "sha256": "83ffa08930d8c5331cac87ec5b933332476d71ea91dbebc91f6644e6afc4cb09",
+    "size": [
+      80,
+      36
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "direction_y": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        80,
+        36
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "floor-square-top-left",
+      "pivot_in_original_pixels": [
+        0,
+        0
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "square_grid_width": 100,
+      "map_column_step": [
+        -48,
+        12
+      ],
+      "map_row_step": [
+        32,
+        24
+      ],
+      "placement_formula": "square_coord(cell); top-left unchanged; scale complete source canvas",
+      "seam_validation": "Use actual neighboring cells from map.json, source alpha and these lattice steps. Contact sheets are not connected geometry."
+    }
+  },
+  {
+    "source": "art/tiles/cav4009.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\cav4009.frm.png",
+    "sha256": "61556c92587b3ef849d1c41a7321565f4af45754e2186b4f9db0e93334baada3",
+    "size": [
+      80,
+      36
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "direction_y": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        80,
+        36
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "floor-square-top-left",
+      "pivot_in_original_pixels": [
+        0,
+        0
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "square_grid_width": 100,
+      "map_column_step": [
+        -48,
+        12
+      ],
+      "map_row_step": [
+        32,
+        24
+      ],
+      "placement_formula": "square_coord(cell); top-left unchanged; scale complete source canvas",
+      "seam_validation": "Use actual neighboring cells from map.json, source alpha and these lattice steps. Contact sheets are not connected geometry."
+    }
+  },
+  {
+    "source": "art/tiles/cav4010.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\cav4010.frm.png",
+    "sha256": "c78c3d4ad76eda30e7b52e12fd15be5755cc1aaaa6ef723d600f83b43ef750bb",
+    "size": [
+      80,
+      36
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "direction_y": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        80,
+        36
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "floor-square-top-left",
+      "pivot_in_original_pixels": [
+        0,
+        0
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "square_grid_width": 100,
+      "map_column_step": [
+        -48,
+        12
+      ],
+      "map_row_step": [
+        32,
+        24
+      ],
+      "placement_formula": "square_coord(cell); top-left unchanged; scale complete source canvas",
+      "seam_validation": "Use actual neighboring cells from map.json, source alpha and these lattice steps. Contact sheets are not connected geometry."
+    }
+  },
+  {
+    "source": "art/walls/ca002.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca002.frm.png",
+    "sha256": "eac197acc96d7d08167d9364d2e4952c610b1dd4d6d126f0021874e7eba87ed3",
+    "size": [
+      17,
+      120
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "direction_y": [
+        11,
+        11,
+        11,
+        11,
+        11,
+        11
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        17,
+        120
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        8,
+        119
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca003.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca003.frm.png",
+    "sha256": "102c023fe1d0a8ab2fd7402039d0432af84ee6d33cee72ac58d586d71961e66a",
+    "size": [
+      33,
+      126
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "direction_y": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        33,
+        126
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        16,
+        125
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca004.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca004.frm.png",
+    "sha256": "ad01cba206101bc74e2cb7ecf08b53c797dd98d3d778c345b35ef16c6fc666e8",
+    "size": [
+      16,
+      120
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "direction_y": [
+        12,
+        12,
+        12,
+        12,
+        12,
+        12
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        16,
+        120
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        8,
+        119
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca005.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca005.frm.png",
+    "sha256": "f9b75c217e9cec834d0d35c42c77a2574367145fd8bddbfad7acb39c708af2a0",
+    "size": [
+      33,
+      120
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "direction_y": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        33,
+        120
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        16,
+        119
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca006.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca006.frm.png",
+    "sha256": "c62013540e96a2778f7d3cc4f5720b7307e1005df034a931e13c506d470d10b4",
+    "size": [
+      17,
+      120
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "direction_y": [
+        12,
+        12,
+        12,
+        12,
+        12,
+        12
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        17,
+        120
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        8,
+        119
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca007.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca007.frm.png",
+    "sha256": "355114d14bc74ed921ee7392be805fae0a5dce44b24bb71af3d2a9431c2ae524",
+    "size": [
+      33,
+      125
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "direction_y": [
+        9,
+        9,
+        9,
+        9,
+        9,
+        9
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        33,
+        125
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        16,
+        124
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca008.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca008.frm.png",
+    "sha256": "c5246a2e4460fb744f96bffe72c007e734fed34ab352775ab1aee37543db4aa6",
+    "size": [
+      16,
+      120
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "direction_y": [
+        11,
+        11,
+        11,
+        11,
+        11,
+        11
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        16,
+        120
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        8,
+        119
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca009.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca009.frm.png",
+    "sha256": "3bf761b505f00b912d8e5d642244665cb998f1a2103c3de9094eaf6123afa575",
+    "size": [
+      33,
+      122
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "direction_y": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        33,
+        122
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        16,
+        121
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca010.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca010.frm.png",
+    "sha256": "522ce91ed4a61f79ebda11c9a53a6c51862c5ea1ee62be811ab0654abce314fe",
+    "size": [
+      17,
+      119
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "direction_y": [
+        11,
+        11,
+        11,
+        11,
+        11,
+        11
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        17,
+        119
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        8,
+        118
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca011.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca011.frm.png",
+    "sha256": "0c5a0f4f5e402916a62249b7d61c945ec4b4b36c1ef83127005fbd2327bf3bea",
+    "size": [
+      32,
+      134
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "direction_y": [
+        18,
+        18,
+        18,
+        18,
+        18,
+        18
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        32,
+        134
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        16,
+        133
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca012.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca012.frm.png",
+    "sha256": "3607565632889eea5c1a81cdc369ebc8940cd21b4bd57c632944c661901d5cbf",
+    "size": [
+      16,
+      139
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "direction_y": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        16,
+        139
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        8,
+        138
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca013.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca013.frm.png",
+    "sha256": "25ce97fb075647580c06fb1d06b92964b1fffebd56af645e8da45fa7f931754f",
+    "size": [
+      33,
+      144
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "direction_y": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        33,
+        144
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        16,
+        143
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca014.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca014.frm.png",
+    "sha256": "5bae41fe719442cfabc0158c992c41ee062678f7ab58f370f44fdf909f72c557",
+    "size": [
+      17,
+      142
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        -8,
+        -8,
+        -8,
+        -8,
+        -8,
+        -8
+      ],
+      "direction_y": [
+        12,
+        12,
+        12,
+        12,
+        12,
+        12
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        17,
+        142
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        8,
+        141
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca015.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca015.frm.png",
+    "sha256": "1b754f05ee77da488177859585e84abb44dc91e7344be3e7e79d81b554adc5ea",
+    "size": [
+      32,
+      134
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "direction_y": [
+        21,
+        21,
+        21,
+        21,
+        21,
+        21
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        32,
+        134
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        16,
+        133
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca016.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca016.frm.png",
+    "sha256": "068dbbaeffd36b6a3458211b5739294553e5d3e86d7a2973eca5300c2296c988",
+    "size": [
+      17,
+      130
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        -8,
+        -8,
+        -8,
+        -8,
+        -8,
+        -8
+      ],
+      "direction_y": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        17,
+        130
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        8,
+        129
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca017.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca017.frm.png",
+    "sha256": "e8468bde135073313716f4fd4a540b16dd3de43aeb588b0bebfad6afbdc921ec",
+    "size": [
+      17,
+      127
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        -8,
+        -8,
+        -8,
+        -8,
+        -8,
+        -8
+      ],
+      "direction_y": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        17,
+        127
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        8,
+        126
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca018.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca018.frm.png",
+    "sha256": "fb072fab6956145fd7fc5cde5bbf9956eaecbf0aa5fee3b0848be02a4def03ef",
+    "size": [
+      17,
+      131
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        -8,
+        -8,
+        -8,
+        -8,
+        -8,
+        -8
+      ],
+      "direction_y": [
+        11,
+        11,
+        11,
+        11,
+        11,
+        11
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        17,
+        131
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        8,
+        130
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca019.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca019.frm.png",
+    "sha256": "b34836e378d06349b2d55bc96d099065e7c225dec8714b64886760c9bfd78de8",
+    "size": [
+      16,
+      130
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        -8,
+        -8,
+        -8,
+        -8,
+        -8,
+        -8
+      ],
+      "direction_y": [
+        11,
+        11,
+        11,
+        11,
+        11,
+        11
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        16,
+        130
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        8,
+        129
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca020.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca020.frm.png",
+    "sha256": "910487ed77f1575c06e20e2ed1aa2277231d8ccb77d30aac6c9839f82450615e",
+    "size": [
+      17,
+      133
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        -8,
+        -8,
+        -8,
+        -8,
+        -8,
+        -8
+      ],
+      "direction_y": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        15
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        17,
+        133
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        8,
+        132
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca021.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca021.frm.png",
+    "sha256": "c0362947cf9c0fcf9ca5436fe996fa8a80302181d4e55e3bfa031dd7eb18e865",
+    "size": [
+      17,
+      133
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        -8,
+        -8,
+        -8,
+        -8,
+        -8,
+        -8
+      ],
+      "direction_y": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        15
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        17,
+        133
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        8,
+        132
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca022.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca022.frm.png",
+    "sha256": "bd1faf66da6e9152ee0e146c78d3eead75c3ba373ec870e39a543c7b7fc6a274",
+    "size": [
+      17,
+      126
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        -8,
+        -8,
+        -8,
+        -8,
+        -8,
+        -8
+      ],
+      "direction_y": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        17,
+        126
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        8,
+        125
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca023.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca023.frm.png",
+    "sha256": "6e170f0386ebaaddc2399746b136d32fb87b56a6f5bec4016f01f16fbef82e45",
+    "size": [
+      17,
+      131
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        -8,
+        -8,
+        -8,
+        -8,
+        -8,
+        -8
+      ],
+      "direction_y": [
+        12,
+        12,
+        12,
+        12,
+        12,
+        12
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        17,
+        131
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        8,
+        130
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca024.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca024.frm.png",
+    "sha256": "a5decc88eca26006bc3386f4e0e198dabed93e8b08d24872e519e92f197caeba",
+    "size": [
+      17,
+      126
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        -8,
+        -8,
+        -8,
+        -8,
+        -8,
+        -8
+      ],
+      "direction_y": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        17,
+        126
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        8,
+        125
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca025.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca025.frm.png",
+    "sha256": "2ba0a5e42e5b0edacec94538d7f9edabe27112a481ecee207d5924db12127dfb",
+    "size": [
+      32,
+      123
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "direction_y": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        32,
+        123
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        16,
+        122
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca026.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca026.frm.png",
+    "sha256": "221a0d12f84a6f21ff6b2f55903d07ffefff4239029401a7c472e73555c1e461",
+    "size": [
+      17,
+      111
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        8,
+        -8,
+        -8,
+        -8,
+        -8,
+        -8
+      ],
+      "direction_y": [
+        -6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        17,
+        111
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        8,
+        110
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca027.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca027.frm.png",
+    "sha256": "6a15f11635a12b91287943d1679d2bcb71c3ed36659ecefc9ea167cad0b6be81",
+    "size": [
+      33,
+      141
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "direction_y": [
+        23,
+        23,
+        23,
+        23,
+        23,
+        23
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        33,
+        141
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        16,
+        140
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca028.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca028.frm.png",
+    "sha256": "49e66c6347e0fe7972126acf09128d399ab15b8e717ef623c1232fddac2165f3",
+    "size": [
+      16,
+      120
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        8,
+        -8,
+        -8,
+        -8,
+        -8,
+        -8
+      ],
+      "direction_y": [
+        3,
+        15,
+        15,
+        15,
+        15,
+        15
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        16,
+        120
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        8,
+        119
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca032.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca032.frm.png",
+    "sha256": "b518a3a8d916613c29ca35c145b3310e0d5a145e4db0f6940e39cd55d4d95479",
+    "size": [
+      30,
+      118
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "direction_y": [
+        9,
+        9,
+        9,
+        9,
+        9,
+        9
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        30,
+        118
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        15,
+        117
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca036.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca036.frm.png",
+    "sha256": "a411b5bece6d76ff57e1ce651a965089fe93217e8e73fbb3a69f91a5a58877a0",
+    "size": [
+      31,
+      120
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        -16,
+        -16,
+        -16,
+        -16,
+        -16,
+        -16
+      ],
+      "direction_y": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        31,
+        120
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        15,
+        119
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca037.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca037.frm.png",
+    "sha256": "615c6752e47a6d44f8d4db6d40561ab8057d924cec487a5653b283345e0686ce",
+    "size": [
+      32,
+      130
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "direction_y": [
+        11,
+        11,
+        11,
+        11,
+        11,
+        11
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        32,
+        130
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        16,
+        129
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca038.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca038.frm.png",
+    "sha256": "ee53087893d0ca9be72fac3b6706be5f8ee97677fd47b627d85d4ff3d654eebe",
+    "size": [
+      32,
+      116
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "direction_y": [
+        9,
+        9,
+        9,
+        9,
+        9,
+        9
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        32,
+        116
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        16,
+        115
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca039.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca039.frm.png",
+    "sha256": "36c53543ccaa9d44d36d667f803185cfd3fe68de166be54fe7651e0209fc7f02",
+    "size": [
+      32,
+      115
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "direction_y": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        32,
+        115
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        16,
+        114
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca040.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca040.frm.png",
+    "sha256": "1962e645063aeaf33cecf0bbb5cb34c7ce68eb665040560dc2a813fc331fb715",
+    "size": [
+      32,
+      117
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "direction_y": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        32,
+        117
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        16,
+        116
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca041.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca041.frm.png",
+    "sha256": "49e50ffd627a54cd4d210de04ab67c449d8d03832e6d7f5c26e7180f90af6e58",
+    "size": [
+      33,
+      118
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "direction_y": [
+        11,
+        11,
+        11,
+        11,
+        11,
+        11
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        33,
+        118
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        16,
+        117
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca042.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca042.frm.png",
+    "sha256": "77e01f23a9fe9e3daa03bac0cfba917e4c99f5a2810e9930ad3db126c49c080f",
+    "size": [
+      32,
+      119
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "direction_y": [
+        12,
+        12,
+        12,
+        12,
+        12,
+        12
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        32,
+        119
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        16,
+        118
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca043.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca043.frm.png",
+    "sha256": "c46139753cfc4509ce64dde6668847aa1c4f390668d0b296e73ce87dd3db3466",
+    "size": [
+      33,
+      116
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "direction_y": [
+        9,
+        9,
+        9,
+        9,
+        9,
+        9
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        33,
+        116
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        16,
+        115
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca044.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca044.frm.png",
+    "sha256": "0ef05eaa90eecd67ce615533b0d9100457a6327dd194a100dd1ad8002aa3bf48",
+    "size": [
+      32,
+      116
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "direction_y": [
+        9,
+        9,
+        9,
+        9,
+        9,
+        9
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        32,
+        116
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        16,
+        115
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca045.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca045.frm.png",
+    "sha256": "44f3238a754b5d944067d525209f3d02d372dc8ca0066eb57f4dd4a02a8b46eb",
+    "size": [
+      33,
+      113
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "direction_y": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        33,
+        113
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        16,
+        112
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca046.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca046.frm.png",
+    "sha256": "ff52fd56d1064e5bf990ad466db419e03aa4fa88528042265d3a2c98c1b4d724",
+    "size": [
+      33,
+      121
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "direction_y": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        33,
+        121
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        16,
+        120
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca047.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca047.frm.png",
+    "sha256": "14549a3a93e67ca28c22c3794e32308d39991a5ca91279ede0502b0f0014d999",
+    "size": [
+      17,
+      120
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "direction_y": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        17,
+        120
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        8,
+        119
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca048.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca048.frm.png",
+    "sha256": "13107770e3f893d35935314a9d03c74c6cfd3644992b38fdeb84b271659bde67",
+    "size": [
+      33,
+      124
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "direction_y": [
+        18,
+        18,
+        18,
+        18,
+        18,
+        18
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        33,
+        124
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        16,
+        123
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca050.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca050.frm.png",
+    "sha256": "ae2386ec00ca8d2b7e27482291b8d2665a81d975b923e2aadc0f03406e97d4ad",
+    "size": [
+      16,
+      94
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "direction_y": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        15
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        16,
+        94
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        8,
+        93
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca053.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca053.frm.png",
+    "sha256": "c068e032dc1e4d1d8ceed3a39f9d4f7594e8658bf1567f054f4c80c248a2f3e8",
+    "size": [
+      32,
+      101
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "direction_y": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        32,
+        101
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        16,
+        100
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca054.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca054.frm.png",
+    "sha256": "742bf9c632da3ea6150435bd34676197fdd687f3d274beaa616a4a5d650b9478",
+    "size": [
+      16,
+      93
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "direction_y": [
+        12,
+        12,
+        12,
+        12,
+        12,
+        12
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        16,
+        93
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        8,
+        92
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca055.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca055.frm.png",
+    "sha256": "7e5ac19649f47cdcfde358c5eafcbefe17edd55456b38bee1cdc9b65f1e41ee1",
+    "size": [
+      32,
+      102
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "direction_y": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        32,
+        102
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        16,
+        101
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca056.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca056.frm.png",
+    "sha256": "958d44b1492304936c10495a3229ac63fda4ff14d5fe1cfca3cc5bc31fe9ae4a",
+    "size": [
+      16,
+      97
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "direction_y": [
+        12,
+        12,
+        12,
+        12,
+        12,
+        12
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        16,
+        97
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        8,
+        96
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca057.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca057.frm.png",
+    "sha256": "353a82eb2bf5cddd9bb645de460edcbb9cddb085196baa718c0ca6ae9271aec3",
+    "size": [
+      32,
+      101
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "direction_y": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        32,
+        101
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        16,
+        100
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca058.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca058.frm.png",
+    "sha256": "8de803cd19a42443dcf8526d7f6cb95d670bf6c90b6fc3282388d3d5ab51d9ee",
+    "size": [
+      16,
+      98
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "direction_y": [
+        11,
+        11,
+        11,
+        11,
+        11,
+        11
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        16,
+        98
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        8,
+        97
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca059.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca059.frm.png",
+    "sha256": "e29de8899c1899eceeeef9e925faacb6e898bfb076430ebf683d791e8cfb5e13",
+    "size": [
+      16,
+      100
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        -8,
+        -8,
+        -8,
+        -8,
+        -8,
+        -8
+      ],
+      "direction_y": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        16,
+        100
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        8,
+        99
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca060.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca060.frm.png",
+    "sha256": "6a6a70211b2f66f1ccbd2a0a4f27675ec81e5d6558a11df32e5f25d74a378ca0",
+    "size": [
+      16,
+      106
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        -8,
+        -8,
+        -8,
+        -8,
+        -8,
+        -8
+      ],
+      "direction_y": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        16,
+        106
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        8,
+        105
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca061.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca061.frm.png",
+    "sha256": "b1d33627cb20e11be8ce902256c1708085fe463cf8488afd641884bcf1333fff",
+    "size": [
+      16,
+      106
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        -8,
+        -8,
+        -8,
+        -8,
+        -8,
+        -8
+      ],
+      "direction_y": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        16,
+        106
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        8,
+        105
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca062.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca062.frm.png",
+    "sha256": "f9e93de1b4f30eb8d07b30ebeb682d0d1c8c80dcbdac04c9789160ea5d3d752f",
+    "size": [
+      16,
+      106
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        -8,
+        -8,
+        -8,
+        -8,
+        -8,
+        -8
+      ],
+      "direction_y": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        16,
+        106
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        8,
+        105
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca063.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca063.frm.png",
+    "sha256": "6d2c363c9d6ff854eb7bace793bcff43630c999b1b0226125c95b16c7b24b665",
+    "size": [
+      36,
+      168
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "direction_y": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        36,
+        168
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        18,
+        167
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca064.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca064.frm.png",
+    "sha256": "a0e8b4ee111ed3283cc0002e543ea6281f7b462420ab071440b11a34b2ffc62f",
+    "size": [
+      33,
+      168
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "direction_y": [
+        36,
+        36,
+        36,
+        36,
+        36,
+        36
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        33,
+        168
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        16,
+        167
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca065.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca065.frm.png",
+    "sha256": "2ea15c44bb62fa76b560a1cef5a92dd6ae3b182545109a0d2e7ad6e0163c952b",
+    "size": [
+      32,
+      117
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "direction_y": [
+        11,
+        11,
+        11,
+        11,
+        11,
+        11
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        32,
+        117
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        16,
+        116
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca066.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca066.frm.png",
+    "sha256": "8f3472266a2bbc69bb8700e4ad8345449958571e9ace12f82a7c5a06aac865f5",
+    "size": [
+      32,
+      94
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "direction_y": [
+        11,
+        11,
+        11,
+        11,
+        11,
+        11
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        32,
+        94
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        16,
+        93
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca067.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca067.frm.png",
+    "sha256": "4e111c432710b875317d4149cf837444115b484b9668523dfd787cda85dc5d14",
+    "size": [
+      32,
+      94
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "direction_y": [
+        11,
+        11,
+        11,
+        11,
+        11,
+        11
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        32,
+        94
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        16,
+        93
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca068.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca068.frm.png",
+    "sha256": "31aba79dad349cf40220cc9f7648b81dde3ce9d6cc580a24161da562db34f5d9",
+    "size": [
+      32,
+      94
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "direction_y": [
+        11,
+        11,
+        11,
+        11,
+        11,
+        11
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        32,
+        94
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        16,
+        93
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca069.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca069.frm.png",
+    "sha256": "a68c835a3d0d0741bb717892db090c67937cdffbdb3256e3f07bbfd78f05bbb9",
+    "size": [
+      32,
+      94
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "direction_y": [
+        11,
+        11,
+        11,
+        11,
+        11,
+        11
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        32,
+        94
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        16,
+        93
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca070.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca070.frm.png",
+    "sha256": "04768de35f64fd8e0fc47ae295f58aeafe04128406e59bebf7869dcd560feba4",
+    "size": [
+      32,
+      96
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "direction_y": [
+        11,
+        11,
+        11,
+        11,
+        11,
+        11
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        32,
+        96
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        16,
+        95
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca071.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca071.frm.png",
+    "sha256": "9ac8310d068283f3eb6a4ec5df85e4bd5ec2b1eaf48abdbacfdccec09a317a7f",
+    "size": [
+      24,
+      116
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        -4,
+        -4,
+        -4,
+        -4,
+        -4,
+        -4
+      ],
+      "direction_y": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        24,
+        116
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        12,
+        115
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  },
+  {
+    "source": "art/walls/ca072.frm",
+    "png": "assets\\generated\\v13ent-wall-original\\seed-qwen-20261116\\originals\\ca072.frm.png",
+    "sha256": "fc73fc334eb3dfeb5754703339066b23082ca78d1fbb8d7a44309005238927bb",
+    "size": [
+      26,
+      120
+    ],
+    "registration": {
+      "coordinate_units": "original game pixels; retain for integration",
+      "frame": 0,
+      "image_direction": 0,
+      "direction_image_aliases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "direction_x": [
+        -13,
+        -13,
+        -13,
+        -13,
+        -13,
+        -13
+      ],
+      "direction_y": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "frame_shift": [
+        0,
+        0
+      ],
+      "original_canvas": [
+        26,
+        120
+      ],
+      "crop_origin": [
+        0,
+        0
+      ],
+      "placement_kind": "object-bottom-center",
+      "pivot_in_original_pixels": [
+        13,
+        119
+      ],
+      "scale_policy": "Scale the original canvas, alpha and original integer placement/pivot together. Do not recompute pivot from enhanced dimensions.",
+      "hex_grid_width": 200,
+      "hex_anchor_offset": [
+        16,
+        8
+      ],
+      "placement_formula": "tile_coord(tile)+(16,8)+direction_offset(rotation)+object(x,y)-(floor(original_width/2),original_height-1)",
+      "draw_order": "Preserve CE object ordering, elevation, flags, lighting and occlusion; PNG alone does not implement these."
+    }
+  }
+]

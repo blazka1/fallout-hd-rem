@@ -1,0 +1,182 @@
+{
+  "1": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "fallout1_seedvr2_knife/knife-native-16a7988e3e4d4a5689b32062cee4b20a.png"
+    }
+  },
+  "2": {
+    "class_type": "JoinImageWithAlpha",
+    "inputs": {
+      "image": [
+        "1",
+        0
+      ],
+      "alpha": [
+        "1",
+        1
+      ]
+    }
+  },
+  "3": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "2",
+        0
+      ],
+      "upscale_method": "lanczos",
+      "width": 1152,
+      "height": 576,
+      "crop": "disabled"
+    }
+  },
+  "4": {
+    "class_type": "UNETLoader",
+    "inputs": {
+      "unet_name": "qwen_image_2.1_int8_convrot.safetensors",
+      "weight_dtype": "default"
+    }
+  },
+  "5": {
+    "class_type": "CLIPLoader",
+    "inputs": {
+      "clip_name": "qwen3vl_8b_int8_convrot.safetensors",
+      "type": "qwen_image",
+      "device": "default"
+    }
+  },
+  "6": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "qwen_image_2.1_vae_bf16.safetensors"
+    }
+  },
+  "7": {
+    "class_type": "QwenImage21Cache",
+    "inputs": {
+      "model": [
+        "4",
+        0
+      ],
+      "device": "cpu",
+      "dtype": "default"
+    }
+  },
+  "8": {
+    "class_type": "TextEncodeQwenImage21",
+    "inputs": {
+      "clip": [
+        "5",
+        0
+      ],
+      "prompt": "Finish the small filled-in brown patches on the underside of this knife handle. The lower grip has already been filled to indicate the intended solid silhouette. Keep those filled regions OPAQUE and blend their grain, shading and dark brown material smoothly into the adjacent grip. Remove the small vertical streaks or flat patch boundaries from the provisional fill. Refine the lower grip outline into one continuous, gently curved edge; no holes, missing chunks, bite marks, rectangular notches or torn edges. The entire brown grip between guard and pommel is solid material. Keep its current size, both golden fasteners, the upper edge and original overall contour.\nMake no changes elsewhere: preserve the whole blade including its repaired tip, central groove, matte steel, existing small rust patches, rusty guard, silver pommel, lighting and framing. Keep the guard connected to the grip with no hole or gap. Do not add contrast, sharpening, gloss or more rust. One knife, same position and size, genuinely transparent surroundings. Only refine the local brown fill and smooth its lower boundary.",
+      "negative_prompt": "",
+      "vae": [
+        "6",
+        0
+      ],
+      "resolution": 0,
+      "images.image_1": [
+        "3",
+        0
+      ]
+    }
+  },
+  "9": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "7",
+        0
+      ],
+      "positive": [
+        "8",
+        0
+      ],
+      "negative": [
+        "8",
+        1
+      ],
+      "latent_image": [
+        "8",
+        2
+      ],
+      "seed": 13112027,
+      "steps": 25,
+      "cfg": 1.0,
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "denoise": 1.0
+    }
+  },
+  "10": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "9",
+        0
+      ],
+      "vae": [
+        "6",
+        0
+      ]
+    }
+  },
+  "11": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "10",
+        0
+      ],
+      "filename_prefix": "fallout1_qwen21_handle/c82604fe4cce45d2869e80a20fbc67d0/knife-handle-raw"
+    }
+  },
+  "12": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "3",
+        0
+      ],
+      "filename_prefix": "fallout1_qwen21_handle/c82604fe4cce45d2869e80a20fbc67d0/reference-working"
+    }
+  },
+  "13": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "10",
+        0
+      ],
+      "width": 1088,
+      "height": 408,
+      "x": 32,
+      "y": 78
+    }
+  },
+  "14": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "13",
+        0
+      ],
+      "upscale_method": "lanczos",
+      "width": 352,
+      "height": 132,
+      "crop": "disabled"
+    }
+  },
+  "15": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "14",
+        0
+      ],
+      "filename_prefix": "fallout1_qwen21_handle/c82604fe4cce45d2869e80a20fbc67d0/knife-handle-x4"
+    }
+  }
+}

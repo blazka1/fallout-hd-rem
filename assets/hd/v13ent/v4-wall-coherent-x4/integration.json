@@ -1,0 +1,11 @@
+{
+  "verified_utc": "2026-11-11T21:11:39.212177+00:00",
+  "status": "integrated_and_verified_in_isolated_ce",
+  "executable_sha256": "5FE165E93CA53AF9CEFCFC2B3AD8CF6DD901BFF03A0C0CF762905B61344C32B5",
+  "runtime": "runtime/hd-world-pilot",
+  "preview": "build/hd-world-pilot/preview/perf-light-v4-final",
+  "benchmark": "build/hd-world-pilot/benchmark/20261112-001054-800",
+  "world_checks": 116,
+  "menu_checks": 139,
+  "artistic_status": "candidate_for_user_review"
+}

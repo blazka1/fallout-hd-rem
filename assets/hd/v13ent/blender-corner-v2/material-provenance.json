@@ -1,0 +1,20 @@
+{
+  "source_png": "assets\\hd\\v13ent\\v14-campfire-x4\\art\\scenery\\rock03.frm.png",
+  "source_sha256": "6512f2473ab637e3c80945a04e4a47802b2610f6898adc97d422d57f5d6b3717",
+  "crop_xyxy": [
+    158,
+    210,
+    278,
+    330
+  ],
+  "patch_sha256": "a0b793b450fb726cf93827e64b7aa5391714d271c214d4e3a5526fc793a374a0",
+  "opaque": true,
+  "rgb_median": [
+    86.0,
+    86.0,
+    86.0
+  ],
+  "usage": "Blender world-space box material: 42% color blend plus low-strength bump; no geometry or sprite mask inferred from this texture",
+  "box_density": 1.45,
+  "box_blend": 0.3
+}

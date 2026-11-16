@@ -1,0 +1,1025 @@
+{
+  "status": "installed and verified",
+  "component": "original-seed-qwen-grey-v2",
+  "checks": {
+    "passed": 1119,
+    "failed": 0,
+    "map": "V13ENT.MAP",
+    "loaded_resources": 247,
+    "scene_resources_seen": 76,
+    "decoration_images": 8,
+    "decoration_placements": 19,
+    "largest_vault_texel_offset": 72925,
+    "floor_instances": 96,
+    "rock_instances": 13,
+    "collision_hexes_checked": 120000,
+    "blocked_hexes": 1069,
+    "collision_hash": "18093902727436680495",
+    "path_routes_checked": 12,
+    "floor_visible_pixels": 20342,
+    "rock_visible_pixels": 6796,
+    "front_actor_tile": 20106,
+    "rear_actor_tile": 22286,
+    "capture_width": 1920,
+    "capture_height": 1080
+  },
+  "test_exe_sha256": "504F175AD1FCCD721E61BDED222400AFC65BCA2C680B84ECE5E90282A6701EF7",
+  "installed_exe_unchanged": true,
+  "installed_exe_sha256": "dfc334a2ccedf1dfe91845c6e484dac456238c0fae1c5278f81c85934d87423f",
+  "test_source_provenance": "build/hd-wall-original-restore-20261116/test-only-source-change.json",
+  "audit": {
+    "images": 537,
+    "alpha_exact_before_all": true,
+    "dimensions_exact_before_all": true,
+    "registration_files_unchanged": true,
+    "wall_curve_exact": true,
+    "all_neutral_grey": true,
+    "wall_samples": [
+      {
+        "source": "art/walls/ca002.frm",
+        "old_mean_rgb": [
+          45.92667349726776,
+          52.45269808743169,
+          63.091290983606555
+        ],
+        "new_mean_rgb": [
+          64.66154371584699,
+          64.66154371584699,
+          64.66154371584699
+        ],
+        "max_pointwise_curve_error": 0.9999759999999895
+      },
+      {
+        "source": "art/walls/ca003.frm",
+        "old_mean_rgb": [
+          47.26333065380493,
+          53.34977893890675,
+          63.57715367095391
+        ],
+        "new_mean_rgb": [
+          65.79699222936763,
+          65.79699222936763,
+          65.79699222936763
+        ],
+        "max_pointwise_curve_error": 1.0
+      },
+      {
+        "source": "art/walls/ca004.frm",
+        "old_mean_rgb": [
+          49.76081475583864,
+          56.80666135881104,
+          67.7619758492569
+        ],
+        "new_mean_rgb": [
+          69.70139994692144,
+          69.70139994692144,
+          69.70139994692144
+        ],
+        "max_pointwise_curve_error": 0.9999479999999892
+      },
+      {
+        "source": "art/walls/ca005.frm",
+        "old_mean_rgb": [
+          46.11371504208525,
+          52.34234998642411,
+          63.00127273961444
+        ],
+        "new_mean_rgb": [
+          64.60901439044257,
+          64.60901439044257,
+          64.60901439044257
+        ],
+        "max_pointwise_curve_error": 1.0
+      },
+      {
+        "source": "art/walls/ca006.frm",
+        "old_mean_rgb": [
+          48.958333333333336,
+          55.30980632842335,
+          65.64603791598472
+        ],
+        "new_mean_rgb": [
+          68.05291871249318,
+          68.05291871249318,
+          68.05291871249318
+        ],
+        "max_pointwise_curve_error": 1.0
+      },
+      {
+        "source": "art/walls/ca007.frm",
+        "old_mean_rgb": [
+          47.64253294782141,
+          54.06834991931146,
+          64.60866057019904
+        ],
+        "new_mean_rgb": [
+          66.58547942442173,
+          66.58547942442173,
+          66.58547942442173
+        ],
+        "max_pointwise_curve_error": 1.0
+      },
+      {
+        "source": "art/walls/ca008.frm",
+        "old_mean_rgb": [
+          48.541880399568036,
+          55.72776052915767,
+          67.3642346112311
+        ],
+        "new_mean_rgb": [
+          68.44981776457884,
+          68.44981776457884,
+          68.44981776457884
+        ],
+        "max_pointwise_curve_error": 1.0
+      },
+      {
+        "source": "art/walls/ca009.frm",
+        "old_mean_rgb": [
+          46.84952709954387,
+          52.466695733834186,
+          62.44244700831768
+        ],
+        "new_mean_rgb": [
+          64.85158975046954,
+          64.85158975046954,
+          64.85158975046954
+        ],
+        "max_pointwise_curve_error": 0.9999879999999877
+      },
+      {
+        "source": "art/walls/ca010.frm",
+        "old_mean_rgb": [
+          46.88895798783859,
+          52.84145245992261,
+          63.75031094527363
+        ],
+        "new_mean_rgb": [
+          65.28783167495854,
+          65.28783167495854,
+          65.28783167495854
+        ],
+        "max_pointwise_curve_error": 1.0
+      },
+      {
+        "source": "art/walls/ca011.frm",
+        "old_mean_rgb": [
+          47.978099645030426,
+          53.30451318458418,
+          63.00413602941177
+        ],
+        "new_mean_rgb": [
+          65.88972172920893,
+          65.88972172920893,
+          65.88972172920893
+        ],
+        "max_pointwise_curve_error": 1.0
+      },
+      {
+        "source": "art/walls/ca012.frm",
+        "old_mean_rgb": [
+          45.17996559088752,
+          50.77574750830565,
+          60.89561580446132
+        ],
+        "new_mean_rgb": [
+          62.87372448979592,
+          62.87372448979592,
+          62.87372448979592
+        ],
+        "max_pointwise_curve_error": 0.9999719999999925
+      },
+      {
+        "source": "art/walls/ca013.frm",
+        "old_mean_rgb": [
+          50.99968055555556,
+          57.14606944444444,
+          67.36611111111111
+        ],
+        "new_mean_rgb": [
+          70.2622638888889,
+          70.2622638888889,
+          70.2622638888889
+        ],
+        "max_pointwise_curve_error": 1.0
+      },
+      {
+        "source": "art/walls/ca014.frm",
+        "old_mean_rgb": [
+          44.32302207911683,
+          49.300166743330266,
+          58.43586131554738
+        ],
+        "new_mean_rgb": [
+          61.20397309107636,
+          61.20397309107636,
+          61.20397309107636
+        ],
+        "max_pointwise_curve_error": 1.0
+      },
+      {
+        "source": "art/walls/ca015.frm",
+        "old_mean_rgb": [
+          40.9765625,
+          45.7308974847561,
+          54.89087906504065
+        ],
+        "new_mean_rgb": [
+          57.050733612804876,
+          57.050733612804876,
+          57.050733612804876
+        ],
+        "max_pointwise_curve_error": 1.0
+      },
+      {
+        "source": "art/walls/ca016.frm",
+        "old_mean_rgb": [
+          45.503630705394194,
+          51.65378630705394,
+          62.74614237551867
+        ],
+        "new_mean_rgb": [
+          63.85182183609958,
+          63.85182183609958,
+          63.85182183609958
+        ],
+        "max_pointwise_curve_error": 0.9999839999999978
+      },
+      {
+        "source": "art/walls/ca017.frm",
+        "old_mean_rgb": [
+          45.46122870074547,
+          51.21236022364217,
+          61.2176850372737
+        ],
+        "new_mean_rgb": [
+          63.33839190628328,
+          63.33839190628328,
+          63.33839190628328
+        ],
+        "max_pointwise_curve_error": 0.9999879999999877
+      },
+      {
+        "source": "art/walls/ca018.frm",
+        "old_mean_rgb": [
+          45.13409383033419,
+          51.23814267352185,
+          61.65465938303342
+        ],
+        "new_mean_rgb": [
+          63.32191516709511,
+          63.32191516709511,
+          63.32191516709511
+        ],
+        "max_pointwise_curve_error": 1.0
+      },
+      {
+        "source": "art/walls/ca019.frm",
+        "old_mean_rgb": [
+          44.010628586332814,
+          49.97727569118414,
+          60.550371674491394
+        ],
+        "new_mean_rgb": [
+          61.877901669274905,
+          61.877901669274905,
+          61.877901669274905
+        ],
+        "max_pointwise_curve_error": 1.0
+      },
+      {
+        "source": "art/walls/ca020.frm",
+        "old_mean_rgb": [
+          43.13970196913252,
+          48.627860564129854,
+          58.661422299095264
+        ],
+        "new_mean_rgb": [
+          60.362360298030865,
+          60.362360298030865,
+          60.362360298030865
+        ],
+        "max_pointwise_curve_error": 1.0
+      },
+      {
+        "source": "art/walls/ca021.frm",
+        "old_mean_rgb": [
+          44.33010284810127,
+          49.88690005274262,
+          60.15539293248945
+        ],
+        "new_mean_rgb": [
+          61.84645305907173,
+          61.84645305907173,
+          61.84645305907173
+        ],
+        "max_pointwise_curve_error": 1.0
+      },
+      {
+        "source": "art/walls/ca022.frm",
+        "old_mean_rgb": [
+          45.71954030558483,
+          52.06263171759747,
+          62.48521469968388
+        ],
+        "new_mean_rgb": [
+          64.23027528977872,
+          64.23027528977872,
+          64.23027528977872
+        ],
+        "max_pointwise_curve_error": 0.9999879999999877
+      },
+      {
+        "source": "art/walls/ca023.frm",
+        "old_mean_rgb": [
+          44.35047593865679,
+          50.16677683765204,
+          60.3320994182972
+        ],
+        "new_mean_rgb": [
+          62.103086991010045,
+          62.103086991010045,
+          62.103086991010045
+        ],
+        "max_pointwise_curve_error": 0.9999879999999877
+      },
+      {
+        "source": "art/walls/ca024.frm",
+        "old_mean_rgb": [
+          45.148458005249346,
+          51.0126968503937,
+          61.273851706036744
+        ],
+        "new_mean_rgb": [
+          63.09655511811024,
+          63.09655511811024,
+          63.09655511811024
+        ],
+        "max_pointwise_curve_error": 0.9999839999999978
+      },
+      {
+        "source": "art/walls/ca025.frm",
+        "old_mean_rgb": [
+          43.16914611413823,
+          48.551279753369656,
+          57.77731574419271
+        ],
+        "new_mean_rgb": [
+          60.226896329222825,
+          60.226896329222825,
+          60.226896329222825
+        ],
+        "max_pointwise_curve_error": 0.9999839999999978
+      },
+      {
+        "source": "art/walls/ca026.frm",
+        "old_mean_rgb": [
+          46.70855072463768,
+          52.54913043478261,
+          62.76467391304348
+        ],
+        "new_mean_rgb": [
+          64.91228260869565,
+          64.91228260869565,
+          64.91228260869565
+        ],
+        "max_pointwise_curve_error": 0.9999879999999877
+      },
+      {
+        "source": "art/walls/ca027.frm",
+        "old_mean_rgb": [
+          47.58318650482903,
+          53.00897285304098,
+          62.802515661707126
+        ],
+        "new_mean_rgb": [
+          65.52388410336727,
+          65.52388410336727,
+          65.52388410336727
+        ],
+        "max_pointwise_curve_error": 1.0
+      },
+      {
+        "source": "art/walls/ca028.frm",
+        "old_mean_rgb": [
+          48.1440800330033,
+          53.92488311331133,
+          64.2975110011001
+        ],
+        "new_mean_rgb": [
+          66.56865374037403,
+          66.56865374037403,
+          66.56865374037403
+        ],
+        "max_pointwise_curve_error": 0.9999640000000056
+      },
+      {
+        "source": "art/walls/ca032.frm",
+        "old_mean_rgb": [
+          50.91886014460009,
+          57.00449051061907,
+          67.05761409850881
+        ],
+        "new_mean_rgb": [
+          70.09709670131043,
+          70.09709670131043,
+          70.09709670131043
+        ],
+        "max_pointwise_curve_error": 0.9999879999999735
+      },
+      {
+        "source": "art/walls/ca036.frm",
+        "old_mean_rgb": [
+          53.98822645290581,
+          60.16007014028056,
+          70.87891407815631
+        ],
+        "new_mean_rgb": [
+          73.8559619238477,
+          73.8559619238477,
+          73.8559619238477
+        ],
+        "max_pointwise_curve_error": 0.9999879999999735
+      },
+      {
+        "source": "art/walls/ca037.frm",
+        "old_mean_rgb": [
+          47.582481288425555,
+          52.610966319165996,
+          61.673282544774125
+        ],
+        "new_mean_rgb": [
+          65.09312349639134,
+          65.09312349639134,
+          65.09312349639134
+        ],
+        "max_pointwise_curve_error": 0.9999879999999735
+      },
+      {
+        "source": "art/walls/ca038.frm",
+        "old_mean_rgb": [
+          52.652529156495795,
+          59.135323433685926,
+          69.89223962571197
+        ],
+        "new_mean_rgb": [
+          72.56938228912395,
+          72.56938228912395,
+          72.56938228912395
+        ],
+        "max_pointwise_curve_error": 1.0
+      },
+      {
+        "source": "art/walls/ca039.frm",
+        "old_mean_rgb": [
+          52.23821890478811,
+          58.57373073747936,
+          69.07259562465603
+        ],
+        "new_mean_rgb": [
+          71.92095487066594,
+          71.92095487066594,
+          71.92095487066594
+        ],
+        "max_pointwise_curve_error": 1.0
+      },
+      {
+        "source": "art/walls/ca040.frm",
+        "old_mean_rgb": [
+          51.05247353420195,
+          56.90173724212812,
+          67.07997421281216
+        ],
+        "new_mean_rgb": [
+          70.04568743213898,
+          70.04568743213898,
+          70.04568743213898
+        ],
+        "max_pointwise_curve_error": 1.0
+      },
+      {
+        "source": "art/walls/ca041.frm",
+        "old_mean_rgb": [
+          51.72045206971678,
+          58.336482162309366,
+          69.39023352396514
+        ],
+        "new_mean_rgb": [
+          71.61950231481481,
+          71.61950231481481,
+          71.61950231481481
+        ],
+        "max_pointwise_curve_error": 1.0
+      },
+      {
+        "source": "art/walls/ca042.frm",
+        "old_mean_rgb": [
+          50.382852957209046,
+          56.97409035159444,
+          67.88162646497683
+        ],
+        "new_mean_rgb": [
+          70.00666053420551,
+          70.00666053420551,
+          70.00666053420551
+        ],
+        "max_pointwise_curve_error": 1.0
+      },
+      {
+        "source": "art/walls/ca043.frm",
+        "old_mean_rgb": [
+          54.9737308951965,
+          61.34323826419214,
+          71.5426105349345
+        ],
+        "new_mean_rgb": [
+          75.15572120633188,
+          75.15572120633188,
+          75.15572120633188
+        ],
+        "max_pointwise_curve_error": 1.0
+      },
+      {
+        "source": "art/walls/ca044.frm",
+        "old_mean_rgb": [
+          49.24587441796768,
+          55.33583264858943,
+          65.87494864420707
+        ],
+        "new_mean_rgb": [
+          68.16786496850177,
+          68.16786496850177,
+          68.16786496850177
+        ],
+        "max_pointwise_curve_error": 1.0
+      },
+      {
+        "source": "art/walls/ca045.frm",
+        "old_mean_rgb": [
+          50.14798931383577,
+          56.7562570303712,
+          67.14967660292463
+        ],
+        "new_mean_rgb": [
+          69.69969769403825,
+          69.69969769403825,
+          69.69969769403825
+        ],
+        "max_pointwise_curve_error": 0.9999879999999877
+      },
+      {
+        "source": "art/walls/ca046.frm",
+        "old_mean_rgb": [
+          43.03824079017619,
+          47.86946075814202,
+          57.390583288841434
+        ],
+        "new_mean_rgb": [
+          59.586442205018685,
+          59.586442205018685,
+          59.586442205018685
+        ],
+        "max_pointwise_curve_error": 1.0
+      },
+      {
+        "source": "art/walls/ca047.frm",
+        "old_mean_rgb": [
+          41.12592056812204,
+          45.3945949500263,
+          54.742405312993164
+        ],
+        "new_mean_rgb": [
+          56.79080089426618,
+          56.79080089426618,
+          56.79080089426618
+        ],
+        "max_pointwise_curve_error": 0.9999839999999978
+      },
+      {
+        "source": "art/walls/ca048.frm",
+        "old_mean_rgb": [
+          40.22513351134847,
+          44.531091455273696,
+          53.29726301735648
+        ],
+        "new_mean_rgb": [
+          55.716889185580776,
+          55.716889185580776,
+          55.716889185580776
+        ],
+        "max_pointwise_curve_error": 1.0
+      },
+      {
+        "source": "art/walls/ca050.frm",
+        "old_mean_rgb": [
+          23.03222183828611,
+          25.39767622667588,
+          30.360184865238423
+        ],
+        "new_mean_rgb": [
+          33.29621630960608,
+          33.29621630960608,
+          33.29621630960608
+        ],
+        "max_pointwise_curve_error": 1.0
+      },
+      {
+        "source": "art/walls/ca053.frm",
+        "old_mean_rgb": [
+          24.94137974898236,
+          27.279341926729987,
+          33.279659938941656
+        ],
+        "new_mean_rgb": [
+          35.615650440976935,
+          35.615650440976935,
+          35.615650440976935
+        ],
+        "max_pointwise_curve_error": 1.0
+      },
+      {
+        "source": "art/walls/ca054.frm",
+        "old_mean_rgb": [
+          23.85776766969909,
+          26.215272918124562,
+          31.608030090972708
+        ],
+        "new_mean_rgb": [
+          34.30401504548635,
+          34.30401504548635,
+          34.30401504548635
+        ],
+        "max_pointwise_curve_error": 1.0
+      },
+      {
+        "source": "art/walls/ca055.frm",
+        "old_mean_rgb": [
+          24.91563977042539,
+          27.363647873058746,
+          33.068429270763
+        ],
+        "new_mean_rgb": [
+          35.662474679270765,
+          35.662474679270765,
+          35.662474679270765
+        ],
+        "max_pointwise_curve_error": 1.0
+      },
+      {
+        "source": "art/walls/ca056.frm",
+        "old_mean_rgb": [
+          23.386935318275153,
+          25.693745722108144,
+          31.002352840520192
+        ],
+        "new_mean_rgb": [
+          33.69040896646133,
+          33.69040896646133,
+          33.69040896646133
+        ],
+        "max_pointwise_curve_error": 1.0
+      },
+      {
+        "source": "art/walls/ca057.frm",
+        "old_mean_rgb": [
+          25.283996437054633,
+          27.785608245673565,
+          33.82556413301663
+        ],
+        "new_mean_rgb": [
+          36.17212419409569,
+          36.17212419409569,
+          36.17212419409569
+        ],
+        "max_pointwise_curve_error": 1.0
+      },
+      {
+        "source": "art/walls/ca058.frm",
+        "old_mean_rgb": [
+          23.99211329715061,
+          26.328443012211668,
+          31.560210312075984
+        ],
+        "new_mean_rgb": [
+          34.42486431478969,
+          34.42486431478969,
+          34.42486431478969
+        ],
+        "max_pointwise_curve_error": 1.0
+      },
+      {
+        "source": "art/walls/ca059.frm",
+        "old_mean_rgb": [
+          22.00818553888131,
+          24.03368008185539,
+          29.414606070941336
+        ],
+        "new_mean_rgb": [
+          31.807639836289223,
+          31.807639836289223,
+          31.807639836289223
+        ],
+        "max_pointwise_curve_error": 1.0
+      },
+      {
+        "source": "art/walls/ca060.frm",
+        "old_mean_rgb": [
+          23.871127946127945,
+          25.854166666666668,
+          31.57154882154882
+        ],
+        "new_mean_rgb": [
+          33.99760101010101,
+          33.99760101010101,
+          33.99760101010101
+        ],
+        "max_pointwise_curve_error": 1.0
+      },
+      {
+        "source": "art/walls/ca061.frm",
+        "old_mean_rgb": [
+          22.224991621983914,
+          23.9798927613941,
+          29.081978887399465
+        ],
+        "new_mean_rgb": [
+          31.789418565683647,
+          31.789418565683647,
+          31.789418565683647
+        ],
+        "max_pointwise_curve_error": 1.0
+      },
+      {
+        "source": "art/walls/ca062.frm",
+        "old_mean_rgb": [
+          21.738165431266847,
+          23.49031334231806,
+          28.602720687331537
+        ],
+        "new_mean_rgb": [
+          31.213190700808624,
+          31.213190700808624,
+          31.213190700808624
+        ],
+        "max_pointwise_curve_error": 1.0
+      },
+      {
+        "source": "art/walls/ca063.frm",
+        "old_mean_rgb": [
+          27.97309277362469,
+          30.42301610120759,
+          37.130918152194745
+        ],
+        "new_mean_rgb": [
+          39.35608347709412,
+          39.35608347709412,
+          39.35608347709412
+        ],
+        "max_pointwise_curve_error": 1.0
+      },
+      {
+        "source": "art/walls/ca064.frm",
+        "old_mean_rgb": [
+          28.204945110794878,
+          31.319157857288065,
+          37.45465287660093
+        ],
+        "new_mean_rgb": [
+          40.19635596665989,
+          40.19635596665989,
+          40.19635596665989
+        ],
+        "max_pointwise_curve_error": 1.0
+      },
+      {
+        "source": "art/walls/ca065.frm",
+        "old_mean_rgb": [
+          23.018071525194454,
+          25.155858978694624,
+          30.822307237064592
+        ],
+        "new_mean_rgb": [
+          33.129037030774434,
+          33.129037030774434,
+          33.129037030774434
+        ],
+        "max_pointwise_curve_error": 1.0
+      },
+      {
+        "source": "art/walls/ca066.frm",
+        "old_mean_rgb": [
+          23.970888945927445,
+          26.572617214236825,
+          32.06731262833676
+        ],
+        "new_mean_rgb": [
+          34.673019336071185,
+          34.673019336071185,
+          34.673019336071185
+        ],
+        "max_pointwise_curve_error": 1.0
+      },
+      {
+        "source": "art/walls/ca067.frm",
+        "old_mean_rgb": [
+          22.925047153635116,
+          25.270661865569274,
+          30.750021433470508
+        ],
+        "new_mean_rgb": [
+          33.19900977366255,
+          33.19900977366255,
+          33.19900977366255
+        ],
+        "max_pointwise_curve_error": 1.0
+      },
+      {
+        "source": "art/walls/ca068.frm",
+        "old_mean_rgb": [
+          23.244547413793104,
+          25.746077586206898,
+          31.20676724137931
+        ],
+        "new_mean_rgb": [
+          33.71646551724138,
+          33.71646551724138,
+          33.71646551724138
+        ],
+        "max_pointwise_curve_error": 1.0
+      },
+      {
+        "source": "art/walls/ca069.frm",
+        "old_mean_rgb": [
+          23.121161145617666,
+          25.520035369220153,
+          30.87898982056591
+        ],
+        "new_mean_rgb": [
+          33.470130262249825,
+          33.470130262249825,
+          33.470130262249825
+        ],
+        "max_pointwise_curve_error": 1.0
+      },
+      {
+        "source": "art/walls/ca070.frm",
+        "old_mean_rgb": [
+          22.885373975409838,
+          25.16954832650273,
+          30.51972336065574
+        ],
+        "new_mean_rgb": [
+          33.08275700136612,
+          33.08275700136612,
+          33.08275700136612
+        ],
+        "max_pointwise_curve_error": 1.0
+      },
+      {
+        "source": "art/walls/ca071.frm",
+        "old_mean_rgb": [
+          48.67994858611825,
+          54.12316838046272,
+          62.324132390745504
+        ],
+        "new_mean_rgb": [
+          66.69842544987146,
+          66.69842544987146,
+          66.69842544987146
+        ],
+        "max_pointwise_curve_error": 1.0
+      },
+      {
+        "source": "art/walls/ca072.frm",
+        "old_mean_rgb": [
+          55.10237122337791,
+          60.39608098068351,
+          69.835004952947
+        ],
+        "new_mean_rgb": [
+          74.24281822684497,
+          74.24281822684497,
+          74.24281822684497
+        ],
+        "max_pointwise_curve_error": 0.9999759999999895
+      },
+      {
+        "source": "door-clearance",
+        "old_mean_rgb": [
+          49.317467470286715,
+          54.78048780487805,
+          63.44324902833324
+        ],
+        "new_mean_rgb": [
+          67.50988565312905,
+          67.50988565312905,
+          67.50988565312905
+        ],
+        "max_pointwise_curve_error": 0.9999879999999735
+      }
+    ],
+    "cap_edges_use_shared_curve": true,
+    "cap_selection": {
+      "qwen_neutral_gain": 0.47355395446158105,
+      "qwen_interior_mix": 0.25,
+      "edge_guard_hd": 8,
+      "fade_hd": 16,
+      "geometry": "current alpha and UV registration exact; boundary colors use shared wall transform",
+      "source_prompt_id": "e8ab15ee-f592-42fe-816a-af2fbeedcd63"
+    },
+    "reference_rocks_unchanged": true,
+    "protected_art_files": 823,
+    "exe_unchanged": true
+  },
+  "comparison": {
+    "before": "build\\hd-wall-original-restore-20261116\\after-v1",
+    "after": "build\\hd-wall-grey-match-20261116\\after-v1",
+    "scale": 0.5,
+    "screenshot_color_correction": false,
+    "views": [
+      "entrance",
+      "cave-18721",
+      "cave-22662",
+      "cave-27075",
+      "cave-27871"
+    ],
+    "classic_frames": [
+      {
+        "file": "actor-behind-classic.png",
+        "exact": true
+      },
+      {
+        "file": "actor-front-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-16290-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-18721-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-22662-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-24097-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-27075-classic.png",
+        "exact": true
+      },
+      {
+        "file": "cave-27871-classic.png",
+        "exact": true
+      },
+      {
+        "file": "entrance-classic-4k.png",
+        "exact": true
+      },
+      {
+        "file": "entrance-classic.png",
+        "exact": true
+      },
+      {
+        "file": "fade-dark25-classic.png",
+        "exact": true
+      },
+      {
+        "file": "fade-dark50-classic.png",
+        "exact": true
+      },
+      {
+        "file": "fade-normal-classic.png",
+        "exact": true
+      },
+      {
+        "file": "fade-white-classic.png",
+        "exact": true
+      },
+      {
+        "file": "fade-white50-classic.png",
+        "exact": true
+      },
+      {
+        "file": "grey-buffer-classic.png",
+        "exact": true
+      },
+      {
+        "file": "overlay-classic.png",
+        "exact": true
+      },
+      {
+        "file": "viewport-classic.png",
+        "exact": true
+      }
+    ],
+    "classic_all_exact": true
+  },
+  "backup": "build\\backups\\before-wall-grey-match-20261116",
+  "other_runtime_files_unchanged": 838,
+  "generated": "assets\\generated\\v13ent-wall-original\\grey-match-20261116"
+}

@@ -1,0 +1,68 @@
+{
+  "system": {
+    "os": "win32",
+    "ram_total": 51438514176,
+    "ram_free": 9834123264,
+    "comfyui_version": "0.45.2",
+    "required_frontend_version": "1.58.5",
+    "installed_templates_version": "0.11.106",
+    "required_templates_version": "0.11.106",
+    "comfy_package_versions": [
+      {
+        "name": "comfyui-frontend-package",
+        "installed": "1.58.5",
+        "required": "1.58.5"
+      },
+      {
+        "name": "comfyui-workflow-templates",
+        "installed": "0.11.106",
+        "required": "0.11.106"
+      },
+      {
+        "name": "comfyui-embedded-docs",
+        "installed": "0.5.16",
+        "required": "0.5.16"
+      },
+      {
+        "name": "comfy-aimdo",
+        "installed": "0.6.0",
+        "required": "0.6.0"
+      },
+      {
+        "name": "comfy-kitchen",
+        "installed": "0.2.41",
+        "required": "0.2.41"
+      }
+    ],
+    "python_version": "3.13.12 (main, Feb 12 2026, 00:38:53) [MSC v.1944 64 bit (AMD64)]",
+    "pytorch_version": "2.12.1+cu130",
+    "embedded_python": false,
+    "deploy_environment": "local-desktop2-standalone",
+    "argv": [
+      "ComfyUI\\main.py",
+      "--feature-flag",
+      "show_signin_button=true",
+      "--feature-flag",
+      "enable_telemetry=true",
+      "--enable-assets",
+      "--enable-manager",
+      "--extra-model-paths-config",
+      "C:\\Users\\Administrator\\AppData\\Roaming\\Comfy Desktop\\instance-model-paths\\inst-1794397241434.yaml",
+      "--input-directory",
+      "C:\\Users\\Administrator\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\input",
+      "--output-directory",
+      "C:\\Users\\Administrator\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\output"
+    ]
+  },
+  "devices": [
+    {
+      "name": "cuda:0 NVIDIA GeForce RTX 4060 : cudaMallocAsync",
+      "type": "cuda",
+      "index": 0,
+      "vram_total": 8585084928,
+      "vram_free": 7378436096,
+      "torch_vram_total": 33554432,
+      "torch_vram_free": 24772608
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "status": "installed-and-verified",
+  "completed_utc": "2026-11-15T04:24:41.314417+00:00",
+  "component": "floor-cutaway-variety-v1",
+  "package": "assets\\hd\\v13ent\\floor-cutaway-variety-v1",
+  "floor_bases": 8,
+  "floor_additional_images": 24,
+  "cutaway_original_types": 2,
+  "cutaway_total_appearances": 8,
+  "cutaway_additional_images": 6,
+  "table_sha256": "1f1284af30aa2ec5e6967490260e76470cca5d58d945bdd910c5ead705be9bb4",
+  "source_pixels_unchanged": true,
+  "original_map_unchanged": true,
+  "selection": "stable FID / square cell / elevation hash",
+  "owner_format": "existing asset ID, appended atlas page texel",
+  "executable_sha256": "81ccec24891408961884a3c4d18cf946f16f7c943280b9861e6ebcb16cc44f81",
+  "checks": {
+    "world-final": {
+      "passed": 578,
+      "failed": 0,
+      "map": "V13ENT.MAP",
+      "loaded_resources": 247,
+      "scene_resources_seen": 172,
+      "decoration_images": 8,
+      "decoration_placements": 19,
+      "largest_vault_texel_offset": 72925,
+      "floor_instances": 96,
+      "rock_instances": 13,
+      "collision_hexes_checked": 120000,
+      "blocked_hexes": 1069,
+      "collision_hash": "18093902727436680495",
+      "path_routes_checked": 12,
+      "floor_visible_pixels": 20342,
+      "rock_visible_pixels": 6796,
+      "front_actor_tile": 20505,
+      "rear_actor_tile": 22286,
+      "capture_width": 1920,
+      "capture_height": 1080
+    },
+    "terminal": {
+      "passed": 27,
+      "failed": 0
+    },
+    "menu": {
+      "passed": 139,
+      "failed": 0
+    },
+    "hud": {
+      "passed": 93,
+      "failed": 0,
+      "expected_loaded": true
+    },
+    "fallbacks": {
+      "passed": 296,
+      "failed": 0,
+      "cases": 9
+    }
+  },
+  "successful_checks": 1133,
+  "failed_checks": 0,
+  "protected_existing_files_unchanged": 558,
+  "backup": "build\\backups\\before-floor-cutaway-variety-20261115",
+  "review": "build\\hd-cave-floor-cutaway-20261115\\review\\index.html",
+  "AGENTS_modified": false,
+  "HD_TEXTURE_GUIDE_modified": false,
+  "config_and_saves_unchanged": true,
+  "render_tests": "Functional regression and SDL render captures, not a complete game playthrough"
+}

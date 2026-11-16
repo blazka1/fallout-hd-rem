@@ -1,0 +1,37 @@
+{
+  "status": "installed-and-verified",
+  "created_utc": "2026-11-14T14:30:52.0897248Z",
+  "scope": "Remove the translucent skyline duplicate using clean sky from saved Qwen output",
+  "method": "Local ComfyUI compositing repair, no new generation",
+  "selected_png": "assets/hd/main-menu/background-seed-qwen-v3/background-4k.png",
+  "png_sha256": "64FA290756698602AEBA0DEBC7AD26F9ED5032B2F1ABB357FE20DC4FDB5D76B7",
+  "runtime": "runtime/hd-world-pilot/data/art/hd/main-menu/menu-background-v2.bmp",
+  "background_sha256": "595621C931EAB5C7F9F30F1C43FFFBB33D8692AF7C54F7A7C183E9594A2B6A0B",
+  "executable_unchanged": "5A3F211DF4FBB5636D13715296CC4F7D50B5EABD1231B9D91E2C55EE42CE24C7",
+  "backup": "build/backups/before-menu-sky-seam-fix-20261114",
+  "checks": {
+    "status": "isolated-preview",
+    "passed": 139,
+    "failed": 0,
+    "live_runtime_modified": false,
+    "portrait": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\main-menu\\sky-seam-fix-20261114\\background-4k.png",
+    "portrait_sha256": "64FA290756698602AEBA0DEBC7AD26F9ED5032B2F1ABB357FE20DC4FDB5D76B7",
+    "executable_sha256": "5A3F211DF4FBB5636D13715296CC4F7D50B5EABD1231B9D91E2C55EE42CE24C7",
+    "output": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\build\\hd-menu-sky-fix\\preview-v1"
+  },
+  "pixel_checks": {
+    "changed_pixels": 98338,
+    "changed_bounds": [
+      1696,
+      400,
+      1840,
+      1280
+    ],
+    "outside_patch_changes": 0,
+    "size": [
+      3840,
+      2160
+    ]
+  },
+  "previous_manifest": "assets/hd/main-menu/background-seed-qwen-v2/manifest.json"
+}

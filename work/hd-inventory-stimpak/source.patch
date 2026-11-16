@@ -1,0 +1,64 @@
+--- before/hd_hud.cc
++++ after/hd_hud.cc
+@@ -19,12 +19,13 @@
+     SDL_Texture* cursor = nullptr;
+     bool enabled = true;
+ };
+-std::array<Asset,5> assets {{
++std::array<Asset,6> assets {{
+     {0x07000060,88,33,4,"data/art/hd/inventory/knife/knife.rgba"},
+     {0x07000004,70,63,8,"data/art/hd/inventory/10mm-pistol/pistol.rgba"},
+     {0x0700008C,81,65,21,"data/art/hd/inventory/brass-knuckles/knuckles.rgba"},
+     {0x0700001F,83,58,29,"data/art/hd/inventory/10mm-jhp/ammo.rgba"},
+-    {0x0700001E,83,61,30,"data/art/hd/inventory/10mm-ap/ammo.rgba"}
++    {0x0700001E,83,61,30,"data/art/hd/inventory/10mm-ap/ammo.rgba"},
++    {0x07000073,89,61,40,"data/art/hd/inventory/stimpak/stimpak.rgba"}
+ }};
+ struct Fit { int asset, width, height; unsigned int base; };
+ std::vector<Fit> fits;
+--- before/hd_hud_test.cc
++++ after/hd_hud_test.cc
+@@ -28,7 +28,7 @@
+ namespace fallout { namespace {
+ int kItemFid = 0x07000060;
+ int kItemPid = 4;
+-int itemWorldFid() { return kItemPid==29 || kItemPid==30 ? 1 : (kItemPid==21?47:(kItemPid==8?34:28)); }
++int itemWorldFid() { return kItemPid==40 ? 15 : (kItemPid==29 || kItemPid==30 ? 1 : (kItemPid==21?47:(kItemPid==8?34:28))); }
+ struct Report {
+     std::ofstream log; int passed=0,failed=0;
+     explicit Report(const std::filesystem::path& p):log(p/"checks.txt"){}
+@@ -174,9 +174,9 @@
+     bool aiming = false;
+     const bool selectedCorrectly=updated == 0 && intface_get_current_item(&selected) == 0 && selected == item
+             && item_inv_fid(item) == kItemFid;
+-    if (kItemPid==29 || kItemPid==30) {
+-        report.check(selectedCorrectly && item_get_type(item)==ITEM_TYPE_AMMO && intface_get_attack(&hitMode,&aiming)==-1,
+-            "real equipped ammunition resolves correct art and retains non-weapon action");
++    if (kItemPid==29 || kItemPid==30 || kItemPid==40) {
++        report.check(selectedCorrectly && item_get_type(item)==(kItemPid==40?ITEM_TYPE_DRUG:ITEM_TYPE_AMMO) && intface_get_attack(&hitMode,&aiming)==-1,
++            "real equipped non-weapon resolves correct art and retains non-weapon action");
+     } else {
+     report.check(selectedCorrectly && intface_get_attack(&hitMode, &aiming) == 0 && !aiming
+             && hitMode == (hand == HAND_RIGHT ? HIT_MODE_RIGHT_WEAPON_PRIMARY : HIT_MODE_LEFT_WEAPON_PRIMARY)
+@@ -301,8 +301,8 @@
+ {
+     const char* pidText=SDL_getenv("FALLOUT_HD_HUD_ITEM_PID");
+     kItemPid=pidText?std::atoi(pidText):4;
+-    if(kItemPid!=4 && kItemPid!=8 && kItemPid!=21 && kItemPid!=29 && kItemPid!=30) return 53;
+-    kItemFid=kItemPid==29?0x0700001F:(kItemPid==30?0x0700001E:(kItemPid==21?0x0700008C:(kItemPid==8?0x07000004:0x07000060)));
++    if(kItemPid!=4 && kItemPid!=8 && kItemPid!=21 && kItemPid!=29 && kItemPid!=30 && kItemPid!=40) return 53;
++    kItemFid=kItemPid==40?0x07000073:kItemPid==29?0x0700001F:(kItemPid==30?0x0700001E:(kItemPid==21?0x0700008C:(kItemPid==8?0x07000004:0x07000060)));
+     hdHudSetEnabled(true);
+     std::filesystem::path out(directory);std::filesystem::create_directories(out);Report report(out);
+     map_disable_bk_processes();scr_disable();cycle_disable();gmouse_disable_scrolling();mouse_hide();
+--- before/inventry.cc
++++ after/inventry.cc
+@@ -1535,7 +1535,7 @@
+ int inventoryHdTest(int action, int pid)
+ {
+     if (!SDL_getenv("FALLOUT_HD_HUD_PREVIEW")) return -1;
+-    const int fid=pid==29?0x0700001F:(pid==30?0x0700001E:(pid==21?0x0700008C:(pid==8?0x07000004:0x07000060)));
++    const int fid=pid==40?0x07000073:pid==29?0x0700001F:(pid==30?0x0700001E:(pid==21?0x0700008C:(pid==8?0x07000004:0x07000060)));
+     static bool restoreIso=false;
+     static CacheEntry* cursorKey=nullptr;
+     if(action==7) {

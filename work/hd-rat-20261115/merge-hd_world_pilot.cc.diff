@@ -1,0 +1,292 @@
+--- current/src\game\hd_world_pilot.cc
+
++++ rat/src\game\hd_world_pilot.cc
+
+@@ -16,6 +16,7 @@
+
+ 
+ #include "game/gconfig.h"
+ #include "game/hd_player.h"
++#include "game/hd_rat.h"
+ #include "game/hd_hud.h"
+ #include "game/map.h"
+ #include "game/object.h"
+@@ -77,6 +78,7 @@
+
+ bool initialized = false;
+ bool enabled = false;
+ int currentAsset = 0;
++int currentRatFrame = -1;
+ bool currentTerminalSoft = false;
+ bool currentVaultFrame = false;
+ const unsigned char* currentSource = nullptr;
+@@ -89,7 +91,6 @@
+
+ std::vector<uint32_t> overlayPixels;
+ std::vector<uint32_t> presentedOwners;
+ std::vector<unsigned char> presentedLights;
+-std::vector<unsigned char> presentedCaveOpacity;
+ int overlayLogicalWidth = 0;
+ int overlayLogicalHeight = 0;
+ bool overlayNeedsUpload = false;
+@@ -100,6 +101,16 @@
+
+ constexpr uint32_t kPlayerOwner = 249;
+ constexpr uint32_t kSkeletonOwner = 250;
+ constexpr uint32_t kHudOwner = 251;
++constexpr uint32_t kRatOwner = 253;
++void sampleRat(uint32_t owner, int light, int subX, int subY, unsigned char* color)
++{
++    const auto* rat = hdRatFrameAt((owner >> 14) & 0x3FF);
++    const unsigned int texel = owner & 0x3FFF;
++    if (!rat || texel >= static_cast<unsigned int>(rat->width * rat->height)) return;
++    const size_t uv = ((texel / rat->width * 4 + subY) * rat->width * 4 + texel % rat->width * 4 + subX) * 4;
++    if (rat->rgba[uv + 3] == 255) for (int c = 0; c < 3; ++c)
++        color[c] = lightColors[c][light][rat->rgba[uv + c]];
++}
+ Asset skeletonAsset;
+ bool skeletonEnabled = true;
+ // A companion image changes only one recessed lamp on doorcomp.frm. The
+@@ -278,7 +289,7 @@
+
+         if (fields >> extra) continue;
+         if (!parseNumber(idToken, id) || !parseNumber(fidToken, fid)
+             || !parseNumber(widthToken, width) || !parseNumber(heightToken, height)
+-            || id == 0 || id >= kAssetCapacity || id == kPlayerOwner || id == kSkeletonOwner || width == 0 || height == 0
++            || id == 0 || id >= kAssetCapacity || id == kPlayerOwner || id == kSkeletonOwner || id == kRatOwner || width == 0 || height == 0
+             || width > 1024 || height > 1024 || !safeAssetFilename(filename)) continue;
+         const uint64_t key = artKey(fid, frame);
+         const auto existingFid = std::find_if(fidAssets.begin(), fidAssets.end(),
+@@ -389,7 +400,7 @@
+
+         uint32_t baseId, slot, id;
+         if (!(fields >> baseToken >> slotToken >> idToken >> filename) || (fields >> extra)
+             || !parseNumber(baseToken, baseId) || !parseNumber(slotToken, slot) || !parseNumber(idToken, id)
+-            || baseId == 0 || baseId >= kAssetCapacity || id == 0 || id >= kAssetCapacity || id == kPlayerOwner || id == kSkeletonOwner
++            || baseId == 0 || baseId >= kAssetCapacity || id == 0 || id >= kAssetCapacity || id == kPlayerOwner || id == kSkeletonOwner || id == kRatOwner
+             || slot < 1 || slot > 2 || !safeAssetFilename(filename)) continue;
+         const Asset& original = assets[baseId];
+         if (original.rgba.empty() || !assets[id].rgba.empty() || wallVariants[baseId][slot - 1]) continue;
+@@ -524,6 +535,8 @@
+
+ {
+     if (!p) return 0;
+     uintptr_t offset = reinterpret_cast<uintptr_t>(p) - reinterpret_cast<uintptr_t>(currentSource);
++    if (currentRatFrame >= 0 && offset < currentSize && *p > 0 && *p < 229)
++        return (kRatOwner << 24) | (static_cast<uint32_t>(currentRatFrame) << 14) | static_cast<uint32_t>(offset);
+     if (!currentAsset || offset >= currentSize || *p == 0 || *p >= 229) return 0;
+     // 24-bit native texel offset and 8-bit asset id. Large vault sprites exceed 65535 pixels.
+     // Cyclic colors stay in the original renderer instead of freezing their effects.
+@@ -562,7 +575,6 @@
+
+     loadDecorations();
+     loadTerminalIndicator();
+     loadCaveVariety();
+-    loadWallGeometry();
+     // Existing capture suites compare exact frames over time. Freeze only in
+     // those explicitly requested test processes; normal gameplay uses SDL time.
+     for (const char* name : {"FALLOUT_HD_WORLD_PREVIEW", "FALLOUT_HD_PLAYER_PREVIEW", "FALLOUT_HD_HUD_PREVIEW"}) {
+@@ -791,11 +803,24 @@
+
+ void hdWorldEndArt()
+ {
+     currentAsset = 0;
++    currentRatFrame = -1;
+     currentTerminalSoft = false;
+     currentVaultFrame = false;
+     currentSource = nullptr;
+     currentSize = 0;
+     currentTileOffset = 0;
++}
++
++void hdWorldBeginRat(const Object* object, const unsigned char* source, int width, int height)
++{
++    const int index = hdRatResolve(object);
++    const auto* frame = hdRatFrameAt(index);
++    if (!frame || !source || frame->width != width || frame->height != height) return;
++    // Only exact original opaque texels acquire ownership. No new coverage,
++    // changed bounds, source bytes, offsets, timing, objects or collision.
++    currentRatFrame = index;
++    currentSource = source;
++    currentSize = static_cast<size_t>(width) * height;
+ }
+ 
+ void hdWorldFillVaultTerminalRecess(unsigned char* base, int pitch, const Rect* art, const Rect* clip, int light)
+@@ -946,7 +971,10 @@
+
+     size_t offset = dest - target->base;
+     // Art writes dominate this path. Check their known span before scanning buffers.
+     uintptr_t artOffset = reinterpret_cast<uintptr_t>(source) - reinterpret_cast<uintptr_t>(currentSource);
+-    if (currentAsset && artOffset < currentSize) {
++    if (currentRatFrame >= 0 && artOffset < currentSize && *source > 0 && *source < 229) {
++        target->owners[offset] = (kRatOwner << 24) | (static_cast<uint32_t>(currentRatFrame) << 14) | static_cast<uint32_t>(artOffset);
++        target->lights[offset] = static_cast<unsigned char>(std::clamp(light, 0, 255));
++    } else if (currentAsset && artOffset < currentSize) {
+         target->owners[offset] = artOwner(source);
+         target->lights[offset] = static_cast<unsigned char>(std::clamp(light, 0, 255));
+     } else if (source) {
+@@ -1034,7 +1062,6 @@
+
+         size_t target = static_cast<size_t>(destY + y) * width + destX;
+         memmove(presentedOwners.data() + target, presentedOwners.data() + origin, copyWidth * sizeof(uint32_t));
+         memmove(presentedLights.data() + target, presentedLights.data() + origin, copyWidth);
+-        memmove(presentedCaveOpacity.data() + target, presentedCaveOpacity.data() + origin, copyWidth);
+     }
+     for (int row = 0; row < copyHeight * density; row++) {
+         int y = sourceDy < 0 ? copyHeight * density - row - 1 : row;
+@@ -1051,8 +1078,6 @@
+
+         std::fill_n(presentedLights.data() + row, left, 128);
+         std::fill_n(presentedOwners.data() + row + right, width - right, 0);
+         std::fill_n(presentedLights.data() + row + right, width - right, 128);
+-        std::fill_n(presentedCaveOpacity.data() + row, left, 255);
+-        std::fill_n(presentedCaveOpacity.data() + row + right, width - right, 255);
+         for (int sy = 0; sy < density; sy++) {
+             uint32_t* pixels = overlayPixels.data() + static_cast<size_t>(y * density + sy) * overlayWidth;
+             std::fill_n(pixels, left * density, 0);
+@@ -1107,14 +1132,14 @@
+
+                     target->skeletonUnder[offset + x] = origin->skeletonUnder[sourceOffset + x];
+                 }
+             }
+-        } else if (!currentAsset && !transparent) {
++        } else if (!currentAsset && currentRatFrame < 0 && !transparent) {
+             // Most UI/background copies are untracked: clear whole rows without lookup.
+             std::fill_n(target->owners.data() + offset, width, 0);
+             std::fill_n(target->lights.data() + offset, width, 128);
+         } else {
+             for (int x = 0; x < width; x++) {
+                 if (transparent && s[x] == 0) continue;
+-                target->owners[offset + x] = currentAsset ? artOwner(s + x) : 0;
++                target->owners[offset + x] = (currentAsset || currentRatFrame >= 0) ? artOwner(s + x) : 0;
+                 target->lights[offset + x] = 128;
+             }
+         }
+@@ -1194,7 +1219,6 @@
+
+     overlayPixels.clear();
+     presentedOwners.clear();
+     presentedLights.clear();
+-    presentedCaveOpacity.clear();
+     overlayNeedsUpload = false;
+     overlayScrollUpload = false;
+ }
+@@ -1212,7 +1236,9 @@
+
+     const int underId = saved.owner >> 24;
+     const unsigned int underTexel = saved.owner & 0xFFFFFF;
+     const auto& under = assets[underId];
+-    if (isCaveOwner(underId)) {
++    if (underId == kRatOwner) {
++        sampleRat(saved.owner, saved.light, subX, subY, color);
++    } else if (isCaveOwner(underId)) {
+         sampleCave(screen,at,saved.owner,saved.light,subX,subY,palette,color);
+     } else if (underId != terminalBaseId && !under.rgba.empty() && underTexel < under.nativeIndices.size()) {
+         const size_t uv = ((underTexel / under.width * 4 + subY) * under.width * 4
+@@ -1239,7 +1265,9 @@
+
+     const int underId = saved.owner >> 24;
+     const unsigned int underTexel = saved.owner & 0xFFFFFF;
+     const auto& under = assets[underId];
+-    if (isCaveOwner(underId)) {
++    if (underId == kRatOwner) {
++        sampleRat(saved.owner, saved.light, subX, subY, color);
++    } else if (isCaveOwner(underId)) {
+         sampleCave(screen,at,saved.owner,saved.light,subX,subY,palette,color);
+     } else if (terminalSoftEdges && underId == terminalBaseId) {
+         sampleTerminal(screen, at, saved.owner, saved.light, subX, subY, palette, color);
+@@ -1286,7 +1314,6 @@
+
+         overlayPixels.resize(static_cast<size_t>(overlayWidth) * overlayHeight);
+         presentedOwners.resize(static_cast<size_t>(width) * height);
+         presentedLights.resize(static_cast<size_t>(width) * height, 128);
+-        presentedCaveOpacity.resize(static_cast<size_t>(width) * height, 255);
+         overlayNeedsUpload = true;
+     }
+     const auto* palette = gSdlSurface->format->palette->colors;
+@@ -1316,53 +1343,32 @@
+
+                 && (owner >> 24) == static_cast<unsigned int>(terminalAssetId)
+                 && (owner & 0xFFFFFF) < terminalLampTexels.size()
+                 && terminalLampTexels[owner & 0xFFFFFF];
+-            unsigned char caveOpacity=255;
+-            bool changedCaveCell=caveBackgroundChanged && owner==oldOwner && caveCellNeedsRefresh(owner);
+-            if((owner>>24)==253) {
+-                unsigned int i=caveIndex(owner),t=caveTexel(owner);
+-                if(i<cavePlacements.size() && t<cavePlacements[i].opacity.size()) {
+-                    const auto& p=cavePlacements[i];caveOpacity=p.opacity[t];
+-                    // Opaque geometry cannot depend on its captured background.
+-                    // Retain both previous/current opacity so entering AND leaving
+-                    // the player's transparency egg still invalidate the cell.
+-                    if(p.geometryCoverage[t]==2 && caveOpacity==255
+-                        && presentedCaveOpacity[cacheRow+x]==255) changedCaveCell=false;
+-                }
+-            }
+             // Actor colour also depends on the captured underlying pixel. It can
+             // change without a different actor frame/texel, so recomposite these
+             // few cells while retaining the existing cache for the whole world.
+             if (owner == oldOwner && (owner >> 24) != kPlayerOwner && (owner >> 24) != kSkeletonOwner && (owner >> 24) != kHudOwner
+-                && !changedCaveCell
++                && !(caveBackgroundChanged && isCaveOwner(owner >> 24))
+                 && !(terminalBackgroundChanged && terminalSoftEdges && (owner >> 24) == static_cast<unsigned int>(terminalBaseId))
+                 && !changedLampCell && (!owner || (!refreshAll && light == oldLight))) continue;
+             oldOwner = owner;
+             oldLight = light;
+-            presentedCaveOpacity[cacheRow+x]=caveOpacity;
+             dirtyLeft = std::min(dirtyLeft, x);
+             dirtyRight = std::max(dirtyRight, x + 1);
+             dirtyTop = std::min(dirtyTop, y);
+             dirtyBottom = y + 1;
+             int id = owner >> 24;
+             unsigned int texel = owner & 0x00FFFFFF;
+-            if(id==253) {
+-                const unsigned int i=caveIndex(owner),t=caveTexel(owner);
+-                if(i<cavePlacements.size() && t<cavePlacements[i].opacity.size()) {
+-                    const auto& p=cavePlacements[i];
+-                    if(p.geometryCoverage[t]==2 && p.opacity[t]==255) {
+-                        const int u=(t%p.oldWidth)*4,v=(t/p.oldWidth)*4;
+-                        const auto* reds=lightColors[0][light];const auto* greens=lightColors[1][light];const auto* blues=lightColors[2][light];
+-                        for(int sy=0;sy<density;++sy) {
+-                            auto* row=overlayPixels.data()+size_t(y*density+sy)*overlayWidth+x*density;
+-                            const auto* srcRow=p.geometryRgba.data()+(size_t(v+samples[sy])*p.oldWidth*4+u)*4;
+-                            for(int sx=0;sx<density;++sx) {
+-                                const auto* src=srcRow+samples[sx]*4;
+-                                row[sx]=0xFF000000|(uint32_t(reds[src[0]])<<16)|(uint32_t(greens[src[1]])<<8)|blues[src[2]];
+-                            }
+-                        }
+-                        continue;
++            if (id == kRatOwner) {
++                for (int sy = 0; sy < density; ++sy) {
++                    uint32_t* row = overlayPixels.data() + static_cast<size_t>(y * density + sy) * overlayWidth + x * density;
++                    for (int sx = 0; sx < density; ++sx) {
++                        const SDL_Color indexed = palette[static_cast<unsigned char*>(gSdlSurface->pixels)[screenRow + x]];
++                        unsigned char color[3] {indexed.r, indexed.g, indexed.b};
++                        sampleRat(owner, light, samples[sx], samples[sy], color);
++                        row[sx] = 0xFF000000 | (uint32_t(color[0]) << 16) | (uint32_t(color[1]) << 8) | color[2];
+                     }
+                 }
++                continue;
+             }
+             if (isCaveOwner(id)) {
+                 for (int sy=0;sy<density;++sy) {
+@@ -1429,7 +1435,9 @@
+
+                     for (int sx = 0; sx < density; sx++) {
+                         if (!actor || !hdPlayerEnabled()) { row[sx] = 0; continue; }
+                         unsigned char bg[3] {indexed.r, indexed.g, indexed.b};
+-                        if (isCaveOwner(underId)) {
++                        if (underId == kRatOwner) {
++                            sampleRat(underOwner, underLight, samples[sx], samples[sy], bg);
++                        } else if (isCaveOwner(underId)) {
+                             sampleCave(*screen,at,underOwner,underLight,samples[sx],samples[sy],palette,bg);
+                         } else if (terminalSoftEdges && underId == terminalBaseId) {
+                             sampleTerminal(*screen, at, underOwner, underLight, samples[sx], samples[sy], palette, bg);
+@@ -1483,7 +1491,6 @@
+
+             }
+         }
+     }
+-    clearCaveChanges();
+     // Initial texture memory is undefined; upload its transparent background too.
+     // Later frames reuse unchanged pixels and upload only the affected rectangle.
+     if (overlayNeedsUpload || overlayScrollUpload) {

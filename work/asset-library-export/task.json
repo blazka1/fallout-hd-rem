@@ -1,0 +1,15 @@
+{
+  "scope": "Export original art from both DAT archives into categories and an independent full copy",
+  "output": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\Fallout1-Все-ассеты-20261113",
+  "status": "complete",
+  "stats": {
+    "original_resources": 10460,
+    "raster_resources": 10405,
+    "unique_frames": 156007,
+    "png_per_copy": 166412
+  },
+  "bytes": 2678499996,
+  "runtime_changed": false,
+  "source_archives_changed": false,
+  "limitations": []
+}

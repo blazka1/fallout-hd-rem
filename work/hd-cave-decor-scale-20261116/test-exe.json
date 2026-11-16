@@ -1,0 +1,8 @@
+{
+  "source_differences": [
+    "game/hd_wall_geometry_test.inc",
+    "game/hd_world_pilot_test.cc"
+  ],
+  "exe_sha256": "b123fea33b7c18472c665ce808bb3d61adae6acf97408c725c0cf551615816a2",
+  "purpose": "Diagnostics-only fixes for identical wall texture assertion and decoration visibility through translucent walls; no rendering/gameplay changes; never installed in live runtime"
+}

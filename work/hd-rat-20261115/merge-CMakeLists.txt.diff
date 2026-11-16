@@ -1,0 +1,23 @@
+--- current/CMakeLists.txt
+
++++ rat/CMakeLists.txt
+
+@@ -129,6 +129,8 @@
+
+     "src/game/hd_world_pilot_test.h"
+     "src/game/hd_player.cc"
+     "src/game/hd_player.h"
++    "src/game/hd_rat.cc"
++    "src/game/hd_rat.h"
+     "src/game/hd_player_test.cc"
+     "src/game/hd_player_test.h"
+     "src/game/map_defs.h"
+@@ -390,6 +392,7 @@
+
+         "src/game/hd_world_pilot.cc"
+         "src/game/hd_world_pilot_test.cc"
+         "src/game/hd_player.cc"
++        "src/game/hd_rat.cc"
+         "src/game/hd_player_test.cc"
+         "src/game/hd_hud.cc"
+         "src/game/hd_hud_test.cc"

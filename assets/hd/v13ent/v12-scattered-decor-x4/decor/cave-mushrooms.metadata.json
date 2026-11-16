@@ -1,0 +1,31 @@
+{
+  "key": "cave-mushrooms",
+  "asset_id": 242,
+  "source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\v13ent-floor-decor\\v1-20261112\\cave-mushrooms.png",
+  "source_sha256": "74f5c3623b295091ff71fd3cc38aa3d28ad96ebd60de46fa2676d741f14f0640",
+  "crop": [
+    126,
+    284,
+    922,
+    654
+  ],
+  "native_dimensions": [
+    28,
+    20
+  ],
+  "dimensions": [
+    112,
+    80
+  ],
+  "gain": 0.63,
+  "desaturation": 0.55,
+  "save_node": "60",
+  "file": "cave-mushrooms.png",
+  "sha256": "362641c0adaf56f815d777cfc0be8b4cc303cade5645ebb65651416a5741a068",
+  "opaque_native_pixels": 296,
+  "render_only": true,
+  "game_object": false,
+  "collision": false,
+  "registration": "native pixel dimensions; tile center/bottom anchor plus placement offset",
+  "workflow": "assets\\generated\\v13ent-floor-decor\\integration-v1-20261112\\workflow.json"
+}

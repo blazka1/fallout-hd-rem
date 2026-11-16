@@ -1,0 +1,31 @@
+{
+  "key": "household-litter",
+  "asset_id": 241,
+  "source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\v13ent-floor-decor\\v1-20261112\\household-litter.png",
+  "source_sha256": "ddc64809bbc9f1e4bb5bb8f3024e2045f2c621c87bbeb6486821825eb3a1af24",
+  "crop": [
+    53,
+    271,
+    1150,
+    670
+  ],
+  "native_dimensions": [
+    38,
+    22
+  ],
+  "dimensions": [
+    152,
+    88
+  ],
+  "gain": 0.68,
+  "desaturation": 0.25,
+  "save_node": "40",
+  "file": "household-litter.png",
+  "sha256": "bdce0207a7f682b65caf1ebd43fb1117c292ffaafdbb3c9297678360cea02b3a",
+  "opaque_native_pixels": 391,
+  "render_only": true,
+  "game_object": false,
+  "collision": false,
+  "registration": "native pixel dimensions; tile center/bottom anchor plus placement offset",
+  "workflow": "assets\\generated\\v13ent-floor-decor\\integration-v1-20261112\\workflow.json"
+}

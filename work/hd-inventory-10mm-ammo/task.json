@@ -1,0 +1,111 @@
+{
+  "status": "installed_and_verified",
+  "created_utc": "2026-11-14T02:13:28.920856+00:00",
+  "executable": "runtime\\hd-world-pilot\\fallout-ce.exe",
+  "executable_sha256": "1B8D79B25C29B6E0FF1DA2E1501BFAE9F2DBE651924CA1ABBCA12182E6A97DFF",
+  "assets": [
+    {
+      "pid": 29,
+      "package": "assets\\hd\\inventory\\10mm-jhp\\v1",
+      "runtime": "runtime\\hd-world-pilot\\data\\art\\hd\\inventory\\10mm-jhp\\ammo.rgba",
+      "sha256": "C3554D01190B47F52C64635F320AD55FEC725DF7686E05B91B1C4331913116B5"
+    },
+    {
+      "pid": 30,
+      "package": "assets\\hd\\inventory\\10mm-ap\\v1",
+      "runtime": "runtime\\hd-world-pilot\\data\\art\\hd\\inventory\\10mm-ap\\ammo.rgba",
+      "sha256": "5CFA0D259C81E2462E91CB32CC18E4399FBA4361CC96F29A8D8CCB673C9FACEF"
+    }
+  ],
+  "checks": [
+    {
+      "name": "jhp-loaded",
+      "path": "build\\hd-inventory-10mm-ammo\\preview\\final-jhp-loaded\\manifest.json",
+      "passed": 93,
+      "failed": 0,
+      "sha256": "006FB0827E4F0B0D7300CCCCBF0330332A6BC510DA71874C702AB255F36E5C89"
+    },
+    {
+      "name": "ap-loaded",
+      "path": "build\\hd-inventory-10mm-ammo\\preview\\final-ap-loaded\\manifest.json",
+      "passed": 96,
+      "failed": 0,
+      "sha256": "6A14D36E815C2AE3FC3F3C4B8C922C5E88C39F308F48CE3BCC8652A8EC8A5F2E"
+    },
+    {
+      "name": "jhp-missing",
+      "path": "build\\hd-inventory-10mm-ammo\\preview\\final-jhp-missing\\manifest.json",
+      "passed": 85,
+      "failed": 0,
+      "sha256": "FD117F408C1A31B92B8C8C7DED0A27BCF3308341EF76E8A75DAC7CC163DE8744"
+    },
+    {
+      "name": "ap-missing",
+      "path": "build\\hd-inventory-10mm-ammo\\preview\\final-ap-missing\\manifest.json",
+      "passed": 88,
+      "failed": 0,
+      "sha256": "C8A31AB3EB4DC0B40D67CBA8D45CA84BC6A0FB21B168DFA19EB44592BF150B8B"
+    },
+    {
+      "name": "jhp-corrupt",
+      "path": "build\\hd-inventory-10mm-ammo\\preview\\final-jhp-corrupt\\manifest.json",
+      "passed": 85,
+      "failed": 0,
+      "sha256": "291107EBD0DF0BCC6D27600069CF294BF7615C9356BBD1B93CD9A502C2BF9EC5"
+    },
+    {
+      "name": "ap-corrupt",
+      "path": "build\\hd-inventory-10mm-ammo\\preview\\final-ap-corrupt\\manifest.json",
+      "passed": 88,
+      "failed": 0,
+      "sha256": "9D97D29C7B25DA60375757264417A8A9B3F11AF99BF487638DD05DB78527730D"
+    },
+    {
+      "name": "knife",
+      "path": "build\\hd-inventory-10mm-ammo\\preview\\final-knife\\manifest.json",
+      "passed": 93,
+      "failed": 0,
+      "sha256": "16079D465ECE7BFAF24EA1B4C6D8DC308DBBBC34A42231174C7E3A9B082E96C3"
+    },
+    {
+      "name": "pistol",
+      "path": "build\\hd-inventory-10mm-ammo\\preview\\final-pistol\\manifest.json",
+      "passed": 93,
+      "failed": 0,
+      "sha256": "CAAD1A49797183643800F25945C90241066917483FD30E17CB8D4DE5A2C55255"
+    },
+    {
+      "name": "knuckles",
+      "path": "build\\hd-inventory-10mm-ammo\\preview\\final-knuckles\\manifest.json",
+      "passed": 93,
+      "failed": 0,
+      "sha256": "9AD8882469D092D4D230B131C8FC71AFF06DD6A46F93CADD430A912918B0C3D8"
+    },
+    {
+      "name": "world",
+      "path": "build\\hd-inventory-10mm-ammo\\world-regression\\manifest.json",
+      "passed": 319,
+      "failed": 0,
+      "sha256": "65D65383192B404B17BF839A68944DD976482DE5E31AADB4850D04E7F9394891"
+    },
+    {
+      "name": "menu",
+      "path": "build\\hd-inventory-10mm-ammo\\menu-regression\\manifest.json",
+      "passed": 139,
+      "failed": 0,
+      "sha256": "34B8075C63005B67D23A02F8CE86F9D43323057AECFD68496AE155BF85BB4B65"
+    }
+  ],
+  "passed": 1272,
+  "failed": 0,
+  "installation_receipts": [
+    "build\\hd-inventory-10mm-ammo\\installations\\20261114-051052-208.json",
+    "build\\hd-inventory-10mm-ammo\\installations\\20261114-051053-440.json"
+  ],
+  "visual_review": "Original/Seed/Qwen, light and dark alpha backgrounds, and fresh SDL HUD/inventory/hand/drag captures at 1080p and 4K reviewed.",
+  "limitations": "Automated rendering checks and capture review; not a complete combat, barter, container or save/load playthrough.",
+  "historical_reports": "Earlier non-final preview folders used a previous executable or contained a test-scrolling failure. They are retained and excluded from this total.",
+  "protected_files_check": "build/hd-inventory-10mm-ammo/runtime-protected-check.json",
+  "preserved_combat_fix": "build/combat-crash-fix/integration.json",
+  "registered_inventory_items": 5
+}

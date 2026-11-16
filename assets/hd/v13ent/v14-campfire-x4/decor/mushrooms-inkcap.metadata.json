@@ -1,0 +1,31 @@
+{
+  "key": "mushrooms-inkcap",
+  "asset_id": 247,
+  "source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\v13ent-floor-decor\\variety-v1-20261112\\mushrooms-inkcap.png",
+  "source_sha256": "e60121303fc4b79e5608f4b789c44353cbe191a35b05c325b15a13c5e9ff4ba8",
+  "crop": [
+    173,
+    40,
+    878,
+    1118
+  ],
+  "native_dimensions": [
+    24,
+    31
+  ],
+  "dimensions": [
+    96,
+    124
+  ],
+  "gain": 0.67,
+  "desaturation": 0.6,
+  "save_node": "80",
+  "file": "mushrooms-inkcap.png",
+  "sha256": "3e09323e18918247a39da687a46500eaca52c3eacfd147086755e43cedb484ab",
+  "opaque_native_pixels": 222,
+  "render_only": true,
+  "game_object": false,
+  "collision": false,
+  "registration": "native tile center/bottom plus placement offsets",
+  "workflow": "assets\\generated\\v13ent-floor-decor\\variety-prepared-v1-20261112\\workflow.json"
+}

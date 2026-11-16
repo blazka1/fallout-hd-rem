@@ -1,0 +1,777 @@
+{
+  "component": "original-seed-qwen-grey-v2",
+  "wall_panels": [
+    {
+      "id": "walls-00",
+      "slots": [
+        {
+          "source": "art/walls/ca002.frm",
+          "filename": "asset-090.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-090.png",
+          "sha256": "5d9ada5d4647bf2464c17b8c6b686c4e7b95df5f37a34b94651ce35b7e37e917",
+          "atlas": "walls-00",
+          "x": 8,
+          "y": 8,
+          "width": 68,
+          "height": 480
+        },
+        {
+          "source": "art/walls/ca003.frm",
+          "filename": "asset-091.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-091.png",
+          "sha256": "9fbcd8e9a9dcd6d531c0e78659d05ee8d5659b6f6749d8b38e293588ffc367c1",
+          "atlas": "walls-00",
+          "x": 168,
+          "y": 8,
+          "width": 132,
+          "height": 504
+        },
+        {
+          "source": "art/walls/ca004.frm",
+          "filename": "asset-092.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-092.png",
+          "sha256": "b2988bc2cd57eb0d80e7728fe135c5d92a3e7c23fc8c6680bd71115d4ae856f1",
+          "atlas": "walls-00",
+          "x": 328,
+          "y": 8,
+          "width": 64,
+          "height": 480
+        },
+        {
+          "source": "art/walls/ca005.frm",
+          "filename": "asset-093.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-093.png",
+          "sha256": "e433f22b69c4e33cc377ad4d7ba9c88553e4453273cc2cf4f361c465b85344a0",
+          "atlas": "walls-00",
+          "x": 488,
+          "y": 8,
+          "width": 132,
+          "height": 480
+        },
+        {
+          "source": "art/walls/ca006.frm",
+          "filename": "asset-094.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-094.png",
+          "sha256": "5730ec5103dd5d80313c2f092f99fc23afc2c8dd2f048626136353bea0080b8a",
+          "atlas": "walls-00",
+          "x": 8,
+          "y": 712,
+          "width": 68,
+          "height": 480
+        },
+        {
+          "source": "art/walls/ca007.frm",
+          "filename": "asset-095.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-095.png",
+          "sha256": "560ecb7fbe54049123ddb7b617d5ce2d8bc499e8ebb181299a344c05ef70628c",
+          "atlas": "walls-00",
+          "x": 168,
+          "y": 712,
+          "width": 132,
+          "height": 500
+        },
+        {
+          "source": "art/walls/ca008.frm",
+          "filename": "asset-096.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-096.png",
+          "sha256": "25d19eb54420fa4bb0a4bcf1c9ffa5ff12578bafdd145e32cbeb7ae4af518259",
+          "atlas": "walls-00",
+          "x": 328,
+          "y": 712,
+          "width": 64,
+          "height": 480
+        },
+        {
+          "source": "art/walls/ca009.frm",
+          "filename": "asset-097.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-097.png",
+          "sha256": "b34aefefed0cbf9d1c89f295de1d5bdd0a007f923b7c18f4fa1cecf6955cce0a",
+          "atlas": "walls-00",
+          "x": 488,
+          "y": 712,
+          "width": 132,
+          "height": 488
+        }
+      ]
+    },
+    {
+      "id": "walls-01",
+      "slots": [
+        {
+          "source": "art/walls/ca010.frm",
+          "filename": "asset-098.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-098.png",
+          "sha256": "228ef45b2a324b23f9ec233b56ab446e300d37e452a6005e9644fad44d1b5b6d",
+          "atlas": "walls-01",
+          "x": 8,
+          "y": 8,
+          "width": 68,
+          "height": 476
+        },
+        {
+          "source": "art/walls/ca011.frm",
+          "filename": "asset-099.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-099.png",
+          "sha256": "2cc2f5c93f4d35c43404704914bc8f99e8ec8321e2842b6d1df61ab7ff6d1df6",
+          "atlas": "walls-01",
+          "x": 168,
+          "y": 8,
+          "width": 128,
+          "height": 536
+        },
+        {
+          "source": "art/walls/ca012.frm",
+          "filename": "asset-100.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-100.png",
+          "sha256": "cc00bc45a5a767e3d9b9e05841a4b13b23b01241dd5a381b88360a9c150b44a4",
+          "atlas": "walls-01",
+          "x": 328,
+          "y": 8,
+          "width": 64,
+          "height": 556
+        },
+        {
+          "source": "art/walls/ca013.frm",
+          "filename": "asset-101.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-101.png",
+          "sha256": "8d453927ad6ac281fc43a3e291aaabf8f18ee838d543f3ad8a66436a4bd04bc0",
+          "atlas": "walls-01",
+          "x": 488,
+          "y": 8,
+          "width": 132,
+          "height": 576
+        },
+        {
+          "source": "art/walls/ca014.frm",
+          "filename": "asset-102.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-102.png",
+          "sha256": "40b4383b267270623373165fdee644183706b0a998ab97eb046389c4d31192d5",
+          "atlas": "walls-01",
+          "x": 8,
+          "y": 712,
+          "width": 68,
+          "height": 568
+        },
+        {
+          "source": "art/walls/ca015.frm",
+          "filename": "asset-103.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-103.png",
+          "sha256": "1a4da6b19016e7f936c48a4d6f6fe1d139d5c8617f454b077b12eb981b16c866",
+          "atlas": "walls-01",
+          "x": 168,
+          "y": 712,
+          "width": 128,
+          "height": 536
+        },
+        {
+          "source": "art/walls/ca016.frm",
+          "filename": "asset-104.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-104.png",
+          "sha256": "f5faa697738da57ea94b9f22c752c40d0302e4fc62b910be46388098e795b638",
+          "atlas": "walls-01",
+          "x": 328,
+          "y": 712,
+          "width": 68,
+          "height": 520
+        },
+        {
+          "source": "art/walls/ca017.frm",
+          "filename": "asset-105.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-105.png",
+          "sha256": "67a92c486e775843a13307b324e6f5aee666fce795e743ad4f416e1af3318ce7",
+          "atlas": "walls-01",
+          "x": 488,
+          "y": 712,
+          "width": 68,
+          "height": 508
+        }
+      ]
+    },
+    {
+      "id": "walls-02",
+      "slots": [
+        {
+          "source": "art/walls/ca018.frm",
+          "filename": "asset-106.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-106.png",
+          "sha256": "115a3d9f2a5c8ae179f505b110acc1986008601be73bb953e41194ddcb5279d5",
+          "atlas": "walls-02",
+          "x": 8,
+          "y": 8,
+          "width": 68,
+          "height": 524
+        },
+        {
+          "source": "art/walls/ca019.frm",
+          "filename": "asset-107.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-107.png",
+          "sha256": "e52ae729498b9c72496cd427fd52ea3d1de8ab86977a87ee1b6857f025e06d12",
+          "atlas": "walls-02",
+          "x": 168,
+          "y": 8,
+          "width": 64,
+          "height": 520
+        },
+        {
+          "source": "art/walls/ca020.frm",
+          "filename": "asset-108.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-108.png",
+          "sha256": "6c2e834cb3e4f395c365d08ad7fabcf8860ea0c319240618fe5953ea5461a8c6",
+          "atlas": "walls-02",
+          "x": 328,
+          "y": 8,
+          "width": 68,
+          "height": 532
+        },
+        {
+          "source": "art/walls/ca021.frm",
+          "filename": "asset-109.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-109.png",
+          "sha256": "8d397a663d08b43c9a59c8563d48afcaa3555ae913a564c0bf6932f5db17e532",
+          "atlas": "walls-02",
+          "x": 488,
+          "y": 8,
+          "width": 68,
+          "height": 532
+        },
+        {
+          "source": "art/walls/ca022.frm",
+          "filename": "asset-110.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-110.png",
+          "sha256": "e818c8b653c5e1ceb3629f2d617b0c9d592cdcf8017323e138687367796aa474",
+          "atlas": "walls-02",
+          "x": 8,
+          "y": 712,
+          "width": 68,
+          "height": 504
+        },
+        {
+          "source": "art/walls/ca023.frm",
+          "filename": "asset-111.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-111.png",
+          "sha256": "6dd0dbde9eb78b0555f1dfe11d88833fe91a85601aea4ad428b95ef4e789e3fd",
+          "atlas": "walls-02",
+          "x": 168,
+          "y": 712,
+          "width": 68,
+          "height": 524
+        },
+        {
+          "source": "art/walls/ca024.frm",
+          "filename": "asset-112.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-112.png",
+          "sha256": "cc942634b5d3d9d6045bfd90c569658783ff5df77d2abbd312b6497c3949b878",
+          "atlas": "walls-02",
+          "x": 328,
+          "y": 712,
+          "width": 68,
+          "height": 504
+        },
+        {
+          "source": "art/walls/ca025.frm",
+          "filename": "asset-113.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-113.png",
+          "sha256": "cd1495f5964d7bd70a60d050b1fd008fe7e194ac39379b3a89c85d2108ed7bf0",
+          "atlas": "walls-02",
+          "x": 488,
+          "y": 712,
+          "width": 128,
+          "height": 492
+        }
+      ]
+    },
+    {
+      "id": "walls-03",
+      "slots": [
+        {
+          "source": "art/walls/ca026.frm",
+          "filename": "asset-114.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-114.png",
+          "sha256": "aaddabdfeb8db0d26d41d04958ee0efcdef58874cc03b9f56baf04d6ef5e6809",
+          "atlas": "walls-03",
+          "x": 8,
+          "y": 8,
+          "width": 68,
+          "height": 444
+        },
+        {
+          "source": "art/walls/ca027.frm",
+          "filename": "asset-115.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-115.png",
+          "sha256": "3a67e4eb397aec890ce54f4487515ce3f0e4e59ebe90ef326b8dc61ac46bc4f6",
+          "atlas": "walls-03",
+          "x": 168,
+          "y": 8,
+          "width": 132,
+          "height": 564
+        },
+        {
+          "source": "art/walls/ca028.frm",
+          "filename": "asset-116.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-116.png",
+          "sha256": "af8484a3d100c5ce69a88000b2805f3cb7383dae6d3fe8038646b689d71f4e12",
+          "atlas": "walls-03",
+          "x": 328,
+          "y": 8,
+          "width": 64,
+          "height": 480
+        },
+        {
+          "source": "art/walls/ca032.frm",
+          "filename": "asset-117.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-117.png",
+          "sha256": "7e228954895ad1b17e57d54a69f2a836302713c422e32a55f876ea2f834ba2f5",
+          "atlas": "walls-03",
+          "x": 488,
+          "y": 8,
+          "width": 120,
+          "height": 472
+        },
+        {
+          "source": "art/walls/ca036.frm",
+          "filename": "asset-118.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-118.png",
+          "sha256": "9506115624e69124c63b20a787b27a9d090c67b55b6f3ddb54acfe37b7a66cdc",
+          "atlas": "walls-03",
+          "x": 8,
+          "y": 712,
+          "width": 124,
+          "height": 480
+        },
+        {
+          "source": "art/walls/ca037.frm",
+          "filename": "asset-119.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-119.png",
+          "sha256": "97b39a5fda67fd6eca6fded3647c340839c5aaafd90b6e69917ba17c72f03d39",
+          "atlas": "walls-03",
+          "x": 168,
+          "y": 712,
+          "width": 128,
+          "height": 520
+        },
+        {
+          "source": "art/walls/ca038.frm",
+          "filename": "asset-120.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-120.png",
+          "sha256": "435785381d8459d91a2afde55bd254afdd366b29922c4bf9e6f85be776954b44",
+          "atlas": "walls-03",
+          "x": 328,
+          "y": 712,
+          "width": 128,
+          "height": 464
+        },
+        {
+          "source": "art/walls/ca039.frm",
+          "filename": "asset-121.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-121.png",
+          "sha256": "177dd8a91548caba71bc3f0ed5465899019a0fcfe5357251320a41ce4bf54c95",
+          "atlas": "walls-03",
+          "x": 488,
+          "y": 712,
+          "width": 128,
+          "height": 460
+        }
+      ]
+    },
+    {
+      "id": "walls-04",
+      "slots": [
+        {
+          "source": "art/walls/ca040.frm",
+          "filename": "asset-122.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-122.png",
+          "sha256": "6ae48bef42c579e8c38a7869cdaa8c95b14fd8c84f251b311455b7091f4aaf94",
+          "atlas": "walls-04",
+          "x": 8,
+          "y": 8,
+          "width": 128,
+          "height": 468
+        },
+        {
+          "source": "art/walls/ca041.frm",
+          "filename": "asset-123.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-123.png",
+          "sha256": "dce2f0a71d97ce4a7b0e21abdea9193a9fc1ecb222d09109caf04efa12d23c2f",
+          "atlas": "walls-04",
+          "x": 168,
+          "y": 8,
+          "width": 132,
+          "height": 472
+        },
+        {
+          "source": "art/walls/ca042.frm",
+          "filename": "asset-124.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-124.png",
+          "sha256": "008653e5faf4b318c541f76395728a18e590a0b21cd9f761fa9f13199ae59730",
+          "atlas": "walls-04",
+          "x": 328,
+          "y": 8,
+          "width": 128,
+          "height": 476
+        },
+        {
+          "source": "art/walls/ca043.frm",
+          "filename": "asset-125.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-125.png",
+          "sha256": "a227e427a495be42bd7cf9d147ee77c0f1f420c772b2bc9db4676736b7fefff0",
+          "atlas": "walls-04",
+          "x": 488,
+          "y": 8,
+          "width": 132,
+          "height": 464
+        },
+        {
+          "source": "art/walls/ca044.frm",
+          "filename": "asset-126.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-126.png",
+          "sha256": "4c3b731f11b67efff63b5961d7ccb8538979704aea0f3437046027c9f9644a67",
+          "atlas": "walls-04",
+          "x": 8,
+          "y": 712,
+          "width": 128,
+          "height": 464
+        },
+        {
+          "source": "art/walls/ca045.frm",
+          "filename": "asset-127.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-127.png",
+          "sha256": "f4770de3aa03a454d1a44386ca826bc04f986f5f7c57b487628fa59b3497226c",
+          "atlas": "walls-04",
+          "x": 168,
+          "y": 712,
+          "width": 132,
+          "height": 452
+        },
+        {
+          "source": "art/walls/ca046.frm",
+          "filename": "asset-128.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-128.png",
+          "sha256": "cabc96f584369fe01ac1570f1bf12257a103db6059289100e609d2034f9c8552",
+          "atlas": "walls-04",
+          "x": 328,
+          "y": 712,
+          "width": 132,
+          "height": 484
+        },
+        {
+          "source": "art/walls/ca047.frm",
+          "filename": "asset-129.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-129.png",
+          "sha256": "1532369127639f63a094c6a6bc7c6210d617fe17ce951689359808c4f8d6ec16",
+          "atlas": "walls-04",
+          "x": 488,
+          "y": 712,
+          "width": 68,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "id": "walls-05",
+      "slots": [
+        {
+          "source": "art/walls/ca048.frm",
+          "filename": "asset-130.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-130.png",
+          "sha256": "a02519db6c1bd2a25e08aacb1681a45658bccc2c01a576c5ced21f4fee01a278",
+          "atlas": "walls-05",
+          "x": 8,
+          "y": 8,
+          "width": 132,
+          "height": 496
+        },
+        {
+          "source": "art/walls/ca050.frm",
+          "filename": "asset-131.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-131.png",
+          "sha256": "1436dfac0c789421200a2b184dda1bffe9a7077eafa22536d7b9e70ea365e371",
+          "atlas": "walls-05",
+          "x": 168,
+          "y": 8,
+          "width": 64,
+          "height": 376
+        },
+        {
+          "source": "art/walls/ca053.frm",
+          "filename": "asset-132.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-132.png",
+          "sha256": "aafa9ae073487d24f9748ed5126ec0a4c79aaf5449a5367e3a3ca41f9539e796",
+          "atlas": "walls-05",
+          "x": 328,
+          "y": 8,
+          "width": 128,
+          "height": 404
+        },
+        {
+          "source": "art/walls/ca054.frm",
+          "filename": "asset-133.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-133.png",
+          "sha256": "9eb60979189b2093e23a2100306c0185b650cf7d3e3bac7c356b18c7a1cc1604",
+          "atlas": "walls-05",
+          "x": 488,
+          "y": 8,
+          "width": 64,
+          "height": 372
+        },
+        {
+          "source": "art/walls/ca055.frm",
+          "filename": "asset-134.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-134.png",
+          "sha256": "c299663cff2da8e8df5d55fd1c549a4d0cce4b1f9a5e2642cbedeb564aa2e347",
+          "atlas": "walls-05",
+          "x": 8,
+          "y": 712,
+          "width": 128,
+          "height": 408
+        },
+        {
+          "source": "art/walls/ca056.frm",
+          "filename": "asset-135.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-135.png",
+          "sha256": "ac6c0b038deb2270f3a4077d581687bdadad3e87b2d8bf6534acc4b9dd464ba9",
+          "atlas": "walls-05",
+          "x": 168,
+          "y": 712,
+          "width": 64,
+          "height": 388
+        },
+        {
+          "source": "art/walls/ca057.frm",
+          "filename": "asset-136.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-136.png",
+          "sha256": "26f527752a71b53059f1219155dcea9e2944ee9f18ccf6046795bbd62c2878b1",
+          "atlas": "walls-05",
+          "x": 328,
+          "y": 712,
+          "width": 128,
+          "height": 404
+        },
+        {
+          "source": "art/walls/ca058.frm",
+          "filename": "asset-137.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-137.png",
+          "sha256": "dfc3902823408b9a04f444b5e0700d89a0d081da85be2bdbd75c13adb389f6a5",
+          "atlas": "walls-05",
+          "x": 488,
+          "y": 712,
+          "width": 64,
+          "height": 392
+        }
+      ]
+    },
+    {
+      "id": "walls-06",
+      "slots": [
+        {
+          "source": "art/walls/ca059.frm",
+          "filename": "asset-138.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-138.png",
+          "sha256": "1707c31bcbc2ec1f900804c06c0eea31ebbfb0801b3222b873c4d2696cdd2ff8",
+          "atlas": "walls-06",
+          "x": 8,
+          "y": 8,
+          "width": 64,
+          "height": 400
+        },
+        {
+          "source": "art/walls/ca060.frm",
+          "filename": "asset-139.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-139.png",
+          "sha256": "aa6e1231511ceb18922ff3f48e681121a78ae61b93cc2e8397ee1c00b54842da",
+          "atlas": "walls-06",
+          "x": 168,
+          "y": 8,
+          "width": 64,
+          "height": 424
+        },
+        {
+          "source": "art/walls/ca061.frm",
+          "filename": "asset-140.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-140.png",
+          "sha256": "f57ebc0e5132ef571827944043b2eab72f1a3725541000d33fa4fe37e5fcd700",
+          "atlas": "walls-06",
+          "x": 328,
+          "y": 8,
+          "width": 64,
+          "height": 424
+        },
+        {
+          "source": "art/walls/ca062.frm",
+          "filename": "asset-141.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-141.png",
+          "sha256": "0a2a450b22731f2eb96e893a4fb9c8d80010fe4f58b5413381c8713820fa03f9",
+          "atlas": "walls-06",
+          "x": 488,
+          "y": 8,
+          "width": 64,
+          "height": 424
+        },
+        {
+          "source": "art/walls/ca063.frm",
+          "filename": "asset-142.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-142.png",
+          "sha256": "5cdaaf9e1e2d83e8c69da9ce064bcccd49558c846f24d6b75655eeed490f8059",
+          "atlas": "walls-06",
+          "x": 8,
+          "y": 712,
+          "width": 144,
+          "height": 672
+        },
+        {
+          "source": "art/walls/ca064.frm",
+          "filename": "asset-143.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-143.png",
+          "sha256": "b4f3cf0e6c4441345a849eed896adf2f9dc37e70a5d547203aaf2b40bbae33fb",
+          "atlas": "walls-06",
+          "x": 168,
+          "y": 712,
+          "width": 132,
+          "height": 672
+        },
+        {
+          "source": "art/walls/ca065.frm",
+          "filename": "asset-144.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-144.png",
+          "sha256": "c2fc390a840eb29540dc0fca42c789e3967640dd19068a1df3578c4643e79905",
+          "atlas": "walls-06",
+          "x": 328,
+          "y": 712,
+          "width": 128,
+          "height": 468
+        },
+        {
+          "source": "art/walls/ca066.frm",
+          "filename": "asset-145.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-145.png",
+          "sha256": "83cfa93c56dd85b5090b5fdab452b9fd05745b29c8284dad9882894a1191a429",
+          "atlas": "walls-06",
+          "x": 488,
+          "y": 712,
+          "width": 128,
+          "height": 376
+        }
+      ]
+    },
+    {
+      "id": "walls-07",
+      "slots": [
+        {
+          "source": "art/walls/ca067.frm",
+          "filename": "asset-146.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-146.png",
+          "sha256": "3978b663492367dda6fe3b67cdf285c3f2f388bd8396e17de872ecf351d9380c",
+          "atlas": "walls-07",
+          "x": 8,
+          "y": 8,
+          "width": 128,
+          "height": 376
+        },
+        {
+          "source": "art/walls/ca068.frm",
+          "filename": "asset-147.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-147.png",
+          "sha256": "e43ab345e1b2bb967f39073a3cd9d1b5e1d6b1b0f78723946171332df765b40d",
+          "atlas": "walls-07",
+          "x": 168,
+          "y": 8,
+          "width": 128,
+          "height": 376
+        },
+        {
+          "source": "art/walls/ca069.frm",
+          "filename": "asset-148.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-148.png",
+          "sha256": "53172d672e0e8d67515f9e3a9bbf9c2b940b128e4a7e72eea9c680cf12203a98",
+          "atlas": "walls-07",
+          "x": 328,
+          "y": 8,
+          "width": 128,
+          "height": 376
+        },
+        {
+          "source": "art/walls/ca070.frm",
+          "filename": "asset-149.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-149.png",
+          "sha256": "8209c3beabd6827de37c2755482d751b02b03e9e015a0b9965c5b7f02e4ed674",
+          "atlas": "walls-07",
+          "x": 488,
+          "y": 8,
+          "width": 128,
+          "height": 384
+        },
+        {
+          "source": "art/walls/ca071.frm",
+          "filename": "asset-150.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-150.png",
+          "sha256": "19ecd2a4c30ba3d5787d1c7f0a8d50303825f237fef6604f9dc8e23c0e9bc340",
+          "atlas": "walls-07",
+          "x": 8,
+          "y": 712,
+          "width": 96,
+          "height": 464
+        },
+        {
+          "source": "art/walls/ca072.frm",
+          "filename": "asset-151.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\asset-151.png",
+          "sha256": "6d872e72640f1c9ccd601644ad4ecfa3f1442a5b962af5af8f1e3f31b7dcf0fd",
+          "atlas": "walls-07",
+          "x": 168,
+          "y": 712,
+          "width": 104,
+          "height": 480
+        },
+        {
+          "source": "door-clearance",
+          "filename": "vault-rock-a.rgba",
+          "png": "assets\\generated\\v13ent-wall-original\\grey-match-20261116\\input-sprites\\vault-rock-a.png",
+          "sha256": "557e3bb981100fdf9b434b1dd5793e79fa51857f4a433221fd8494eb39e705d4",
+          "atlas": "walls-07",
+          "x": 328,
+          "y": 712,
+          "width": 124,
+          "height": 480
+        }
+      ]
+    }
+  ],
+  "caps": {
+    "id": "caps",
+    "native_size": [
+      288,
+      64
+    ],
+    "slots": [
+      {
+        "source": "art/tiles/cav4008.frm",
+        "x": 8,
+        "y": 14,
+        "width": 80,
+        "height": 36
+      },
+      {
+        "source": "art/tiles/cav4009.frm",
+        "x": 104,
+        "y": 14,
+        "width": 80,
+        "height": 36
+      },
+      {
+        "source": "art/tiles/cav4010.frm",
+        "x": 200,
+        "y": 14,
+        "width": 80,
+        "height": 36
+      }
+    ]
+  },
+  "wall_transform": {
+    "method": "ComfyUI Rec709 grey + linear tone curve, shared for every wall and edge",
+    "gain": 1.18,
+    "offset": 4
+  },
+  "original_alpha_preserved": true,
+  "registration_preserved": true,
+  "seed_correction_note": "Fresh original cap SeedVR2 x4; grey reference into Qwen; old blue low-frequency color will not be reintroduced",
+  "prior_component": "original-seed-qwen-v1"
+}

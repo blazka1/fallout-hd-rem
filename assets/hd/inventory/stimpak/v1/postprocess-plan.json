@@ -1,0 +1,14 @@
+{
+  "threshold": 8,
+  "crop": [
+    30,
+    98,
+    1088,
+    746
+  ],
+  "opaque_pixels_clipped": 0,
+  "target": [
+    356,
+    244
+  ]
+}

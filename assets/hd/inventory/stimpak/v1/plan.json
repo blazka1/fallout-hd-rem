@@ -1,0 +1,36 @@
+{
+  "item": {
+    "pid": 40,
+    "name": "Stimpak",
+    "fid": 117440627,
+    "size": [
+      89,
+      61
+    ]
+  },
+  "model": "qwen",
+  "outputs": {
+    "11": "raw.png",
+    "12": "reference-working.png",
+    "15": "candidate.png"
+  },
+  "target": [
+    356,
+    244
+  ],
+  "working": [
+    1152,
+    960
+  ],
+  "padding_native": [
+    3,
+    9,
+    4,
+    10
+  ],
+  "source_sha256": "2b66410aad7c60b175cb492b4707ba2fa27db507ffeb7bc1f6aee7abc1992f60",
+  "seed": 13112026,
+  "steps": 25,
+  "cfg": 1,
+  "denoise": 1
+}

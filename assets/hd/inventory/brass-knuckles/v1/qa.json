@@ -1,0 +1,14 @@
+{
+  "f1hd_pixels_equal_png": true,
+  "finger_holes": 4,
+  "hole_areas": [
+    213,
+    946,
+    1777,
+    3145
+  ],
+  "transparent_background": true,
+  "rgba_bytes": 336980,
+  "selected_by": "assistant",
+  "visual_review": "Shape, four openings, continuous rims, original orientation, no added parts; verified in SDL HUD and inventory captures"
+}

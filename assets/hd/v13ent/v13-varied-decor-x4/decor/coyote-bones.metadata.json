@@ -1,0 +1,31 @@
+{
+  "key": "coyote-bones",
+  "asset_id": 244,
+  "source": "C:\\Users\\Administrator\\Desktop\\Fallout1-Godot\\assets\\generated\\v13ent-floor-decor\\variety-v1-20261112\\coyote-bones.png",
+  "source_sha256": "334be836db71aa526954db40ea614145b18c300cddafe04c271bf98489320df6",
+  "crop": [
+    153,
+    215,
+    1256,
+    609
+  ],
+  "native_dimensions": [
+    48,
+    23
+  ],
+  "dimensions": [
+    192,
+    92
+  ],
+  "gain": 0.76,
+  "desaturation": 0.65,
+  "save_node": "20",
+  "file": "coyote-bones.png",
+  "sha256": "0e0557e4df28b841441690f4e901512d525175a8c1dd3e637446bf644df4c827",
+  "opaque_native_pixels": 327,
+  "render_only": true,
+  "game_object": false,
+  "collision": false,
+  "registration": "native tile center/bottom plus placement offsets",
+  "workflow": "assets\\generated\\v13ent-floor-decor\\variety-prepared-v1-20261112\\workflow.json"
+}

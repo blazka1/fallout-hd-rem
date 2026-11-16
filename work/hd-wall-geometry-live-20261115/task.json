@@ -1,0 +1,848 @@
+{
+  "status": "installed-and-verified",
+  "runtime": "runtime/hd-world-pilot",
+  "executable_sha256": "e5be09122b7041d430bd5941e61e6daa0141927f139081827973c54880b9c064",
+  "registered_wall_placements": 417,
+  "door_contour_preserved": true,
+  "render_images": 427,
+  "source_types": 62,
+  "checks": {
+    "passed": 1119,
+    "failed": 0,
+    "map": "V13ENT.MAP",
+    "loaded_resources": 247,
+    "scene_resources_seen": 76,
+    "decoration_images": 8,
+    "decoration_placements": 19,
+    "largest_vault_texel_offset": 72925,
+    "floor_instances": 96,
+    "rock_instances": 13,
+    "collision_hexes_checked": 120000,
+    "blocked_hexes": 1069,
+    "collision_hash": "18093902727436680495",
+    "path_routes_checked": 12,
+    "floor_visible_pixels": 20342,
+    "rock_visible_pixels": 6796,
+    "front_actor_tile": 20106,
+    "rear_actor_tile": 22286,
+    "capture_width": 1920,
+    "capture_height": 1080
+  },
+  "asset_audit": {
+    "registered_sprites": 417,
+    "resource_types": 62,
+    "overlapping_pairs": 134,
+    "shared_opaque_pixels": 1493488,
+    "maximum_overlap_rgb_difference": 0,
+    "door_alpha_exact": true,
+    "cutaway_alpha_exact": true,
+    "unchanged_other_runtime_assets": 484,
+    "actual_contacts_note": "Pairwise raster overlap equality; not a substitute for SDL camera/actor/scroll checks."
+  },
+  "performance": {
+    "scope": "CPU wall time through real renderPresent; hidden SDL window, no readback, not gameplay FPS",
+    "sample_count_per_case": 24,
+    "before": "benchmark-baseline-repeat",
+    "after": "benchmark-final",
+    "passed_before": 23,
+    "passed_after": 23,
+    "rows": [
+      {
+        "requested_width": 1920,
+        "requested_height": 1080,
+        "mode": "hd_disabled_same_pilot",
+        "workload": "idle_present",
+        "before_median_ms": 1.65465,
+        "after_median_ms": 1.4823,
+        "before_p95_ms": 3.3394,
+        "after_p95_ms": 1.7156,
+        "median_delta_ms": -0.1724
+      },
+      {
+        "requested_width": 1920,
+        "requested_height": 1080,
+        "mode": "hd_disabled_same_pilot",
+        "workload": "small_refresh_64x64",
+        "before_median_ms": 1.93895,
+        "after_median_ms": 2.4508,
+        "before_p95_ms": 2.5521,
+        "after_p95_ms": 3.4647,
+        "median_delta_ms": 0.5119
+      },
+      {
+        "requested_width": 1920,
+        "requested_height": 1080,
+        "mode": "hd_disabled_same_pilot",
+        "workload": "full_world_refresh",
+        "before_median_ms": 19.79025,
+        "after_median_ms": 32.63575,
+        "before_p95_ms": 27.6229,
+        "after_p95_ms": 44.78,
+        "median_delta_ms": 12.8455
+      },
+      {
+        "requested_width": 1920,
+        "requested_height": 1080,
+        "mode": "hd_disabled_same_pilot",
+        "workload": "incremental_scroll",
+        "before_median_ms": 7.5914,
+        "after_median_ms": 7.84275,
+        "before_p95_ms": 11.5371,
+        "after_p95_ms": 11.0843,
+        "median_delta_ms": 0.2513
+      },
+      {
+        "requested_width": 1920,
+        "requested_height": 1080,
+        "mode": "hd_enabled",
+        "workload": "idle_present",
+        "before_median_ms": 4.37475,
+        "after_median_ms": 5.90165,
+        "before_p95_ms": 7.3262,
+        "after_p95_ms": 9.6273,
+        "median_delta_ms": 1.5269
+      },
+      {
+        "requested_width": 1920,
+        "requested_height": 1080,
+        "mode": "hd_enabled",
+        "workload": "small_refresh_64x64",
+        "before_median_ms": 4.8885,
+        "after_median_ms": 6.5424,
+        "before_p95_ms": 5.3399,
+        "after_p95_ms": 7.2374,
+        "median_delta_ms": 1.6539
+      },
+      {
+        "requested_width": 1920,
+        "requested_height": 1080,
+        "mode": "hd_enabled",
+        "workload": "full_world_refresh",
+        "before_median_ms": 22.18005,
+        "after_median_ms": 33.7713,
+        "before_p95_ms": 25.3339,
+        "after_p95_ms": 46.4438,
+        "median_delta_ms": 11.5912
+      },
+      {
+        "requested_width": 1920,
+        "requested_height": 1080,
+        "mode": "hd_enabled",
+        "workload": "incremental_scroll",
+        "before_median_ms": 16.58995,
+        "after_median_ms": 19.3254,
+        "before_p95_ms": 25.6392,
+        "after_p95_ms": 28.8537,
+        "median_delta_ms": 2.7354
+      },
+      {
+        "requested_width": 3840,
+        "requested_height": 2160,
+        "mode": "hd_disabled_same_pilot",
+        "workload": "idle_present",
+        "before_median_ms": 1.48725,
+        "after_median_ms": 1.57835,
+        "before_p95_ms": 1.6562,
+        "after_p95_ms": 2.2596,
+        "median_delta_ms": 0.0911
+      },
+      {
+        "requested_width": 3840,
+        "requested_height": 2160,
+        "mode": "hd_disabled_same_pilot",
+        "workload": "small_refresh_64x64",
+        "before_median_ms": 2.0881,
+        "after_median_ms": 2.141,
+        "before_p95_ms": 2.2901,
+        "after_p95_ms": 2.446,
+        "median_delta_ms": 0.0529
+      },
+      {
+        "requested_width": 3840,
+        "requested_height": 2160,
+        "mode": "hd_disabled_same_pilot",
+        "workload": "full_world_refresh",
+        "before_median_ms": 20.23555,
+        "after_median_ms": 25.2575,
+        "before_p95_ms": 22.2701,
+        "after_p95_ms": 28.6615,
+        "median_delta_ms": 5.022
+      },
+      {
+        "requested_width": 3840,
+        "requested_height": 2160,
+        "mode": "hd_disabled_same_pilot",
+        "workload": "incremental_scroll",
+        "before_median_ms": 7.0617,
+        "after_median_ms": 7.6627,
+        "before_p95_ms": 8.2293,
+        "after_p95_ms": 8.3517,
+        "median_delta_ms": 0.601
+      },
+      {
+        "requested_width": 3840,
+        "requested_height": 2160,
+        "mode": "hd_enabled",
+        "workload": "idle_present",
+        "before_median_ms": 6.0232,
+        "after_median_ms": 7.21605,
+        "before_p95_ms": 9.757,
+        "after_p95_ms": 7.8982,
+        "median_delta_ms": 1.1928
+      },
+      {
+        "requested_width": 3840,
+        "requested_height": 2160,
+        "mode": "hd_enabled",
+        "workload": "small_refresh_64x64",
+        "before_median_ms": 6.6764,
+        "after_median_ms": 8.0586,
+        "before_p95_ms": 8.4777,
+        "after_p95_ms": 15.7543,
+        "median_delta_ms": 1.3822
+      },
+      {
+        "requested_width": 3840,
+        "requested_height": 2160,
+        "mode": "hd_enabled",
+        "workload": "full_world_refresh",
+        "before_median_ms": 27.171,
+        "after_median_ms": 34.8797,
+        "before_p95_ms": 33.8713,
+        "after_p95_ms": 37.032,
+        "median_delta_ms": 7.7087
+      },
+      {
+        "requested_width": 3840,
+        "requested_height": 2160,
+        "mode": "hd_enabled",
+        "workload": "incremental_scroll",
+        "before_median_ms": 45.07045,
+        "after_median_ms": 38.00145,
+        "before_p95_ms": 56.9896,
+        "after_p95_ms": 61.56,
+        "median_delta_ms": -7.069
+      }
+    ],
+    "caveat": "Sequential local measurement, subject to host load; not a gameplay FPS measurement. Original pre-optimization regression remains in benchmark-after for diagnosis."
+  },
+  "cache_image_comparison": {
+    "compared_images": 151,
+    "identical_images": 129,
+    "rows": [
+      {
+        "file": "actor-behind-classic.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "actor-behind-hd.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "actor-front-classic.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "actor-front-hd.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "camera-down-incremental.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "camera-down.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "camera-left-incremental.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "camera-left.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "camera-restored.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "camera-right-incremental.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "camera-right.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "camera-up-incremental.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "camera-up.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "campfire-shadow-actor-off.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "campfire-shadow-actor-on.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "campfire-shadow-off-hd.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "campfire-shadow-on-hd.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "campfire-shadow-scroll-0-full.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "campfire-shadow-scroll-0-incremental.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "campfire-shadow-scroll-1-full.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "campfire-shadow-scroll-1-incremental.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "campfire-shadow-scroll-2-full.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "campfire-shadow-scroll-2-incremental.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "campfire-shadow-scroll-3-full.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "campfire-shadow-scroll-3-incremental.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "cave-16290-classic.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "cave-16290-hd.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "cave-18721-classic.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "cave-18721-hd.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "cave-22662-classic.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "cave-22662-hd.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "cave-24097-classic.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "cave-24097-hd.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "cave-27075-classic.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "cave-27075-hd.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "cave-27871-classic.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "cave-27871-hd.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "cursor-hd.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "decor-240-tile-19491-walkover.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "decor-240-tile-19491.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "decor-241-tile-18092-walkover.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "decor-241-tile-18092.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "decor-242-actor-behind.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "decor-242-actor-front.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "decor-242-tile-18706-walkover.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "decor-242-tile-18706.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "decor-242-tile-19514-walkover.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "decor-242-tile-19514.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "decor-242-tile-20087-walkover.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "decor-242-tile-20087.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "decor-242-tile-25068-walkover.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "decor-242-tile-25068.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "decor-242-tile-25522-walkover.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "decor-242-tile-25522.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "decor-244-tile-24070-walkover.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "decor-244-tile-24070.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "decor-245-tile-25729-walkover.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "decor-245-tile-25729.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "decor-246-actor-behind.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "decor-246-actor-front.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "decor-246-tile-17513-walkover.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "decor-246-tile-17513.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "decor-246-tile-19910-walkover.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "decor-246-tile-19910.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "decor-246-tile-20692-walkover.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "decor-246-tile-20692.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "decor-246-tile-26067-walkover.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "decor-246-tile-26067.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "decor-246-tile-26338-walkover.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "decor-246-tile-26338.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "decor-247-actor-behind.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "decor-247-actor-front.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "decor-247-tile-18689-walkover.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "decor-247-tile-18689.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "decor-247-tile-18714-walkover.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "decor-247-tile-18714.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "decor-247-tile-19488-walkover.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "decor-247-tile-19488.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "decor-247-tile-23079-walkover.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "decor-247-tile-23079.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "decor-248-tile-23677-walkover.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "decor-248-tile-23677.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "decor-disabled-hd.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "decor-enabled-hd.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "entrance-classic-4k.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "entrance-classic.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "entrance-disabled.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "entrance-hd-4k.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "entrance-hd.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "fade-dark25-classic.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "fade-dark25-hd.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "fade-dark50-classic.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "fade-dark50-hd.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "fade-normal-classic.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "fade-normal-hd.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "fade-owner-mask.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "fade-white-classic.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "fade-white-hd.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "fade-white50-classic.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "fade-white50-hd.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "grey-buffer-classic.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "grey-buffer-hd.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "new-form-224-hd.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "new-form-224-previous-hd.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "new-form-225-hd.png",
+        "differing_pixels": 1508665
+      },
+      {
+        "file": "new-form-225-previous-hd.png",
+        "differing_pixels": 1516221
+      },
+      {
+        "file": "new-form-226-hd.png",
+        "differing_pixels": 1738108
+      },
+      {
+        "file": "new-form-226-previous-hd.png",
+        "differing_pixels": 1730996
+      },
+      {
+        "file": "new-form-227-hd.png",
+        "differing_pixels": 1437250
+      },
+      {
+        "file": "new-form-227-previous-hd.png",
+        "differing_pixels": 1445812
+      },
+      {
+        "file": "new-form-228-hd.png",
+        "differing_pixels": 1647298
+      },
+      {
+        "file": "new-form-228-previous-hd.png",
+        "differing_pixels": 1652633
+      },
+      {
+        "file": "new-form-229-hd.png",
+        "differing_pixels": 1732325
+      },
+      {
+        "file": "new-form-229-previous-hd.png",
+        "differing_pixels": 1731774
+      },
+      {
+        "file": "new-form-230-hd.png",
+        "differing_pixels": 1641154
+      },
+      {
+        "file": "new-form-230-previous-hd.png",
+        "differing_pixels": 1645367
+      },
+      {
+        "file": "new-form-231-hd.png",
+        "differing_pixels": 1618514
+      },
+      {
+        "file": "new-form-231-previous-hd.png",
+        "differing_pixels": 1621408
+      },
+      {
+        "file": "new-form-232-hd.png",
+        "differing_pixels": 1768521
+      },
+      {
+        "file": "new-form-232-previous-hd.png",
+        "differing_pixels": 1757583
+      },
+      {
+        "file": "new-form-233-hd.png",
+        "differing_pixels": 1576460
+      },
+      {
+        "file": "new-form-233-previous-hd.png",
+        "differing_pixels": 1565006
+      },
+      {
+        "file": "new-form-234-hd.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "new-form-234-previous-hd.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "new-form-235-hd.png",
+        "differing_pixels": 1731874
+      },
+      {
+        "file": "new-form-235-previous-hd.png",
+        "differing_pixels": 1731469
+      },
+      {
+        "file": "new-form-236-hd.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "new-form-236-previous-hd.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "new-form-237-hd.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "new-form-237-previous-hd.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "new-form-238-hd.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "new-form-238-previous-hd.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "new-form-252-hd.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "new-form-252-previous-hd.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "overlay-classic.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "overlay-hd.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "palette-black.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "renderer-recreated.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "saved-map-name-hd.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "tile-variants-after.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "tile-variants-before.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "vault-outer-wheel-frame-00-hd.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "vault-outer-wheel-frame-07-hd.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "vault-outer-wheel-frame-14-hd.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "vault-rock-a-entrance.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "viewport-classic.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "viewport-hd.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "wall-geometry-50331729.png",
+        "differing_pixels": 1548571
+      },
+      {
+        "file": "wall-geometry-50331730.png",
+        "differing_pixels": 1558575
+      },
+      {
+        "file": "wall-variants-base.png",
+        "differing_pixels": 0
+      },
+      {
+        "file": "wall-variants-enabled.png",
+        "differing_pixels": 0
+      }
+    ],
+    "before": "final",
+    "after": "final-performance",
+    "scope": "Decoded actual SDL captures before and after cache optimization; no image alteration",
+    "camera_selection_note": "22 different captures use the first visible object from a pointer-ordered set, so the camera target differs between runs. These are not classified as pixel-equivalent. All fixed-camera captures including entrance, 4K, scrolling and actor checks match; each same-run cached/fresh test passed.",
+    "fixed_camera_differences": []
+  },
+  "protected_runtime_files": 579,
+  "backup": "build/backups/before-wall-geometry-live-20261115",
+  "AGENTS_modified": false,
+  "geometry_only": true
+}

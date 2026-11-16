@@ -1,0 +1,54 @@
+{
+  "status": "installed_in_hd_world_pilot",
+  "selection": "User selected current HD enriched with new-reference details, then requested very slight rust and inventory/HUD/cursor integration",
+  "pid": 8,
+  "inventory_fid": 117440516,
+  "inventory_art": "art/inven/pistol.frm",
+  "native_size": [
+    70,
+    63
+  ],
+  "hd_size": [
+    280,
+    252
+  ],
+  "master_size": [
+    768,
+    768
+  ],
+  "source_generation": "assets\\generated\\inventory-10mm-pistol\\qwen21-subtle-rust-v7-20261114",
+  "provenance": [
+    "Original pistol FRM -> v1 HD",
+    "New left-facing geometry reference -> mirrored candidate",
+    "Qwen v6: preserve current v1 HD geometry, borrow candidate details",
+    "Qwen v7: extremely subtle rust",
+    "Deterministic ComfyUI alpha cleanup and proportional crop"
+  ],
+  "framing_crop": [
+    49,
+    77,
+    670,
+    603
+  ],
+  "cleaned_pixels_clipped": 0,
+  "postprocess": "Remove alpha<=15 background noise; retain all higher soft alpha; proportional crop to 10:9; Lanczos to 280x252",
+  "format": "F1HD RGBA8, byte-identical to decoded selected PNG",
+  "classic_fallback": "Original DAT FRM retained; no override",
+  "files": {
+    "inventory-postprocess-api.json": "2D5D5307B594980300B0B828C8005068E864451A0289230D75813FC499C4FD9D",
+    "inventory-postprocess-workflow.json": "F1C339245BBE9FADC8E3731D3C6C59F071FD5C171BA6C21E960D7F1FED69A0C8",
+    "pistol-hd-x4.png": "7AE5F5D5F30D3FB68A575E8FE7AE1DFB9EA1DDB9C3A85BAB381354FECD484EEA",
+    "pistol-master.png": "F41C194DBB31209557E0B0D22262E82E47435E7E2FE372806F0D7825E1177A14",
+    "pistol.rgba": "D3051D39E392543B29690237631FF25C550DD23918B89C4683973B3A63299040",
+    "plan.json": "BD50E492476E3BC60D909D8575428B9B7F285295CA7A548998724F84884D1097",
+    "prompt-api.json": "ACCDC1FDD86657B1A4FA40F20F454BDD48EC22FC0981196C59B83E16AB77D240",
+    "prompt.txt": "1627935AAE9149CBC449004C1B543D355C1F03930ABF1335283A548441134C58",
+    "README.txt": "11FEEA5BBEA3A93DD791A14F8A190D6029D05B795589E53022686A80692A1FC4",
+    "result.json": "60F94A4734C89B8CF7B34A4EC532FF24F1F449477DA57FE8ED934B9F8AE0AA91",
+    "source.json": "6EC4094BE1510E250C150044DD0306FCB2E1186C313DDA37B9E3ADA584711894",
+    "workflow.json": "E011FE04DD77BCE92CD3A7C4722A7BCF0B3A18DEC3C8B3F6F320CEC7EF530435"
+  },
+  "integration_report": "build\\hd-inventory-pistol\\v2-20261114\\integration.json",
+  "installation_receipt": "build\\hd-inventory-pistol\\v2-20261114\\installations\\20261114-040555-648.json",
+  "executable_sha256": "38A0604E1D8773A9D29F1904BAEE6D94A457F04C319AE7B04862761659F9A720"
+}

@@ -1,0 +1,41 @@
+{
+  "item": {
+    "pid": 205,
+    "name": "Lit Flare",
+    "fid": 117440635,
+    "size": [
+      80,
+      59
+    ]
+  },
+  "model": "qwen",
+  "outputs": {
+    "11": "raw.png",
+    "12": "reference-working.png",
+    "15": "candidate.png"
+  },
+  "target": [
+    320,
+    236
+  ],
+  "working": [
+    1152,
+    960
+  ],
+  "padding_native": [
+    8,
+    10,
+    8,
+    11
+  ],
+  "source_sha256": "28b6d411dc1d8159ea7e86cad208cd35cc9dbad022f2af9233d6f1ab8c10a0ed",
+  "seed": 13112026,
+  "steps": 25,
+  "cfg": 1,
+  "denoise": 1,
+  "second_reference": {
+    "path": "assets\\generated\\inventory-flare\\20261114\\unlit\\qwen\\candidate.png",
+    "sha256": "cd81739e722013d35ad7a47f4a2735dacedbbe2615337f352939d953fc1d3de4",
+    "purpose": "Shared body material, smaller reference to preserve original lit framing"
+  }
+}

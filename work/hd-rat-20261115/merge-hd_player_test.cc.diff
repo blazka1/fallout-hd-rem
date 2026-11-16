@@ -1,0 +1,25 @@
+--- current/src\game\hd_player_test.cc
+
++++ rat/src\game\hd_player_test.cc
+
+@@ -15,9 +15,12 @@
+
+ #include "game/anim.h"
+ #include "game/art.h"
+ #include "game/cycle.h"
++#include "game/combat.h"
+ #include "game/game.h"
+ #include "game/gmouse.h"
+ #include "game/hd_player.h"
++#include "game/hd_rat.h"
++#include "game/hd_hud.h"
+ #include "game/hd_world_pilot.h"
+ #include "game/light.h"
+ #include "game/map.h"
+@@ -696,4 +699,5 @@
+
+     return report.failed == 0 && summary ? 0 : 42;
+ }
+ 
++#include "game/hd_rat_test.inc"
+ } // namespace fallout

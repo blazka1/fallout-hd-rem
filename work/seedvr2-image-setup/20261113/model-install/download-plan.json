@@ -1,0 +1,32 @@
+{
+  "repository": "Comfy-Org/SeedVR2",
+  "revision": "df48879708206a403d2a61acd55578c2e80fd233",
+  "files": [
+    {
+      "type": "file",
+      "oid": "90f4b933cfb33302f768ea75e20dd3b78d20c62a",
+      "size": 3458259704,
+      "lfs": {
+        "oid": "c3dec8bcc5916843a8a858572970597462e1f2dc598d6dfd818f6cd40f53a157",
+        "size": 3458259704,
+        "pointerSize": 135
+      },
+      "xetHash": "b7fa28e48c57f2bf4ad45c5e13e6bc244e69054a016e21423a314a9814138f40",
+      "path": "diffusion_models/seedvr2_3b_int8_convrot.safetensors"
+    },
+    {
+      "type": "file",
+      "oid": "289fac8e5236488d8b6d90884a3ff694a5c87578",
+      "size": 501324814,
+      "lfs": {
+        "oid": "20678548f420d98d26f11442d3528f8b8c94e57ee046ef93dbb7633da8612ca1",
+        "size": 501324814,
+        "pointerSize": 134
+      },
+      "xetHash": "1ae1a5075fff1ba0b8c413a98805d3701b2307865d84ff76657469a32930ed72",
+      "path": "vae/seedvr2_ema_vae_fp16.safetensors"
+    }
+  ],
+  "requested_by_user": true,
+  "created_utc": "2026-11-13T00:58:14.176043+00:00"
+}
